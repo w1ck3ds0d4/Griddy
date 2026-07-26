@@ -68,4 +68,6 @@ Not affiliated with Enemalta plc. The archive records what Enemalta's own public
 
 ## License
 
-MIT
+This project is licensed under:
+
+- [MIT](LICENSE) - free for any use. See the license for details.
