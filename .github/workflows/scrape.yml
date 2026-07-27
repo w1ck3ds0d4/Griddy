@@ -2,9 +2,11 @@ name: scrape
 
 on:
   schedule:
-    # Every 10 minutes. GitHub may delay or skip individual runs under load;
-    # heartbeats make any gap visible and honest in the archive itself.
-    - cron: "*/10 * * * *"
+    # Every 10 minutes, offset from :00 because GitHub's shared cron runners
+    # are most congested on round minutes. GitHub may still delay or skip
+    # individual runs; heartbeats make any gap visible and honest in the
+    # archive itself.
+    - cron: "4,14,24,34,44,54 * * * *"
   workflow_dispatch: {}
 
 permissions:
