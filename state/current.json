@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "9133ba859eec831b": {
+   "CreatedDate": "2026-07-28T01:29:36.06+02:00",
+   "Id": 176010,
+   "Localities": "Gudja, Luqa",
+   "OutageId": 17671,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "786b9b9af3c3d3800ff26c4ef9b1e1a6bbc51c2ecaa4368e9d3a2a6427961705",
+   "lastupdated": "2026-07-21T19:59:04.56+02:00"
+  }
+ },
  "planned": {
   "41077": {
    "CaseID": "41077",
