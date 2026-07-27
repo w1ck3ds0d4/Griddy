@@ -2,12 +2,18 @@ name: scrape
 
 on:
   schedule:
-    # Every 10 minutes, offset from :00 because GitHub's shared cron runners
-    # are most congested on round minutes. GitHub may still delay or skip
-    # individual runs; heartbeats make any gap visible and honest in the
-    # archive itself.
-    - cron: "4,14,24,34,44,54 * * * *"
-  workflow_dispatch: {}
+    # Hourly, not every 10 minutes. GitHub throttles high-frequency schedules
+    # hard on shared runners (a */10 schedule here did not fire at all), so
+    # the job instead loops internally: one trigger per hour produces six
+    # scrape cycles roughly ten minutes apart. That keeps ten-minute
+    # granularity while depending on the scheduler only once an hour.
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      cycles:
+        description: "How many scrape cycles this run should perform"
+        required: false
+        default: "6"
 
 permissions:
   contents: write
@@ -19,7 +25,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
@@ -32,21 +38,24 @@ jobs:
       - name: Install dependencies
         run: pip install --quiet requests
 
-      - name: Run scrape cycle
-        run: python -m griddy.run
-
-      - name: Verify archive chains
-        run: python -m griddy.verify
-
-      - name: Commit and push if changed
+      - name: Scrape, verify and commit on a loop
+        env:
+          CYCLES: ${{ github.event.inputs.cycles || '6' }}
         run: |
           git config user.name "griddy-bot"
           git config user.email "griddy-bot@users.noreply.github.com"
-          git add data state
-          if git diff --cached --quiet; then
-            echo "no changes"
-            exit 0
-          fi
-          git commit -m "(data) scrape $(date -u +%Y-%m-%dT%H:%MZ)"
-          # retry once in case a concurrent push landed first
-          git push || (git pull --rebase && git push)
+          for i in $(seq 1 "$CYCLES"); do
+            echo "::group::cycle $i of $CYCLES"
+            python -m griddy.run
+            python -m griddy.verify
+            git add data state
+            if git diff --cached --quiet; then
+              echo "no changes this cycle"
+            else
+              git commit -m "(data) scrape $(date -u +%Y-%m-%dT%H:%MZ)"
+              git push || (git pull --rebase && git push)
+            fi
+            echo "::endgroup::"
+            # No sleep after the final cycle, so the runner is released promptly.
+            if [ "$i" -lt "$CYCLES" ]; then sleep 570; fi
+          done
