@@ -211,7 +211,7 @@
      ]
     }
    ],
-   "transformers_sha256": "2d0a8880fd679f08c41af0bd7a059365f1075569f94bfd7c84b9a4611ba31226"
+   "transformers_sha256": "71b9af148202c08052c9ce1c0dc1dd7adf75d1126d60fc80122419049d56ec68"
   },
   "41009": {
    "CaseID": "41009",
@@ -423,7 +423,7 @@
      ]
     }
    ],
-   "transformers_sha256": "fa6a665ea47e52d5d662f778d05a1bc152088c45c2207b5a1ed015b99acaf390"
+   "transformers_sha256": "485b8d3c5f3d7762a8c58c345b916c56533c5e3332f5bc429993475a17f6e49b"
   },
   "41077": {
    "CaseID": "41077",
@@ -437,7 +437,7 @@
      ]
     }
    ],
-   "transformers_sha256": "8f3c78c2b96291805428a1048d38330c02c67679e0834ac9083d2b2d3e773d19"
+   "transformers_sha256": "72fcc056222a51c555f17f28cba04ddfd74910e3bd473e37bc2561b02d15b666"
   },
   "41081": {
    "CaseID": "41081",
@@ -451,7 +451,7 @@
      ]
     }
    ],
-   "transformers_sha256": "635103ddbf9861599194c1a0be81cf791919292fccac9243f5ab38bc3a5a8c46"
+   "transformers_sha256": "57bb08f8a4dfe17019324824b92d1671f8394fc20a49b4f78ba65cdf977951f2"
   },
   "41082": {
    "CaseID": "41082",
@@ -465,7 +465,7 @@
      ]
     }
    ],
-   "transformers_sha256": "2131291008d3c28f1c20ec54aa19a2f81d9ea43c65655ee675cc8b76c3693dbb"
+   "transformers_sha256": "9c54f55c619bfba4239e6bef1ad2d005e4a4993c06c176307d4bc9eaa78531af"
   },
   "41083": {
    "CaseID": "41083",
@@ -493,7 +493,7 @@
      ]
     }
    ],
-   "transformers_sha256": "d1b8b84004656d50021c54ec86f6a90413398f803c1c19974aaa6fa787aa911f"
+   "transformers_sha256": "0611d84260a852c263378519c1d95713288860e0ca549ae3f0fb0384c8c02790"
   },
   "41085": {
    "CaseID": "41085",
@@ -507,7 +507,7 @@
      ]
     }
    ],
-   "transformers_sha256": "9858ab0049fbdbec29cf60f0b465511b4eff826c0283e2bf24f74cca8fd519ed"
+   "transformers_sha256": "6e797ce44afe202ca35c41106ff8928e74302a80e63289f1ebdb77fc2e30e1d5"
   },
   "41088": {
    "CaseID": "41088",
@@ -521,7 +521,7 @@
      ]
     }
    ],
-   "transformers_sha256": "d9ca7a1f630cccfc288743b4530af8bf3e3a2c183d1bd3fbdf5d9ca24b9b9e2d"
+   "transformers_sha256": "c929d631d4200f33f310685aafd6c851c00f7983cd05a01c83fbd3a9393282c3"
   },
   "41091": {
    "CaseID": "41091",
@@ -549,7 +549,7 @@
      ]
     }
    ],
-   "transformers_sha256": "fe1afef6c21aee3cdc01edee83bf6edfe6f8f26c5a959bed1650b56d268a19b4"
+   "transformers_sha256": "0621e75efcbce5f0b3aac124df00b5744cbed8fb7e7dfce2d6a766364536cc40"
   },
   "41093": {
    "CaseID": "41093",
@@ -563,7 +563,7 @@
      ]
     }
    ],
-   "transformers_sha256": "226f309e59a4ff81da812c1a398db44a55faba6dff845d26b908c763461ebf59"
+   "transformers_sha256": "2d22bfb043e37dbab54de2ebb760fd0dc572235f56644050017836c4d105eb00"
   },
   "41094": {
    "CaseID": "41094",
@@ -577,7 +577,7 @@
      ]
     }
    ],
-   "transformers_sha256": "97fa5965ef8edcd6693243cb5efab8312a52db8f6db669a2629ba9d1dfdc238f"
+   "transformers_sha256": "473af1b48655d38476b23a23ed81d35f757e8be9b6bcd3bc1377ab500a741517"
   },
   "41109": {
    "CaseID": "41109",
@@ -591,7 +591,7 @@
      ]
     }
    ],
-   "transformers_sha256": "9ec77c6e8a38f0c6561acd1cd223a5e89d6337f00587c7ba28a7892cef6de3df"
+   "transformers_sha256": "eaca5d558bcb661888258b807d8d84c56ab9448bbf9b4f5d3da3896e3ed28f87"
   },
   "41112": {
    "CaseID": "41112",
@@ -605,7 +605,133 @@
      ]
     }
    ],
-   "transformers_sha256": "5833ae01afcb86b6996352f8e0f59cafe3d5da7e9c139f0f73193884cc5eddb3"
+   "transformers_sha256": "92b43defa400f2670f8ba7fcb39ea2965f9f4d77e4f6a2bbd49a98d2fb7f34e7"
+  },
+  "41113": {
+   "CaseID": "41113",
+   "EndDate": "2026-07-30T12:00:00+02:00",
+   "StartDate": "2026-07-30T03:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "476",
+     "feeders": [
+      "4"
+     ]
+    }
+   ],
+   "transformers_sha256": "ada8b90aab5ab02cc79d9b229527008ca6f1cfdd46f463295a880cd00833c34e"
+  },
+  "41114": {
+   "CaseID": "41114",
+   "EndDate": "2026-07-30T12:00:00+02:00",
+   "StartDate": "2026-07-30T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "935",
+     "feeders": [
+      "4",
+      "5",
+      "1",
+      "2",
+      "3",
+      "7",
+      "9",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "935",
+     "feeders": [
+      "4",
+      "5",
+      "1",
+      "2",
+      "3",
+      "7",
+      "9",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "935",
+     "feeders": [
+      "4",
+      "5",
+      "1",
+      "2",
+      "3",
+      "7",
+      "9",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "935",
+     "feeders": [
+      "4",
+      "5",
+      "1",
+      "2",
+      "3",
+      "7",
+      "9",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "935",
+     "feeders": [
+      "4",
+      "5",
+      "1",
+      "2",
+      "3",
+      "7",
+      "9",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "935",
+     "feeders": [
+      "4",
+      "5",
+      "1",
+      "2",
+      "3",
+      "7",
+      "9",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "935",
+     "feeders": [
+      "4",
+      "5",
+      "1",
+      "2",
+      "3",
+      "7",
+      "9",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "935",
+     "feeders": [
+      "4",
+      "5",
+      "1",
+      "2",
+      "3",
+      "7",
+      "9",
+      "Unknown"
+     ]
+    }
+   ],
+   "transformers_sha256": "1d912865e1e129046c42a06b96115cd998e80617baaad3fe19e9c29b1e369e8c"
   }
  },
  "planned_page": {
@@ -630,28 +756,6 @@
     "TRIQ IC- CIMITERJU"
    ],
    "to": "29 July 2026 11:00"
-  },
-  "17fb297c4d743c02": {
-   "city": "Hal Luqa",
-   "from": "30 July 2026 19:00",
-   "streets": [
-    "TRIQ GANNI VASSALLO",
-    "TRIQ HAL TARXIEN",
-    "TRIQ MIKIELANG SAPIANO",
-    "TRIQ GUZEPP SALIBA",
-    "TRIQ DUN PAWL",
-    "TRIQ SAN GORG",
-    "TRIQ SAN GUZEPP",
-    "TRIQ IL- PARROCCA",
-    "TRIQ GIOVANNI BONAVIA",
-    "TRIQ IL- KUNSILL TA' L-EWROPA",
-    "TRIQ IL- GDIDA",
-    "TRIQ SANTA MARIJA",
-    "TRIQ GUZEPPI PENZA",
-    "TRIQ KAN. GWANN BORG",
-    "TRIQ IL- KUNSILL TAL-EWROPA"
-   ],
-   "to": "30 July 2026 21:00"
   },
   "1fe6574943791684": {
    "city": "Paola",
@@ -679,6 +783,16 @@
    ],
    "to": "27 July 2026 12:00"
   },
+  "34d1aae2dfce19b9": {
+   "city": "In-Naxxar",
+   "from": "30 July 2026 03:15",
+   "streets": [
+    "DAHLET IL- GIBJUN",
+    "TRIQ JULES VERNE",
+    "TREJQET NICHOLAS MONSARRAT"
+   ],
+   "to": "30 July 2026 12:00"
+  },
   "44d579cc6fab9114": {
    "city": "Haz-Zabbar",
    "from": "28 July 2026 07:00",
@@ -692,6 +806,24 @@
     "TRIQ DUN FRANS BUHAGIAR"
    ],
    "to": "28 July 2026 12:00"
+  },
+  "471da96046aa9fdb": {
+   "city": "Santa Venera",
+   "from": "30 July 2026 19:00",
+   "streets": [
+    "TRIQ REGJONALI",
+    "TRIQ VIVION",
+    "MISRAH IL- KEBBIES",
+    "TRIQ IL- FANALI",
+    "TRIQ IL- QALB IMQADDSA",
+    "TRIQ SAN GORG",
+    "TRIQ BRIGHELLA",
+    "TRIQ ABELA",
+    "TRIQ IL- KBIRA SAN GUZEPP",
+    "TRIQ SALVINU SPITERI",
+    "TRIQ IL- KARDINAL SCIBERRAS"
+   ],
+   "to": "30 July 2026 21:00"
   },
   "4a0ba26054af57d5": {
    "city": "In-Naxxar",
@@ -714,6 +846,24 @@
     "TRIQ LANZON"
    ],
    "to": "27 July 2026 12:00"
+  },
+  "63958d930bc939e7": {
+   "city": "Santa Venera",
+   "from": "30 July 2026 08:00",
+   "streets": [
+    "TRIQ REGJONALI",
+    "TRIQ VIVION",
+    "MISRAH IL- KEBBIES",
+    "TRIQ IL- FANALI",
+    "TRIQ IL- QALB IMQADDSA",
+    "TRIQ SAN GORG",
+    "TRIQ BRIGHELLA",
+    "TRIQ ABELA",
+    "TRIQ IL- KBIRA SAN GUZEPP",
+    "TRIQ SALVINU SPITERI",
+    "TRIQ IL- KARDINAL SCIBERRAS"
+   ],
+   "to": "30 July 2026 12:00"
   },
   "6fa18bf32158d74b": {
    "city": "In-Nadur",
@@ -769,28 +919,6 @@
    ],
    "to": "28 July 2026 12:00"
   },
-  "ebad47500d84a8c2": {
-   "city": "Hal Luqa",
-   "from": "30 July 2026 08:00",
-   "streets": [
-    "TRIQ GANNI VASSALLO",
-    "TRIQ HAL TARXIEN",
-    "TRIQ MIKIELANG SAPIANO",
-    "TRIQ GUZEPP SALIBA",
-    "TRIQ DUN PAWL",
-    "TRIQ SAN GORG",
-    "TRIQ SAN GUZEPP",
-    "TRIQ IL- PARROCCA",
-    "TRIQ GIOVANNI BONAVIA",
-    "TRIQ IL- KUNSILL TA' L-EWROPA",
-    "TRIQ IL- GDIDA",
-    "TRIQ SANTA MARIJA",
-    "TRIQ GUZEPPI PENZA",
-    "TRIQ KAN. GWANN BORG",
-    "TRIQ IL- KUNSILL TAL-EWROPA"
-   ],
-   "to": "30 July 2026 12:00"
-  },
   "edefabc9da99c6a7": {
    "city": "Il-Mosta",
    "from": "30 July 2026 07:30",
@@ -812,6 +940,18 @@
     "TRIQ BRAILLE"
    ],
    "to": "29 July 2026 12:00"
+  },
+  "f5f0555ba113a83b": {
+   "city": "Il-Mosta",
+   "from": "03 August 2026 07:30",
+   "streets": [
+    "TRIQ MONS. MIKELANG MIFSUD",
+    "TRIQ IX- XAGHRI TAL-HARRUB",
+    "TRIQ IL- PONT",
+    "TRIQ GDIDA FI",
+    "TRIQ WALTER L. SALAMONE"
+   ],
+   "to": "03 August 2026 12:00"
   }
  }
 }
