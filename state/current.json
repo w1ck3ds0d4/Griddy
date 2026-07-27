@@ -861,18 +861,6 @@
   }
  },
  "planned_page": {
-  "0621c6a8599f7dab": {
-   "city": "Iz-Zejtun",
-   "from": "27 July 2026 07:00",
-   "streets": [
-    "TRIQ IL- QADI",
-    "TRIQ IL- FALKUNIER",
-    "TRIQ L- ISQOF EMM. GALEA",
-    "TRIQ BUGHARBIEL",
-    "TRIQ WIED IL-GHAJN"
-   ],
-   "to": "27 July 2026 12:00"
-  },
   "0c64b95501bfe3c3": {
    "city": "Paola",
    "from": "29 July 2026 07:00",
@@ -895,19 +883,6 @@
     "TRIQ MARIJA ADDOLORATA"
    ],
    "to": "29 July 2026 11:00"
-  },
-  "2e996614a1cea5e2": {
-   "city": "Hal Qormi",
-   "from": "27 July 2026 07:00",
-   "streets": [
-    "TRIQ IC- CAWSLI",
-    "TRIQ IL- KUS",
-    "TRIQ IT- TIN",
-    "MISRAH IZ- ZEBBUG",
-    "TRIQ IZ- ZEBBUGA",
-    "TRIQ L- IMDINA"
-   ],
-   "to": "27 July 2026 12:00"
   },
   "34d1aae2dfce19b9": {
    "city": "In-Naxxar",
@@ -951,28 +926,6 @@
    ],
    "to": "30 July 2026 21:00"
   },
-  "4a0ba26054af57d5": {
-   "city": "In-Naxxar",
-   "from": "27 July 2026 07:30",
-   "streets": [
-    "TRIQ LELI FALZON",
-    "TRIQ IS- SIMBLIJA"
-   ],
-   "to": "27 July 2026 11:30"
-  },
-  "4ef28048962c3528": {
-   "city": "Hal Tarxien",
-   "from": "27 July 2026 07:00",
-   "streets": [
-    "TRIQ SANT' ANTNIN",
-    "TRIQ HAL TARXIEN",
-    "TRIQ PAOLA",
-    "TRIQ L- ISKOLA",
-    "TRIQ L- ANNUNZJATA",
-    "TRIQ LANZON"
-   ],
-   "to": "27 July 2026 12:00"
-  },
   "63958d930bc939e7": {
    "city": "Santa Venera",
    "from": "30 July 2026 08:00",
@@ -1004,24 +957,6 @@
     "TRIQ CIMCEM"
    ],
    "to": "30 July 2026 12:30"
-  },
-  "8347889534a8e64e": {
-   "city": "Paola",
-   "from": "27 July 2026 07:00",
-   "streets": [
-    "TRIQ LAMPUKA",
-    "TRIQ L- ORATORJU"
-   ],
-   "to": "27 July 2026 12:00"
-  },
-  "9a0d017a88959e99": {
-   "city": "L-Imsida",
-   "from": "27 July 2026 07:00",
-   "streets": [
-    "TREJQA TA' BOXBOX",
-    "TRIQ IT- TORRI"
-   ],
-   "to": "27 July 2026 12:00"
   },
   "b665807c5ff4a79a": {
    "city": "Haz-Zebbug",
