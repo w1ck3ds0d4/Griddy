@@ -1,16 +1,5 @@
 {
- "live": {
-  "a80cbf7fb6d5f528": {
-   "CreatedDate": "2026-07-28T14:20:37.53+02:00",
-   "Id": 176081,
-   "Localities": "Birgu, Bormla, Fgura, Kalkara, Zabbar",
-   "OutageId": 17903,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "60e34a03bb3f270fbbd35edfd00d97dcbb934fbfa71ff0e0c186c534a97d6716",
-   "lastupdated": "2026-07-28T13:09:03.743+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41077": {
    "CaseID": "41077",
