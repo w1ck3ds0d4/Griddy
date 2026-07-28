@@ -986,20 +986,6 @@
    ],
    "to": "30 July 2026 12:00"
   },
-  "44d579cc6fab9114": {
-   "city": "Haz-Zabbar",
-   "from": "28 July 2026 07:00",
-   "streets": [
-    "TRIQ FELICE",
-    "TRIQ SAN LAWRENZ",
-    "TRIQ STRICKLAND",
-    "TRIQ IL- HAWT",
-    "TRIQ IC- CIMITERJU",
-    "TRIQ IX- XGHAJRA",
-    "TRIQ DUN FRANS BUHAGIAR"
-   ],
-   "to": "28 July 2026 12:00"
-  },
   "471da96046aa9fdb": {
    "city": "Santa Venera",
    "from": "30 July 2026 19:00",
@@ -1058,19 +1044,6 @@
     "TRIQ L- EROJ"
    ],
    "to": "30 July 2026 11:00"
-  },
-  "c975a526f7c368f5": {
-   "city": "San Gwann",
-   "from": "28 July 2026 07:00",
-   "streets": [
-    "TRIQ GIUSEPPE GRECH",
-    "TRIQ GIORGIO PRECA",
-    "TRIQ GEROLAMO GIANNI",
-    "TRIQ IL- HGEJJEG",
-    "TRIQ AGOSTINO MATRENZA",
-    "TRIQ TAL- BALAL"
-   ],
-   "to": "28 July 2026 12:00"
   },
   "edefabc9da99c6a7": {
    "city": "Il-Mosta",
