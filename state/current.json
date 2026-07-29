@@ -559,29 +559,6 @@
   }
  },
  "planned_page": {
-  "0c64b95501bfe3c3": {
-   "city": "Paola",
-   "from": "29 July 2026 07:00",
-   "streets": [
-    "TRIQ HAL SAFLIENI",
-    "TRIQ SANT' UBALDESKA",
-    "TRIQ IC- CIMITERJU"
-   ],
-   "to": "29 July 2026 11:00"
-  },
-  "1fe6574943791684": {
-   "city": "Paola",
-   "from": "29 July 2026 07:00",
-   "streets": [
-    "TRIQ SALVATORE IMBROLL",
-    "TRIQ SAN ALWIGI",
-    "TRIQ CARMELO ROBINICH",
-    "TRIQ TAX- XEWK",
-    "TRIQ ANGELO PSAILA",
-    "TRIQ MARIJA ADDOLORATA"
-   ],
-   "to": "29 July 2026 11:00"
-  },
   "28710a23ff945f7d": {
    "city": "Iz-Zejtun",
    "from": "31 July 2026 07:00",
@@ -709,32 +686,6 @@
    ],
    "to": "31 July 2026 10:30"
   },
-  "9182deb6e508aecf": {
-   "city": "Il-Mosta",
-   "from": "29 July 2026 07:30",
-   "streets": [
-    "TRIQ BRITANNJA",
-    "TRIQ TA' MELLU",
-    "SQAQ IL- MITHNA L-QADIMA",
-    "TRIQ IL- QASIRA",
-    "TRIQ SAN SILVESTRU",
-    "TRIQ TUMAS DINGLI",
-    "TRIQ WATA",
-    "TRIQ IT- TORRI",
-    "TRIQ IT- TAHHAN",
-    "VJAL L- INDIPENDENZA",
-    "TRIQ L- ISPERANZA",
-    "TRIQ BRITANNJA",
-    "SQAQ NRU. 1",
-    "TRIQ IL- MITHNA L-QADIMA",
-    "TREJQET IS- SILLA",
-    "MISRAH BRITANNJA",
-    "VJAL L- INDIPENDENZA",
-    "SQAQ NRU. 1",
-    "TRIQ TA' VNEZJA"
-   ],
-   "to": "29 July 2026 10:30"
-  },
   "a3893d50dae7f377": {
    "city": "In-Naxxar",
    "from": "01 August 2026 07:30",
@@ -782,19 +733,6 @@
     "TRIQ IR- REBBIEGHA"
    ],
    "to": "30 July 2026 12:00"
-  },
-  "efa567443b758586": {
-   "city": "Santa Venera",
-   "from": "29 July 2026 07:00",
-   "streets": [
-    "TRIQ IL- KBIRA SAN GUZEPP",
-    "TRIQ CARINI",
-    "TRIQ IL- KUKKANJA",
-    "TRIQ IL- BIR",
-    "TRIQ DUN FRANS CAMILLERI",
-    "TRIQ BRAILLE"
-   ],
-   "to": "29 July 2026 12:00"
   },
   "f5f0555ba113a83b": {
    "city": "Il-Mosta",
