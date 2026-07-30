@@ -1,13 +1,13 @@
 {
  "live": {
-  "7ee63b770d512d4a": {
-   "CreatedDate": "2026-07-30T23:14:38.713+02:00",
-   "Id": 176294,
-   "Localities": "Birzebbugia, Mqabba, Qrendi, Safi, Siggiewi, Zurrieq",
+  "4d49520e55f831fc": {
+   "CreatedDate": "2026-07-31T00:18:38.78+02:00",
+   "Id": 176358,
+   "Localities": "Birzebbugia",
    "OutageId": 17955,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "64aabd53486230892124158a5616d1b6bbd0b8520a1cecab81063ab784eb6821",
+   "geometry_sha256": "0118dce234310e2d603ebc20afbb557adc527161746bb4b2713d6c40962a0d35",
    "lastupdated": "2026-07-30T22:43:06.973+02:00"
   }
  },
