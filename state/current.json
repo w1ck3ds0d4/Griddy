@@ -692,28 +692,6 @@
    ],
    "to": "31 July 2026 12:00"
   },
-  "2a3d685c8b321d0b": {
-   "city": "Marsaskala",
-   "from": "30 July 2026 07:30",
-   "streets": [
-    "TRIQ IL- QALIET",
-    "TRIQ IS- SILLA",
-    "TRIQ IL- HUT",
-    "TRIQ IL- QAWWARA",
-    "TRIQ L- IMRIEKEB"
-   ],
-   "to": "30 July 2026 11:30"
-  },
-  "34d1aae2dfce19b9": {
-   "city": "In-Naxxar",
-   "from": "30 July 2026 03:15",
-   "streets": [
-    "DAHLET IL- GIBJUN",
-    "TRIQ JULES VERNE",
-    "TREJQET NICHOLAS MONSARRAT"
-   ],
-   "to": "30 July 2026 12:00"
-  },
   "40887ca6299bf839": {
    "city": "Il-Mosta",
    "from": "31 July 2026 07:30",
@@ -725,33 +703,6 @@
     "TRIQ IT- TAHHAN"
    ],
    "to": "31 July 2026 10:30"
-  },
-  "471da96046aa9fdb": {
-   "city": "Santa Venera",
-   "from": "30 July 2026 19:00",
-   "streets": [
-    "TRIQ REGJONALI",
-    "TRIQ VIVION",
-    "MISRAH IL- KEBBIES",
-    "TRIQ IL- FANALI",
-    "TRIQ IL- QALB IMQADDSA",
-    "TRIQ SAN GORG",
-    "TRIQ BRIGHELLA",
-    "TRIQ ABELA",
-    "TRIQ IL- KBIRA SAN GUZEPP",
-    "TRIQ SALVINU SPITERI",
-    "TRIQ IL- KARDINAL SCIBERRAS"
-   ],
-   "to": "30 July 2026 21:00"
-  },
-  "55ad3eb701eb06ad": {
-   "city": "L-Imsida",
-   "from": "30 July 2026 07:00",
-   "streets": [
-    "TREJQA TA' BOXBOX",
-    "TRIQ IT- TORRI"
-   ],
-   "to": "30 July 2026 12:00"
   },
   "5bd1ba53034f08bd": {
    "city": "Il-Mellieha",
@@ -775,38 +726,6 @@
     "TRIQ GERONIMO ABOS"
    ],
    "to": "31 July 2026 14:00"
-  },
-  "63958d930bc939e7": {
-   "city": "Santa Venera",
-   "from": "30 July 2026 08:00",
-   "streets": [
-    "TRIQ REGJONALI",
-    "TRIQ VIVION",
-    "MISRAH IL- KEBBIES",
-    "TRIQ IL- FANALI",
-    "TRIQ IL- QALB IMQADDSA",
-    "TRIQ SAN GORG",
-    "TRIQ BRIGHELLA",
-    "TRIQ ABELA",
-    "TRIQ IL- KBIRA SAN GUZEPP",
-    "TRIQ SALVINU SPITERI",
-    "TRIQ IL- KARDINAL SCIBERRAS"
-   ],
-   "to": "30 July 2026 12:00"
-  },
-  "6fa18bf32158d74b": {
-   "city": "In-Nadur",
-   "from": "30 July 2026 08:30",
-   "streets": [
-    "TRIQ IT- TRAMUNTANA",
-    "TRIQ DUN GORG PRECA",
-    "TRIQ MADRE GEMMA CAMILLERI",
-    "PJAZZA L- ARCIPRIET MARTIN CAMILLERI",
-    "TRIQ IT- TLETTAX TA' DICEMBRU",
-    "TRIQ PAPA LJUN XIII",
-    "TRIQ CIMCEM"
-   ],
-   "to": "30 July 2026 12:30"
   },
   "74019fb3ebe1148c": {
    "city": "Il-Mosta",
@@ -863,42 +782,6 @@
     "TRIQ IL- KANNIZZATA"
    ],
    "to": "04 August 2026 13:00"
-  },
-  "ac3051416077effd": {
-   "city": "Marsaxlokk",
-   "from": "30 July 2026 07:30",
-   "streets": [
-    "TRIQ DELIMARA"
-   ],
-   "to": "30 July 2026 12:00"
-  },
-  "b665807c5ff4a79a": {
-   "city": "Haz-Zebbug",
-   "from": "30 July 2026 07:00",
-   "streets": [
-    "TRIQ L- INDIPENDENZA",
-    "TRIQ L- EROJ"
-   ],
-   "to": "30 July 2026 11:00"
-  },
-  "c034d610f8a5b015": {
-   "city": "Il-Mellieha",
-   "from": "30 July 2026 07:00",
-   "streets": [
-    "TRIQ L- ASSEDJU L-KBIR 1565",
-    "TRIQ IC- CIKKEN",
-    "TRIQ QASAM BARRANI"
-   ],
-   "to": "30 July 2026 13:00"
-  },
-  "edefabc9da99c6a7": {
-   "city": "Il-Mosta",
-   "from": "30 July 2026 07:30",
-   "streets": [
-    "TRIQ IL- KULLEGG",
-    "TRIQ IR- REBBIEGHA"
-   ],
-   "to": "30 July 2026 12:00"
   },
   "f5f0555ba113a83b": {
    "city": "Il-Mosta",
