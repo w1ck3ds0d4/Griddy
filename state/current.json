@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "75b24f4da78bc520": {
+   "CreatedDate": "2026-07-30T11:40:39.733+02:00",
+   "Id": 176240,
+   "Localities": "Comino",
+   "OutageId": 17947,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "889d3c7fe71e8bef91dcadc6d8db7daaf9df32a24158926a7bc2f2a94a643595",
+   "lastupdated": "2026-07-30T10:51:47+02:00"
+  }
+ },
  "planned": {
   "41082": {
    "CaseID": "41082",
@@ -13,7 +24,7 @@
      ]
     }
    ],
-   "transformers_sha256": "6607a173572e01f279f14524fdd3226f4dc34943bdfe2094c5e80397871572bb"
+   "transformers_sha256": "d17b2d3bce973851c7b19ffb61a7b1d3cbe3d0a1c36c8b206ce4d403950c80dc"
   },
   "41083": {
    "CaseID": "41083",
@@ -41,7 +52,7 @@
      ]
     }
    ],
-   "transformers_sha256": "ecbb8d904ffce36b42209dd8facaf27fd73eb086caf66361ada5ead3e3738f25"
+   "transformers_sha256": "c9878bb24a0a39660cdece36ed4839b60c3b626591a81359acafe4bec911e6d3"
   },
   "41093": {
    "CaseID": "41093",
@@ -55,7 +66,7 @@
      ]
     }
    ],
-   "transformers_sha256": "2f5781e7ed10faa3a13b4ef807cb918ceedf2d0f4872093f10c2008254ca07ff"
+   "transformers_sha256": "d070e758ee59e2d902b3fb58e855be4dce82809d1080e4ddcb1350b204fcc469"
   },
   "41094": {
    "CaseID": "41094",
@@ -69,7 +80,7 @@
      ]
     }
    ],
-   "transformers_sha256": "75f8b386ad69d3a9e08d97bb9777f800624493ce8530ff60f69cd9d3e0edb137"
+   "transformers_sha256": "bd4a1bc3d111267e3eedd74aef5a0b87c3c5644c5c6408bbfab56cbb2530dd31"
   },
   "41109": {
    "CaseID": "41109",
@@ -83,7 +94,7 @@
      ]
     }
    ],
-   "transformers_sha256": "d08a7ccdf944c9c053ce9dbbae66d514958b3288861144ec5f37cf2188613ce8"
+   "transformers_sha256": "680dc9768ffa4670080c435181f1ec411ea3bf7a3baa8a6c05c6f6ba644979c3"
   },
   "41113": {
    "CaseID": "41113",
@@ -97,7 +108,7 @@
      ]
     }
    ],
-   "transformers_sha256": "3c62e451c19e70ad81f7df0699df5592760136f3648ccb27a0a3db13a5738f01"
+   "transformers_sha256": "0895b707cab4a546dddf103ba3037fbe8c071d20eebc5398862ab0eaf18acb9b"
   },
   "41114": {
    "CaseID": "41114",
@@ -209,7 +220,7 @@
      ]
     }
    ],
-   "transformers_sha256": "42a3ef428459022d69d6b3f4428b99872a6c104da334e473051575a972154b41"
+   "transformers_sha256": "93d9f8af5c3cb052b036a60228b67d5966ca8dffe6a18fe1b4756bd9fbe138da"
   },
   "41115": {
    "CaseID": "41115",
@@ -321,7 +332,7 @@
      ]
     }
    ],
-   "transformers_sha256": "5d2154fc759ca35c414cc8fd5d1f3fb5d122f5c8b21d08250cb3b12c04c2348d"
+   "transformers_sha256": "8b519a9994446bd6a70e06555371d0afb9872b622dfa8a11179199c51f4ecd41"
   },
   "41116": {
    "CaseID": "41116",
@@ -335,7 +346,7 @@
      ]
     }
    ],
-   "transformers_sha256": "6ca1741190d0994d0ba409e891ff053b88a21640a71726f12e0e75a5a0318ecb"
+   "transformers_sha256": "d8a38956fa6099f70583ab86b043e068d8590757714e1e69dd08fcfbbd6c288f"
   },
   "41119": {
    "CaseID": "41119",
@@ -349,7 +360,7 @@
      ]
     }
    ],
-   "transformers_sha256": "58fc693bc0cf12cc3bf2760d091fe4d94e920a159fc41a65023e75df46f47044"
+   "transformers_sha256": "44fe90c495446446f010e74a4fed680d8e7b2869d2be6f17b145e64c857608bb"
   },
   "41120": {
    "CaseID": "41120",
@@ -377,7 +388,7 @@
      ]
     }
    ],
-   "transformers_sha256": "5ff71d215a6f8678f210a1e5309b25878f97aecc91a1cb0a9011452cd4c2b989"
+   "transformers_sha256": "34e5efde3482ec16a73d50b8398255fdc9cfecbb6ec608bcb922e0187bd166c7"
   },
   "41122": {
    "CaseID": "41122",
@@ -413,7 +424,7 @@
      ]
     }
    ],
-   "transformers_sha256": "efbc35de67248fe0f078abedc13275548cc98be847e79e151aedec813402142d"
+   "transformers_sha256": "0f48d23ab8158ebb29d7209fb4a8ea0b68c94171b343364e333674f2caa53609"
   },
   "41124": {
    "CaseID": "41124",
@@ -427,7 +438,7 @@
      ]
     }
    ],
-   "transformers_sha256": "5fec01b644fdcd9cfba48e82f9eeffda0cc6b0b3d920c79c52357962b8d087d7"
+   "transformers_sha256": "7a3e69f11095975164f99b2a7f1164e80cb2150773ba805fcc0db824993988ef"
   },
   "41125": {
    "CaseID": "41125",
@@ -471,7 +482,7 @@
      ]
     }
    ],
-   "transformers_sha256": "9d1570a2f035c4d47623c436489a1b74eb79069220ac9d4ab5eea09fc9f98699"
+   "transformers_sha256": "8bb35c154f65781daa6178540740580d0ba88be78318ddfc0d1b13d6555d5af0"
   },
   "41126": {
    "CaseID": "41126",
@@ -485,7 +496,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a87fe96f14cd3ade4611bb181f16f4af4ca610fa3e6030b4534d4d3365095764"
+   "transformers_sha256": "58d01f10f4a9ec6ef0b27d8345ee7f854e0fb998d49ee2e5546393ecb47ceae5"
   },
   "41127": {
    "CaseID": "41127",
@@ -499,7 +510,7 @@
      ]
     }
    ],
-   "transformers_sha256": "24a2f2cc111d2d41f4bd9f394acc7c2932f4b6a2960d17f2bb3f4866e5cd8d2d"
+   "transformers_sha256": "8086bef43343b343ff321a8cd8e5353ab3b3b66e69362d2af24e70c30ab09ec2"
   },
   "41128": {
    "CaseID": "41128",
@@ -513,7 +524,7 @@
      ]
     }
    ],
-   "transformers_sha256": "db0f4d759fe8e0ec4224578605682c1be21bb8ecf6fe27778b0ed9db0a90e0e2"
+   "transformers_sha256": "ab1e3a4d664325a24b4002846cd6fee9f2d066ba0c08eec38f7bb1fe846c4406"
   },
   "41129": {
    "CaseID": "41129",
@@ -527,7 +538,7 @@
      ]
     }
    ],
-   "transformers_sha256": "f26fab23e7e4960ab8090cbbfc8870603fb2768cf8105c62ddc920fa01c27a8c"
+   "transformers_sha256": "e60f97ffdc45335bfb3871155a5d5baf0c40fcf3f5f9c61ecc6d4bb3fe5b632c"
   },
   "41130": {
    "CaseID": "41130",
@@ -541,7 +552,7 @@
      ]
     }
    ],
-   "transformers_sha256": "7ef7521345533a4bb8dc3cc244ddb37dcb7b0a8740144eb22bd56a57ef9259c7"
+   "transformers_sha256": "327ea8f231533db126f0ddeebc4cabc1cf8511688aa13c0abaf16e154aae430f"
   },
   "41131": {
    "CaseID": "41131",
@@ -555,7 +566,7 @@
      ]
     }
    ],
-   "transformers_sha256": "740dc6d744de023a3eba0f72ec1bc7b42f1e28418522dcbfc02e9141cc538d7a"
+   "transformers_sha256": "24def5a8345093dfd4a7cf4a6548849783605322c53c20a68fbfb2b008e9781d"
   }
  },
  "planned_page": {
@@ -632,6 +643,18 @@
    ],
    "to": "30 July 2026 12:00"
   },
+  "5bd1ba53034f08bd": {
+   "city": "Il-Mellieha",
+   "from": "01 August 2026 07:00",
+   "streets": [
+    "TRIQ SANT' ANNA",
+    "TRIQ IL- KBIRA",
+    "TRIQ IL- PARROCCA",
+    "TRIQ IL- KAPPILLAN MAGRI",
+    "TRIQ IL- MITHNA L-GDIDA"
+   ],
+   "to": "01 August 2026 13:00"
+  },
   "601a4c74d0d7fcaf": {
    "city": "L-Iklin",
    "from": "31 July 2026 08:00",
@@ -685,6 +708,14 @@
     "SQAQ IT- TORRI NRU. 5"
    ],
    "to": "31 July 2026 10:30"
+  },
+  "82bbe7d85741abaa": {
+   "city": "San Giljan",
+   "from": "31 July 2026 07:00",
+   "streets": [
+    "TRIQ LAPSI"
+   ],
+   "to": "31 July 2026 12:00"
   },
   "a3893d50dae7f377": {
    "city": "In-Naxxar",
