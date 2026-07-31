@@ -889,16 +889,6 @@
    ],
    "to": "03 August 2026 12:00"
   },
-  "17bdd61ce1561a94": {
-   "city": "Is-Siggiewi",
-   "from": "31 July 2026 07:00",
-   "streets": [
-    "TRIQ RAMIJA",
-    "TRIQ SANTA MARGERITA",
-    "TRIQ PIETRU MALLIA"
-   ],
-   "to": "31 July 2026 11:00"
-  },
   "262ed74b6970b598": {
    "city": "In-Naxxar",
    "from": "04 August 2026 08:00",
@@ -910,18 +900,6 @@
     "TRIQ GIUSEPPE STIVALA"
    ],
    "to": "04 August 2026 10:00"
-  },
-  "28710a23ff945f7d": {
-   "city": "Iz-Zejtun",
-   "from": "31 July 2026 07:00",
-   "streets": [
-    "TRIQ IL- QADI",
-    "TRIQ IL- FALKUNIER",
-    "TRIQ L- ISQOF EMM. GALEA",
-    "TRIQ BUGHARBIEL",
-    "TRIQ WIED IL-GHAJN"
-   ],
-   "to": "31 July 2026 12:00"
   },
   "2e6d77dc46004f1f": {
    "city": "Santa Venera",
@@ -966,18 +944,6 @@
    ],
    "to": "04 August 2026 11:00"
   },
-  "40887ca6299bf839": {
-   "city": "Il-Mosta",
-   "from": "31 July 2026 07:30",
-   "streets": [
-    "TRIQ SAN SILVESTRU",
-    "TRIQ IT- TORRI",
-    "VJAL L- INDIPENDENZA",
-    "TRIQ FERDINAND CALLEJA",
-    "TRIQ IT- TAHHAN"
-   ],
-   "to": "31 July 2026 10:30"
-  },
   "47af2589a04cd6a8": {
    "city": "L-Imsida",
    "from": "04 August 2026 07:00",
@@ -1000,51 +966,6 @@
     "TRIQ IL- MITHNA L-GDIDA"
    ],
    "to": "01 August 2026 13:00"
-  },
-  "601a4c74d0d7fcaf": {
-   "city": "L-Iklin",
-   "from": "31 July 2026 08:00",
-   "streets": [
-    "TRIQ LEWIS F. MIZZI",
-    "TRIQ CENSU BUGEJA",
-    "TRIQ GIOVANNI CURMI",
-    "TRIQ GERONIMO ABOS"
-   ],
-   "to": "31 July 2026 14:00"
-  },
-  "74019fb3ebe1148c": {
-   "city": "Il-Mosta",
-   "from": "31 July 2026 07:30",
-   "streets": [
-    "TRIQ SAN SILVESTRU",
-    "TRIQ IT- TORRI",
-    "TRIQ IL- FAMILJA CUMBO",
-    "SQAQ IT- TORRI NRU. 5"
-   ],
-   "to": "31 July 2026 10:30"
-  },
-  "82bbe7d85741abaa": {
-   "city": "San Giljan",
-   "from": "31 July 2026 07:00",
-   "streets": [
-    "TRIQ LAPSI"
-   ],
-   "to": "31 July 2026 12:00"
-  },
-  "86db24ab0e660ee8": {
-   "city": "Hal Tarxien",
-   "from": "31 July 2026 07:00",
-   "streets": [
-    "TRIQ IL- KNISJA",
-    "TRIQ ANGLU MANGION",
-    "TRIQ GANNIKOL BUHAGIAR",
-    "TRIQ KALAMIJA",
-    "TRIQ WENZU DESPOTT",
-    "MISRAH BULEBEN",
-    "TRIQ DANIEL CECY",
-    "TRIQ IL- MADONNA TAD-DUTTRINA"
-   ],
-   "to": "31 July 2026 11:55"
   },
   "a3893d50dae7f377": {
    "city": "In-Naxxar",
@@ -1113,29 +1034,6 @@
     "TRIQ WALTER L. SALAMONE"
    ],
    "to": "03 August 2026 12:00"
-  },
-  "fcf6b6d7ac0b99ac": {
-   "city": "Ix-Xaghra",
-   "from": "31 July 2026 08:00",
-   "streets": [
-    "TRIQ RACECOURSE",
-    "TRIQ PATRI MATTEW SULTANA",
-    "TRIQ TA' VESTRU",
-    "TRIQ DUN GORG PRECA",
-    "TRIQ IL- MITHNA",
-    "TRIQ L- ARCIPRIET GUZEPP DIACONO",
-    "TRIQ IT- TIGRIJA",
-    "SQAQ NRU. 1",
-    "TRIQ IL- PARSOTT",
-    "TRIQ L- GHONQA",
-    "TRIQ GHAJN QAMAR",
-    "TRIQ GNIEN XIBLA",
-    "TRIQ MARSALFORN",
-    "TRIQ GWANN M. CAMILLERI",
-    "TRIQ GUZEPPI RAPA",
-    "TRIQ TAL- MANGU"
-   ],
-   "to": "31 July 2026 16:00"
   }
  }
 }
