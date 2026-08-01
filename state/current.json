@@ -647,30 +647,6 @@
    ],
    "to": "04 August 2026 12:00"
   },
-  "5bd1ba53034f08bd": {
-   "city": "Il-Mellieha",
-   "from": "01 August 2026 07:00",
-   "streets": [
-    "TRIQ SANT' ANNA",
-    "TRIQ IL- KBIRA",
-    "TRIQ IL- PARROCCA",
-    "TRIQ IL- KAPPILLAN MAGRI",
-    "TRIQ IL- MITHNA L-GDIDA"
-   ],
-   "to": "01 August 2026 13:00"
-  },
-  "a3893d50dae7f377": {
-   "city": "In-Naxxar",
-   "from": "01 August 2026 07:30",
-   "streets": [
-    "TRIQ JULES VERNE",
-    "TRIQ E. BRADFORD",
-    "TRIQ A. DARCEL",
-    "TRIQ P. BRYDONE",
-    "TRIQ IL- FORTIZZA TAL-MOSTA"
-   ],
-   "to": "01 August 2026 15:00"
-  },
   "abf89090bbd0350c": {
    "city": "Hal Balzan",
    "from": "04 August 2026 08:00",
