@@ -13,7 +13,7 @@
      ]
     }
    ],
-   "transformers_sha256": "de48abdb53be3b76267d1707edf44b7c19de9d1708df45a9f47a61bcfda6c55f"
+   "transformers_sha256": "4799e6e8fc100e43a9b17b173631dda7c6c399503a669411e2582190dd06fd2a"
   },
   "41126": {
    "CaseID": "41126",
@@ -27,7 +27,7 @@
      ]
     }
    ],
-   "transformers_sha256": "f112ed24a80aeb4ebc9aa6c2dd1d2fa4c35b2e0958350a23ba8c022443039df7"
+   "transformers_sha256": "0901c67dff9b175a9e56377a5bee4a316bd162159f4243d12449432132b9c7b3"
   },
   "41131": {
    "CaseID": "41131",
@@ -41,7 +41,7 @@
      ]
     }
    ],
-   "transformers_sha256": "af56eee8a8207816edbbf9dbe11550ae4fd0217accd2c8b463284f250b681229"
+   "transformers_sha256": "2f4492f9ccefc408a19642ed016105e5345224dc6f44c0bdc50e94aad49dfa70"
   },
   "41134": {
    "CaseID": "41134",
@@ -55,7 +55,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a2942c43cd4a019fbef902773ff672e830f1b69f481e85af8fbbb898f9554f86"
+   "transformers_sha256": "0b7e502701e508faabe7be81cc864a3fcbbf6f760a4ed06f9bee13588ba45f6a"
   },
   "41135": {
    "CaseID": "41135",
@@ -69,7 +69,7 @@
      ]
     }
    ],
-   "transformers_sha256": "b94dace6a4cde3459e6b3752a5dea4bf10ff867ed090a4cccc5090a0e01e26bd"
+   "transformers_sha256": "15cd70f26dfd5cd29213580b5a6c50bc341047328b9ed1a789cb419ddde18c80"
   },
   "41136": {
    "CaseID": "41136",
@@ -113,7 +113,7 @@
      ]
     }
    ],
-   "transformers_sha256": "f2d507e862aa093128ef50c4338af0d1ce50d1ae1c0436abd9b137280fc55412"
+   "transformers_sha256": "3db009aeabf8c6ebad2f9d0a1b606a21a0dd0533d36534d5cd4465a369a5ce1b"
   },
   "41137": {
    "CaseID": "41137",
@@ -127,7 +127,7 @@
      ]
     }
    ],
-   "transformers_sha256": "1df64baf6ac1688876eca4813f47c7213e99f422a2fb9a47e1f7ff8fa133208f"
+   "transformers_sha256": "91cff81ec897333fd4c603de55ec92c8e31c06b55258e804e715aa009f1a65c9"
   },
   "41138": {
    "CaseID": "41138",
@@ -171,7 +171,7 @@
      ]
     }
    ],
-   "transformers_sha256": "1d97fc33bf24c2ff4ccd29de3c253489fcde80bf09da90d24083f98f0335ac01"
+   "transformers_sha256": "30d93d907896b87c2b5ccc9bf1a776741a019d495794455ad04caf11f98b3b0e"
   },
   "41139": {
    "CaseID": "41139",
@@ -305,7 +305,7 @@
      ]
     }
    ],
-   "transformers_sha256": "77a53f25f47e185d41dec91da59e105c2d2f29204a54fe652afc0559accc048e"
+   "transformers_sha256": "f323c4d687f9c54c56cae5fe7e915670ff68e4e4c873b896c7507c58f46cba57"
   },
   "41140": {
    "CaseID": "41140",
@@ -337,7 +337,7 @@
      ]
     }
    ],
-   "transformers_sha256": "c63cb21afca4d0ebc225e54b6543002fa3043671ef13bb992d4ce31ea25137d2"
+   "transformers_sha256": "032f8c40daf6efed7adab2cc012a463c69a854a6d09774504ac65e54f8a96d8d"
   },
   "41142": {
    "CaseID": "41142",
@@ -351,7 +351,7 @@
      ]
     }
    ],
-   "transformers_sha256": "8836e441c0c855cecad0b25559a5dbb51188182d398f62bdcfabb6230550f145"
+   "transformers_sha256": "a2081ad7ef357ce2d438a7ba3721a47ee10024f95b8869486c7a7538c1f084be"
   },
   "41143": {
    "CaseID": "41143",
@@ -407,7 +407,7 @@
      ]
     }
    ],
-   "transformers_sha256": "c728ff6cddc48272dcf56048327139064108c0be703c9d81567dae18257ac382"
+   "transformers_sha256": "71d0d33055633477ef8e7e4277e14510402d0ae3a8736616b0d4049aec573a68"
   }
  },
  "planned_page": {
@@ -519,6 +519,15 @@
    ],
    "to": "04 August 2026 12:00"
   },
+  "88878a649a054889": {
+   "city": "Iz-Zejtun",
+   "from": "05 August 2026 07:00",
+   "streets": [
+    "TRIQ E. ATTARD BEZZINA",
+    "TRIQ TAL- FANA'"
+   ],
+   "to": "05 August 2026 12:00"
+  },
   "abf89090bbd0350c": {
    "city": "Hal Balzan",
    "from": "04 August 2026 08:00",
@@ -562,6 +571,26 @@
     "WESGHA FRANGISK BUGEJA"
    ],
    "to": "05 August 2026 13:30"
+  },
+  "e7eabf6577416a0e": {
+   "city": "Tas-Sliema",
+   "from": "03 August 2026 21:00",
+   "streets": [
+    "TRIQ TAL- KATIDRAL",
+    "TRIQ SAN PAWL",
+    "TRIQ IL- KBIRA"
+   ],
+   "to": "03 August 2026 23:00"
+  },
+  "e989258d2e2bf7bd": {
+   "city": "Tas-Sliema",
+   "from": "04 August 2026 00:00",
+   "streets": [
+    "TRIQ TAL- KATIDRAL",
+    "TRIQ SAN PAWL",
+    "TRIQ IL- KBIRA"
+   ],
+   "to": "04 August 2026 05:00"
   },
   "f5f0555ba113a83b": {
    "city": "Il-Mosta",
