@@ -13,7 +13,7 @@
      ]
     }
    ],
-   "transformers_sha256": "dc4dc5d967f4914ee6d3a81c0bf1f424b596a24458747a671fa08dddb6d68805"
+   "transformers_sha256": "c393891b2438a56c1110d1f9bdd9e16d6395b74ecc979eeb55de00405b4a5e8b"
   },
   "41134": {
    "CaseID": "41134",
@@ -27,7 +27,7 @@
      ]
     }
    ],
-   "transformers_sha256": "317d2393f5e9be5f8c5bf756296986659b503a69174b9d5809baecf68c0e7864"
+   "transformers_sha256": "7b4596d601591cf2052201db916496862fbc52209077ae12bf4294be0e03ba5b"
   },
   "41135": {
    "CaseID": "41135",
@@ -41,7 +41,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a5434723f210961358dd8615b98759b795c90f9b4d6f4f5449d9d76ed6d9e39d"
+   "transformers_sha256": "7c841b5b0f640a53ffe4c24508c3708964a0e3e27634b5e47e56684454128b6e"
   },
   "41136": {
    "CaseID": "41136",
@@ -85,7 +85,7 @@
      ]
     }
    ],
-   "transformers_sha256": "585db8d25d2cc2c3bd1c4fdb3aa936b0307b500d3a8269257c6b0549f68c527a"
+   "transformers_sha256": "03af67c5059b1023b317dc1e0ed869fa1eeeb11e7dc8912adb3639b280930503"
   },
   "41137": {
    "CaseID": "41137",
@@ -99,7 +99,7 @@
      ]
     }
    ],
-   "transformers_sha256": "0a98044d43a4b4f6ca8a3d42905e485d09beaacd5a7ea188227784ae588832f2"
+   "transformers_sha256": "bdeac5b3b2c20472f19e624e75f89260c7ef3c2ac8fbbe3ae4b9d3be8193a7af"
   },
   "41138": {
    "CaseID": "41138",
@@ -143,7 +143,7 @@
      ]
     }
    ],
-   "transformers_sha256": "fd360a3418be336dffbded9a09e8b62d906b0dbcc551f1a411c0189a379817a8"
+   "transformers_sha256": "7d98324526491b69ee60737c050594a967da5424ae922c3c7e94d865987db9bb"
   },
   "41139": {
    "CaseID": "41139",
@@ -277,7 +277,7 @@
      ]
     }
    ],
-   "transformers_sha256": "be206bb977a95d412fd7dc4214f9c84cac834bed6ed49e60c3cd5246ebc18f6b"
+   "transformers_sha256": "9b3238c23db04355484b67a4aac405d980ce9e8d7bbfaf42e7bf6574537ac3ea"
   },
   "41140": {
    "CaseID": "41140",
@@ -309,7 +309,7 @@
      ]
     }
    ],
-   "transformers_sha256": "54361f31b0334b531b22ab1d101d16b44c0e2f8e75f33defc108562bbff3c987"
+   "transformers_sha256": "584af1cd927119ae86c5e386e6001faf5f63988e6e7d75f98ff78a985a9d2941"
   },
   "41142": {
    "CaseID": "41142",
@@ -323,7 +323,7 @@
      ]
     }
    ],
-   "transformers_sha256": "49e2534280305052e277ce6e7b0e2fccc54b1a1a6fccb90a084756b8fb2e1617"
+   "transformers_sha256": "dbb1d28eec86ca05ca4d2642a663854a76e89a6e1a64407b884ea206e4b4f3c4"
   },
   "41143": {
    "CaseID": "41143",
@@ -337,7 +337,7 @@
      ]
     }
    ],
-   "transformers_sha256": "131214a79266d1de01d65c346536f4f7f56f3206f71472edb08bfe9490c0f68d"
+   "transformers_sha256": "01544b314f26055a4ed8404751dde8019bddf74c9f5b09b325f0dd6b4d005242"
   },
   "41144": {
    "CaseID": "41144",
@@ -379,7 +379,57 @@
      ]
     }
    ],
-   "transformers_sha256": "5df5d1578c18480dd21a502fff935bb09219dc909537a952cb0da68b5adf48d6"
+   "transformers_sha256": "dc18f286f04d3a81d3e4d8d10b227861a84739cfe7f81c1ee6fa74c3494590b5"
+  },
+  "41147": {
+   "CaseID": "41147",
+   "EndDate": "2026-08-07T12:00:00+02:00",
+   "StartDate": "2026-08-07T07:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "205",
+     "feeders": [
+      "9"
+     ]
+    }
+   ],
+   "transformers_sha256": "7637cbd3446d13b3ae0e74bcebb4933858835596eac9a4b936cb5016bfdd44b7"
+  },
+  "41148": {
+   "CaseID": "41148",
+   "EndDate": "2026-08-05T12:00:00+02:00",
+   "StartDate": "2026-08-05T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "1555",
+     "feeders": [
+      "1",
+      "2"
+     ]
+    },
+    {
+     "TransformerId": "1555",
+     "feeders": [
+      "1",
+      "2"
+     ]
+    }
+   ],
+   "transformers_sha256": "3e27c0f7e2e45964a889df49806de5a28949d1154ab4bd80bf98de38bc61fc2d"
+  },
+  "41149": {
+   "CaseID": "41149",
+   "EndDate": "2026-08-07T12:00:00+02:00",
+   "StartDate": "2026-08-07T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "1426",
+     "feeders": [
+      "5"
+     ]
+    }
+   ],
+   "transformers_sha256": "6d615d4c6d50edf22e7d1c2dead95396ccd138571edd2faf373b687825a42d52"
   }
  },
  "planned_page": {
