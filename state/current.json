@@ -829,19 +829,6 @@
   }
  },
  "planned_page": {
-  "09952a0ed19ba9c9": {
-   "city": "Il-Hamrun",
-   "from": "03 August 2026 07:00",
-   "streets": [
-    "TRIQ ATOCIA",
-    "TRIQ ANTON BUTTIGIEG",
-    "TRIQ SAN GEJTANU",
-    "TRIQ GIOVANNI BARBARA",
-    "TRIQ SAN FRANGISK",
-    "TRIQ PAWLU DEBATTISTA"
-   ],
-   "to": "03 August 2026 10:00"
-  },
   "0b94c3a6cd1a6540": {
    "city": "L-Imqabba",
    "from": "04 August 2026 07:00",
@@ -861,15 +848,6 @@
     "TRIQ IL- FERROVIJA L-QADIMA"
    ],
    "to": "04 August 2026 13:00"
-  },
-  "15497cd1cd4d6b77": {
-   "city": "San Gwann",
-   "from": "03 August 2026 06:00",
-   "streets": [
-    "TRIQ KARM LONGO",
-    "TRIQ IL- BATTALJUN"
-   ],
-   "to": "03 August 2026 12:00"
   },
   "262ed74b6970b598": {
    "city": "In-Naxxar",
@@ -1009,30 +987,6 @@
    ],
    "to": "04 August 2026 13:00"
   },
-  "d12b913cfe10973c": {
-   "city": "Iz-Zurrieq",
-   "from": "03 August 2026 07:30",
-   "streets": [
-    "TRIQ IN- NIGRET",
-    "TRIQ ID- DEJQA",
-    "TRIQ SAN MARK",
-    "TRIQ L- IMDAWRA",
-    "TRIQ IL- MUNQAR",
-    "TRIQ IL- WARDIJA",
-    "TREJQET IL- BARRIERI",
-    "TRIQ IL- GIBJUN",
-    "TRIQ IL- BARRIERI",
-    "TRIQ IL- MITHNA TAL-QARET",
-    "TRIQ WIED GANU",
-    "TRIQ IL- KUNCIZZJONI",
-    "TRIQ MADRE MARIA TEREZA NUZZO",
-    "TRIQ XEWKI",
-    "SQAQ FRANZINA",
-    "TAL-GIBJUN",
-    "LIMITI TAZ-"
-   ],
-   "to": "03 August 2026 11:00"
-  },
   "d30444f43e35d888": {
    "city": "Iz-Zurrieq",
    "from": "05 August 2026 07:00",
@@ -1052,16 +1006,6 @@
    ],
    "to": "07 August 2026 12:00"
   },
-  "e7eabf6577416a0e": {
-   "city": "Tas-Sliema",
-   "from": "03 August 2026 21:00",
-   "streets": [
-    "TRIQ TAL- KATIDRAL",
-    "TRIQ SAN PAWL",
-    "TRIQ IL- KBIRA"
-   ],
-   "to": "03 August 2026 23:00"
-  },
   "e989258d2e2bf7bd": {
    "city": "Tas-Sliema",
    "from": "04 August 2026 00:00",
@@ -1071,18 +1015,6 @@
     "TRIQ IL- KBIRA"
    ],
    "to": "04 August 2026 05:00"
-  },
-  "f5f0555ba113a83b": {
-   "city": "Il-Mosta",
-   "from": "03 August 2026 07:30",
-   "streets": [
-    "TRIQ MONS. MIKELANG MIFSUD",
-    "TRIQ IX- XAGHRI TAL-HARRUB",
-    "TRIQ IL- PONT",
-    "TRIQ GDIDA FI",
-    "TRIQ WALTER L. SALAMONE"
-   ],
-   "to": "03 August 2026 12:00"
   }
  }
 }
