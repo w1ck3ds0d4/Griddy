@@ -13,7 +13,7 @@
      ]
     }
    ],
-   "transformers_sha256": "8be583d6d4d7259a334b36601d148a19d06273275e953547603423f93d54f510"
+   "transformers_sha256": "ca0f0bd0ea962f3f727a39c3ee8c8c103f3bc7080c7f813fc202e126680faaab"
   },
   "41134": {
    "CaseID": "41134",
@@ -27,7 +27,7 @@
      ]
     }
    ],
-   "transformers_sha256": "8cb8a52cb841fc95f67a9b53a734fb2482bda1658c6150c7db3d0b638857d376"
+   "transformers_sha256": "8ae658d02a771831b3cda35c83b38722b6224cb907718dbd4ebee43ad5709df5"
   },
   "41135": {
    "CaseID": "41135",
@@ -41,7 +41,7 @@
      ]
     }
    ],
-   "transformers_sha256": "ab0bdb3992ef9b15df1413d4b1800115241c911e66b3be31fffdbc7da7e17cb8"
+   "transformers_sha256": "fb55991f7a46bed48c3b7e7a3b6c9228ff8619520fc4904924033fc8b4255918"
   },
   "41136": {
    "CaseID": "41136",
@@ -85,7 +85,7 @@
      ]
     }
    ],
-   "transformers_sha256": "c042bb8d71a3413aa34cda39e357fae04235502cb7428faec2269de03b3fb9b5"
+   "transformers_sha256": "7555be4bfcecc3d7d769bc29c565da1b56656ce91d0f1fffc171cba4c7f720ab"
   },
   "41137": {
    "CaseID": "41137",
@@ -99,7 +99,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a7874c48aac0cdb89f1dacfd199cd9e811cfa399124813ac4cf38fd92535dea9"
+   "transformers_sha256": "3515a1c03aba7eac8ed94027c23da769d676b37352d842ebd1b40fa7be9dbbcd"
   },
   "41138": {
    "CaseID": "41138",
@@ -143,7 +143,7 @@
      ]
     }
    ],
-   "transformers_sha256": "0aed910ab486f7400f538370709b95f042ff86fdaaf90a589381fb19e43f92da"
+   "transformers_sha256": "e4af266db5a2fcf6e7f0ca1023d1a16ceb2ae5881be328762cf58f3d61a16896"
   },
   "41139": {
    "CaseID": "41139",
@@ -277,7 +277,7 @@
      ]
     }
    ],
-   "transformers_sha256": "da21c2b7de41ed098db8511b2a88f5c25b04998befe8c1d18583b6e73600ff4d"
+   "transformers_sha256": "8db4808758bec881b035d531a01e2064216e9292ed540368fb79e028c40043e1"
   },
   "41140": {
    "CaseID": "41140",
@@ -309,7 +309,7 @@
      ]
     }
    ],
-   "transformers_sha256": "ec6d61c162bfe313624468b3de1f0215e1a766778870abde8e266a9ab1d7d7bf"
+   "transformers_sha256": "ee69af6e7af1992f3cbfff9733e319195b7e82f2ac33180485f1bb427cc40eb0"
   },
   "41142": {
    "CaseID": "41142",
@@ -323,7 +323,7 @@
      ]
     }
    ],
-   "transformers_sha256": "51bdbe917d4d95f9f55f961503cb127eb72ee796f68bb19eaf2e2594a875e919"
+   "transformers_sha256": "4cac6126b918829a9bc86bb0626cfeda186766fa258c77f487120dbe9829498c"
   },
   "41143": {
    "CaseID": "41143",
@@ -351,7 +351,7 @@
      ]
     }
    ],
-   "transformers_sha256": "304e6bbf0ddbe840bbbed1a7db80e811d07bdf8bde5b07ceb542596e6c482599"
+   "transformers_sha256": "f2f130b3f8c49047add475171f89c110a27430f8db2bb5c1b04f4bc57e07ade9"
   },
   "41145": {
    "CaseID": "41145",
@@ -379,7 +379,7 @@
      ]
     }
    ],
-   "transformers_sha256": "30c232891b6e32162c58d94bbb79f20da1a9a8eb81d5299d6b16b8918ee82ac4"
+   "transformers_sha256": "a35dbc78ef2ed9352031964dfc43c25316cfc44a6c71c209204fd5272d749873"
   },
   "41147": {
    "CaseID": "41147",
@@ -415,7 +415,7 @@
      ]
     }
    ],
-   "transformers_sha256": "76209cfde3c071a846877168b8393419ee5f3bc6c4b4cebf8e9916c7bc06b657"
+   "transformers_sha256": "aee5b17572c88d49e0cc00afa8a239c241f250ecdc069b3e86b230c7f169959b"
   },
   "41149": {
    "CaseID": "41149",
@@ -429,7 +429,7 @@
      ]
     }
    ],
-   "transformers_sha256": "fa4cd3c0c8ad960263e198e05b76b024d02eed7a1ff3fa01f4877427733a5ddf"
+   "transformers_sha256": "6a004a976fddafeb793d7f90545809d0dbc7175f35a9da6f1fe157972dcd3f5d"
   },
   "41150": {
    "CaseID": "41150",
@@ -443,7 +443,389 @@
      ]
     }
    ],
-   "transformers_sha256": "d844e29f69f2145cafb0c707defea802b6aa72367b86417f94d84872bdf90081"
+   "transformers_sha256": "892db8127ea322cf43779deea0755eaff14e8621a9445381bff87c72eff6c60c"
+  },
+  "41151": {
+   "CaseID": "41151",
+   "EndDate": "2026-08-07T10:00:00+02:00",
+   "StartDate": "2026-08-07T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "12",
+      "13",
+      "4",
+      "9",
+      "8",
+      "14",
+      "3",
+      "Unknown"
+     ]
+    }
+   ],
+   "transformers_sha256": "479fa7ce2045dce764c700045876634e0b3fa9f598758466573322da64f7d1b9"
   }
  },
  "planned_page": {
