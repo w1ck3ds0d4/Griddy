@@ -1167,16 +1167,6 @@
    ],
    "to": "07 August 2026 12:00"
   },
-  "0b94c3a6cd1a6540": {
-   "city": "L-Imqabba",
-   "from": "04 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- QRENDI",
-    "SQAQ IL- MITHNA",
-    "SQAQ IL- MUDURBU"
-   ],
-   "to": "04 August 2026 11:00"
-  },
   "0da8a6fa559ba9ed": {
    "city": "In-Nadur",
    "from": "06 August 2026 08:30",
@@ -1193,28 +1183,6 @@
    ],
    "to": "06 August 2026 12:30"
   },
-  "0fcd80904460f353": {
-   "city": "Birkirkara",
-   "from": "04 August 2026 08:00",
-   "streets": [
-    "TRIQ B. BONTADINI",
-    "TRIQ P. P. CASTAGNA",
-    "TRIQ IL- FERROVIJA L-QADIMA"
-   ],
-   "to": "04 August 2026 13:00"
-  },
-  "262ed74b6970b598": {
-   "city": "In-Naxxar",
-   "from": "04 August 2026 08:00",
-   "streets": [
-    "SQAQ GIUSEPPE STIVALA",
-    "TRIQ LELI FALZON",
-    "TRIQ IL- FORGA",
-    "TRIQ PAOLO PARISIO MUSCATI",
-    "TRIQ GIUSEPPE STIVALA"
-   ],
-   "to": "04 August 2026 10:00"
-  },
   "2e6d77dc46004f1f": {
    "city": "Santa Venera",
    "from": "06 August 2026 07:30",
@@ -1230,33 +1198,6 @@
     "TRIQ BRAILLE"
    ],
    "to": "06 August 2026 11:00"
-  },
-  "3868e4f870d6bddb": {
-   "city": "Il-Qrendi",
-   "from": "04 August 2026 07:00",
-   "streets": [
-    "TRIQ IT- TEMPESTA",
-    "TRIQ IL- WARDA",
-    "TRIQ L- ANGOVINI",
-    "TRIQ IL- KASTILJANI",
-    "TRIQ DWARDU BORG",
-    "TRIQ L- IMQABBA",
-    "TRIQ SANTA KATERINA",
-    "TRIQ IL- BIZANTINI",
-    "TRIQ IN- NORMANNI",
-    "TRIQ FRANCESCO BUHAGIAR",
-    "SQAQ FRANCESCO BUHAGIAR",
-    "TRIQ IT- TORRI",
-    "SQAQ IT- TORRI NRU. 3",
-    "TRIQ IS- SIGGIEWI",
-    "TRIQ HAL MANIN",
-    "TRIQ DUN MATTEW MAGRO",
-    "TRIQ DUN NERIK MAHONEY",
-    "TRIQ IT- TABIB GREGORIO MIFSUD",
-    "TRIQ L- ARAGONIZI",
-    "TRIQ DUN SANTU AGIUS"
-   ],
-   "to": "04 August 2026 11:00"
   },
   "3acd9dbecfb5b594": {
    "city": "Iz-Zejtun",
@@ -1355,17 +1296,6 @@
    ],
    "to": "07 August 2026 10:00"
   },
-  "47af2589a04cd6a8": {
-   "city": "L-Imsida",
-   "from": "04 August 2026 07:00",
-   "streets": [
-    "TRIQ IT- TORRI",
-    "TRIQ SANT'ANDRIJA",
-    "TRIQ MONS. INNOCENZ ZAMMIT",
-    "TRIQ DUN KARM"
-   ],
-   "to": "04 August 2026 12:00"
-  },
   "6e4adbcde2b892bb": {
    "city": "Ir-Rabat, Ghawdex",
    "from": "06 August 2026 08:00",
@@ -1378,18 +1308,6 @@
     "TRIQ TAC- CAWLA"
    ],
    "to": "06 August 2026 12:30"
-  },
-  "7703f19ab16042e2": {
-   "city": "Iz-Zurrieq",
-   "from": "04 August 2026 06:30",
-   "streets": [
-    "TRIQ MATTEOLO SALIBA",
-    "TRIQ VINCENZ DIMECH",
-    "TRIQ GWANN CAMILLERI",
-    "TRIQ SALVU PSAILA",
-    "TRIQ SAN MARTIN"
-   ],
-   "to": "04 August 2026 11:00"
   },
   "87d33efddac2f500": {
    "city": "Hal Luqa",
@@ -1506,16 +1424,6 @@
    ],
    "to": "06 August 2026 17:30"
   },
-  "abf89090bbd0350c": {
-   "city": "Hal Balzan",
-   "from": "04 August 2026 08:00",
-   "streets": [
-    "TRIQ PATRI GUZE' DELIA",
-    "TRIQ IL- FERROVIJA L-QADIMA",
-    "TRIQ IL- KANNIZZATA"
-   ],
-   "to": "04 August 2026 13:00"
-  },
   "d30444f43e35d888": {
    "city": "Iz-Zurrieq",
    "from": "05 August 2026 07:00",
@@ -1534,16 +1442,6 @@
     "TRIQ SCHEMBRI"
    ],
    "to": "07 August 2026 12:00"
-  },
-  "e989258d2e2bf7bd": {
-   "city": "Tas-Sliema",
-   "from": "04 August 2026 00:00",
-   "streets": [
-    "TRIQ TAL- KATIDRAL",
-    "TRIQ SAN PAWL",
-    "TRIQ IL- KBIRA"
-   ],
-   "to": "04 August 2026 05:00"
   }
  }
 }
