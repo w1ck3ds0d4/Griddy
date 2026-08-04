@@ -13,7 +13,7 @@
      ]
     }
    ],
-   "transformers_sha256": "4012149cafc0e4ff99e62e528cc2656fe26ff4ed70ec2b2cf68d6635bfd7a07d"
+   "transformers_sha256": "9c0b85b5088d0cda25150a94bf61bb411e1a0c80c5cac1059eb961f559d421f9"
   },
   "41134": {
    "CaseID": "41134",
@@ -27,7 +27,7 @@
      ]
     }
    ],
-   "transformers_sha256": "7b6d813afa2d3ba53c65ee8fc02c8cf65694797f1311817d4948e2c1741a7e4c"
+   "transformers_sha256": "e4e0b9ce383afda18fc70550f9564a1bb187f413c091c27a15eb668a69a0b501"
   },
   "41135": {
    "CaseID": "41135",
@@ -41,7 +41,7 @@
      ]
     }
    ],
-   "transformers_sha256": "aaee015a954520ead9c9e519f35c90cd22eb8af83c9a23d0460b10b9ca5e22f3"
+   "transformers_sha256": "41cf93a8ca69453f7c40bba3a89ad0c64671bd682be52afbbaf41c21a10ec495"
   },
   "41136": {
    "CaseID": "41136",
@@ -85,7 +85,7 @@
      ]
     }
    ],
-   "transformers_sha256": "ff58242287cf4f5f0d382357ebd365b7f9895940f8e9ffa1aae0c7e928086bde"
+   "transformers_sha256": "0568075457e9a041fff7f72786ee8dfffd33bf5ca0abf4cfb3c712834f10dae2"
   },
   "41137": {
    "CaseID": "41137",
@@ -99,7 +99,7 @@
      ]
     }
    ],
-   "transformers_sha256": "c1e4f51693abb5b1117962ab277b897d886f56ee0b2c527b8d5ec649e6ca045e"
+   "transformers_sha256": "1df64baf6ac1688876eca4813f47c7213e99f422a2fb9a47e1f7ff8fa133208f"
   },
   "41138": {
    "CaseID": "41138",
@@ -143,7 +143,7 @@
      ]
     }
    ],
-   "transformers_sha256": "b9bcdfd9b58e2bc13a08c010d58ca436139167b543bff340030f363c2466eda1"
+   "transformers_sha256": "903893f724960741588dd726b5b315e3b38b14621406dbd0e05f1c6de543c230"
   },
   "41139": {
    "CaseID": "41139",
@@ -277,7 +277,7 @@
      ]
     }
    ],
-   "transformers_sha256": "f0a6d97be4d10a8b2b8231def8ff1d187fbc476687dc8354246ecd10572376ea"
+   "transformers_sha256": "93d6eab3f847990ad23094fd22eb6c1322266421cc05efd254b7088cd122e65c"
   },
   "41140": {
    "CaseID": "41140",
@@ -309,7 +309,7 @@
      ]
     }
    ],
-   "transformers_sha256": "3e7373cda14d42ce11d2c556cad5c171741d0028d7c7c9a9aafe4cdeddba98ca"
+   "transformers_sha256": "176ab70d0acd7c28dd1ea6b1a545265ae0c7ec37b7e39d51d5288f4cc89665e1"
   },
   "41142": {
    "CaseID": "41142",
@@ -323,7 +323,7 @@
      ]
     }
    ],
-   "transformers_sha256": "211b1fbde42332a940ec364305201db2e4048d2c659fb0e3ae6a37b74da66264"
+   "transformers_sha256": "25e91b95c8eee41de27a67380ad9dcd87564f054c3db2c3f086371f331956c7e"
   },
   "41143": {
    "CaseID": "41143",
@@ -337,7 +337,7 @@
      ]
     }
    ],
-   "transformers_sha256": "3af1fda8c03d728bdc9909fbd65b7cdf85d0ee7a9db9288433244820eeb1cb9b"
+   "transformers_sha256": "131214a79266d1de01d65c346536f4f7f56f3206f71472edb08bfe9490c0f68d"
   },
   "41144": {
    "CaseID": "41144",
@@ -351,7 +351,7 @@
      ]
     }
    ],
-   "transformers_sha256": "f2f130b3f8c49047add475171f89c110a27430f8db2bb5c1b04f4bc57e07ade9"
+   "transformers_sha256": "74f6affbb6e14a9d5d351abf6e9e75d1abb41ab5b511fb5b702dc6dc0520f0f2"
   },
   "41145": {
    "CaseID": "41145",
@@ -365,7 +365,7 @@
      ]
     }
    ],
-   "transformers_sha256": "f2f130b3f8c49047add475171f89c110a27430f8db2bb5c1b04f4bc57e07ade9"
+   "transformers_sha256": "74f6affbb6e14a9d5d351abf6e9e75d1abb41ab5b511fb5b702dc6dc0520f0f2"
   },
   "41146": {
    "CaseID": "41146",
@@ -379,7 +379,7 @@
      ]
     }
    ],
-   "transformers_sha256": "3fab6aa90267e86eb2c2c486adf32032f9b331f3975cc9c4df0cfdc8962c66c5"
+   "transformers_sha256": "677ec74631b7a9a520d2e8a48d0507d1e9d52e36b97a64367a118ffc0248e92d"
   },
   "41147": {
    "CaseID": "41147",
@@ -415,7 +415,7 @@
      ]
     }
    ],
-   "transformers_sha256": "71cdd230fb8aa741419e74fc1ebae2bb9a92d3eb41d123a4deaf26752e35cdf3"
+   "transformers_sha256": "e930481efd3865d9b222f75801252cae374868b833ad483f3f520a12dfb8327f"
   },
   "41149": {
    "CaseID": "41149",
@@ -429,7 +429,7 @@
      ]
     }
    ],
-   "transformers_sha256": "f45059ad0d153c957b02eb9133139b7b4af14807333005fed7295e8e5636a196"
+   "transformers_sha256": "03feaa516f9889898395b760f49d17a9e6df29a7448c429ba78894b80b474612"
   },
   "41150": {
    "CaseID": "41150",
@@ -443,7 +443,7 @@
      ]
     }
    ],
-   "transformers_sha256": "6a66ee30b8873a963297f4e597b4be9a57d4b7b6b82fd6a42b21ffd1bb07181a"
+   "transformers_sha256": "6ac40afe48ffbc85fde35976534a4c8a8464ec1c68e198e6e16e55665937c9eb"
   },
   "41151": {
    "CaseID": "41151",
@@ -825,7 +825,21 @@
      ]
     }
    ],
-   "transformers_sha256": "6f6c6eab832c970d55d40e04befdc08aa1bbf4874fd10f03d5398edec9590c7b"
+   "transformers_sha256": "04121f2576fe7f183772a2c5acc5142fde94f41bb0159eed92a6cddf2e01167f"
+  },
+  "41152": {
+   "CaseID": "41152",
+   "EndDate": "2026-08-04T11:00:00+02:00",
+   "StartDate": "2026-08-04T06:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "119",
+     "feeders": [
+      "2"
+     ]
+    }
+   ],
+   "transformers_sha256": "86613713127af0663ff766cacf52cfb5721d0fb2572758fcfb9d0f9fb5a9da18"
   }
  },
  "planned_page": {
@@ -904,6 +918,75 @@
    ],
    "to": "04 August 2026 11:00"
   },
+  "3acd9dbecfb5b594": {
+   "city": "Iz-Zejtun",
+   "from": "10 August 2026 07:30",
+   "streets": [
+    "SQAQ SAN PUBLIJU",
+    "TRIQ VENDOME",
+    "TRIQ SAN PAWL",
+    "MISRAH KARLU DIACONO",
+    "TRIQ SANTA KATARINA",
+    "TRIQ SANTA LUCIJA",
+    "TRIQ SANT' EMIDJU",
+    "SQAQ SANTA MARIJA NRU. 1",
+    "MISRAH KARMENU GRIMA",
+    "TRIQ SAN FRANGISK",
+    "TRIQ SAN LUCJAN",
+    "TRIQ IL- KUNCIZZJONI",
+    "TRIQ L- ISPIRTU SANTU",
+    "TRIQ GWIEDI",
+    "TRIQ IL- KOSTITUZZJONI",
+    "TRIQ IL- HELSIEN",
+    "SQAQ IL- HERBA NRU. 2",
+    "SQAQ SAN FELIC",
+    "TRIQ IL- MADONNA TAL-BON KUNSILL",
+    "SQAQ IL- MADONNA TAL-BON KUNSILL",
+    "MISRAH DICEMBRU TLETTAX",
+    "TRIQ SANTA FAWSTINA",
+    "SQAQ BONITO",
+    "MISRAH IR- REPUBBLIKA",
+    "TRIQ SAN GUZEPP",
+    "TRIQ SANTA MONIKA",
+    "TRIQ SAN GIRGOR",
+    "TRIQ ID- DULURI",
+    "TRIQ SANTU WISTIN",
+    "TRIQ ANTONIO MICALLEF",
+    "MISRAH IL- BANDOLIER",
+    "TRIQ L- ISKOLA",
+    "SQAQ RAJSA",
+    "SQAQ IL- VITTORJA",
+    "TRIQ HABEL IX-XGHIR",
+    "SQAQ SAN VITOR",
+    "TRIQ HABEL IX-XGHIR",
+    "SQAQ NRU. 2",
+    "TRIQ MARSAXLOKK",
+    "VJAL IL- HAMSA U GHOXRIN TA' NOVEMBRU",
+    "TRIQ SANTA MARIJA",
+    "TRIQ SANT' ANGLU",
+    "TRIQ ANGLU DELIA",
+    "TRIQ IL- KBIRA",
+    "SQAQ SAN ADEODATU",
+    "MISRAH MIKIEL ANTON VASSALLI",
+    "TRIQ IS- SALVATUR",
+    "TRIQ HABEL IX-XGHIR",
+    "SQAQ NRU. 3",
+    "TRIQ IL- HERBA",
+    "SQAQ IL- HERBA NRU. 1",
+    "MISRAH GREGORIO BONICI",
+    "MISRAH GREGORIO BONICI",
+    "SQAQ F'",
+    "TRIQ LICATA",
+    "TRIQ LUQA BRIFFA",
+    "TRIQ HABEL IX-XGHIR",
+    "SQAQ NRU. 1",
+    "TRIQ SANT'EMIDJU",
+    "SQAQ NRU. 1",
+    "TRIQ SANT'EMIDJU",
+    "SQAQ NRU. 2"
+   ],
+   "to": "10 August 2026 11:00"
+  },
   "3cc67f7398ca6308": {
    "city": "Ta’ Sannat",
    "from": "07 August 2026 08:30",
@@ -919,6 +1002,19 @@
    ],
    "to": "07 August 2026 12:30"
   },
+  "473fe88fda7cba38": {
+   "city": "Il-Hamrun",
+   "from": "07 August 2026 07:00",
+   "streets": [
+    "TRIQ ATOCIA",
+    "TRIQ ANTON BUTTIGIEG",
+    "TRIQ SAN GEJTANU",
+    "TRIQ GIOVANNI BARBARA",
+    "TRIQ SAN FRANGISK",
+    "TRIQ PAWLU DEBATTISTA"
+   ],
+   "to": "07 August 2026 10:00"
+  },
   "47af2589a04cd6a8": {
    "city": "L-Imsida",
    "from": "04 August 2026 07:00",
@@ -930,6 +1026,18 @@
    ],
    "to": "04 August 2026 12:00"
   },
+  "7703f19ab16042e2": {
+   "city": "Iz-Zurrieq",
+   "from": "04 August 2026 06:30",
+   "streets": [
+    "TRIQ MATTEOLO SALIBA",
+    "TRIQ VINCENZ DIMECH",
+    "TRIQ GWANN CAMILLERI",
+    "TRIQ SALVU PSAILA",
+    "TRIQ SAN MARTIN"
+   ],
+   "to": "04 August 2026 11:00"
+  },
   "88878a649a054889": {
    "city": "Iz-Zejtun",
    "from": "05 August 2026 07:00",
@@ -939,6 +1047,16 @@
    ],
    "to": "05 August 2026 12:00"
   },
+  "92e27020823ff9a7": {
+   "city": "Birkirkara",
+   "from": "07 August 2026 08:00",
+   "streets": [
+    "TRIQ FRANGISK XERRI",
+    "TRIQ CENSU BUSUTTIL",
+    "TRIQ DUN KARM"
+   ],
+   "to": "07 August 2026 10:30"
+  },
   "93f8c4637df96298": {
    "city": "Ix-Xewkija",
    "from": "07 August 2026 08:30",
@@ -947,6 +1065,39 @@
     "TRIQ IX- XEWKIJA"
    ],
    "to": "07 August 2026 12:30"
+  },
+  "96f186850a2486c8": {
+   "city": "L-Iklin",
+   "from": "07 August 2026 08:00",
+   "streets": [
+    "TRIQ GUZE' GALEA",
+    "TRIQ GUZE' MUSCAT AZZOPARDI",
+    "TRIQ MAY BUTCHER",
+    "TRIQ RICHARD TAYLOR",
+    "TRIQ PAWLU GRECH",
+    "TRIQ ERIN SERRACINO INGLOTT",
+    "TRIQ PATRI ANASTASJU CUSCHIERI",
+    "TRIQ GUZE' PESCI",
+    "TRIQ ANTON MANUEL CARUANA",
+    "TREJQET IR- RUMANZIERI",
+    "TRIQ GIOVANNI CURMI",
+    "TRIQ GWANN MAMO",
+    "TRIQ CENSU BUSUTTIL",
+    "TRIQ ALFONS MARIA GALEA",
+    "TRIQ GUZEPPI CALLEJA",
+    "TRIQ DWARDU CACHIA",
+    "TRIQ MONS. PIETRU PAWL SAYDON",
+    "TREJQET IL- POETI",
+    "TRIQ ANTON BUTTIGIEG",
+    "TRIQ GUZE' BONNICI",
+    "TRIQ GUZE' ELLUL MERCER",
+    "TRIQ KARMENU VASSALLO",
+    "TRIQ PATRI MARJANU VELLA",
+    "TRIQ DUN KARM",
+    "PJAZZA NINU CREMONA",
+    "TRIQ GERONIMO ABOS"
+   ],
+   "to": "07 August 2026 10:30"
   },
   "a03875c54b3db52b": {
    "city": "Il-Qala",
