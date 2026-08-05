@@ -1236,19 +1236,6 @@
    ],
    "to": "06 August 2026 13:00"
   },
-  "6e4adbcde2b892bb": {
-   "city": "Ir-Rabat, Ghawdex",
-   "from": "06 August 2026 08:00",
-   "streets": [
-    "AREA BLOCK A-B-C-D-Ea-Eb-Fa-Fb-Ib-l",
-    "TRIQ GUZE' MICALLEF",
-    "TRIQ IS- SETTE GIUGNO",
-    "TRIQ PATRI ANTON DEBONO",
-    "S. J.",
-    "TRIQ TAC- CAWLA"
-   ],
-   "to": "06 August 2026 12:30"
-  },
   "87d33efddac2f500": {
    "city": "Hal Luqa",
    "from": "06 August 2026 07:00",
@@ -1337,6 +1324,16 @@
     "TRIQ IT- TEMPJU"
    ],
    "to": "05 August 2026 12:30"
+  },
+  "a70c49f2d885eecc": {
+   "city": "San Giljan",
+   "from": "07 August 2026 07:00",
+   "streets": [
+    "TRIQ IL- QALIET",
+    "TRIQ ROSS",
+    "TRIQ SAN GORG"
+   ],
+   "to": "07 August 2026 14:00"
   },
   "abda40f9abbccc23": {
    "city": "Paola",
