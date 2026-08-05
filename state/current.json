@@ -1339,15 +1339,6 @@
    ],
    "to": "06 August 2026 09:00"
   },
-  "88878a649a054889": {
-   "city": "Iz-Zejtun",
-   "from": "05 August 2026 07:00",
-   "streets": [
-    "TRIQ E. ATTARD BEZZINA",
-    "TRIQ TAL- FANA'"
-   ],
-   "to": "05 August 2026 12:00"
-  },
   "92e27020823ff9a7": {
    "city": "Birkirkara",
    "from": "07 August 2026 08:00",
@@ -1400,23 +1391,6 @@
    ],
    "to": "07 August 2026 10:30"
   },
-  "a03875c54b3db52b": {
-   "city": "Il-Qala",
-   "from": "05 August 2026 08:30",
-   "streets": [
-    "TREJQET TA HATAR",
-    "TRIQ DUN GUZEPP BUTTIGIEG",
-    "PJAZZA R- REPUBBLIKA",
-    "TRIQ IL- PAPA PIJU IX",
-    "TRIQ TA' GRUNJU",
-    "TRIQ IL- QALA",
-    "TRIQ WIED IS-SIMAR",
-    "TRIQ SAN GUZEPP",
-    "TRIQ DUN GUZEPP VELLA",
-    "TRIQ IT- TEMPJU"
-   ],
-   "to": "05 August 2026 12:30"
-  },
   "a70c49f2d885eecc": {
    "city": "San Giljan",
    "from": "07 August 2026 07:00",
@@ -1452,16 +1426,6 @@
     "SQAQ NRU. 2"
    ],
    "to": "06 August 2026 17:30"
-  },
-  "d30444f43e35d888": {
-   "city": "Iz-Zurrieq",
-   "from": "05 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- WIED",
-    "VJAL IL- BLUE GROTTO",
-    "WESGHA FRANGISK BUGEJA"
-   ],
-   "to": "05 August 2026 13:30"
   },
   "d70190c616e06424": {
    "city": "Il-Hamrun",
