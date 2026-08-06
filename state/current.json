@@ -1,16 +1,5 @@
 {
- "live": {
-  "9ec54c34c707776a": {
-   "CreatedDate": "2026-08-06T12:09:43.407+02:00",
-   "Id": 176692,
-   "Localities": "Iklin, Naxxar",
-   "OutageId": 18031,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "dbe35f241538ee1d89ce98caa0a3dc9f1a54dd55b7c162153684a467a76dc580",
-   "lastupdated": "2026-08-06T10:37:07.313+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41140": {
    "CaseID": "41140",
