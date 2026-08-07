@@ -1244,21 +1244,6 @@
    ],
    "to": "13 August 2026 17:30"
   },
-  "18859b7d47b2c2cc": {
-   "city": "Hal Balzan",
-   "from": "07 August 2026 13:00",
-   "streets": [
-    "TRIQ PATRI GUZE' DELIA",
-    "TRIQ B. BONTADINI",
-    "TRIQ IL- FERROVIJA L-QADIMA",
-    "TRIQ IL- QARCILLA",
-    "TRIQ IL- KANNIZZATA",
-    "TRIQ L- IMDINA",
-    "TRIQ SAN GABRIEL",
-    "TRIQ SAN FRANGISK"
-   ],
-   "to": "07 August 2026 16:00"
-  },
   "3102ce683d0b61b1": {
    "city": "Iz-Zejtun",
    "from": "12 August 2026 12:00",
@@ -1397,21 +1382,6 @@
    ],
    "to": "10 August 2026 11:00"
   },
-  "3cc67f7398ca6308": {
-   "city": "Ta’ Sannat",
-   "from": "07 August 2026 08:30",
-   "streets": [
-    "TRIQ TA' SANNAT",
-    "TRIQ TA' XAGHMAN",
-    "TRIQ L- ISQOF DAVIDE COCCO PALMERI",
-    "TRIQ IT- TMIENJA W GHOXRIN TA' APRIL",
-    "1688",
-    "TRIQ IL- BLAT",
-    "TRIQ MARZIENA",
-    "TRIQ IX- XEWKIJA"
-   ],
-   "to": "07 August 2026 12:30"
-  },
   "4167adecf52ea258": {
    "city": "Marsaskala",
    "from": "08 August 2026 10:00",
@@ -1421,27 +1391,6 @@
     "TRIQ SANT' ANTNIN"
    ],
    "to": "08 August 2026 14:00"
-  },
-  "52928d1ef55e0116": {
-   "city": "Birkirkara",
-   "from": "07 August 2026 13:00",
-   "streets": [
-    "TRIQ JOSEPH M. FENECH",
-    "SQAQ L- IMRIEHEL",
-    "TRIQ B. BONTADINI",
-    "TRIQ IL- QANNIC",
-    "TRIQ F. GENESTE",
-    "TRIQ AZZOPARDI",
-    "TRIQ P. P. CASTAGNA",
-    "MISRAH SAN ALWIGI",
-    "TRIQ IL- FERROVIJA L-QADIMA",
-    "TRIQ L- IMRIEHEL",
-    "TRIQ VITTORIO CASSAR",
-    "TRIQ L- ISQOF BALDASSARE CAGLIARES",
-    "TRIQ IL- KAN. INDRI GALEA",
-    "TRIQ IL- KNISJA L-QADIMA"
-   ],
-   "to": "07 August 2026 16:00"
   },
   "6108617bdcce976a": {
    "city": "Il-Mosta",
@@ -1467,68 +1416,6 @@
    ],
    "to": "11 August 2026 12:00"
   },
-  "92e27020823ff9a7": {
-   "city": "Birkirkara",
-   "from": "07 August 2026 08:00",
-   "streets": [
-    "TRIQ FRANGISK XERRI",
-    "TRIQ CENSU BUSUTTIL",
-    "TRIQ DUN KARM"
-   ],
-   "to": "07 August 2026 10:30"
-  },
-  "93f8c4637df96298": {
-   "city": "Ix-Xewkija",
-   "from": "07 August 2026 08:30",
-   "streets": [
-    "TRIQ SANNAT",
-    "TRIQ IX- XEWKIJA"
-   ],
-   "to": "07 August 2026 12:30"
-  },
-  "96f186850a2486c8": {
-   "city": "L-Iklin",
-   "from": "07 August 2026 08:00",
-   "streets": [
-    "TRIQ GUZE' GALEA",
-    "TRIQ GUZE' MUSCAT AZZOPARDI",
-    "TRIQ MAY BUTCHER",
-    "TRIQ RICHARD TAYLOR",
-    "TRIQ PAWLU GRECH",
-    "TRIQ ERIN SERRACINO INGLOTT",
-    "TRIQ PATRI ANASTASJU CUSCHIERI",
-    "TRIQ GUZE' PESCI",
-    "TRIQ ANTON MANUEL CARUANA",
-    "TREJQET IR- RUMANZIERI",
-    "TRIQ GIOVANNI CURMI",
-    "TRIQ GWANN MAMO",
-    "TRIQ CENSU BUSUTTIL",
-    "TRIQ ALFONS MARIA GALEA",
-    "TRIQ GUZEPPI CALLEJA",
-    "TRIQ DWARDU CACHIA",
-    "TRIQ MONS. PIETRU PAWL SAYDON",
-    "TREJQET IL- POETI",
-    "TRIQ ANTON BUTTIGIEG",
-    "TRIQ GUZE' BONNICI",
-    "TRIQ GUZE' ELLUL MERCER",
-    "TRIQ KARMENU VASSALLO",
-    "TRIQ PATRI MARJANU VELLA",
-    "TRIQ DUN KARM",
-    "PJAZZA NINU CREMONA",
-    "TRIQ GERONIMO ABOS"
-   ],
-   "to": "07 August 2026 10:30"
-  },
-  "a70c49f2d885eecc": {
-   "city": "San Giljan",
-   "from": "07 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- QALIET",
-    "TRIQ ROSS",
-    "TRIQ SAN GORG"
-   ],
-   "to": "07 August 2026 14:00"
-  },
   "a75e9b6e40212bde": {
    "city": "Iz-Zurrieq",
    "from": "12 August 2026 07:00",
@@ -1540,20 +1427,6 @@
     "TRIQ VINCENZO CARUANA"
    ],
    "to": "12 August 2026 13:00"
-  },
-  "abda40f9abbccc23": {
-   "city": "Paola",
-   "from": "07 August 2026 07:00",
-   "streets": [
-    "TRIQ BRITTANJA",
-    "TRIQ NINU CREMONA",
-    "TRIQ L- IBJAR",
-    "TRIQ F. TORTELL",
-    "VJAL SIR PAUL BOFFA",
-    "TRIQ ID- DGHAJJES",
-    "TRIQ IL- BACIR IL-GDID"
-   ],
-   "to": "07 August 2026 12:00"
   },
   "be3539a966eab9d3": {
    "city": "Il-Mellieha",
@@ -1574,15 +1447,6 @@
     "TRIQ IL- GEMMUGHA"
    ],
    "to": "08 August 2026 14:00"
-  },
-  "d70190c616e06424": {
-   "city": "Il-Hamrun",
-   "from": "07 August 2026 07:00",
-   "streets": [
-    "TRIQ JOE SCIBERRAS",
-    "TRIQ SCHEMBRI"
-   ],
-   "to": "07 August 2026 12:00"
   },
   "e745a5a8f12aef9a": {
    "city": "Marsaskala",
