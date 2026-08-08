@@ -1,13 +1,13 @@
 {
  "live": {
-  "d4a13c24160796d3": {
-   "CreatedDate": "2026-08-08T09:41:43.157+02:00",
-   "Id": 176707,
-   "Localities": "Birzebbugia, Ghaxaq, Marsaxlokk",
+  "f0a41f8e5513ef21": {
+   "CreatedDate": "2026-08-08T09:51:42.803+02:00",
+   "Id": 176717,
+   "Localities": "Birzebbugia, Marsaxlokk",
    "OutageId": 18048,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "ed2a951773e4dcf9fc624afc0632dfb41c6f6254c5bede849c47880e3610ba58",
+   "geometry_sha256": "29a292815f0435e644f0bb9fb72bd535d3a9763d1ad01b41d4dbfd555c88b0fc",
    "lastupdated": "2026-08-08T09:31:04.623+02:00"
   }
  },
