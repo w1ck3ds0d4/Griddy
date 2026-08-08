@@ -1300,16 +1300,6 @@
    ],
    "to": "10 August 2026 11:00"
   },
-  "4167adecf52ea258": {
-   "city": "Marsaskala",
-   "from": "08 August 2026 10:00",
-   "streets": [
-    "TRIQ IL- GEMMUGHA",
-    "TRIQ IZ- ZAFRAN",
-    "TRIQ SANT' ANTNIN"
-   ],
-   "to": "08 August 2026 14:00"
-  },
   "6108617bdcce976a": {
    "city": "Il-Mosta",
    "from": "13 August 2026 07:00",
@@ -1321,17 +1311,6 @@
     "TRIQ IR- REBBIEGHA"
    ],
    "to": "13 August 2026 17:30"
-  },
-  "6cb080bd8515d554": {
-   "city": "Il-Fontana",
-   "from": "08 August 2026 08:00",
-   "streets": [
-    "TRIQ GHAJN TUTA",
-    "TRIQ TA' MULEJJA",
-    "TRIQ TAL- GHAJN",
-    "TREJQET WARA L-IDJAR"
-   ],
-   "to": "08 August 2026 13:00"
   },
   "77450be319e40f44": {
    "city": "Marsaskala",
@@ -1367,15 +1346,6 @@
    ],
    "to": "12 August 2026 13:00"
   },
-  "be3539a966eab9d3": {
-   "city": "Il-Mellieha",
-   "from": "08 August 2026 08:00",
-   "streets": [
-    "TRIQ IL- GARZELLA",
-    "TRIQ TAS- SALIB"
-   ],
-   "to": "08 August 2026 13:00"
-  },
   "c5a29f96d745ac8d": {
    "city": "H’Attard",
    "from": "11 August 2026 02:00",
@@ -1388,30 +1358,6 @@
     "TRIQ IL- HATAB"
    ],
    "to": "11 August 2026 06:00"
-  },
-  "d51130873f5c915e": {
-   "city": "Marsaskala",
-   "from": "08 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- QASTAN",
-    "TRIQ IR- RUMMIEN",
-    "TRIQ IL- GROSS",
-    "TRIQ IL- GEMMUGHA"
-   ],
-   "to": "08 August 2026 14:00"
-  },
-  "e745a5a8f12aef9a": {
-   "city": "Marsaskala",
-   "from": "08 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- GROSS",
-    "TRIQ IL- GEMMUGHA",
-    "TRIQ IL- HORTAN",
-    "TRIQ SALVU BUHAGIAR",
-    "TRIQ IL- QREMPUC",
-    "TRIQ SANT' ANTNIN"
-   ],
-   "to": "08 August 2026 14:00"
   }
  }
 }
