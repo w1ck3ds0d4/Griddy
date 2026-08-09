@@ -804,6 +804,15 @@
    ],
    "to": "10 August 2026 18:00"
   },
+  "84376905ead40cd0": {
+   "city": "Is-Swieqi",
+   "from": "10 August 2026 10:00",
+   "streets": [
+    "TRIQ IL- GHAJN",
+    "TRIQ IS- SIDRA"
+   ],
+   "to": "10 August 2026 17:00"
+  },
   "a75e9b6e40212bde": {
    "city": "Iz-Zurrieq",
    "from": "12 August 2026 07:00",
