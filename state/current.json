@@ -1450,6 +1450,28 @@
    ],
    "to": "11 August 2026 06:00"
   },
+  "c898b0d1c4bae610": {
+   "city": "L-Imsida",
+   "from": "13 August 2026 19:00",
+   "streets": [
+    "TRIQ ACHILLE FERRIS",
+    "TRIQ IL- KAROZZIN",
+    "TRIQ GARCIN",
+    "TRIQ TAL- GHERIEBEL",
+    "TRIQ TA' XMIEXI",
+    "TRIQ M. A. VASSALLI",
+    "TRIQ SAN LWIGI",
+    "TRIQ D' ARGENS",
+    "TRIQ IL- KNISJA",
+    "IX-XATT TA' XBIEX",
+    "TRIQ IL- PARROCCA",
+    "TRIQ IL- MONSINJUR FALZON",
+    "XATT L- IMSIDA",
+    "MISRAH IL- HAMSA TA OTTUBRU",
+    "MISRAH IL- MISRAH SAN GUZEPP"
+   ],
+   "to": "13 August 2026 21:00"
+  },
   "e77a94bc3d59651b": {
    "city": "L-Imsida",
    "from": "13 August 2026 07:00",
