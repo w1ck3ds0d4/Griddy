@@ -1450,6 +1450,22 @@
    ],
    "to": "11 August 2026 06:00"
   },
+  "e77a94bc3d59651b": {
+   "city": "L-Imsida",
+   "from": "13 August 2026 07:00",
+   "streets": [
+    "TRIQ IL- KAROZZIN",
+    "TRIQ GARCIN",
+    "TRIQ TAL- GHERIEBEL",
+    "TRIQ TA' XMIEXI",
+    "TRIQ D' ARGENS",
+    "TRIQ IL- KNISJA",
+    "TRIQ IL- PARROCCA",
+    "TRIQ IL- MONSINJUR FALZON",
+    "XATT L- IMSIDA"
+   ],
+   "to": "13 August 2026 09:00"
+  },
   "fc58498aece969bd": {
    "city": "Il-Gzira",
    "from": "11 August 2026 08:00",
