@@ -1,16 +1,5 @@
 {
- "live": {
-  "8ff1b6da438d5a5e": {
-   "CreatedDate": "2026-08-12T00:42:43.75+02:00",
-   "Id": 177065,
-   "Localities": "Birzebbugia, Kirkop, Mqabba, Safi, Zurrieq",
-   "OutageId": 18081,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "66624c3818513f369351229c64ca804123d68bde15fc809e1939605fcf6add6a",
-   "lastupdated": "2026-08-12T00:25:04.483+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41154": {
    "CaseID": "41154",
