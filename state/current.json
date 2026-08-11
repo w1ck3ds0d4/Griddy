@@ -1194,6 +1194,17 @@
    ],
    "to": "13 August 2026 17:30"
   },
+  "0227906f9c3323ad": {
+   "city": "San Gwann",
+   "from": "12 August 2026 07:00",
+   "streets": [
+    "TRIQ L- IMSIERAH",
+    "TRIQ JOHN F. MARKS",
+    "TRIQ KARM LONGO",
+    "TRIQ IL- BATTALJUN"
+   ],
+   "to": "12 August 2026 12:00"
+  },
   "035f5069fa351d95": {
    "city": "Hal Gharghur",
    "from": "11 August 2026 08:30",
@@ -1213,6 +1224,22 @@
     "TRIQ FRANCESCO BUHAGIAR"
    ],
    "to": "17 August 2026 12:00"
+  },
+  "236cf711d3c30ab6": {
+   "city": "Birkirkara",
+   "from": "13 August 2026 08:00",
+   "streets": [
+    "TRIQ SALVU PSAILA",
+    "TRIQ SANT' ELIJA",
+    "TRIQ ANT. EMM. CARUANA",
+    "TRIQ G. BORG PANTALLERESCO",
+    "TRIQ G. DIMECH DEBONO",
+    "TRIQ DOM MAWRU INGUANEZ",
+    "TRIQ IL- VAGUNI",
+    "TRIQ IL- GUMMAR",
+    "TRIQ G. F. AGIUS DE SOLDANIS"
+   ],
+   "to": "13 August 2026 13:00"
   },
   "3102ce683d0b61b1": {
    "city": "Iz-Zejtun",
