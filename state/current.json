@@ -1,13 +1,13 @@
 {
  "live": {
-  "e32fa0efe912eb97": {
-   "CreatedDate": "2026-08-11T19:40:43.667+02:00",
-   "Id": 176906,
-   "Localities": "Qormi, Zebbug (Malta)",
+  "55316d649072e2c2": {
+   "CreatedDate": "2026-08-11T19:50:43.477+02:00",
+   "Id": 176916,
+   "Localities": "Zebbug (Malta)",
    "OutageId": 18078,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "b3a39cc2cf732e25dd88d50e956034f2ec7fcfecc7064f40093c153a14038dd9",
+   "geometry_sha256": "399d0ec677fe1088786bd3333c2c0081171fd25fdae141f449acb709761c6b95",
    "lastupdated": "2026-08-11T17:47:03.98+02:00"
   }
  },
