@@ -1,16 +1,5 @@
 {
- "live": {
-  "f8918efe0d43d1c2": {
-   "CreatedDate": "2026-08-11T21:57:43.483+02:00",
-   "Id": 177043,
-   "Localities": "Zebbug (Malta)",
-   "OutageId": 18078,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "399d0ec677fe1088786bd3333c2c0081171fd25fdae141f449acb709761c6b95",
-   "lastupdated": "2026-08-11T17:47:03.98+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41154": {
    "CaseID": "41154",
