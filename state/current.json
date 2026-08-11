@@ -1550,16 +1550,6 @@
    ],
    "to": "12 August 2026 12:00"
   },
-  "035f5069fa351d95": {
-   "city": "Hal Gharghur",
-   "from": "11 August 2026 08:30",
-   "streets": [
-    "TRIQ SAN GWANN",
-    "SQAQ NRU. 1",
-    "SQAQ TAL- HOFRA"
-   ],
-   "to": "11 August 2026 10:30"
-  },
   "0c19696ddf3cb41a": {
    "city": "Ta’ Sannat",
    "from": "18 August 2026 08:30",
@@ -1820,35 +1810,6 @@
    ],
    "to": "12 August 2026 16:30"
   },
-  "7b42a3f0512751e0": {
-   "city": "Iz-Zurrieq",
-   "from": "11 August 2026 07:30",
-   "streets": [
-    "TRIQ KALANG BUGEJA",
-    "TRIQ BUBAQRA",
-    "TRIQ IT- TIN",
-    "TRIQ ZACCARIA RONCALI",
-    "MISRAH SANTA MARIJA",
-    "SQAQ SAN ANARD",
-    "TRIQ SANTA MARIJA",
-    "TRIQ IT- TORRI",
-    "TRIQ GUZEPPI MATTEW CALLUS",
-    "VJAL L- INDIPENDENZA",
-    "TRIQ TA' CIANTAR",
-    "TRIQ SAN MIKIEL",
-    "TRIQ ESPEDITU DEGUARA",
-    "TRIQ NARDU SACCO",
-    "TRIQ MORPHOU",
-    "SQAQ IT- TORRI",
-    "TRIQ GREGORIO DURANTE",
-    "TRIQ IR- RETTUR DUN SALV FARRUGIA",
-    "TRIQ DUN SALVATORE MAGRI",
-    "TRIQ IS- SARDINELL",
-    "TRIQ IL- MIDRA",
-    "TRIQ SAVERIO LAFERLA"
-   ],
-   "to": "11 August 2026 11:30"
-  },
   "804baf94d0b9eb27": {
    "city": "In-Nadur",
    "from": "13 August 2026 08:30",
@@ -1863,30 +1824,6 @@
     "TRIQ IZ- ZERNIEQ"
    ],
    "to": "13 August 2026 12:30"
-  },
-  "9c6ceb566fcaebe6": {
-   "city": "Il-Gzira",
-   "from": "11 August 2026 07:30",
-   "streets": [
-    "TRIQ SAN ALBERT",
-    "TRIQ IL- FLOTTA",
-    "PJAZZA MEME' SCICLUNA",
-    "TRIQ MORONI",
-    "TRIQ HENRY F. BOUVERIE",
-    "TRIQ CARLO MANCHE'",
-    "TRIQ SAMUEL TAYLOR COLERIDGE",
-    "TRIQ SIR CHARLES CAMERON",
-    "TRIQ BELVEDERE"
-   ],
-   "to": "11 August 2026 10:00"
-  },
-  "9eab4af7da6f2503": {
-   "city": "Tas-Sliema",
-   "from": "11 August 2026 07:30",
-   "streets": [
-    "TRIQ MORONI"
-   ],
-   "to": "11 August 2026 10:00"
   },
   "a75e9b6e40212bde": {
    "city": "Iz-Zurrieq",
@@ -1935,19 +1872,6 @@
     "TRIQ DUN KARM AZZOPARDI"
    ],
    "to": "14 August 2026 12:30"
-  },
-  "c5a29f96d745ac8d": {
-   "city": "H’Attard",
-   "from": "11 August 2026 02:00",
-   "streets": [
-    "TRIQ L- IMSAGAR",
-    "TRIQ IT- TIGAN",
-    "TRIQ IL- MEHRIEZ",
-    "TRIQ IS- SEDQA",
-    "TRIQ IL- PITKALI",
-    "TRIQ IL- HATAB"
-   ],
-   "to": "11 August 2026 06:00"
   },
   "c898b0d1c4bae610": {
    "city": "L-Imsida",
@@ -2000,21 +1924,6 @@
     "XATT L- IMSIDA"
    ],
    "to": "13 August 2026 09:00"
-  },
-  "fc58498aece969bd": {
-   "city": "Il-Gzira",
-   "from": "11 August 2026 08:00",
-   "streets": [
-    "TRIQ SIR WILLIAM REID",
-    "TRIQ SAMUEL TAYLOR COLERIDGE",
-    "TRIQ SIR CHARLES CAMERON",
-    "TRIQ SIR FREDERICK C. PONSONBY",
-    "TRIQ SIR PATRICK STUART",
-    "TRIQ IX- XATT",
-    "TRIQ BELVEDERE",
-    "TRIQ CARLO MANCHE'"
-   ],
-   "to": "11 August 2026 10:00"
   }
  }
 }
