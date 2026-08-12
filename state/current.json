@@ -1,13 +1,13 @@
 {
  "live": {
-  "0da34a46852f0ec9": {
-   "CreatedDate": "2026-08-12T19:20:44.6+02:00",
-   "Id": 177154,
+  "c31422b719857876": {
+   "CreatedDate": "2026-08-12T19:30:44.317+02:00",
+   "Id": 177164,
    "Localities": "Fontana, Munxar, Rabat (Victoria), Sannat, Xewkija",
    "OutageId": 18094,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "a6be0d16cb5cc8a14473c94fe130292e0d332fd626be05c9b67b17abf5a29bec",
+   "geometry_sha256": "bdad2c42f89dcbb93e2d7dc89c161bf7b18172bc741a34e5d7da265f674bff7b",
    "lastupdated": "2026-08-12T17:57:05.13+02:00"
   }
  },
