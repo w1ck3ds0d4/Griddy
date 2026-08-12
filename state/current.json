@@ -1,13 +1,13 @@
 {
  "live": {
-  "0c900daf908fd48f": {
-   "CreatedDate": "2026-08-12T23:50:43.95+02:00",
-   "Id": 177488,
+  "a19d4f7f05fbc98b": {
+   "CreatedDate": "2026-08-13T00:00:43.92+02:00",
+   "Id": 177498,
    "Localities": "St. Paul's Bay",
    "OutageId": 18104,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "0f6873d784233465465d55e5056193a5181f65f98b78aa5595dc349e4caa5767",
+   "geometry_sha256": "2db5f2a6276e99e3b1c2cad46028a444f5043cdc4e667e2cb4545626a9daa0a4",
    "lastupdated": "2026-08-12T22:47:05.23+02:00"
   }
  },
