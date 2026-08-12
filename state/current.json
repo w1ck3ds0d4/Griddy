@@ -1,13 +1,13 @@
 {
  "live": {
-  "eed8583c129ea256": {
-   "CreatedDate": "2026-08-12T19:40:44.183+02:00",
-   "Id": 177174,
-   "Localities": "Munxar, Sannat",
+  "75e7d8c4eacb5455": {
+   "CreatedDate": "2026-08-12T19:49:44.3+02:00",
+   "Id": 177183,
+   "Localities": "Sannat",
    "OutageId": 18094,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "9e89b76c2906610e047015137c4d97c8a51dd1d3bceeb82cbb5591e47a21a92d",
+   "geometry_sha256": "0f1aab7c708b2eb09c99c101bb3583f4034ac8d9a8f5887b8272cfb3e7ab41d3",
    "lastupdated": "2026-08-12T17:57:05.13+02:00"
   }
  },
