@@ -1,8 +1,8 @@
 {
  "live": {
-  "a87b43bb653ffe42": {
-   "CreatedDate": "2026-08-12T23:20:44.227+02:00",
-   "Id": 177434,
+  "4ad564b3eba8b255": {
+   "CreatedDate": "2026-08-12T23:30:44.167+02:00",
+   "Id": 177454,
    "Localities": "St. Paul's Bay",
    "OutageId": 18104,
    "OutageType": 2,
@@ -10,14 +10,14 @@
    "geometry_sha256": "0f6873d784233465465d55e5056193a5181f65f98b78aa5595dc349e4caa5767",
    "lastupdated": "2026-08-12T22:47:05.23+02:00"
   },
-  "edfcdfd84f6956c3": {
-   "CreatedDate": "2026-08-12T23:20:44.227+02:00",
-   "Id": 177433,
+  "81ae7e5a1cc6627e": {
+   "CreatedDate": "2026-08-12T23:30:44.167+02:00",
+   "Id": 177453,
    "Localities": "Ghaxaq, Gudja, Luqa, Paola, Santa Lucija",
    "OutageId": 18102,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "3b9188e19e28d07c9faca20a2aba8f5c6a2b84e3773f5c3c96be8575ffb41815",
+   "geometry_sha256": "9100c5c6d5503ba04b0df63193cd5429572e1bcaecf4c31aba6ae231843a1324",
    "lastupdated": "2026-08-12T22:47:04.21+02:00"
   }
  },
