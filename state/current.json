@@ -1201,6 +1201,36 @@
    ],
    "to": "13 August 2026 13:00"
   },
+  "341f8217cb74b925": {
+   "city": "Santa Venera",
+   "from": "17 August 2026 07:30",
+   "streets": [
+    "TRIQ IL- KBIRA SAN GUZEPP",
+    "TRIQ CARINI",
+    "TRIQ IL- KUKKANJA",
+    "TRIQ IL- BIR",
+    "TRIQ DUN FRANS CAMILLERI",
+    "TRIQ BRAILLE"
+   ],
+   "to": "17 August 2026 11:00"
+  },
+  "3e2056047a956981": {
+   "city": "Iz-Zejtun",
+   "from": "21 August 2026 07:30",
+   "streets": [
+    "TRIQ DUN LAWRENZ DEGABRIELE",
+    "TRIQ SAN GUZEPP",
+    "TRIQ CONNAUGHT",
+    "TRIQ SAN PIJU X",
+    "TRIQ IL- KANTUR",
+    "MISRAH GORG BUSUTTIL",
+    "TRIQ SAN GIRGOR",
+    "TRIQ BELAND",
+    "TRIQ ANGLU GRIMA",
+    "TRIQ LUQA BRIFFA"
+   ],
+   "to": "21 August 2026 11:00"
+  },
   "4e9f14bbeac9990a": {
    "city": "Birkirkara",
    "from": "13 August 2026 08:00",
@@ -1304,6 +1334,15 @@
    ],
    "to": "13 August 2026 12:30"
   },
+  "a69b7781967187ed": {
+   "city": "L-Imsida",
+   "from": "18 August 2026 07:00",
+   "streets": [
+    "TRIQ IT- TAJJAR",
+    "TRIQ IL- MAKNA TAS-SERRAR"
+   ],
+   "to": "18 August 2026 12:00"
+  },
   "b105e0b6e8c50c69": {
    "city": "L-Isla",
    "from": "13 August 2026 07:00",
@@ -1361,6 +1400,51 @@
     "MISRAH IL- MISRAH SAN GUZEPP"
    ],
    "to": "13 August 2026 21:00"
+  },
+  "d42eba163aa7792f": {
+   "city": "Iz-Zejtun",
+   "from": "19 August 2026 07:30",
+   "streets": [
+    "TRIQ SANTA LUCIJA",
+    "TRIQ SANT' EMIDJU",
+    "SQAQ SANTA MARIJA NRU. 1",
+    "TRIQ GWIEDI",
+    "TRIQ IL- HELSIEN",
+    "SQAQ IL- HERBA NRU. 2",
+    "SQAQ SAN FELIC",
+    "TRIQ IL- MADONNA TAL-BON KUNSILL",
+    "MISRAH DICEMBRU TLETTAX",
+    "TRIQ SANTA FAWSTINA",
+    "TRIQ SAN GUZEPP",
+    "TRIQ SANTA MONIKA",
+    "TRIQ SAN GIRGOR",
+    "TRIQ MARSAXLOKK",
+    "TRIQ SANTA MARIJA",
+    "TRIQ ANGLU DELIA",
+    "TRIQ IL- HERBA",
+    "SQAQ IL- HERBA NRU. 1",
+    "MISRAH GREGORIO BONICI",
+    "MISRAH GREGORIO BONICI",
+    "SQAQ F'",
+    "TRIQ LUQA BRIFFA",
+    "TRIQ SANT'EMIDJU",
+    "SQAQ NRU. 1",
+    "TRIQ SANT'EMIDJU",
+    "SQAQ NRU. 2"
+   ],
+   "to": "19 August 2026 11:00"
+  },
+  "dac76c9bd11abd66": {
+   "city": "Ta’ Xbiex",
+   "from": "18 August 2026 07:00",
+   "streets": [
+    "TRIQ IL- KOSBOR",
+    "TRIQ IL- KNISJA",
+    "TRIQ IL- MASKLI",
+    "TRIQ ID- DEFFA",
+    "TRIQ IL- QAWS"
+   ],
+   "to": "18 August 2026 12:00"
   },
   "e2d59e65a70d7f72": {
    "city": "In-Nadur",
