@@ -1210,6 +1210,16 @@
    ],
    "to": "18 August 2026 13:00"
   },
+  "6002b9a7db355710": {
+   "city": "Haz-Zebbug",
+   "from": "19 August 2026 07:00",
+   "streets": [
+    "TRIQ IL- QAMH",
+    "TRIQ IL- KOSBOR",
+    "TRIQ L- IMDINA"
+   ],
+   "to": "19 August 2026 11:00"
+  },
   "6108617bdcce976a": {
    "city": "Il-Mosta",
    "from": "13 August 2026 07:00",
