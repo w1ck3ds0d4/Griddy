@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "be3e4de0033e25af": {
+   "CreatedDate": "2026-08-14T01:00:44.24+02:00",
+   "Id": 177573,
+   "Localities": "St. Paul's Bay",
+   "OutageId": 18122,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "995145f650070b2139c5f09abed8874852c685702f254ce9acf600c7be6e9af6",
+   "lastupdated": "2026-08-14T00:55:01.537+02:00"
+  }
+ },
  "planned": {
   "41167": {
    "CaseID": "41167",
@@ -1127,15 +1138,6 @@
   }
  },
  "planned_page": {
-  "00055fba5b08da6b": {
-   "city": "Il-Mosta",
-   "from": "13 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- KULLEGG",
-    "TRIQ IR- REBBIEGHA"
-   ],
-   "to": "13 August 2026 17:30"
-  },
   "001a11df5b0385fb": {
    "city": "Iz-Zurrieq",
    "from": "14 August 2026 07:30",
@@ -1199,22 +1201,6 @@
    ],
    "to": "17 August 2026 12:00"
   },
-  "236cf711d3c30ab6": {
-   "city": "Birkirkara",
-   "from": "13 August 2026 08:00",
-   "streets": [
-    "TRIQ SALVU PSAILA",
-    "TRIQ SANT' ELIJA",
-    "TRIQ ANT. EMM. CARUANA",
-    "TRIQ G. BORG PANTALLERESCO",
-    "TRIQ G. DIMECH DEBONO",
-    "TRIQ DOM MAWRU INGUANEZ",
-    "TRIQ IL- VAGUNI",
-    "TRIQ IL- GUMMAR",
-    "TRIQ G. F. AGIUS DE SOLDANIS"
-   ],
-   "to": "13 August 2026 13:00"
-  },
   "341f8217cb74b925": {
    "city": "Santa Venera",
    "from": "17 August 2026 07:30",
@@ -1245,40 +1231,6 @@
    ],
    "to": "21 August 2026 11:00"
   },
-  "4e9f14bbeac9990a": {
-   "city": "Birkirkara",
-   "from": "13 August 2026 08:00",
-   "streets": [
-    "TRIQ F. S. CARUANA",
-    "TRIQ IL- BWIERAQ",
-    "TRIQ IGNAZIO SAVERIO MIFSUD",
-    "TRIQ BRARED",
-    "TRIQ L- IMNAJJAR",
-    "SQAQ RIGU",
-    "SQAQ SABELLA",
-    "TRIQ L- ISQOF LABINI",
-    "SQAQ MOHLI",
-    "SQAQ DUN PERIN",
-    "TRIQ ID- DEJQA",
-    "TRIQ IZ- ZEBBIEGHA",
-    "PJAZZA SANTA LIENA",
-    "SQAQ SANTU ROKKU NRU. 1",
-    "SQAQ IL- MAGHADA",
-    "TRIQ ANGLA",
-    "SQAQ IL- MATLUWA",
-    "TRIQ JOHN BORG",
-    "TRIQ IS- SALIB IMQADDES",
-    "TRIQ QREJZU",
-    "TRIQ RIGU",
-    "TRIQ SANTA LIENA",
-    "TRIQ SAN GUZEPP",
-    "TRIQ L- ILSIERA",
-    "TRIQ L- IMSIDA",
-    "TRIQ IL- KBIRA",
-    "TRIQ SANTU ROKKU"
-   ],
-   "to": "13 August 2026 11:00"
-  },
   "53d1278bd5acd648": {
    "city": "L-Iklin",
    "from": "18 August 2026 08:30",
@@ -1299,18 +1251,6 @@
     "TRIQ L- IMDINA"
    ],
    "to": "19 August 2026 11:00"
-  },
-  "6108617bdcce976a": {
-   "city": "Il-Mosta",
-   "from": "13 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- BARRIERI",
-    "TRIQ GAFA'",
-    "TRIQ IL- KULLEGG",
-    "TRIQ PONSONBY",
-    "TRIQ IR- REBBIEGHA"
-   ],
-   "to": "13 August 2026 17:30"
   },
   "6434a7c38e30ffcd": {
    "city": "Iz-Zebbug",
@@ -1333,21 +1273,6 @@
    ],
    "to": "18 August 2026 11:00"
   },
-  "804baf94d0b9eb27": {
-   "city": "In-Nadur",
-   "from": "13 August 2026 08:30",
-   "streets": [
-    "TRIQ SANT' INDRIJA",
-    "TRIQ SAN GWANN",
-    "TRIQ DUN GREZZ BUTTIGIEG",
-    "TRIQ TA' MATTIJU",
-    "TRIQ IL- MITHNA L-QADIMA",
-    "TRIQ XJUF IR-RIH",
-    "SQAQ DUN KARM CARUANA",
-    "TRIQ IZ- ZERNIEQ"
-   ],
-   "to": "13 August 2026 12:30"
-  },
   "a69b7781967187ed": {
    "city": "L-Imsida",
    "from": "18 August 2026 07:00",
@@ -1356,24 +1281,6 @@
     "TRIQ IL- MAKNA TAS-SERRAR"
    ],
    "to": "18 August 2026 12:00"
-  },
-  "b105e0b6e8c50c69": {
-   "city": "L-Isla",
-   "from": "13 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- MACINA",
-    "TRIQ SAN PIETRU U SAN PAWL",
-    "TRIQ SAN GUZEPP",
-    "TRIQ IL- MINA TAX-XATT",
-    "TRIQ SANT' ANNA",
-    "TRIQ SAN GILJAN",
-    "TRIQ IX- XATT JUAN B. AZOPARDO",
-    "TRIQ SAN LAWRENZ",
-    "TRIQ IL- MIGJA TAL-PAPA",
-    "TRIQ IZ- ZEWG MINI",
-    "TRIQ DUN KARM AZZOPARDI"
-   ],
-   "to": "13 August 2026 12:30"
   },
   "bcd026cd07264d85": {
    "city": "L-Isla",
@@ -1392,28 +1299,6 @@
     "TRIQ DUN KARM AZZOPARDI"
    ],
    "to": "14 August 2026 12:30"
-  },
-  "c898b0d1c4bae610": {
-   "city": "L-Imsida",
-   "from": "13 August 2026 19:00",
-   "streets": [
-    "TRIQ ACHILLE FERRIS",
-    "TRIQ IL- KAROZZIN",
-    "TRIQ GARCIN",
-    "TRIQ TAL- GHERIEBEL",
-    "TRIQ TA' XMIEXI",
-    "TRIQ M. A. VASSALLI",
-    "TRIQ SAN LWIGI",
-    "TRIQ D' ARGENS",
-    "TRIQ IL- KNISJA",
-    "IX-XATT TA' XBIEX",
-    "TRIQ IL- PARROCCA",
-    "TRIQ IL- MONSINJUR FALZON",
-    "XATT L- IMSIDA",
-    "MISRAH IL- HAMSA TA OTTUBRU",
-    "MISRAH IL- MISRAH SAN GUZEPP"
-   ],
-   "to": "13 August 2026 21:00"
   },
   "d42eba163aa7792f": {
    "city": "Iz-Zejtun",
@@ -1459,36 +1344,6 @@
     "TRIQ IL- QAWS"
    ],
    "to": "18 August 2026 12:00"
-  },
-  "e2d59e65a70d7f72": {
-   "city": "In-Nadur",
-   "from": "13 August 2026 08:30",
-   "streets": [
-    "TRIQ IT- TRAMUNTANA",
-    "TRIQ DUN GORG PRECA",
-    "TRIQ MADRE GEMMA CAMILLERI",
-    "PJAZZA L- ARCIPRIET MARTIN CAMILLERI",
-    "TRIQ IT- TLETTAX TA' DICEMBRU",
-    "TRIQ PAPA LJUN XIII",
-    "TRIQ CIMCEM"
-   ],
-   "to": "13 August 2026 12:30"
-  },
-  "e77a94bc3d59651b": {
-   "city": "L-Imsida",
-   "from": "13 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- KAROZZIN",
-    "TRIQ GARCIN",
-    "TRIQ TAL- GHERIEBEL",
-    "TRIQ TA' XMIEXI",
-    "TRIQ D' ARGENS",
-    "TRIQ IL- KNISJA",
-    "TRIQ IL- PARROCCA",
-    "TRIQ IL- MONSINJUR FALZON",
-    "XATT L- IMSIDA"
-   ],
-   "to": "13 August 2026 09:00"
   }
  }
 }
