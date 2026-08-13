@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "687b0d1d57a8e400": {
+   "CreatedDate": "2026-08-13T05:33:44.483+02:00",
+   "Id": 177562,
+   "Localities": "Sannat",
+   "OutageId": 18094,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "60e30f0a4bdfafae14055100270e8c10746b1c4af534e4416c8287de4701ca0f",
+   "lastupdated": "2026-08-13T00:44:45+02:00"
+  }
+ },
  "planned": {
   "41166": {
    "CaseID": "41166",
