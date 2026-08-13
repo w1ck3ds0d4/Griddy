@@ -1,16 +1,5 @@
 {
- "live": {
-  "7dc8a93a8126b4ee": {
-   "CreatedDate": "2026-08-13T21:58:44.177+02:00",
-   "Id": 177570,
-   "Localities": "Mosta, Naxxar, St. Paul's Bay",
-   "OutageId": 18121,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "ff8427439b8652c0c4e0db4d42dab6ee3c870d6f8add341891c2f2e7cf50ec92",
-   "lastupdated": "2026-08-13T21:51:05.38+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41167": {
    "CaseID": "41167",
