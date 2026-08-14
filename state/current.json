@@ -1374,6 +1374,15 @@
    ],
    "to": "17 August 2026 11:00"
   },
+  "4cf5103cdae89f86": {
+   "city": "Il-Furjana",
+   "from": "18 August 2026 04:30",
+   "streets": [
+    "TRIQ SAN TUMAS",
+    "TRIQ SANT' ANNA"
+   ],
+   "to": "18 August 2026 08:30"
+  },
   "5190e268362d88b0": {
    "city": "Iz-Zurrieq",
    "from": "17 August 2026 07:00",
@@ -1477,6 +1486,21 @@
    ],
    "to": "17 August 2026 12:00"
   },
+  "9defc50d6b444547": {
+   "city": "Hal Gharghur",
+   "from": "18 August 2026 07:30",
+   "streets": [
+    "TRIQ IN- NAXXAR",
+    "VJAL IR- REPUBBLIKA",
+    "TRIQ CARAVAGGIO",
+    "TRIQ STIEFNU ZERAFA",
+    "TRIQ L- INDIPENDENZA",
+    "TRIQ IC- CAWL",
+    "TRIQ IL- QIEGHED",
+    "TRIQ IL- KBIRA"
+   ],
+   "to": "18 August 2026 11:00"
+  },
   "a69b7781967187ed": {
    "city": "L-Imsida",
    "from": "18 August 2026 07:00",
@@ -1550,6 +1574,16 @@
     "SQAQ NRU. 2"
    ],
    "to": "19 August 2026 11:00"
+  },
+  "d49f3527b3084273": {
+   "city": "Il-Mellieha",
+   "from": "17 August 2026 13:00",
+   "streets": [
+    "TRIQ IL- VITORJA",
+    "TRIQ CHURCHILL",
+    "TRIQ IL- KAPPILLAN MAGRI"
+   ],
+   "to": "17 August 2026 16:00"
   },
   "dac76c9bd11abd66": {
    "city": "Ta’ Xbiex",
