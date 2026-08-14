@@ -1264,6 +1264,28 @@
    ],
    "to": "14 August 2026 11:45"
   },
+  "00bbeaaa1132b165": {
+   "city": "Hal Luqa",
+   "from": "20 August 2026 19:00",
+   "streets": [
+    "TRIQ GANNI VASSALLO",
+    "TRIQ HAL TARXIEN",
+    "TRIQ MIKIELANG SAPIANO",
+    "TRIQ GUZEPP SALIBA",
+    "TRIQ DUN PAWL",
+    "TRIQ SAN GORG",
+    "TRIQ SAN GUZEPP",
+    "TRIQ IL- PARROCCA",
+    "TRIQ GIOVANNI BONAVIA",
+    "TRIQ IL- KUNSILL TA' L-EWROPA",
+    "TRIQ IL- GDIDA",
+    "TRIQ SANTA MARIJA",
+    "TRIQ GUZEPPI PENZA",
+    "TRIQ KAN. GWANN BORG",
+    "TRIQ IL- KUNSILL TAL-EWROPA"
+   ],
+   "to": "20 August 2026 21:00"
+  },
   "0c19696ddf3cb41a": {
    "city": "Ta’ Sannat",
    "from": "18 August 2026 08:30",
@@ -1287,6 +1309,17 @@
     "TRIQ IX- XEWKIJA"
    ],
    "to": "18 August 2026 09:30"
+  },
+  "0c507032be918b64": {
+   "city": "Hal Qormi",
+   "from": "17 August 2026 06:00",
+   "streets": [
+    "TRIQ SAN EDWARDU",
+    "TRIQ IL- GDIDA",
+    "MISRAH HMISTAX TA' MARZU",
+    "TRIQ GUZE' GALEA"
+   ],
+   "to": "17 August 2026 12:00"
   },
   "1f74d0ca7e37e3f8": {
    "city": "Birkirkara",
@@ -1327,6 +1360,34 @@
     "TRIQ LUQA BRIFFA"
    ],
    "to": "21 August 2026 11:00"
+  },
+  "493492d83b6551f9": {
+   "city": "Hal Kirkop",
+   "from": "17 August 2026 06:30",
+   "streets": [
+    "TRIQ IL- LEWZIET",
+    "TRIQ IL- KBIRA",
+    "TRIQ SAN ROKKU",
+    "TRIQ SAN NIKOLA",
+    "TRIQ SALVU SACCO",
+    "TRIQ IL- GUDJA"
+   ],
+   "to": "17 August 2026 11:00"
+  },
+  "5190e268362d88b0": {
+   "city": "Iz-Zurrieq",
+   "from": "17 August 2026 07:00",
+   "streets": [
+    "TRIQ ID- DEJQA",
+    "TRIQ SAN MARK",
+    "TRIQ L- IMDAWRA",
+    "TREJQET IL- BARRIERI",
+    "TRIQ IL- GIBJUN",
+    "TRIQ IL- MITHNA",
+    "TRIQ IL- KUNCIZZJONI",
+    "TRIQ MADRE MARIA TEREZA NUZZO"
+   ],
+   "to": "17 August 2026 11:00"
   },
   "53d1278bd5acd648": {
    "city": "L-Iklin",
@@ -1370,6 +1431,52 @@
    ],
    "to": "18 August 2026 11:00"
   },
+  "6ec36efc4c1d5eb2": {
+   "city": "L-Imqabba",
+   "from": "18 August 2026 06:00",
+   "streets": [
+    "TRIQ IT- TROLL",
+    "TRIQ IL- PAL",
+    "TRIQ IL- MADONNA TAL-GILJU",
+    "TRIQ SANTA KATARINA",
+    "MISRAH IL- MISSJONI Z-ZGHIRA",
+    "TRIQ TAS- SEJBA",
+    "TRIQ DUN GIACOMO TORTELLA"
+   ],
+   "to": "18 August 2026 12:00"
+  },
+  "6ee9436270b8818e": {
+   "city": "Hal Luqa",
+   "from": "20 August 2026 08:00",
+   "streets": [
+    "TRIQ GANNI VASSALLO",
+    "TRIQ HAL TARXIEN",
+    "TRIQ MIKIELANG SAPIANO",
+    "TRIQ GUZEPP SALIBA",
+    "TRIQ DUN PAWL",
+    "TRIQ SAN GORG",
+    "TRIQ SAN GUZEPP",
+    "TRIQ IL- PARROCCA",
+    "TRIQ GIOVANNI BONAVIA",
+    "TRIQ IL- KUNSILL TA' L-EWROPA",
+    "TRIQ IL- GDIDA",
+    "TRIQ SANTA MARIJA",
+    "TRIQ GUZEPPI PENZA",
+    "TRIQ KAN. GWANN BORG",
+    "TRIQ IL- KUNSILL TAL-EWROPA"
+   ],
+   "to": "20 August 2026 12:00"
+  },
+  "8ed547c5c6cebb94": {
+   "city": "Hal Qormi",
+   "from": "17 August 2026 06:00",
+   "streets": [
+    "TRIQ IL- GDIDA",
+    "TRIQ L- IMDINA",
+    "TRIQ GUZE' GALEA"
+   ],
+   "to": "17 August 2026 12:00"
+  },
   "a69b7781967187ed": {
    "city": "L-Imsida",
    "from": "18 August 2026 07:00",
@@ -1378,6 +1485,20 @@
     "TRIQ IL- MAKNA TAS-SERRAR"
    ],
    "to": "18 August 2026 12:00"
+  },
+  "bad50e6f99fd4928": {
+   "city": "Birzebbuga",
+   "from": "19 August 2026 06:30",
+   "streets": [
+    "TRIQ SANTA RITA",
+    "TRIQ SANT' ANGLU",
+    "TRIQ IL- HADDIEMA",
+    "TRIQ L- GHODDA",
+    "TRIQ IX- XOGHOL",
+    "TRIQ IL- MUSBIEH",
+    "TRIQ IL- PORT HIELES"
+   ],
+   "to": "19 August 2026 13:30"
   },
   "bcd026cd07264d85": {
    "city": "L-Isla",
