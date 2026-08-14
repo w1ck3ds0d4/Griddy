@@ -1285,35 +1285,6 @@
   }
  },
  "planned_page": {
-  "001a11df5b0385fb": {
-   "city": "Iz-Zurrieq",
-   "from": "14 August 2026 07:30",
-   "streets": [
-    "TRIQ KALANG BUGEJA",
-    "TRIQ BUBAQRA",
-    "TRIQ IT- TIN",
-    "TRIQ ZACCARIA RONCALI",
-    "MISRAH SANTA MARIJA",
-    "SQAQ SAN ANARD",
-    "TRIQ SANTA MARIJA",
-    "TRIQ IT- TORRI",
-    "TRIQ GUZEPPI MATTEW CALLUS",
-    "VJAL L- INDIPENDENZA",
-    "TRIQ TA' CIANTAR",
-    "TRIQ SAN MIKIEL",
-    "TRIQ ESPEDITU DEGUARA",
-    "TRIQ NARDU SACCO",
-    "TRIQ MORPHOU",
-    "SQAQ IT- TORRI",
-    "TRIQ GREGORIO DURANTE",
-    "TRIQ IR- RETTUR DUN SALV FARRUGIA",
-    "TRIQ DUN SALVATORE MAGRI",
-    "TRIQ IS- SARDINELL",
-    "TRIQ IL- MIDRA",
-    "TRIQ SAVERIO LAFERLA"
-   ],
-   "to": "14 August 2026 11:45"
-  },
   "00bbeaaa1132b165": {
    "city": "Hal Luqa",
    "from": "20 August 2026 19:00",
@@ -1573,24 +1544,6 @@
     "TRIQ IL- PORT HIELES"
    ],
    "to": "19 August 2026 13:30"
-  },
-  "bcd026cd07264d85": {
-   "city": "L-Isla",
-   "from": "14 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- MACINA",
-    "TRIQ SAN PIETRU U SAN PAWL",
-    "TRIQ SAN GUZEPP",
-    "TRIQ IL- MINA TAX-XATT",
-    "TRIQ SANT' ANNA",
-    "TRIQ SAN GILJAN",
-    "TRIQ IX- XATT JUAN B. AZOPARDO",
-    "TRIQ SAN LAWRENZ",
-    "TRIQ IL- MIGJA TAL-PAPA",
-    "TRIQ IZ- ZEWG MINI",
-    "TRIQ DUN KARM AZZOPARDI"
-   ],
-   "to": "14 August 2026 12:30"
   },
   "d42eba163aa7792f": {
    "city": "Iz-Zejtun",
