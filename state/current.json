@@ -1,16 +1,5 @@
 {
- "live": {
-  "a6d950852367fb26": {
-   "CreatedDate": "2026-08-15T02:04:44.947+02:00",
-   "Id": 177808,
-   "Localities": "Floriana, Valletta",
-   "OutageId": 18130,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "ad1d5d586e74aaf780be21ba9d38a5c053262c4619ed4c466e5c1bf30b2ec367",
-   "lastupdated": "2026-08-15T00:53:01.53+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41167": {
    "CaseID": "41167",
