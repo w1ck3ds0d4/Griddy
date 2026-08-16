@@ -1240,6 +1240,16 @@
    ],
    "to": "18 August 2026 13:00"
   },
+  "56aae4414ff133c8": {
+   "city": "Iz-Zurrieq",
+   "from": "19 August 2026 07:30",
+   "streets": [
+    "VJAL L- INDIPENDENZA",
+    "TRIQ SAN MIKIEL",
+    "TRIQ ESPEDITU DEGUARA"
+   ],
+   "to": "19 August 2026 13:30"
+  },
   "6002b9a7db355710": {
    "city": "Haz-Zebbug",
    "from": "19 August 2026 07:00",
@@ -1341,6 +1351,35 @@
    ],
    "to": "18 August 2026 12:00"
   },
+  "b16ac4aebb092387": {
+   "city": "Iz-Zurrieq",
+   "from": "19 August 2026 07:30",
+   "streets": [
+    "TRIQ KALANG BUGEJA",
+    "TRIQ BUBAQRA",
+    "TRIQ IT- TIN",
+    "TRIQ ZACCARIA RONCALI",
+    "MISRAH SANTA MARIJA",
+    "SQAQ SAN ANARD",
+    "TRIQ SANTA MARIJA",
+    "TRIQ IT- TORRI",
+    "TRIQ GUZEPPI MATTEW CALLUS",
+    "VJAL L- INDIPENDENZA",
+    "TRIQ TA' CIANTAR",
+    "TRIQ SAN MIKIEL",
+    "TRIQ ESPEDITU DEGUARA",
+    "TRIQ NARDU SACCO",
+    "TRIQ MORPHOU",
+    "SQAQ IT- TORRI",
+    "TRIQ GREGORIO DURANTE",
+    "TRIQ IR- RETTUR DUN SALV FARRUGIA",
+    "TRIQ DUN SALVATORE MAGRI",
+    "TRIQ IS- SARDINELL",
+    "TRIQ IL- MIDRA",
+    "TRIQ SAVERIO LAFERLA"
+   ],
+   "to": "19 August 2026 10:00"
+  },
   "bad50e6f99fd4928": {
    "city": "Birzebbuga",
    "from": "19 August 2026 06:30",
@@ -1409,6 +1448,22 @@
     "TRIQ IL- QAWS"
    ],
    "to": "18 August 2026 12:00"
+  },
+  "de8f2b1675b44fc2": {
+   "city": "San Pawl il-Bahar",
+   "from": "17 August 2026 04:30",
+   "streets": [
+    "TRIQ SAN PAWL",
+    "TRIQ STELLA MARIS",
+    "TRIQ IT- TARAG",
+    "TRIQ GHAJN RASUL",
+    "TREJQET IL- VECCA",
+    "TRIQ IX- XAGHRA TAL-BANDIERI",
+    "TREJQET PATRI GWANN F. GRIMA",
+    "TRIQ IT- TONN",
+    "DAWRET SAN PAWL"
+   ],
+   "to": "17 August 2026 07:30"
   }
  }
 }
