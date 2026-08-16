@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "2f8d4995bffc011a": {
+   "CreatedDate": "2026-08-16T23:05:45.48+02:00",
+   "Id": 177816,
+   "Localities": "Bormla, Isla",
+   "OutageId": 18140,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "a401f55d2e67525a22d6ba8196d9535e6272a53d90cfa67ae92398f5d31d0da6",
+   "lastupdated": "2026-08-16T22:57:04.72+02:00"
+  }
+ },
  "planned": {
   "41189": {
    "CaseID": "41189",
