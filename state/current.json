@@ -1386,6 +1386,19 @@
     "DAWRET SAN PAWL"
    ],
    "to": "17 August 2026 07:30"
+  },
+  "fd36fa0f54ca746c": {
+   "city": "Hal Ghaxaq",
+   "from": "19 August 2026 07:00",
+   "streets": [
+    "TRIQ SAN FILIPPU",
+    "MISRAH SAN FILIPPU",
+    "TRIQ SAN FILIPPU",
+    "SQAQ NRU. 1",
+    "TRIQ IL- GUDJA",
+    "TRIQ IL- GISTAKOR"
+   ],
+   "to": "19 August 2026 12:00"
   }
  }
 }
