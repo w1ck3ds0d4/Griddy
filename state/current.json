@@ -1594,6 +1594,16 @@
    ],
    "to": "19 August 2026 13:30"
   },
+  "5c67943915f2842b": {
+   "city": "Iz-Zebbug",
+   "from": "20 August 2026 08:30",
+   "streets": [
+    "TRIQ MIEGEL BAHAR",
+    "TRIQ SANTA MARIJA",
+    "TRIQ IS- SALINI"
+   ],
+   "to": "20 August 2026 12:30"
+  },
   "6002b9a7db355710": {
    "city": "Haz-Zebbug",
    "from": "19 August 2026 07:00",
@@ -1665,6 +1675,15 @@
     "TRIQ CIKKU BONACI"
    ],
    "to": "21 August 2026 13:00"
+  },
+  "86bb3157035115ca": {
+   "city": "Ir-Rabat, Ghawdex",
+   "from": "21 August 2026 08:30",
+   "streets": [
+    "TRIQ L- IMGHALLEM",
+    "TRIQ WIED SARA"
+   ],
+   "to": "21 August 2026 12:30"
   },
   "965b8930379dcc70": {
    "city": "L-Isla",
@@ -1867,6 +1886,14 @@
     "TRIQ IL- QAWS"
    ],
    "to": "18 August 2026 12:00"
+  },
+  "f2cae5e875fb0287": {
+   "city": "L-Ghasri",
+   "from": "21 August 2026 08:30",
+   "streets": [
+    "TRIQ WIED SARA"
+   ],
+   "to": "21 August 2026 12:30"
   },
   "f4dd773173d28bc8": {
    "city": "In-Naxxar",
