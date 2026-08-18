@@ -1060,6 +1060,94 @@
     }
    ],
    "transformers_sha256": "bdd5c096897e217946e0f1fd9b592985648ac8a8404781373c5b66d14ba0d6a0"
+  },
+  "41229": {
+   "CaseID": "41229",
+   "EndDate": "2026-08-19T07:00:00+02:00",
+   "StartDate": "2026-08-19T04:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "464",
+     "feeders": [
+      "manual",
+      "2",
+      "8"
+     ]
+    },
+    {
+     "TransformerId": "464",
+     "feeders": [
+      "manual",
+      "2",
+      "8"
+     ]
+    },
+    {
+     "TransformerId": "464",
+     "feeders": [
+      "manual",
+      "2",
+      "8"
+     ]
+    }
+   ],
+   "transformers_sha256": "907438bbc4e5119ef7939b05f2d69d074ac38ae9917f0fce67080d8704db1574"
+  },
+  "41230": {
+   "CaseID": "41230",
+   "EndDate": "2026-08-21T03:00:00+02:00",
+   "StartDate": "2026-08-20T20:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "268",
+     "feeders": [
+      "3"
+     ]
+    }
+   ],
+   "transformers_sha256": "48add0ca83c96942c1fe531611fdd7d603805067ad81fb785d2124cbc62deccf"
+  },
+  "41231": {
+   "CaseID": "41231",
+   "EndDate": "2026-08-22T16:00:00+02:00",
+   "StartDate": "2026-08-22T12:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "266",
+     "feeders": [
+      "7"
+     ]
+    }
+   ],
+   "transformers_sha256": "10dd614934a2af19184d37b9dbcc6668ae80000fa73b95ef43a1d6cf26c9c502"
+  },
+  "41232": {
+   "CaseID": "41232",
+   "EndDate": "2026-08-21T13:00:00+02:00",
+   "StartDate": "2026-08-21T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "2139",
+     "feeders": [
+      "2"
+     ]
+    }
+   ],
+   "transformers_sha256": "88e04417894351cf7dc82824734af6c80a8c48db10842166dcd5c417908b7714"
+  },
+  "41233": {
+   "CaseID": "41233",
+   "EndDate": "2026-08-20T12:00:00+02:00",
+   "StartDate": "2026-08-20T07:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "705",
+     "feeders": [
+      "2"
+     ]
+    }
+   ],
+   "transformers_sha256": "01f9f7e3d7867e975e95b4f53446268f103f2e3aa1b78d4775ec06fe685f48dd"
   }
  },
  "planned_page": {
