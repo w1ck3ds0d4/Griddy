@@ -999,6 +999,14 @@
   }
  },
  "planned_page": {
+  "03d9d332d1fc67f2": {
+   "city": "Haz-Zebbug",
+   "from": "27 August 2026 07:00",
+   "streets": [
+    "TRIQ WIED IS-SEWDA"
+   ],
+   "to": "27 August 2026 11:00"
+  },
   "2f356a9e0a453d7c": {
    "city": "Hal Qormi",
    "from": "20 August 2026 20:30",
@@ -1059,6 +1067,24 @@
    ],
    "to": "20 August 2026 12:00"
   },
+  "4d7415fae6ddd1cd": {
+   "city": "Iz-Zurrieq",
+   "from": "25 August 2026 07:00",
+   "streets": [
+    "TRIQ ID- DEJQA",
+    "TRIQ SAN MARK",
+    "TRIQ L- IMDAWRA",
+    "TREJQET IL- BARRIERI",
+    "TRIQ IL- GIBJUN",
+    "TRIQ IL- BARRIERI",
+    "TRIQ IL- MITHNA TAL-QARET",
+    "TRIQ IL- KUNCIZZJONI",
+    "TRIQ MADRE MARIA TEREZA NUZZO",
+    "TAL-GIBJUN",
+    "LIMITI TAZ-"
+   ],
+   "to": "25 August 2026 11:00"
+  },
   "51babee6b861751e": {
    "city": "Hal Qormi",
    "from": "22 August 2026 12:00",
@@ -1114,6 +1140,26 @@
     "TRIQ IL- MOSTA"
    ],
    "to": "19 August 2026 07:00"
+  },
+  "669b28a1824cd4d2": {
+   "city": "Hal Qormi",
+   "from": "21 August 2026 07:00",
+   "streets": [
+    "TRIQ IL- PROZA",
+    "MISRAH IL- KITTIEBA",
+    "TRIQ GUZE' ELLUL MERCER",
+    "TRIQ ALEXANDRA",
+    "TRIQ L- IMDINA"
+   ],
+   "to": "21 August 2026 12:00"
+  },
+  "69c493a93b73b5a7": {
+   "city": "Birkirkara",
+   "from": "25 August 2026 03:00",
+   "streets": [
+    "TRIQ IL- GHAJN"
+   ],
+   "to": "25 August 2026 07:00"
   },
   "7bf792ce37625479": {
    "city": "Birkirkara",
@@ -1267,6 +1313,23 @@
     "TRIQ IL- PORT HIELES"
    ],
    "to": "19 August 2026 13:30"
+  },
+  "be16222dad650e24": {
+   "city": "Haz-Zabbar",
+   "from": "20 August 2026 07:00",
+   "streets": [
+    "TRIQ IL- LEMBIJA",
+    "TRIQ IL- BAHRIJA",
+    "TRIQ IL- QALB IMQADDSA",
+    "TRIQ IL- KARMNU",
+    "TRIQ IL- KAPPUCCINI",
+    "TRIQ SANTA DUMINKA",
+    "TRIQ IZ- ZINGLA",
+    "TRIQ ALESSIO ERARDI",
+    "TRIQ IL- KARMNU",
+    "TRIQ GDIDA FI"
+   ],
+   "to": "20 August 2026 13:00"
   },
   "cff7195b7416df71": {
    "city": "In-Naxxar",
