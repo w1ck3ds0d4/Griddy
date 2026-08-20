@@ -1064,6 +1064,18 @@
    ],
    "to": "21 August 2026 12:30"
   },
+  "88735b6d0cbd9b97": {
+   "city": "Il-Fgura",
+   "from": "21 August 2026 07:00",
+   "streets": [
+    "TRIQ IS- SUMMIENA",
+    "TRIQ L- GHASFUR TAL-BEJT",
+    "TRIQ IL- GOJJIN",
+    "TRIQ MAHATMA GANDHI",
+    "TRIQ IL- PITIRROSS"
+   ],
+   "to": "21 August 2026 11:30"
+  },
   "965b8930379dcc70": {
    "city": "L-Isla",
    "from": "20 August 2026 08:00",
@@ -1183,6 +1195,31 @@
     "TRIQ IC- CIRASA"
    ],
    "to": "24 August 2026 11:30"
+  },
+  "e6228b0f5f103697": {
+   "city": "Ir-Rabat, Ghawdex",
+   "from": "26 August 2026 08:30",
+   "streets": [
+    "TRIQ SAN DUMINKU",
+    "TRIQ GHAJN QATET",
+    "TRIQ SANTA DUMINKA",
+    "TRIQ KAROLINA CAUCHI",
+    "TRIQ CETTA MINTOFF",
+    "TRIQ MANWEL DIMECH",
+    "TRIQ GUZE' MICALLEF",
+    "TRIQ SIR ARTURO MERCIECA",
+    "TRIQ IT- TABIB ANTON TABONE",
+    "TRIQ IL- WIEHED U TLETIN TA' MARZU",
+    "1979",
+    "TRIQ WISTIN CAMILLERI",
+    "TRIQ GUZE' CREMONA",
+    "TRIQ IT- TMIENJA TA' DICEMBRU",
+    "TRIQ POMPEJ",
+    "PJAZZA SAN FRANGISK",
+    "TRIQ ENRICO MIZZI",
+    "WESGHA VICENZO LABINI"
+   ],
+   "to": "26 August 2026 16:00"
   },
   "f2cae5e875fb0287": {
    "city": "L-Ghasri",
