@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "6e08861c2a2f6570": {
+   "CreatedDate": "2026-08-20T10:34:33.42+02:00",
+   "Id": 177869,
+   "Localities": "Gharghur",
+   "OutageId": 18177,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "4eed727a50d70e2d16b5aac8e8139f62b601050b3bde5a6d1e675d65e4d000d5",
+   "lastupdated": "2026-08-20T10:24:40.137+02:00"
+  }
+ },
  "planned": {
   "41203": {
    "CaseID": "41203",
