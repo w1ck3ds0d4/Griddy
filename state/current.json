@@ -1013,27 +1013,6 @@
    ],
    "to": "21 August 2026 10:00"
   },
-  "2f356a9e0a453d7c": {
-   "city": "Hal Qormi",
-   "from": "20 August 2026 20:30",
-   "streets": [
-    "TRIQ TAL- HANDAQ",
-    "TRIQ PROF. CARMELO COLEIRO",
-    "TRIQ ANTHONY JOHN COLEIRO",
-    "TRIQ DANIEL SPITERI SACCO"
-   ],
-   "to": "21 August 2026 03:30"
-  },
-  "32d84d2046906abc": {
-   "city": "Il-Belt Valletta",
-   "from": "20 August 2026 04:30",
-   "streets": [
-    "TRIQ TAT- TEATRU L-ANTIK",
-    "TRIQ SANTA LUCIJA",
-    "TRIQ SANT' ORSLA"
-   ],
-   "to": "20 August 2026 08:30"
-  },
   "3d32bbdfb345a26f": {
    "city": "Il-Mosta",
    "from": "24 August 2026 07:30",
@@ -1062,28 +1041,6 @@
    ],
    "to": "21 August 2026 11:00"
   },
-  "4799dae2df9313a8": {
-   "city": "Ir-Rabat",
-   "from": "20 August 2026 07:00",
-   "streets": [
-    "TRIQ PIERRE MUSCAT",
-    "TRIQ ANTON MUSCAT AZZOPARDI",
-    "TRIQ PAWLU INGUANEZ",
-    "TRIQ SANTA RITA"
-   ],
-   "to": "20 August 2026 11:00"
-  },
-  "4c49bc954e421dc6": {
-   "city": "Haz-Zebbug",
-   "from": "20 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- KANDLORA",
-    "TRIQ GDIDA FI",
-    "TRIQ IL- QUBBAJT",
-    "TRIQ IL- MITHNA"
-   ],
-   "to": "20 August 2026 12:00"
-  },
   "4d7415fae6ddd1cd": {
    "city": "Iz-Zurrieq",
    "from": "25 August 2026 07:00",
@@ -1111,24 +1068,6 @@
     "TRIQ GUZE' GALEA"
    ],
    "to": "22 August 2026 16:00"
-  },
-  "5c67943915f2842b": {
-   "city": "Iz-Zebbug",
-   "from": "20 August 2026 08:30",
-   "streets": [
-    "TRIQ MIEGEL BAHAR",
-    "TRIQ SANTA MARIJA",
-    "TRIQ IS- SALINI"
-   ],
-   "to": "20 August 2026 12:30"
-  },
-  "601e312997a77104": {
-   "city": "Haz-Zebbug",
-   "from": "20 August 2026 20:30",
-   "streets": [
-    "SQAQ TA' GHAR-RAM"
-   ],
-   "to": "21 August 2026 03:30"
   },
   "669b28a1824cd4d2": {
    "city": "Hal Qormi",
@@ -1181,113 +1120,6 @@
     "TRIQ IL- PITIRROSS"
    ],
    "to": "21 August 2026 11:30"
-  },
-  "965b8930379dcc70": {
-   "city": "L-Isla",
-   "from": "20 August 2026 08:00",
-   "streets": [
-    "TRIQ IL- VITORJA",
-    "TRIQ IL- PORTU SALVU",
-    "MISRAH IL- PAPA BENEDITTU XV",
-    "TRIQ SAN PIETRU U SAN PAWL",
-    "TRIQ DINGLI-CORNELIO",
-    "TRIQ IL- KURCIFISS",
-    "TRIQ IL- MINA TAX-XATT",
-    "TRIQ SAN GILJAN",
-    "MISRAH L- ERBGHA TA' SETTEMBRU",
-    "TRIQ D' HOMEDES",
-    "SQAQ IL- GNIEN",
-    "TRIQ IL- KUNCIZZJONI",
-    "TRIQ IL- KAPPILLAN FRANGISK AZZOPARDI",
-    "TRIQ SAN MIKIEL",
-    "TRIQ ID- DULURI",
-    "TRIQ SANT' URSOLA",
-    "TRIQ L- ARKATI",
-    "TRIQ IL- PONTA",
-    "TRIQ SANTA KATERINA",
-    "MISRAH ANDREA DEBONO",
-    "TRIQ SANT' ANGLU",
-    "MISRAH DOM MAWRU INGUANEZ",
-    "TRIQ SAN FRANGISK",
-    "TRIQ IS- SUR",
-    "TRIQ IX- XATT JUAN B. AZOPARDO",
-    "TRIQ SAN LAWRENZ",
-    "TRIQ IL- MIGJA TAL-PAPA",
-    "TRIQ IS- SIRENA",
-    "TRIQ SAN FILIPPU",
-    "TRIQ IL- GRIGAL",
-    "TRIQ IZ- ZEWG MINI",
-    "TRIQ DUN KARM AZZOPARDI"
-   ],
-   "to": "20 August 2026 12:00"
-  },
-  "9f42a91039ae6883": {
-   "city": "Marsaskala",
-   "from": "20 August 2026 07:00",
-   "streets": [
-    "TRIQ SAN GWAKKIN",
-    "TRIQ IL- BUZBIEZ",
-    "TRIQ LA SENGLE",
-    "TRIQ FRANS GRECH",
-    "TRIQ IL- BUR"
-   ],
-   "to": "20 August 2026 13:00"
-  },
-  "a8ffc051176c24ce": {
-   "city": "L-Isla",
-   "from": "20 August 2026 19:00",
-   "streets": [
-    "TRIQ IL- VITORJA",
-    "TRIQ IL- PORTU SALVU",
-    "MISRAH IL- PAPA BENEDITTU XV",
-    "TRIQ SAN PIETRU U SAN PAWL",
-    "TRIQ DINGLI-CORNELIO",
-    "TRIQ IL- KURCIFISS",
-    "TRIQ IL- MINA TAX-XATT",
-    "TRIQ SAN GILJAN",
-    "MISRAH L- ERBGHA TA' SETTEMBRU",
-    "TRIQ D' HOMEDES",
-    "SQAQ IL- GNIEN",
-    "TRIQ IL- KUNCIZZJONI",
-    "TRIQ IL- KAPPILLAN FRANGISK AZZOPARDI",
-    "TRIQ SAN MIKIEL",
-    "TRIQ ID- DULURI",
-    "TRIQ SANT' URSOLA",
-    "TRIQ L- ARKATI",
-    "TRIQ IL- PONTA",
-    "TRIQ SANTA KATERINA",
-    "MISRAH ANDREA DEBONO",
-    "TRIQ SANT' ANGLU",
-    "MISRAH DOM MAWRU INGUANEZ",
-    "TRIQ SAN FRANGISK",
-    "TRIQ IS- SUR",
-    "TRIQ IX- XATT JUAN B. AZOPARDO",
-    "TRIQ SAN LAWRENZ",
-    "TRIQ IL- MIGJA TAL-PAPA",
-    "TRIQ IS- SIRENA",
-    "TRIQ SAN FILIPPU",
-    "TRIQ IL- GRIGAL",
-    "TRIQ IZ- ZEWG MINI",
-    "TRIQ DUN KARM AZZOPARDI"
-   ],
-   "to": "20 August 2026 21:00"
-  },
-  "be16222dad650e24": {
-   "city": "Haz-Zabbar",
-   "from": "20 August 2026 07:00",
-   "streets": [
-    "TRIQ IL- LEMBIJA",
-    "TRIQ IL- BAHRIJA",
-    "TRIQ IL- QALB IMQADDSA",
-    "TRIQ IL- KARMNU",
-    "TRIQ IL- KAPPUCCINI",
-    "TRIQ SANTA DUMINKA",
-    "TRIQ IZ- ZINGLA",
-    "TRIQ ALESSIO ERARDI",
-    "TRIQ IL- KARMNU",
-    "TRIQ GDIDA FI"
-   ],
-   "to": "20 August 2026 13:00"
   },
   "cff7195b7416df71": {
    "city": "In-Naxxar",
