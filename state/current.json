@@ -761,6 +761,17 @@
    ],
    "to": "21 August 2026 10:00"
   },
+  "2ad3935ebbdfe21f": {
+   "city": "Haz-Zebbug",
+   "from": "27 August 2026 07:00",
+   "streets": [
+    "TRIQ ADEODATO GATT",
+    "TRIQ L- GHASFURA",
+    "TRIQ TUMAS DINGLI",
+    "TRIQ PARIS"
+   ],
+   "to": "27 August 2026 12:00"
+  },
   "3a7e79dad9481aec": {
    "city": "L-Imqabba",
    "from": "26 August 2026 07:00",
@@ -851,6 +862,20 @@
    ],
    "to": "25 August 2026 07:00"
   },
+  "728730c9d5e2f1ed": {
+   "city": "Hal Luqa",
+   "from": "28 August 2026 07:00",
+   "streets": [
+    "SQAQ SANT' ANDRIJA NRU. 5",
+    "TRIQ L- ISKOLA",
+    "TRIQ SIR UGO MIFSUD",
+    "TRIQ SAN GORG",
+    "SQAQ SANT' ANDRIJA NRU. 4",
+    "TRIQ IL- GDIDA",
+    "TRIQ SANT' ANDRIJA"
+   ],
+   "to": "28 August 2026 12:00"
+  },
   "7bf792ce37625479": {
    "city": "Birkirkara",
    "from": "21 August 2026 08:00",
@@ -892,6 +917,22 @@
     "VJAL L- INDIPENDENZA"
    ],
    "to": "25 August 2026 12:00"
+  },
+  "aead289792a88bea": {
+   "city": "Haz-Zebbug",
+   "from": "26 August 2026 07:00",
+   "streets": [
+    "TRIQ LURET VELLA",
+    "TRIQ L- ISQOF",
+    "TRIQ CAMPIS",
+    "TRIQ DE ROHAN",
+    "TRIQ IL- KBIRA",
+    "SQAQ NRU. 5",
+    "TRIQ DUN MIJU ZARB",
+    "TRIQ ID- DEJQA",
+    "TRIQ SAN ROKKU"
+   ],
+   "to": "26 August 2026 12:00"
   },
   "bdb97a7f67656154": {
    "city": "Birkirkara",
@@ -952,6 +993,20 @@
     "WESGHA VICENZO LABINI"
    ],
    "to": "26 August 2026 16:00"
+  },
+  "e8cf46916ec6ea23": {
+   "city": "Il-Gzira",
+   "from": "24 August 2026 08:00",
+   "streets": [
+    "TRIQ SIR WILLIAM REID",
+    "TRIQ SAMUEL TAYLOR COLERIDGE",
+    "TRIQ SIR CHARLES CAMERON",
+    "TRIQ SIR FREDERICK C. PONSONBY",
+    "TRIQ SIR PATRICK STUART",
+    "TRIQ IX- XATT",
+    "TRIQ CARLO MANCHE'"
+   ],
+   "to": "24 August 2026 10:00"
   },
   "f2cae5e875fb0287": {
    "city": "L-Ghasri",
