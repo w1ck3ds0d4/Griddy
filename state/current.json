@@ -1,8 +1,8 @@
 {
  "live": {
-  "2dc23dbe7552260e": {
-   "CreatedDate": "2026-08-23T00:13:35.327+02:00",
-   "Id": 178211,
+  "31fce245042d82c0": {
+   "CreatedDate": "2026-08-23T00:23:35.34+02:00",
+   "Id": 178221,
    "Localities": "St. Paul's Bay",
    "OutageId": 18194,
    "OutageType": 2,
@@ -472,16 +472,6 @@
    ],
    "to": "25 August 2026 11:00"
   },
-  "51babee6b861751e": {
-   "city": "Hal Qormi",
-   "from": "22 August 2026 12:00",
-   "streets": [
-    "TRIQ IL- GDIDA",
-    "TRIQ L- IMDINA",
-    "TRIQ GUZE' GALEA"
-   ],
-   "to": "22 August 2026 16:00"
-  },
   "69c493a93b73b5a7": {
    "city": "Birkirkara",
    "from": "25 August 2026 03:00",
@@ -542,19 +532,6 @@
     "TRIQ IC- CIRASA"
    ],
    "to": "24 August 2026 11:30"
-  },
-  "d5a5fc255aeeecbd": {
-   "city": "Ta’ Sannat",
-   "from": "22 August 2026 08:30",
-   "streets": [
-    "TRIQ IL- KALKARA TAL-GIR",
-    "TRIQ L- GHAXRA T' OTTUBRU",
-    "1942",
-    "TRIQ SANT' ADEODATU",
-    "TRIQ PISONIANO",
-    "TRIQ TA' BARDAN"
-   ],
-   "to": "22 August 2026 14:00"
   },
   "e6228b0f5f103697": {
    "city": "Ir-Rabat, Ghawdex",
