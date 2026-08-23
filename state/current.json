@@ -293,6 +293,15 @@
   }
  },
  "planned_page": {
+  "01000c9e66b72864": {
+   "city": "Marsaskala",
+   "from": "28 August 2026 07:00",
+   "streets": [
+    "TRIQ SANT' ANTNIN",
+    "TRIQ IZ- ZINZELL"
+   ],
+   "to": "28 August 2026 12:00"
+  },
   "03d9d332d1fc67f2": {
    "city": "Haz-Zebbug",
    "from": "27 August 2026 07:00",
@@ -464,6 +473,21 @@
     "TRIQ SAN GWANN BOSCO"
    ],
    "to": "25 August 2026 12:00"
+  },
+  "fe150ee2ace9474b": {
+   "city": "Marsaxlokk",
+   "from": "27 August 2026 07:00",
+   "streets": [
+    "TRIQ ABDOSIR",
+    "TRIQ IL- WILGA",
+    "TRIQ BIR RIKKA",
+    "TRIQ IT- 8 TA' MEJJU",
+    "TRIQ IL- POWER STATION",
+    "TRIQ L- AVUKAT CARMELO CARUANA",
+    "TRIQ TAS- SILG",
+    "TRIQ IL- PATRIJIET TEREZJANI"
+   ],
+   "to": "27 August 2026 12:00"
   }
  }
 }
