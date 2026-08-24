@@ -314,6 +314,19 @@
    ],
    "to": "27 August 2026 11:00"
   },
+  "0a4fffe61dd99af2": {
+   "city": "Il-Belt Valletta",
+   "from": "26 August 2026 04:30",
+   "streets": [
+    "TRIQ SAN NIKOLA",
+    "TRIQ L- ISPTAR",
+    "TRIQ IL- MERKANTI",
+    "TRIQ SAN PAWL",
+    "TRIQ SAN DUMINKU",
+    "TRIQ SANT' ORSLA"
+   ],
+   "to": "26 August 2026 08:30"
+  },
   "20a6a362a31bc57f": {
    "city": "San Giljan",
    "from": "28 August 2026 03:00",
@@ -382,6 +395,19 @@
     "LIMITI TAZ-"
    ],
    "to": "25 August 2026 11:00"
+  },
+  "607e0b1e39951534": {
+   "city": "Santa Venera",
+   "from": "27 August 2026 07:30",
+   "streets": [
+    "TRIQ IL- HADDIED",
+    "TRIQ ANTONIO MIRUZZI",
+    "TRIQ IL- BRUNZAR",
+    "TRIQ IL- PARROCCA",
+    "TRIQ IL- BUTTAR",
+    "TRIQ IL- KANUN"
+   ],
+   "to": "27 August 2026 11:30"
   },
   "69c493a93b73b5a7": {
    "city": "Birkirkara",
