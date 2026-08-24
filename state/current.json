@@ -495,17 +495,6 @@
    ],
    "to": "26 August 2026 13:30"
   },
-  "3d32bbdfb345a26f": {
-   "city": "Il-Mosta",
-   "from": "24 August 2026 07:30",
-   "streets": [
-    "TRIQ IL- HTAJRIET",
-    "TRIQ GDIDA FI",
-    "TRIQ IS- SGHAJTAR",
-    "TRIQ INDRI BEZZINA"
-   ],
-   "to": "24 August 2026 11:30"
-  },
   "607e0b1e39951534": {
    "city": "Santa Venera",
    "from": "27 August 2026 07:30",
@@ -589,19 +578,6 @@
    ],
    "to": "26 August 2026 12:00"
   },
-  "cff7195b7416df71": {
-   "city": "In-Naxxar",
-   "from": "24 August 2026 07:30",
-   "streets": [
-    "TRIQ IS- SGHAJTAR",
-    "TRIQ IL- BERQUQ",
-    "TRIQ IL- GELLEWZ",
-    "TRIQ IL- HAWH",
-    "TRIQ IL- LANGAS",
-    "TRIQ IC- CIRASA"
-   ],
-   "to": "24 August 2026 11:30"
-  },
   "e6228b0f5f103697": {
    "city": "Ir-Rabat, Ghawdex",
    "from": "26 August 2026 08:30",
@@ -626,20 +602,6 @@
     "WESGHA VICENZO LABINI"
    ],
    "to": "26 August 2026 16:00"
-  },
-  "e8cf46916ec6ea23": {
-   "city": "Il-Gzira",
-   "from": "24 August 2026 08:00",
-   "streets": [
-    "TRIQ SIR WILLIAM REID",
-    "TRIQ SAMUEL TAYLOR COLERIDGE",
-    "TRIQ SIR CHARLES CAMERON",
-    "TRIQ SIR FREDERICK C. PONSONBY",
-    "TRIQ SIR PATRICK STUART",
-    "TRIQ IX- XATT",
-    "TRIQ CARLO MANCHE'"
-   ],
-   "to": "24 August 2026 10:00"
   },
   "f3158d3c6d380b94": {
    "city": "Had-Dingli",
