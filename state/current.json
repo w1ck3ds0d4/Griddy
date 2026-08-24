@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "e8391a18ff2c2876": {
+   "CreatedDate": "2026-08-24T16:57:37.313+02:00",
+   "Id": 178277,
+   "Localities": "Hamrun, Marsa",
+   "OutageId": 18208,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "d5100b143c047ce13484467a1d39f98aa90920035254bfd9aa10c56f99b4282e",
+   "lastupdated": "2026-08-24T16:28:42.273+02:00"
+  }
+ },
  "planned": {
   "41239": {
    "CaseID": "41239",
