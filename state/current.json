@@ -378,24 +378,6 @@
    ],
    "to": "24 August 2026 11:30"
   },
-  "4d7415fae6ddd1cd": {
-   "city": "Iz-Zurrieq",
-   "from": "25 August 2026 07:00",
-   "streets": [
-    "TRIQ ID- DEJQA",
-    "TRIQ SAN MARK",
-    "TRIQ L- IMDAWRA",
-    "TREJQET IL- BARRIERI",
-    "TRIQ IL- GIBJUN",
-    "TRIQ IL- BARRIERI",
-    "TRIQ IL- MITHNA TAL-QARET",
-    "TRIQ IL- KUNCIZZJONI",
-    "TRIQ MADRE MARIA TEREZA NUZZO",
-    "TAL-GIBJUN",
-    "LIMITI TAZ-"
-   ],
-   "to": "25 August 2026 11:00"
-  },
   "607e0b1e39951534": {
    "city": "Santa Venera",
    "from": "27 August 2026 07:30",
@@ -440,6 +422,28 @@
     "VJAL L- INDIPENDENZA"
    ],
    "to": "25 August 2026 12:00"
+  },
+  "a77427efc55642be": {
+   "city": "Iz-Zurrieq",
+   "from": "26 August 2026 07:00",
+   "streets": [
+    "TRIQ IN- NIGRET",
+    "TRIQ ID- DEJQA",
+    "TRIQ SAN MARK",
+    "TRIQ L- IMDAWRA",
+    "TRIQ IL- MUNQAR",
+    "TRIQ IL- WARDIJA",
+    "TREJQET IL- BARRIERI",
+    "TRIQ IL- GIBJUN",
+    "TRIQ IL- BARRIERI",
+    "TRIQ IL- MITHNA TAL-QARET",
+    "TRIQ WIED GANU",
+    "TRIQ IL- KUNCIZZJONI",
+    "TRIQ MADRE MARIA TEREZA NUZZO",
+    "TAL-GIBJUN",
+    "LIMITI TAZ-"
+   ],
+   "to": "26 August 2026 11:00"
   },
   "aead289792a88bea": {
    "city": "Haz-Zebbug",
