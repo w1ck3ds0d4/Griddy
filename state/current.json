@@ -13,7 +13,7 @@
      ]
     }
    ],
-   "transformers_sha256": "43691bc5d5342139312cd7375aa624ead3062334d86746c019d82e2e057b79b1"
+   "transformers_sha256": "3266fa4c309d3cf28d2be4dc5a9d999ed082663395017d99f7b22989679acb4a"
   },
   "41242": {
    "CaseID": "41242",
@@ -49,7 +49,7 @@
      ]
     }
    ],
-   "transformers_sha256": "2635581be5e6b9b81bf33ec32006a04882b3a49d7350d519eb5ccc5567195e83"
+   "transformers_sha256": "299abb1911383f6c4b1c7b667ea70ea5d96dd427b290ddf6518273d30fda51e3"
   },
   "41244": {
    "CaseID": "41244",
@@ -97,7 +97,7 @@
      ]
     }
    ],
-   "transformers_sha256": "2bb13cc405576bae70b7b04322be1c65666b6a6a0b3dc02bcf95499114b488a7"
+   "transformers_sha256": "6eea4b37b1178c2cb872537dd57ca6c165add87fbe4a3fc98cc2fbf31f34a1dd"
   },
   "41250": {
    "CaseID": "41250",
@@ -111,7 +111,7 @@
      ]
     }
    ],
-   "transformers_sha256": "bac27d16e41248f9bc2b79c96326ef4e6c19176641b2311d5ca31c7580818c68"
+   "transformers_sha256": "d9935ffc9dc17c8c612811111b315b38b7018d6a939412b506bdab5259843ef9"
   },
   "41252": {
    "CaseID": "41252",
@@ -125,7 +125,7 @@
      ]
     }
    ],
-   "transformers_sha256": "b5b580e7d4b91d903265f0c8a4b19998a4fb92a0c6cb53cfa2acc8d7069d76df"
+   "transformers_sha256": "713f4e0633ac50f7ba4b99553de860cbe5fdb4708c7f8c5f1760a112798a5474"
   },
   "41256": {
    "CaseID": "41256",
@@ -147,7 +147,7 @@
      ]
     }
    ],
-   "transformers_sha256": "aa92f96ec9979f1da3769c78e0deb65065e85c4f764d687eef7120d3f4c2ab45"
+   "transformers_sha256": "4c4221b708d69b8ee13dd727871247ea6962daddbd04665fefeafe9cb464f29d"
   },
   "41257": {
    "CaseID": "41257",
@@ -191,7 +191,7 @@
      ]
     }
    ],
-   "transformers_sha256": "56a995a7b3e2038933e3df431917d2fd57a49757135a1a6a0fdb7f26f4dc03cd"
+   "transformers_sha256": "80ab8afe0c604ce7b6f5d3f9c061d2d1a20e59a0b29b1be7bed4d1afaa5a47b8"
   },
   "41258": {
    "CaseID": "41258",
@@ -205,7 +205,7 @@
      ]
     }
    ],
-   "transformers_sha256": "42ea9ae651a1391012bb47fc7b5967e491dd50e09d9d5c49628d36081b6c2735"
+   "transformers_sha256": "38385a68b405da3f7a56cb27f4cda62912e516fb5a94518084bc8e7bdec93dbd"
   },
   "41259": {
    "CaseID": "41259",
@@ -219,7 +219,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a8109d65d7488af3daafeff3fa717cefd8c5478bd1f4cdfed7a69d65e04b578b"
+   "transformers_sha256": "e176fde4631ece382dded0eba7420cd67acee5eb5859312d5c7695d4b167a16e"
   },
   "41260": {
    "CaseID": "41260",
@@ -233,7 +233,7 @@
      ]
     }
    ],
-   "transformers_sha256": "6afb52b3c9bb86029ab29a7d6c40937983cbe716d8c95d903d477728b191d20d"
+   "transformers_sha256": "25d22e1c026594daf8e34ccea53b4c4afd5f6b59ceb3365add617c35d41a69ed"
   },
   "41261": {
    "CaseID": "41261",
@@ -261,7 +261,39 @@
      ]
     }
    ],
-   "transformers_sha256": "e32197081e9c290fb9ffbddc1482f72a80f07a8486c4d1798020f7ea3a82c734"
+   "transformers_sha256": "4d8e4f710bdaa27981ee5ea55a65e297f2329937e1e249b68402b809f90f8edb"
+  },
+  "41263": {
+   "CaseID": "41263",
+   "EndDate": "2026-08-28T07:00:00+02:00",
+   "StartDate": "2026-08-28T03:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "648",
+     "feeders": [
+      "1",
+      "2",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "648",
+     "feeders": [
+      "1",
+      "2",
+      "Unknown"
+     ]
+    },
+    {
+     "TransformerId": "648",
+     "feeders": [
+      "1",
+      "2",
+      "Unknown"
+     ]
+    }
+   ],
+   "transformers_sha256": "4dac2643a1349a771fb790e308f2e3064244649a9672b59a0ce6f101b5219050"
   }
  },
  "planned_page": {
@@ -281,6 +313,21 @@
     "TRIQ WIED IS-SEWDA"
    ],
    "to": "27 August 2026 11:00"
+  },
+  "20a6a362a31bc57f": {
+   "city": "San Giljan",
+   "from": "28 August 2026 03:00",
+   "streets": [
+    "TRIQ SAN MARK",
+    "SQAQ CIANTAR",
+    "TRIQ ANGELO PULLICINO",
+    "TREJQET IL- BAJJA",
+    "TRIQ GDIDA FI",
+    "TELGHET BIRKIRKARA",
+    "TRIQ IL- KBIRA",
+    "TRIQ ALFRED GAUCI"
+   ],
+   "to": "28 August 2026 07:00"
   },
   "2ad3935ebbdfe21f": {
    "city": "Haz-Zebbug",
