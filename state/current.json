@@ -1,16 +1,5 @@
 {
- "live": {
-  "acac7df5bc473b1e": {
-   "CreatedDate": "2026-08-24T17:46:37.673+02:00",
-   "Id": 178326,
-   "Localities": "Marsa",
-   "OutageId": 18208,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "4462cdd950beee8612e8096916a5c10534332dea1d8da1843406021a5582afc1",
-   "lastupdated": "2026-08-24T16:28:42.273+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41239": {
    "CaseID": "41239",
