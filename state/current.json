@@ -1,13 +1,13 @@
 {
  "live": {
-  "5cf6b3f04c24ce9a": {
-   "CreatedDate": "2026-08-25T07:45:37.57+02:00",
-   "Id": 178376,
+  "9c5846f3dd717e0b": {
+   "CreatedDate": "2026-08-25T07:55:37.78+02:00",
+   "Id": 178386,
    "Localities": "Gharghur, Swieqi",
    "OutageId": 18216,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "9a54af4ae2c2f5dc564b6169cf67689cf7a57e8423529ef493f4ef54c13332f3",
+   "geometry_sha256": "ded65cf65c17dd621a7c49765996b0b127ed5d6a70603a19bd4623d613ae517e",
    "lastupdated": "2026-08-25T06:57:02.657+02:00"
   }
  },
