@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "f6550f1d09a5fcbb": {
+   "CreatedDate": "2026-08-25T07:02:37.547+02:00",
+   "Id": 178333,
+   "Localities": "Gharghur, Swieqi",
+   "OutageId": 18216,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "9a54af4ae2c2f5dc564b6169cf67689cf7a57e8423529ef493f4ef54c13332f3",
+   "lastupdated": "2026-08-25T06:57:02.657+02:00"
+  }
+ },
  "planned": {
   "41239": {
    "CaseID": "41239",
@@ -483,6 +494,23 @@
    ],
    "to": "26 August 2026 08:30"
   },
+  "1273244116c3fdd0": {
+   "city": "Il-Marsa",
+   "from": "26 August 2026 13:00",
+   "streets": [
+    "TRIQ NERIK SACCO",
+    "TRIQ ISOUARD",
+    "TRIQ SAURA",
+    "TRIQ IL- KARMNU",
+    "TRIQ AZZOPARDI",
+    "TRIQ SAN MIKIEL",
+    "TRIQ IL- KUNCIZZJONI",
+    "TRIQ SAN FRANGISK",
+    "TRIQ IL- MARSA",
+    "TRIQ HAL QORMI"
+   ],
+   "to": "26 August 2026 16:00"
+  },
   "20a6a362a31bc57f": {
    "city": "San Giljan",
    "from": "28 August 2026 03:00",
@@ -497,6 +525,20 @@
     "TRIQ ALFRED GAUCI"
    ],
    "to": "28 August 2026 07:00"
+  },
+  "2409c9362d92b618": {
+   "city": "Il-Hamrun",
+   "from": "26 August 2026 13:00",
+   "streets": [
+    "TRIQ ATOCIA",
+    "TRIQ ID- DUKA TA' EDINBURGH",
+    "TRIQ SAN GEJTANU",
+    "TRIQ SAN VINCENZ",
+    "TRIQ IL- KBIRA SAN GUZEPP",
+    "TRIQ HAL QORMI",
+    "TRIQ IS- SORIJIET IZ-ZGHAR TAL-FQAR"
+   ],
+   "to": "26 August 2026 16:00"
   },
   "2ad3935ebbdfe21f": {
    "city": "Haz-Zebbug",
@@ -543,6 +585,18 @@
     "TRIQ IL- GHAJN"
    ],
    "to": "25 August 2026 07:00"
+  },
+  "6aa9b3c4a9578e69": {
+   "city": "Santa Venera",
+   "from": "25 August 2026 07:30",
+   "streets": [
+    "TRIQ L- IMSIDA",
+    "TRIQ ROMEO ROMANO",
+    "TRIQ ADELAIDE CINI",
+    "TRIQ IL- MARKIZ JOHN SCICLUNA",
+    "TRIQ IL- MADONNA TAL-KARMNU"
+   ],
+   "to": "25 August 2026 11:30"
   },
   "728730c9d5e2f1ed": {
    "city": "Hal Luqa",
@@ -606,6 +660,17 @@
    ],
    "to": "26 August 2026 12:00"
   },
+  "e3f902a5ac75fe8d": {
+   "city": "Il-Mosta",
+   "from": "26 August 2026 03:15",
+   "streets": [
+    "TRIQ SIR ARTHUR BORTON",
+    "TRIQ IL- KOSTITUZZJONI",
+    "TRIQ FILIPPO APAP BOLOGNA",
+    "TRIQ NIKOL MUSCAT"
+   ],
+   "to": "26 August 2026 08:30"
+  },
   "e6228b0f5f103697": {
    "city": "Ir-Rabat, Ghawdex",
    "from": "26 August 2026 08:30",
@@ -630,6 +695,26 @@
     "WESGHA VICENZO LABINI"
    ],
    "to": "26 August 2026 16:00"
+  },
+  "f03a76fb5c68076c": {
+   "city": "Il-Marsa",
+   "from": "26 August 2026 13:00",
+   "streets": [
+    "TRIQ IL- MARSA"
+   ],
+   "to": "26 August 2026 16:00"
+  },
+  "f0593734fa29d294": {
+   "city": "In-Naxxar",
+   "from": "27 August 2026 03:15",
+   "streets": [
+    "TRIQ L- GHAJNBAQAR",
+    "TRIQ IL- LANGAS",
+    "TRIQ IT- TUFFIEH",
+    "TRIQ IC- CIRASA",
+    "TRIQ SPANJA"
+   ],
+   "to": "27 August 2026 10:30"
   },
   "f3158d3c6d380b94": {
    "city": "Had-Dingli",
