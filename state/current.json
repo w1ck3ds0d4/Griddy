@@ -1,13 +1,13 @@
 {
  "live": {
-  "5b5f5ff56790c120": {
-   "CreatedDate": "2026-08-25T20:32:39.64+02:00",
-   "Id": 178749,
-   "Localities": "Birzebbugia, Fgura, Ghaxaq, Gudja, Luqa, Marsaxlokk, Paola, Santa Lucija, Tarxien, Zejtun",
+  "db6e47b46d33a7d7": {
+   "CreatedDate": "2026-08-25T20:56:38.5+02:00",
+   "Id": 178773,
+   "Localities": "Birzebbugia, Fgura, Ghaxaq, Gudja, Luqa, Paola, Santa Lucija, Tarxien, Zejtun",
    "OutageId": 18229,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "2e5ad921d4d898cbc82db3717340217086815f60017f516023e8f70bd01fa9b1",
+   "geometry_sha256": "8630b9e779a776485139e206cbd08f09c1686ff9fdcc71b728003f5675634d8a",
    "lastupdated": "2026-08-25T20:11:09.207+02:00"
   }
  },
