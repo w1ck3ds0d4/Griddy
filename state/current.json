@@ -1,13 +1,13 @@
 {
  "live": {
-  "06797c4baf0a5c35": {
-   "CreatedDate": "2026-08-25T13:17:39.4+02:00",
-   "Id": 178453,
+  "8dab3ef6c1f5edcd": {
+   "CreatedDate": "2026-08-25T13:27:38.323+02:00",
+   "Id": 178463,
    "Localities": "Marsa, Paola",
    "OutageId": 18221,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "7e3a65143970a58ca4426970b1a07d08c4c15afced933c09b40a4594013bc287",
+   "geometry_sha256": "015122f7732411f88058366cbfa2a249e6b6fb83839f0fee2a015a98410f7899",
    "lastupdated": "2026-08-25T13:00:46.99+02:00"
   }
  },
