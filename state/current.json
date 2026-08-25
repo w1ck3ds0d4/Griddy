@@ -1,14 +1,24 @@
 {
  "live": {
-  "7bf5617f296edef5": {
-   "CreatedDate": "2026-08-25T17:40:38.673+02:00",
-   "Id": 178665,
+  "19d448f3dd0ce346": {
+   "CreatedDate": "2026-08-25T17:50:38.777+02:00",
+   "Id": 178683,
    "Localities": "Paola",
    "OutageId": 18224,
    "OutageType": 2,
    "estimatedtime": "N/A",
    "geometry_sha256": "d6e9aa5e50c533f5b73914eaf53a774fe3d6e0b7519c13595cf808f090d25389",
    "lastupdated": "2026-08-25T17:03:01.097+02:00"
+  },
+  "929b68cc86ddc591": {
+   "CreatedDate": "2026-08-25T17:50:38.793+02:00",
+   "Id": 178684,
+   "Localities": "Tarxien",
+   "OutageId": 18226,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "abafd5ead59d6dc3cb40d78972b3436ed197f527b20fd051d5b287a7e86fbd74",
+   "lastupdated": "2026-08-25T17:39:17.387+02:00"
   }
  },
  "planned": {
