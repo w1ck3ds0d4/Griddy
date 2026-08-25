@@ -1,16 +1,5 @@
 {
- "live": {
-  "25a50bfd34a4a79c": {
-   "CreatedDate": "2026-08-25T09:16:37.863+02:00",
-   "Id": 178432,
-   "Localities": "Paola",
-   "OutageId": 18217,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "851a1ab2740183812992534b90953c9809f20ebd5380e7cb93b1a6be033af6cb",
-   "lastupdated": "2026-08-25T08:35:03.887+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41239": {
    "CaseID": "41239",
