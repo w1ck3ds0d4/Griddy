@@ -753,6 +753,33 @@
    ],
    "to": "26 August 2026 08:30"
   },
+  "0d7779dc66c29b64": {
+   "city": "L-Imtarfa",
+   "from": "27 August 2026 03:00",
+   "streets": [
+    "TRIQ L- IMTARFA",
+    "TRIQ TOMMY AGIUS FERRANTE",
+    "TRIQ SIR DAVID BRUCE",
+    "TRIQ DAR IL-KAPTAN",
+    "TRIQ ANTONIO ELLUL",
+    "TRIQ SIR TEMI ZAMMIT",
+    "TRIQ IL- FOSOS TAL-QAMH",
+    "TRIQ L- IMTARFA",
+    "SQAQ NRU. 1",
+    "TRIQ TAL- PALMA",
+    "TRIQ TA' SLAMPA",
+    "TRIQ IR- RAZZETT L-AHMAR",
+    "TRIQ MIKIEL FSADNI",
+    "TRIQ IL- MALTIN INTERNATI U EZILJATI",
+    "TRIQ JOSEPH S. CALLEIA",
+    "TRIQ GUZEPPI GALEA",
+    "TRIQ ANTOINE DEBONO",
+    "TRIQ SIR PHILIP PULLICINO",
+    "TRIQ IL- KONTI FERD. TEUMA CASTELLETTI",
+    "TRIQ IL- KONTI SALVATORE MANDUCA"
+   ],
+   "to": "27 August 2026 07:00"
+  },
   "1273244116c3fdd0": {
    "city": "Il-Marsa",
    "from": "26 August 2026 13:00",
@@ -890,6 +917,19 @@
    ],
    "to": "28 August 2026 12:00"
   },
+  "761b5eea8c2b4f92": {
+   "city": "San Pawl il-Bahar",
+   "from": "27 August 2026 04:00",
+   "streets": [
+    "TRIQ IT- TURISTI",
+    "TRIQ J. QUINTINUS",
+    "TRIQ ANNETTO CARUANA",
+    "TRIQ IT- TAMAR",
+    "TRIQ SAN TIMOTJU",
+    "TRIQ TA' ZANDU"
+   ],
+   "to": "27 August 2026 07:00"
+  },
   "9305428a90e65a5f": {
    "city": "Iz-Zurrieq",
    "from": "25 August 2026 05:00",
@@ -950,6 +990,27 @@
     "TRIQ IC- CIRASA"
    ],
    "to": "27 August 2026 12:00"
+  },
+  "e1ec171c6f76683a": {
+   "city": "L-Imdina",
+   "from": "27 August 2026 03:00",
+   "streets": [
+    "TRIQ IL- MALTIN INTERNATI U EZILJATI"
+   ],
+   "to": "27 August 2026 07:00"
+  },
+  "e33114413050b31e": {
+   "city": "Santa Lucija",
+   "from": "28 August 2026 07:00",
+   "streets": [
+    "TREJQET IZ- ZAHAR",
+    "TRIQ IT- TULIPAN",
+    "TRIQ IN- NARCIS",
+    "VJAL L- OLEANDRI",
+    "DAWRET IT- TORRI",
+    "POST IL- GLADJOLI"
+   ],
+   "to": "28 August 2026 12:00"
   },
   "e3f902a5ac75fe8d": {
    "city": "Il-Mosta",
