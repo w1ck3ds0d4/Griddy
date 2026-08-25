@@ -1,16 +1,5 @@
 {
- "live": {
-  "2c50d7f6e6ec4adc": {
-   "CreatedDate": "2026-08-26T00:10:39.117+02:00",
-   "Id": 178978,
-   "Localities": "Fgura, Paola, Tarxien",
-   "OutageId": 18229,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "4e88be8c4fe2623b714ef709b2194dcecf8a25f8a27e26c0a508a6abff460543",
-   "lastupdated": "2026-08-25T20:11:09.207+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41239": {
    "CaseID": "41239",
