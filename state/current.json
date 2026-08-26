@@ -662,6 +662,20 @@
     }
    ],
    "transformers_sha256": "e0fbb2adf440ced2758c37bdbe108509c9f7012fde6eabd7ddb552330fb307f7"
+  },
+  "41281": {
+   "CaseID": "41281",
+   "EndDate": "2026-09-02T11:00:00+02:00",
+   "StartDate": "2026-09-02T06:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "1891",
+     "feeders": [
+      "5"
+     ]
+    }
+   ],
+   "transformers_sha256": "67a7dd35d4b46fbbb42a96c6721e5977212a475e80961be20761156415c5a51c"
   }
  },
  "planned_page": {
