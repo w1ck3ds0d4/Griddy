@@ -1,13 +1,13 @@
 {
  "live": {
-  "941f0688193a4952": {
-   "CreatedDate": "2026-08-26T09:36:38.087+02:00",
-   "Id": 179037,
+  "452dfe6feadb7705": {
+   "CreatedDate": "2026-08-26T09:46:37.843+02:00",
+   "Id": 179047,
    "Localities": "Valletta",
    "OutageId": 18242,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "cb653aa84861401c5e9b4a5e4f4084126a8b66ecc78fa0a3080e207f37455ba8",
+   "geometry_sha256": "3f803c651d22a6d2185911170f9423b1e8e4594db103d29adea854dc29270a4b",
    "lastupdated": "2026-08-26T08:35:02.197+02:00"
   }
  },
