@@ -690,6 +690,20 @@
     }
    ],
    "transformers_sha256": "fae45750827bb20b4772d20282c57fc52df82092f91319d6809d5b71bc26a68d"
+  },
+  "41283": {
+   "CaseID": "41283",
+   "EndDate": "2026-09-01T11:00:00+02:00",
+   "StartDate": "2026-09-01T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "553",
+     "feeders": [
+      "8"
+     ]
+    }
+   ],
+   "transformers_sha256": "ca055d8ccb39d7196876e9735b75dd6ca85a111a131d361c704993f928c4cda9"
   }
  },
  "planned_page": {
