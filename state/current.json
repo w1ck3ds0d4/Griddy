@@ -903,6 +903,15 @@
    ],
    "to": "27 August 2026 12:00"
   },
+  "c0a70120cc2b8348": {
+   "city": "Il-Mosta",
+   "from": "30 August 2026 04:00",
+   "streets": [
+    "TRIQ IT- TORRI",
+    "TRIQ DURUMBLAT"
+   ],
+   "to": "30 August 2026 11:00"
+  },
   "e1ec171c6f76683a": {
    "city": "L-Imdina",
    "from": "27 August 2026 03:00",
