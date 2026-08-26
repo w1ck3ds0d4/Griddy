@@ -1,16 +1,5 @@
 {
- "live": {
-  "076fb9dc4e0dceb0": {
-   "CreatedDate": "2026-08-26T18:44:38.117+02:00",
-   "Id": 179152,
-   "Localities": "Birkirkara",
-   "OutageId": 18259,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "f7d0ff47339d49d5fd79f5e3a0ff3da594a5dcad9a3494e14b2e874da94d3255",
-   "lastupdated": "2026-08-26T18:23:01.82+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41242": {
    "CaseID": "41242",
