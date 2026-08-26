@@ -866,6 +866,16 @@
    ],
    "to": "27 August 2026 07:00"
   },
+  "87c46b01fcdb3007": {
+   "city": "San Gwann",
+   "from": "02 September 2026 06:00",
+   "streets": [
+    "TRIQ SAN GWANN TAL-GHORGHAR",
+    "VJAL IR- RIHAN",
+    "TRIQ IN- NAXXAR"
+   ],
+   "to": "02 September 2026 11:00"
+  },
   "a77427efc55642be": {
    "city": "Iz-Zurrieq",
    "from": "26 August 2026 07:00",
