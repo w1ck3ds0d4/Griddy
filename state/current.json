@@ -1,13 +1,13 @@
 {
  "live": {
-  "d96ad159964f4db4": {
-   "CreatedDate": "2026-08-29T12:10:43.433+02:00",
-   "Id": 180020,
+  "9de428ef02edacde": {
+   "CreatedDate": "2026-08-29T12:20:43.033+02:00",
+   "Id": 180030,
    "Localities": "Fontana, Ghajnsielem, Gharb, Ghasri, Kercem, Munxar, Nadur, Qala, Rabat (Victoria), San Lawrenz, Xaghra, Xewkija, Zebbug (Gozo)",
    "OutageId": 18318,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "1eeffee0d4ca263227f2c66c9a52848a93baf98b9ffd702e3793048c2b8dbe8b",
+   "geometry_sha256": "3938702566b224af3a5b0fb6bc6ff1214ad3a5e0d529d85cb610702fa9b183bc",
    "lastupdated": "2026-08-28T19:27:04.68+02:00"
   }
  },
