@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "bb5c179374be1d7e": {
+   "CreatedDate": "2026-08-30T00:22:42.703+02:00",
+   "Id": 180869,
+   "Localities": "Fontana, Kercem, Rabat (Victoria), Xaghra, Zebbug (Gozo)",
+   "OutageId": 18358,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "5f867403b670bb7d7f0501d0bfa5c8272d645666259cda98966dd80075cc1c3a",
+   "lastupdated": "2026-08-29T20:31:10.033+02:00"
+  }
+ },
  "planned": {
   "41260": {
    "CaseID": "41260",
@@ -595,21 +606,6 @@
     "TRIQ DURUMBLAT"
    ],
    "to": "30 August 2026 11:00"
-  },
-  "d05c81ca372b5e03": {
-   "city": "Iz-Zebbug",
-   "from": "29 August 2026 08:00",
-   "streets": [
-    "TRIQ DUN KARM CACHIA",
-    "TRIQ IL- PONTA",
-    "TRIQ TAL- KANUN",
-    "TRIQ GOMA",
-    "TRIQ IL- KAPPILLAN FRANGISK VELLA",
-    "TRIQ IC- CNUS",
-    "TRIQ MONS. GUZEPPI DE PIRO",
-    "TRIQ SANT' INDRIJA"
-   ],
-   "to": "29 August 2026 11:30"
   },
   "f719456b27429abb": {
    "city": "Tas-Sliema",
