@@ -1,16 +1,5 @@
 {
- "live": {
-  "c1444fe3a23e2cfc": {
-   "CreatedDate": "2026-08-29T21:14:42.733+02:00",
-   "Id": 180775,
-   "Localities": "Fontana, Rabat (Victoria), Xaghra, Xewkija",
-   "OutageId": 18318,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "84b614d2acd96bec25f614eb201f29bb37f901b67dce706cc68ddab78950524f",
-   "lastupdated": "2026-08-28T19:27:04.68+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41260": {
    "CaseID": "41260",
