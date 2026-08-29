@@ -1,8 +1,18 @@
 {
  "live": {
-  "fc69620247e51320": {
-   "CreatedDate": "2026-08-29T17:13:42.123+02:00",
-   "Id": 180395,
+  "1b99d827b185b4ba": {
+   "CreatedDate": "2026-08-29T17:23:42.243+02:00",
+   "Id": 180413,
+   "Localities": "Fontana, Rabat (Victoria)",
+   "OutageId": 18354,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "efe75dd5a839f2669a507700570bd54143a2937446fe596d9c21501d20f30a22",
+   "lastupdated": "2026-08-29T17:13:00.697+02:00"
+  },
+  "fd297d660ffcb3f0": {
+   "CreatedDate": "2026-08-29T17:23:42.227+02:00",
+   "Id": 180412,
    "Localities": "Fontana, Rabat (Victoria), Xaghra, Xewkija, Zebbug (Gozo)",
    "OutageId": 18318,
    "OutageType": 2,
