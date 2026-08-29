@@ -1,13 +1,13 @@
 {
  "live": {
-  "bb5c179374be1d7e": {
-   "CreatedDate": "2026-08-30T00:22:42.703+02:00",
-   "Id": 180869,
-   "Localities": "Fontana, Kercem, Rabat (Victoria), Xaghra, Zebbug (Gozo)",
+  "a9c9621e1da46d32": {
+   "CreatedDate": "2026-08-30T00:32:42.67+02:00",
+   "Id": 180879,
+   "Localities": "Xaghra",
    "OutageId": 18358,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "5f867403b670bb7d7f0501d0bfa5c8272d645666259cda98966dd80075cc1c3a",
+   "geometry_sha256": "f49403ce299572bbd7a75b467c25afd6cbd7e5169fc2a8b7f5980bfdfb31d29d",
    "lastupdated": "2026-08-29T20:31:10.033+02:00"
   }
  },
