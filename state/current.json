@@ -1,8 +1,8 @@
 {
  "live": {
-  "3994f741e0930719": {
-   "CreatedDate": "2026-08-30T08:47:43.247+02:00",
-   "Id": 181037,
+  "36cfdd9ff327b4c3": {
+   "CreatedDate": "2026-08-30T08:57:42.927+02:00",
+   "Id": 181047,
    "Localities": "Mellieha",
    "OutageId": 18370,
    "OutageType": 2,
@@ -524,6 +524,17 @@
     "TRIQ L- IMRIEHEL"
    ],
    "to": "01 September 2026 09:00"
+  },
+  "a459919cd5de243f": {
+   "city": "Iz-Zurrieq",
+   "from": "04 September 2026 06:30",
+   "streets": [
+    "TRIQ L- ARCIPRIET E. MIFSUD",
+    "TRIQ ISOUARD XUEREB",
+    "TRIQ L- IMTALI",
+    "TRIQ SAN PORFIRJU"
+   ],
+   "to": "04 September 2026 13:00"
   },
   "a4db0d7274c4cadd": {
    "city": "Il-Hamrun",
