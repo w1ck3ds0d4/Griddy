@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "fb8948a634a31c0f": {
+   "CreatedDate": "2026-08-30T20:15:43.527+02:00",
+   "Id": 181262,
+   "Localities": "Mellieha, Mgarr, St. Paul's Bay",
+   "OutageId": 18393,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "abc5b16599ffa745a8fc01b3a2fb1f8b7e3fa46fd0de5528632497ee783069ce",
+   "lastupdated": "2026-08-30T20:03:02.247+02:00"
+  }
+ },
  "planned": {
   "41280": {
    "CaseID": "41280",
