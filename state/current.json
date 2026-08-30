@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "a4ec9e2321f40244": {
+   "CreatedDate": "2026-08-30T23:40:44.533+02:00",
+   "Id": 181290,
+   "Localities": "Mgarr, Mosta, Mtarfa, Rabat (Malta), St. Paul's Bay",
+   "OutageId": 18394,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "97855957dd299c6b3a7f918d90a9abc4bc840d42b83bd32b2b89216f4cda8bed",
+   "lastupdated": "2026-08-30T23:33:07.397+02:00"
+  }
+ },
  "planned": {
   "41280": {
    "CaseID": "41280",
