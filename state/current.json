@@ -1,13 +1,13 @@
 {
  "live": {
-  "55b233726640203b": {
-   "CreatedDate": "2026-08-30T09:06:42.937+02:00",
-   "Id": 181056,
+  "3a406274af0e834f": {
+   "CreatedDate": "2026-08-30T09:16:43.163+02:00",
+   "Id": 181066,
    "Localities": "Mellieha",
    "OutageId": 18370,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "24c9a4942df6732259c30d1a14ca336be297817bbc27724679ce123db3b7a558",
+   "geometry_sha256": "a3b948b32caa4c67d34d841e2dbb15e1b3e2fbbba2c2f16f3a854ae93b2e8ffa",
    "lastupdated": "2026-08-30T06:37:01.263+02:00"
   }
  },
