@@ -1,16 +1,5 @@
 {
- "live": {
-  "a9c9621e1da46d32": {
-   "CreatedDate": "2026-08-30T00:32:42.67+02:00",
-   "Id": 180879,
-   "Localities": "Xaghra",
-   "OutageId": 18358,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "f49403ce299572bbd7a75b467c25afd6cbd7e5169fc2a8b7f5980bfdfb31d29d",
-   "lastupdated": "2026-08-29T20:31:10.033+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41260": {
    "CaseID": "41260",
