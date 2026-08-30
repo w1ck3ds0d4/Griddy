@@ -1,13 +1,13 @@
 {
  "live": {
-  "a6f92ee326486d80": {
-   "CreatedDate": "2026-08-31T01:29:44.397+02:00",
-   "Id": 181399,
-   "Localities": "Mgarr, Rabat (Malta)",
+  "b83b7504563f66a6": {
+   "CreatedDate": "2026-08-31T01:38:43.677+02:00",
+   "Id": 181408,
+   "Localities": "Rabat (Malta)",
    "OutageId": 18394,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "c6c270d37f39c4a3a521116d87754769c589e75c68b79b09c080a849c03eb274",
+   "geometry_sha256": "a02fdb1053b1ad820a7bf27edbbc56372e65c047cf9f4abcd5fe4a591c5d4fc1",
    "lastupdated": "2026-08-30T23:33:07.397+02:00"
   }
  },
