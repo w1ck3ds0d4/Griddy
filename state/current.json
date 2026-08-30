@@ -1,13 +1,13 @@
 {
  "live": {
-  "eb71b4caec1a9c1a": {
-   "CreatedDate": "2026-08-30T23:50:44.707+02:00",
-   "Id": 181300,
-   "Localities": "Mgarr, Mosta, Mtarfa, Rabat (Malta), St. Paul's Bay",
+  "a6f92ee326486d80": {
+   "CreatedDate": "2026-08-31T01:29:44.397+02:00",
+   "Id": 181399,
+   "Localities": "Mgarr, Rabat (Malta)",
    "OutageId": 18394,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "97855957dd299c6b3a7f918d90a9abc4bc840d42b83bd32b2b89216f4cda8bed",
+   "geometry_sha256": "c6c270d37f39c4a3a521116d87754769c589e75c68b79b09c080a849c03eb274",
    "lastupdated": "2026-08-30T23:33:07.397+02:00"
   }
  },
@@ -548,15 +548,6 @@
     "PJAZZA KAPPILLAN MUSCAT"
    ],
    "to": "02 September 2026 13:00"
-  },
-  "c0a70120cc2b8348": {
-   "city": "Il-Mosta",
-   "from": "30 August 2026 04:00",
-   "streets": [
-    "TRIQ IT- TORRI",
-    "TRIQ DURUMBLAT"
-   ],
-   "to": "30 August 2026 11:00"
   },
   "f719456b27429abb": {
    "city": "Tas-Sliema",
