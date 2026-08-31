@@ -1,16 +1,5 @@
 {
- "live": {
-  "d9e3e44005f87067": {
-   "CreatedDate": "2026-08-31T02:17:44.163+02:00",
-   "Id": 181447,
-   "Localities": "Rabat (Malta)",
-   "OutageId": 18394,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "a02fdb1053b1ad820a7bf27edbbc56372e65c047cf9f4abcd5fe4a591c5d4fc1",
-   "lastupdated": "2026-08-30T23:33:07.397+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41280": {
    "CaseID": "41280",
@@ -32,7 +21,7 @@
      ]
     }
    ],
-   "transformers_sha256": "d193bbe09994fb584ba3b98c7676e7da489e7bc05f57cfba0d8779c1df403df8"
+   "transformers_sha256": "acb67bd34bf9cb69acda419834c5f6be6462dd489c080aec637e610fbe70486a"
   },
   "41281": {
    "CaseID": "41281",
@@ -46,7 +35,7 @@
      ]
     }
    ],
-   "transformers_sha256": "83e88ec89239bfbb2cf7fe6dc770b5a999a290c0682c4a39dcf8fe8f89618142"
+   "transformers_sha256": "3a5abaa013539cdfaf26b911b7b853a128147e749dff6dc06086e7f6e7da95e0"
   },
   "41283": {
    "CaseID": "41283",
@@ -74,7 +63,7 @@
      ]
     }
    ],
-   "transformers_sha256": "8166a6847b9e50ce45d9b5a9a27482cad04ef75c54bb140638346ad37a1261b2"
+   "transformers_sha256": "b1f5da57bf42d5cd306013f44744774e378c42d3b4948ede8824f921c853d9e2"
   },
   "41286": {
    "CaseID": "41286",
@@ -88,7 +77,7 @@
      ]
     }
    ],
-   "transformers_sha256": "948283a37d92769398334cde8f86a8a4a65006aca53668269125ae3a30dface0"
+   "transformers_sha256": "60391be623b5a7557430302fb3b89d8f7588ee6223c6354f705840a2d1fc7c0b"
   },
   "41288": {
    "CaseID": "41288",
@@ -102,7 +91,7 @@
      ]
     }
    ],
-   "transformers_sha256": "94a203bb3b10cbcf70020719312cc491cdb5d9a5a83452c3a4035153617941f8"
+   "transformers_sha256": "22e625e4ee6dbcb084dcb0dc6f0411c86f2e4f629201900550d67771dd3fff28"
   },
   "41289": {
    "CaseID": "41289",
@@ -116,21 +105,7 @@
      ]
     }
    ],
-   "transformers_sha256": "fdece538175cb7f594e6c82797cfc7c8ed7b97d24f6e7bf8b0920e08455dcb54"
-  },
-  "41290": {
-   "CaseID": "41290",
-   "EndDate": "2026-08-29T11:00:00+02:00",
-   "StartDate": "2026-08-29T08:00:00+02:00",
-   "transformers": [
-    {
-     "TransformerId": "1460",
-     "feeders": [
-      "2"
-     ]
-    }
-   ],
-   "transformers_sha256": "be3dfe4ed60363930b3446a99c834cfbfe8066e8654d2c7ac1f14e7623e2781a"
+   "transformers_sha256": "89e89c292b56afbb3ea010196070ee66f1295e33681109e13768a7fdd0aade19"
   },
   "41291": {
    "CaseID": "41291",
@@ -144,7 +119,7 @@
      ]
     }
    ],
-   "transformers_sha256": "fe014534b8e3f51f774434c12779d3ec8a4be81ec0fe62cf22ab4f0992e9a1d0"
+   "transformers_sha256": "81bb65612412f2ea4b806ccec4cc292d52a4fce391716dec272ec514beb6ebc2"
   },
   "41292": {
    "CaseID": "41292",
@@ -202,7 +177,7 @@
      ]
     }
    ],
-   "transformers_sha256": "b3afe3a0a0a7f751e9487a0dd61ac83d6d14138eaeadaaa665f19083b609f591"
+   "transformers_sha256": "61b5e720a3f8129a0d1c9cf27eea90bf688ec5f73b96c993f62ab0b00dd8ace7"
   },
   "41293": {
    "CaseID": "41293",
@@ -260,7 +235,7 @@
      ]
     }
    ],
-   "transformers_sha256": "37dcaa24f5fca0a75e772ee04021ab8f2623147364b480516b26703c45a5f3a5"
+   "transformers_sha256": "cd6f3ba8cc83f2797e6ef2e63a42420648f0758c38c74df1e13e2084cac32ba6"
   },
   "41294": {
    "CaseID": "41294",
@@ -288,7 +263,7 @@
      ]
     }
    ],
-   "transformers_sha256": "003c7873336586983fdcbe49c61e0e855fefcc3d655bc5047db25e8aa6c2be35"
+   "transformers_sha256": "21a99b68a4b784b83237df077353cef5755f45716cb15e252a9697bbfda15d69"
   },
   "41296": {
    "CaseID": "41296",
@@ -316,7 +291,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a487b45cddd8a1053ee9d6a5d3d346ac123f2e47a882e1ec71b894746f5c13b2"
+   "transformers_sha256": "ea464457b3663fc892923f80e028f218e01cf4a6ec992c35ec2cbb506d880c04"
   },
   "41298": {
    "CaseID": "41298",
@@ -330,7 +305,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a0da43b70bef4f43c5ccc4d3a07b2379649f80adde9710021cbde8800d5c5eec"
+   "transformers_sha256": "c996a45c3a7abac3cd4afccd7da6b23b58e6eb84281b79c33c856f2653ff3a47"
   },
   "41299": {
    "CaseID": "41299",
@@ -344,7 +319,7 @@
      ]
     }
    ],
-   "transformers_sha256": "0fc01de528493c4096efb7066b1be3dfec4bee81ab9bb6dbc76b4c819855d519"
+   "transformers_sha256": "303fdbafb0b4f27ec79e240fb5b9864f3c66c57e08f04fa7687b4037e2ae75be"
   },
   "41300": {
    "CaseID": "41300",
@@ -358,7 +333,7 @@
      ]
     }
    ],
-   "transformers_sha256": "1a27bf2f6b864bd7a3e74064de28f5964bc7e29ec9feb3f70f4dd0a8d2d2f2e9"
+   "transformers_sha256": "1aee2eb5bdd8167221fc55d0e444f8df43acc79d2ed3288e3d670379f58056b5"
   }
  },
  "planned_page": {
