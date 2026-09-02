@@ -521,6 +521,14 @@
    ],
    "to": "02 September 2026 13:30"
   },
+  "2a364ff816e95327": {
+   "city": "San Gwann",
+   "from": "05 September 2026 03:30",
+   "streets": [
+    "TRIQ TAL- BALAL"
+   ],
+   "to": "05 September 2026 10:00"
+  },
   "53ffe4ca0677bf81": {
    "city": "Ghajnsielem",
    "from": "09 September 2026 08:30",
@@ -640,6 +648,15 @@
     "PJAZZA KAPPILLAN MUSCAT"
    ],
    "to": "02 September 2026 13:00"
+  },
+  "a6591fed05d746b7": {
+   "city": "Pembroke",
+   "from": "03 September 2026 07:30",
+   "streets": [
+    "TRIQ GABRIELE HENIN",
+    "TRIQ IL- MEDITERRAN"
+   ],
+   "to": "03 September 2026 11:30"
   },
   "a7bc12548da4884d": {
    "city": "Il-Mosta",
