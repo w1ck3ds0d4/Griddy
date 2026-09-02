@@ -535,48 +535,6 @@
    ],
    "to": "02 September 2026 13:30"
   },
-  "102ce24d3763a9cc": {
-   "city": "Ghajnsielem",
-   "from": "01 September 2026 08:30",
-   "streets": [
-    "TRIQ IL- PROVIGARJU",
-    "TRIQ L- IMGARR",
-    "DAHLA TA' CORDINA",
-    "TRIQ TA' LELLUXA",
-    "TRIQ IL- GNIEN",
-    "TRIQ LORD NELSON"
-   ],
-   "to": "01 September 2026 12:30"
-  },
-  "19f3c41c0ae9064a": {
-   "city": "Il-Mosta",
-   "from": "01 September 2026 03:45",
-   "streets": [
-    "TRIQ SIR ARTHUR BORTON",
-    "TRIQ IL- KOSTITUZZJONI",
-    "TRIQ FILIPPO APAP BOLOGNA",
-    "TRIQ NIKOL MUSCAT"
-   ],
-   "to": "01 September 2026 05:15"
-  },
-  "35cfe46b2509e758": {
-   "city": "Birkirkara",
-   "from": "01 September 2026 19:00",
-   "streets": [
-    "TRIQ IX- XOROX",
-    "TRIQ B. BONTADINI",
-    "TRIQ IX- XORROX",
-    "TRIQ IL- QANNIC",
-    "TRIQ F. GENESTE",
-    "TRIQ KARM ZERAFA",
-    "TRIQ TOMMASO DINGLI",
-    "TRIQ IL- FERROVIJA L-QADIMA",
-    "TRIQ VITTORIO CASSAR",
-    "TRIQ IL- PARROCCA SANTA MARIJA",
-    "TRIQ L- IMRIEHEL"
-   ],
-   "to": "01 September 2026 21:00"
-  },
   "53ffe4ca0677bf81": {
    "city": "Ghajnsielem",
    "from": "09 September 2026 08:30",
@@ -599,19 +557,6 @@
    ],
    "to": "02 September 2026 06:30"
   },
-  "582804201b68bea0": {
-   "city": "Haz-Zabbar",
-   "from": "01 September 2026 07:00",
-   "streets": [
-    "TRIQ FELICE",
-    "TRIQ SAN LAWRENZ",
-    "TRIQ STRICKLAND",
-    "TRIQ IL- HAWT",
-    "TRIQ IC- CIMITERJU",
-    "TRIQ DUN FRANS BUHAGIAR"
-   ],
-   "to": "01 September 2026 11:00"
-  },
   "63490834915e23fb": {
    "city": "Haz-Zebbug",
    "from": "02 September 2026 07:00",
@@ -619,29 +564,6 @@
     "TRIQ WIED IS-SEWDA"
    ],
    "to": "02 September 2026 11:00"
-  },
-  "68988542fb8a6ac7": {
-   "city": "Iz-Zurrieq",
-   "from": "01 September 2026 06:30",
-   "streets": [
-    "SQAQ SAN GUZEPP",
-    "TRIQ SAN MARTIN",
-    "SQAQ SAN MIKIEL NRU. 1",
-    "TRIQ SAN MIKIEL",
-    "TRIQ FRANCIS FALZON",
-    "TRIQ IS- SIEJNA"
-   ],
-   "to": "01 September 2026 11:00"
-  },
-  "6947d485e05fdd8a": {
-   "city": "Hal Balzan",
-   "from": "01 September 2026 08:00",
-   "streets": [
-    "TRIQ IL- FERROVIJA L-QADIMA",
-    "TRIQ BIRBAL",
-    "VJAL IL- BON PASTUR"
-   ],
-   "to": "01 September 2026 13:00"
   },
   "73bdea7f0c88de61": {
    "city": "Tal-Pietà",
@@ -697,18 +619,6 @@
    ],
    "to": "09 September 2026 06:00"
   },
-  "8f44f5a61d2db046": {
-   "city": "In-Naxxar",
-   "from": "01 September 2026 08:00",
-   "streets": [
-    "SQAQ GIUSEPPE STIVALA",
-    "TRIQ LELI FALZON",
-    "TRIQ IL- FORGA",
-    "TRIQ PAOLO PARISIO MUSCATI",
-    "TRIQ GIUSEPPE STIVALA"
-   ],
-   "to": "01 September 2026 10:00"
-  },
   "954726a85d8d63ff": {
    "city": "Santa Venera",
    "from": "10 September 2026 07:00",
@@ -720,33 +630,6 @@
     "TRIQ PATRI GWANN AZZOPARDI"
    ],
    "to": "10 September 2026 13:00"
-  },
-  "95a589cb6efb7898": {
-   "city": "Is-Siggiewi",
-   "from": "01 September 2026 06:30",
-   "streets": [
-    "TRIQ DUN MANWEL ZAMMIT",
-    "TRIQ L- IMDINA"
-   ],
-   "to": "01 September 2026 11:00"
-  },
-  "96c2240ce3bf3af5": {
-   "city": "Birkirkara",
-   "from": "01 September 2026 07:00",
-   "streets": [
-    "TRIQ IX- XOROX",
-    "TRIQ B. BONTADINI",
-    "TRIQ IX- XORROX",
-    "TRIQ IL- QANNIC",
-    "TRIQ F. GENESTE",
-    "TRIQ KARM ZERAFA",
-    "TRIQ TOMMASO DINGLI",
-    "TRIQ IL- FERROVIJA L-QADIMA",
-    "TRIQ VITTORIO CASSAR",
-    "TRIQ IL- PARROCCA SANTA MARIJA",
-    "TRIQ L- IMRIEHEL"
-   ],
-   "to": "01 September 2026 09:00"
   },
   "a459919cd5de243f": {
    "city": "Iz-Zurrieq",
@@ -784,20 +667,6 @@
    ],
    "to": "02 September 2026 11:30"
   },
-  "e2908f9102274f54": {
-   "city": "Is-Swieqi",
-   "from": "01 September 2026 07:30",
-   "streets": [
-    "TRIQ IL- BRAMEL",
-    "TRIQ IL- GHAJN",
-    "TRIQ L- GHARBIEL",
-    "TRIQ IL- GWIELAQ",
-    "TRIQ IL- HEMEL",
-    "TRIQ IT- TIBEN",
-    "TRIQ ID- DRIS"
-   ],
-   "to": "01 September 2026 10:30"
-  },
   "f3cd90f6c9373acc": {
    "city": "Haz-Zebbug",
    "from": "04 September 2026 07:00",
@@ -805,17 +674,6 @@
     "TRIQ WIED IS-SEWDA"
    ],
    "to": "04 September 2026 11:00"
-  },
-  "f719456b27429abb": {
-   "city": "Tas-Sliema",
-   "from": "01 September 2026 08:00",
-   "streets": [
-    "TRIQ NICOLO' ISOUARD",
-    "TRIQ DEPIRO",
-    "TRIQ BLANCHE HUBER",
-    "TRIQ IL- QASIRA"
-   ],
-   "to": "01 September 2026 11:00"
   },
   "fbdb42cea4978d7e": {
    "city": "Haz-Zabbar",
