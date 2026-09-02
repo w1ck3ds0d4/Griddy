@@ -535,20 +535,6 @@
   }
  },
  "planned_page": {
-  "05316ebb3a00a14f": {
-   "city": "L-Imqabba",
-   "from": "02 September 2026 06:30",
-   "streets": [
-    "TRIQ IT- TROLL",
-    "TRIQ IL- PAL",
-    "TRIQ IL- MADONNA TAL-GILJU",
-    "TRIQ SANTA KATARINA",
-    "MISRAH IL- MISSJONI Z-ZGHIRA",
-    "TRIQ TAS- SEJBA",
-    "TRIQ DUN GIACOMO TORTELLA"
-   ],
-   "to": "02 September 2026 13:30"
-  },
   "2a364ff816e95327": {
    "city": "San Gwann",
    "from": "05 September 2026 03:30",
@@ -578,23 +564,6 @@
    ],
    "to": "09 September 2026 11:30"
   },
-  "5800fdee07c9767d": {
-   "city": "In-Naxxar",
-   "from": "02 September 2026 03:30",
-   "streets": [
-    "TRIQ L- IFRAN",
-    "VJAL IL- WIEHED U GHOXRIN TA' SETTEMBRU"
-   ],
-   "to": "02 September 2026 06:30"
-  },
-  "63490834915e23fb": {
-   "city": "Haz-Zebbug",
-   "from": "02 September 2026 07:00",
-   "streets": [
-    "TRIQ WIED IS-SEWDA"
-   ],
-   "to": "02 September 2026 11:00"
-  },
   "73bdea7f0c88de61": {
    "city": "Tal-Pietà",
    "from": "03 September 2026 07:00",
@@ -603,15 +572,6 @@
     "TRIQ L- ORSOLINI"
    ],
    "to": "03 September 2026 13:00"
-  },
-  "76364e367dfea771": {
-   "city": "Birkirkara",
-   "from": "02 September 2026 08:00",
-   "streets": [
-    "TRIQ INDRI CALLEJA",
-    "TRIQ FRANCESCO BUHAGIAR"
-   ],
-   "to": "02 September 2026 13:00"
   },
   "7e47b7df170b4567": {
    "city": "Birzebbuga",
@@ -627,16 +587,6 @@
     "TRIQ SWOR GRACE THEUMA"
    ],
    "to": "03 September 2026 11:00"
-  },
-  "87c46b01fcdb3007": {
-   "city": "San Gwann",
-   "from": "02 September 2026 06:00",
-   "streets": [
-    "TRIQ SAN GWANN TAL-GHORGHAR",
-    "VJAL IR- RIHAN",
-    "TRIQ IN- NAXXAR"
-   ],
-   "to": "02 September 2026 11:00"
   },
   "89a9bc3d7965cd58": {
    "city": "Il-Mosta",
@@ -672,19 +622,6 @@
    ],
    "to": "04 September 2026 13:00"
   },
-  "a4db0d7274c4cadd": {
-   "city": "Il-Hamrun",
-   "from": "02 September 2026 07:00",
-   "streets": [
-    "TRIQ IL- KAPPILLAN MIFSUD",
-    "TRIQ CENSU BUGEJA",
-    "TRIQ VILLAMBROSA",
-    "TRIQ GUZE' MARIA CAMILLERI",
-    "TRIQ GUZE' PACE",
-    "PJAZZA KAPPILLAN MUSCAT"
-   ],
-   "to": "02 September 2026 13:00"
-  },
   "a6591fed05d746b7": {
    "city": "Pembroke",
    "from": "03 September 2026 07:30",
@@ -693,18 +630,6 @@
     "TRIQ IL- MEDITERRAN"
    ],
    "to": "03 September 2026 11:30"
-  },
-  "a7bc12548da4884d": {
-   "city": "Il-Mosta",
-   "from": "02 September 2026 07:30",
-   "streets": [
-    "TRIQ DON ALVARO DE SANDE",
-    "TRIQ SAN PAWL EREMITA",
-    "TRIQ IT- TABIB CHETCUTI",
-    "TRIQ ID- DISGHA TA' APRIL",
-    "TRIQ IL- WIED"
-   ],
-   "to": "02 September 2026 11:30"
   },
   "f3cd90f6c9373acc": {
    "city": "Haz-Zebbug",
