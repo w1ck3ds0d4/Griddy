@@ -359,19 +359,6 @@
    ],
    "to": "10 September 2026 11:00"
   },
-  "21a1cf2ad2ea6d1d": {
-   "city": "In-Nadur",
-   "from": "04 September 2026 08:30",
-   "streets": [
-    "TRIQ TAD- DURU",
-    "TRIQ TA' HIDA",
-    "TRIQ WIED BINGEMMA",
-    "TREJQET IL- QORTI TAL-UQIJA",
-    "TRIQ TAL- HANAQ",
-    "TRIQ IR- RAMLA L-HAMRA"
-   ],
-   "to": "04 September 2026 12:30"
-  },
   "2a364ff816e95327": {
    "city": "San Gwann",
    "from": "05 September 2026 03:30",
@@ -462,30 +449,6 @@
    ],
    "to": "10 September 2026 13:00"
   },
-  "a459919cd5de243f": {
-   "city": "Iz-Zurrieq",
-   "from": "04 September 2026 06:30",
-   "streets": [
-    "TRIQ L- ARCIPRIET E. MIFSUD",
-    "TRIQ ISOUARD XUEREB",
-    "TRIQ L- IMTALI",
-    "TRIQ SAN PORFIRJU"
-   ],
-   "to": "04 September 2026 13:00"
-  },
-  "a5d6cda61da1a503": {
-   "city": "Birkirkara",
-   "from": "04 September 2026 08:00",
-   "streets": [
-    "TRIQ L- EWWEL TA' MEJJU",
-    "TRIQ IZ- ZUGRAGA",
-    "TRIQ A. CUSCHIERI",
-    "TRIQ IL- VLONTIN",
-    "TRIQ FLEUR-DE-LYS",
-    "TRIQ MADRE MARIA THERESA SPINELLI"
-   ],
-   "to": "04 September 2026 13:00"
-  },
   "ab0d2a3a0189bbc5": {
    "city": "Birkirkara",
    "from": "06 September 2026 07:00",
@@ -558,24 +521,6 @@
     "TRIQ PARIS"
    ],
    "to": "06 September 2026 16:00"
-  },
-  "f3cd90f6c9373acc": {
-   "city": "Haz-Zebbug",
-   "from": "04 September 2026 07:00",
-   "streets": [
-    "TRIQ WIED IS-SEWDA"
-   ],
-   "to": "04 September 2026 11:00"
-  },
-  "fbdb42cea4978d7e": {
-   "city": "Haz-Zabbar",
-   "from": "04 September 2026 07:00",
-   "streets": [
-    "TRIQ IL- MADAFFA",
-    "TRIQ IL- BAHRIJA",
-    "TRIQ IX- XGHAJRA"
-   ],
-   "to": "04 September 2026 12:00"
   }
  }
 }
