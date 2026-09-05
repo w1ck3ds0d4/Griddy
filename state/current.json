@@ -415,16 +415,6 @@
   }
  },
  "planned_page": {
-  "15503b2ffbfdeab9": {
-   "city": "H’Attard",
-   "from": "05 September 2026 08:00",
-   "streets": [
-    "TREJQET TA' REGIN",
-    "TRIQ IS- SARDINELLA",
-    "TRIQ IZ- ZBIBA"
-   ],
-   "to": "05 September 2026 13:00"
-  },
   "1803b2b855374b66": {
    "city": "Hal Qormi",
    "from": "15 September 2026 07:00",
@@ -445,14 +435,6 @@
    ],
    "to": "10 September 2026 11:00"
   },
-  "2a364ff816e95327": {
-   "city": "San Gwann",
-   "from": "05 September 2026 03:30",
-   "streets": [
-    "TRIQ TAL- BALAL"
-   ],
-   "to": "05 September 2026 10:00"
-  },
   "2df85cdb41d0d977": {
    "city": "Paola",
    "from": "11 September 2026 07:00",
@@ -464,14 +446,6 @@
     "VJAL IT- 28 TA' APRIL"
    ],
    "to": "11 September 2026 11:00"
-  },
-  "30e85cafc90d243f": {
-   "city": "Haz-Zebbug",
-   "from": "05 September 2026 07:00",
-   "streets": [
-    "TRIQ DUN BARTILMEW ATTARD"
-   ],
-   "to": "05 September 2026 13:00"
   },
   "3651b9b4956f707b": {
    "city": "Marsaskala",
@@ -622,21 +596,6 @@
    ],
    "to": "06 September 2026 16:00"
   },
-  "b0e0fa25d3088765": {
-   "city": "Ta’ Sannat",
-   "from": "05 September 2026 08:30",
-   "streets": [
-    "TRIQ IT-TEMJU TAL-IMRAMMA",
-    "TRIQ IT- TIN",
-    "TRIQ IL- PINNUR",
-    "TRIQ IL- HARRUBA",
-    "TRIQ IX- XABBATA",
-    "TRIQ MARSILJA",
-    "TRIQ TA' SAGUNA",
-    "TRIQ DUN XAND AQUILINA"
-   ],
-   "to": "05 September 2026 13:00"
-  },
   "b283667e59cf8672": {
    "city": "Is-Siggiewi",
    "from": "09 September 2026 07:00",
@@ -651,18 +610,6 @@
     "TRIQ TA' MANDUCA"
    ],
    "to": "09 September 2026 11:00"
-  },
-  "c309374cc0a883e3": {
-   "city": "H’Attard",
-   "from": "05 September 2026 08:00",
-   "streets": [
-    "TRIQ IZ- ZRAGEN",
-    "TRIQ IL- MIXTLA",
-    "TRIQ KANANEA",
-    "TRIQ IS- SARDINELLA",
-    "TRIQ IL- FIKUS"
-   ],
-   "to": "05 September 2026 13:00"
   },
   "d3f7fa00ae432b08": {
    "city": "Il-Mosta",
