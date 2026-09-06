@@ -439,14 +439,6 @@
    ],
    "to": "11 September 2026 11:00"
   },
-  "86c915324b5f85b8": {
-   "city": "Birkirkara",
-   "from": "06 September 2026 07:00",
-   "streets": [
-    "TRIQ L- IMSIDA"
-   ],
-   "to": "06 September 2026 16:00"
-  },
   "8899f4c2a6f02b7f": {
    "city": "Ix-Xghajra",
    "from": "10 September 2026 07:00",
@@ -515,17 +507,6 @@
    ],
    "to": "10 September 2026 11:00"
   },
-  "ab0d2a3a0189bbc5": {
-   "city": "Birkirkara",
-   "from": "06 September 2026 07:00",
-   "streets": [
-    "TRIQ IL- VITTMI TAL-GWERRA",
-    "TRIQ PARIS",
-    "TRIQ TAL- QATTUS",
-    "TRIQ L- IMSIDA"
-   ],
-   "to": "06 September 2026 16:00"
-  },
   "b283667e59cf8672": {
    "city": "Is-Siggiewi",
    "from": "09 September 2026 07:00",
@@ -562,18 +543,6 @@
     "TRIQ L- IMDINA"
    ],
    "to": "14 September 2026 11:00"
-  },
-  "e82aad3a6a104d4c": {
-   "city": "Birkirkara",
-   "from": "06 September 2026 07:00",
-   "streets": [
-    "TRIQ KALCIDON GATT",
-    "TRIQ DUN GEJTANU MANNARINO",
-    "TRIQ L- IMSIDA",
-    "TRIQ IL- VITTMI TAL-GWERRA",
-    "TRIQ PARIS"
-   ],
-   "to": "06 September 2026 16:00"
   }
  }
 }
