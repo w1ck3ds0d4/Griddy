@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "069d63270abf0251": {
+   "CreatedDate": "2026-09-07T18:37:51.487+02:00",
+   "Id": 181573,
+   "Localities": "Qormi, Siggiewi, Zebbug (Malta)",
+   "OutageId": 18436,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "8c1c7a48f070d0b95e49209675f3a6824421bc7142ebbe8181feac328116c60a",
+   "lastupdated": "2026-09-07T18:33:01.753+02:00"
+  }
+ },
  "planned": {
   "41301": {
    "CaseID": "41301",
