@@ -1,38 +1,8 @@
 {
  "live": {
-  "27be3df092c6028b": {
-   "CreatedDate": "2026-09-09T18:45:56.563+02:00",
-   "Id": 182375,
-   "Localities": "Gzira, Hamrun, Marsa, Msida, Pieta', Ta` Xbiex",
-   "OutageId": 18520,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "bc0093ff113035783533ec722d0a995e0b93f71b8eb7e832b55de5ae1efd332e",
-   "lastupdated": "2026-09-09T18:24:27.453+02:00"
-  },
-  "28ed3df03d024f28": {
-   "CreatedDate": "2026-09-09T18:45:56.53+02:00",
-   "Id": 182373,
-   "Localities": "Balzan, Birkirkara",
-   "OutageId": 18517,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "a54c0ae5b43c83f271fa4f40a4d9e64998a6f3e8f8622f5bc665850ebb44e026",
-   "lastupdated": "2026-09-09T18:24:23.567+02:00"
-  },
-  "80c7aaa0c2be37e8": {
-   "CreatedDate": "2026-09-09T18:45:56.453+02:00",
-   "Id": 182367,
-   "Localities": "Attard, Dingli, Mdina, Rabat (Malta)",
-   "OutageId": 18503,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "8b062c69fa0fd6e3638537efe21d86a47a9c14fbe1592ce4ed547560cfbbd2d1",
-   "lastupdated": "2026-09-09T18:24:01.673+02:00"
-  },
-  "9327e20650389445": {
-   "CreatedDate": "2026-09-09T18:45:56.487+02:00",
-   "Id": 182368,
+  "0a784e1565e71f64": {
+   "CreatedDate": "2026-09-09T18:55:56.46+02:00",
+   "Id": 182449,
    "Localities": "Lija, Mosta, Naxxar",
    "OutageId": 18505,
    "OutageType": 2,
@@ -40,39 +10,9 @@
    "geometry_sha256": "e862d35083f80f4697fd225c03031fcc0743db90143922dba23e1332f488ed35",
    "lastupdated": "2026-09-09T18:24:05.04+02:00"
   },
-  "b83ef96d7a89baf4": {
-   "CreatedDate": "2026-09-09T18:45:56.53+02:00",
-   "Id": 182371,
-   "Localities": "Hamrun, Msida, Santa Venera",
-   "OutageId": 18509,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "36ad2c025f7c27bfb76032a8e221b791cd597fc692d482d74d65fd6de5e2b0fe",
-   "lastupdated": "2026-09-09T18:24:11.193+02:00"
-  },
-  "d28327575910313b": {
-   "CreatedDate": "2026-09-09T18:45:56.547+02:00",
-   "Id": 182374,
-   "Localities": "Floriana, Hamrun, Pieta', Ta` Xbiex",
-   "OutageId": 18519,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "de3d4ab23953a10100449b42fc9db16b2eb255dd092e24712aa512db7e983612",
-   "lastupdated": "2026-09-09T18:24:26.247+02:00"
-  },
-  "d7df3865ab76e74b": {
-   "CreatedDate": "2026-09-09T18:45:56.517+02:00",
-   "Id": 182370,
-   "Localities": "Hamrun, Marsa",
-   "OutageId": 18508,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "d5100b143c047ce13484467a1d39f98aa90920035254bfd9aa10c56f99b4282e",
-   "lastupdated": "2026-09-09T18:24:09.817+02:00"
-  },
-  "dd31fb120a1b0a8e": {
-   "CreatedDate": "2026-09-09T18:45:56.53+02:00",
-   "Id": 182372,
+  "28d638f133b99a73": {
+   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
+   "Id": 182453,
    "Localities": "Lija, Mosta, Naxxar",
    "OutageId": 18514,
    "OutageType": 2,
@@ -80,15 +20,75 @@
    "geometry_sha256": "fab5f5c766b6628661c0bc540f3abbcc59a7e0f59df8f1f2af3efe084dd04d33",
    "lastupdated": "2026-09-09T18:24:19.46+02:00"
   },
-  "e13600743a4f3155": {
-   "CreatedDate": "2026-09-09T18:45:56.5+02:00",
-   "Id": 182369,
+  "3cbebc5606a1ff8a": {
+   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
+   "Id": 182451,
+   "Localities": "Hamrun, Marsa",
+   "OutageId": 18508,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "d5100b143c047ce13484467a1d39f98aa90920035254bfd9aa10c56f99b4282e",
+   "lastupdated": "2026-09-09T18:24:09.817+02:00"
+  },
+  "5048405c0a315ed4": {
+   "CreatedDate": "2026-09-09T18:55:56.46+02:00",
+   "Id": 182450,
    "Localities": "Attard, Lija, Zebbug (Malta)",
    "OutageId": 18506,
    "OutageType": 2,
    "estimatedtime": "N/A",
    "geometry_sha256": "5db5f8f0e11b9e5c8e34964fa4bca97581799465bcf233a400689dc3016dd1d0",
    "lastupdated": "2026-09-09T18:24:06.603+02:00"
+  },
+  "59fb7459cae3cf93": {
+   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
+   "Id": 182455,
+   "Localities": "Floriana, Hamrun, Pieta', Ta` Xbiex",
+   "OutageId": 18519,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "de3d4ab23953a10100449b42fc9db16b2eb255dd092e24712aa512db7e983612",
+   "lastupdated": "2026-09-09T18:24:26.247+02:00"
+  },
+  "bed826117407e9b7": {
+   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
+   "Id": 182456,
+   "Localities": "Gzira, Hamrun, Marsa, Msida, Pieta', Ta` Xbiex",
+   "OutageId": 18520,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "bc0093ff113035783533ec722d0a995e0b93f71b8eb7e832b55de5ae1efd332e",
+   "lastupdated": "2026-09-09T18:24:27.453+02:00"
+  },
+  "da3841db7807e26d": {
+   "CreatedDate": "2026-09-09T18:55:56.46+02:00",
+   "Id": 182448,
+   "Localities": "Attard, Dingli, Mdina, Rabat (Malta)",
+   "OutageId": 18503,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "8b062c69fa0fd6e3638537efe21d86a47a9c14fbe1592ce4ed547560cfbbd2d1",
+   "lastupdated": "2026-09-09T18:24:01.673+02:00"
+  },
+  "ea3b65c2f0344811": {
+   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
+   "Id": 182454,
+   "Localities": "Balzan, Birkirkara",
+   "OutageId": 18517,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "a54c0ae5b43c83f271fa4f40a4d9e64998a6f3e8f8622f5bc665850ebb44e026",
+   "lastupdated": "2026-09-09T18:24:23.567+02:00"
+  },
+  "ee5df1e07ffeed1c": {
+   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
+   "Id": 182452,
+   "Localities": "Hamrun, Msida, Santa Venera",
+   "OutageId": 18509,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "36ad2c025f7c27bfb76032a8e221b791cd597fc692d482d74d65fd6de5e2b0fe",
+   "lastupdated": "2026-09-09T18:24:11.193+02:00"
   }
  },
  "planned": {
