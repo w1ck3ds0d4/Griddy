@@ -1,48 +1,8 @@
 {
  "live": {
-  "0a784e1565e71f64": {
-   "CreatedDate": "2026-09-09T18:55:56.46+02:00",
-   "Id": 182449,
-   "Localities": "Lija, Mosta, Naxxar",
-   "OutageId": 18505,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "e862d35083f80f4697fd225c03031fcc0743db90143922dba23e1332f488ed35",
-   "lastupdated": "2026-09-09T18:24:05.04+02:00"
-  },
-  "28d638f133b99a73": {
-   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
-   "Id": 182453,
-   "Localities": "Lija, Mosta, Naxxar",
-   "OutageId": 18514,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "fab5f5c766b6628661c0bc540f3abbcc59a7e0f59df8f1f2af3efe084dd04d33",
-   "lastupdated": "2026-09-09T18:24:19.46+02:00"
-  },
-  "3cbebc5606a1ff8a": {
-   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
-   "Id": 182451,
-   "Localities": "Hamrun, Marsa",
-   "OutageId": 18508,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "d5100b143c047ce13484467a1d39f98aa90920035254bfd9aa10c56f99b4282e",
-   "lastupdated": "2026-09-09T18:24:09.817+02:00"
-  },
-  "5048405c0a315ed4": {
-   "CreatedDate": "2026-09-09T18:55:56.46+02:00",
-   "Id": 182450,
-   "Localities": "Attard, Lija, Zebbug (Malta)",
-   "OutageId": 18506,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "5db5f8f0e11b9e5c8e34964fa4bca97581799465bcf233a400689dc3016dd1d0",
-   "lastupdated": "2026-09-09T18:24:06.603+02:00"
-  },
-  "59fb7459cae3cf93": {
-   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
-   "Id": 182455,
+  "24a747a9dd1fabeb": {
+   "CreatedDate": "2026-09-09T19:05:56.657+02:00",
+   "Id": 182536,
    "Localities": "Floriana, Hamrun, Pieta', Ta` Xbiex",
    "OutageId": 18519,
    "OutageType": 2,
@@ -50,19 +10,29 @@
    "geometry_sha256": "de3d4ab23953a10100449b42fc9db16b2eb255dd092e24712aa512db7e983612",
    "lastupdated": "2026-09-09T18:24:26.247+02:00"
   },
-  "bed826117407e9b7": {
-   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
-   "Id": 182456,
-   "Localities": "Gzira, Hamrun, Marsa, Msida, Pieta', Ta` Xbiex",
-   "OutageId": 18520,
+  "2fdcf6c13a68d67d": {
+   "CreatedDate": "2026-09-09T19:05:56.61+02:00",
+   "Id": 182530,
+   "Localities": "Lija, Mosta, Naxxar",
+   "OutageId": 18505,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "bc0093ff113035783533ec722d0a995e0b93f71b8eb7e832b55de5ae1efd332e",
-   "lastupdated": "2026-09-09T18:24:27.453+02:00"
+   "geometry_sha256": "e862d35083f80f4697fd225c03031fcc0743db90143922dba23e1332f488ed35",
+   "lastupdated": "2026-09-09T18:24:05.04+02:00"
   },
-  "da3841db7807e26d": {
-   "CreatedDate": "2026-09-09T18:55:56.46+02:00",
-   "Id": 182448,
+  "4122a23b2b1edf2b": {
+   "CreatedDate": "2026-09-09T19:05:56.64+02:00",
+   "Id": 182533,
+   "Localities": "Hamrun, Msida, Santa Venera",
+   "OutageId": 18509,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "36ad2c025f7c27bfb76032a8e221b791cd597fc692d482d74d65fd6de5e2b0fe",
+   "lastupdated": "2026-09-09T18:24:11.193+02:00"
+  },
+  "85d98577811ca874": {
+   "CreatedDate": "2026-09-09T19:05:56.61+02:00",
+   "Id": 182529,
    "Localities": "Attard, Dingli, Mdina, Rabat (Malta)",
    "OutageId": 18503,
    "OutageType": 2,
@@ -70,25 +40,55 @@
    "geometry_sha256": "8b062c69fa0fd6e3638537efe21d86a47a9c14fbe1592ce4ed547560cfbbd2d1",
    "lastupdated": "2026-09-09T18:24:01.673+02:00"
   },
-  "ea3b65c2f0344811": {
-   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
-   "Id": 182454,
+  "8a19ffac776aae88": {
+   "CreatedDate": "2026-09-09T19:05:56.64+02:00",
+   "Id": 182534,
+   "Localities": "Lija, Mosta, Naxxar",
+   "OutageId": 18514,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "fab5f5c766b6628661c0bc540f3abbcc59a7e0f59df8f1f2af3efe084dd04d33",
+   "lastupdated": "2026-09-09T18:24:19.46+02:00"
+  },
+  "ad9088612a8c4749": {
+   "CreatedDate": "2026-09-09T19:05:56.64+02:00",
+   "Id": 182532,
+   "Localities": "Hamrun, Marsa",
+   "OutageId": 18508,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "d5100b143c047ce13484467a1d39f98aa90920035254bfd9aa10c56f99b4282e",
+   "lastupdated": "2026-09-09T18:24:09.817+02:00"
+  },
+  "c015dbb53e336929": {
+   "CreatedDate": "2026-09-09T19:05:56.623+02:00",
+   "Id": 182531,
+   "Localities": "Attard, Lija, Zebbug (Malta)",
+   "OutageId": 18506,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "5db5f8f0e11b9e5c8e34964fa4bca97581799465bcf233a400689dc3016dd1d0",
+   "lastupdated": "2026-09-09T18:24:06.603+02:00"
+  },
+  "d713ead797ce92ce": {
+   "CreatedDate": "2026-09-09T19:05:56.657+02:00",
+   "Id": 182537,
+   "Localities": "Gzira, Hamrun, Marsa, Msida, Pieta', Ta` Xbiex",
+   "OutageId": 18520,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "bc0093ff113035783533ec722d0a995e0b93f71b8eb7e832b55de5ae1efd332e",
+   "lastupdated": "2026-09-09T18:24:27.453+02:00"
+  },
+  "f7644347eed4263d": {
+   "CreatedDate": "2026-09-09T19:05:56.657+02:00",
+   "Id": 182535,
    "Localities": "Balzan, Birkirkara",
    "OutageId": 18517,
    "OutageType": 2,
    "estimatedtime": "N/A",
    "geometry_sha256": "a54c0ae5b43c83f271fa4f40a4d9e64998a6f3e8f8622f5bc665850ebb44e026",
    "lastupdated": "2026-09-09T18:24:23.567+02:00"
-  },
-  "ee5df1e07ffeed1c": {
-   "CreatedDate": "2026-09-09T18:55:56.477+02:00",
-   "Id": 182452,
-   "Localities": "Hamrun, Msida, Santa Venera",
-   "OutageId": 18509,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "36ad2c025f7c27bfb76032a8e221b791cd597fc692d482d74d65fd6de5e2b0fe",
-   "lastupdated": "2026-09-09T18:24:11.193+02:00"
   }
  },
  "planned": {
@@ -104,7 +104,7 @@
      ]
     }
    ],
-   "transformers_sha256": "acc21be563fb31cbc2e65740fab1855a9030d77cfa068dc4e208a8b6552aba6e"
+   "transformers_sha256": "3ce9134c9343e12472ecb335f6ae50b1d620386b6f57b75e734bc3771031d471"
   },
   "41311": {
    "CaseID": "41311",
@@ -118,7 +118,7 @@
      ]
     }
    ],
-   "transformers_sha256": "b1f5da57bf42d5cd306013f44744774e378c42d3b4948ede8824f921c853d9e2"
+   "transformers_sha256": "724499047ec7ab98744cd198810739df77dd72df642ba254438337137c7b581b"
   },
   "41313": {
    "CaseID": "41313",
@@ -132,7 +132,7 @@
      ]
     }
    ],
-   "transformers_sha256": "0ee8ba93ca6363e0e6816e86d99f23f79a94d4398ed043edc15da9a23c92b8fc"
+   "transformers_sha256": "a13606971030e878b2ee2e852c573a275bbadfabd3942be66d069fe0f7055010"
   },
   "41323": {
    "CaseID": "41323",
@@ -146,7 +146,7 @@
      ]
     }
    ],
-   "transformers_sha256": "92aa84070e7fa2b22ef9dd476f6a178e72aeab0a0214ce046d012649709ebd3c"
+   "transformers_sha256": "9b59be09861a2d7ad79b58e8391279337bfc54f717dd65b318ad716f5ac15311"
   },
   "41324": {
    "CaseID": "41324",
@@ -160,7 +160,7 @@
      ]
     }
    ],
-   "transformers_sha256": "c2ef932c150c8489dc4936eec7bad824858c72e556fcd101f4fd22dea76f48ac"
+   "transformers_sha256": "9cf5b6982132c1eff1b7691903d9f246ff088102cc110948146298a50ca25cc2"
   },
   "41325": {
    "CaseID": "41325",
@@ -174,7 +174,7 @@
      ]
     }
    ],
-   "transformers_sha256": "80e0b0c4b5ef35f22eae93198905c6d080780be2292fe3f896b6e7a636ba057a"
+   "transformers_sha256": "e7cfb389b6f47ef669724a354f3271788f4ab03e54813b825b7b0c84666124dc"
   },
   "41326": {
    "CaseID": "41326",
@@ -188,7 +188,7 @@
      ]
     }
    ],
-   "transformers_sha256": "9da030c2b54a3c38b5b93357abd71c63e690162df4249be2e31aa48858f81f4a"
+   "transformers_sha256": "3a7aacbe7f9201095a8a233059e3c8456ae796b0c337055f6ae5efd6e91d0e11"
   },
   "41327": {
    "CaseID": "41327",
@@ -202,7 +202,7 @@
      ]
     }
    ],
-   "transformers_sha256": "21eda2664f7c2111b32a3b6e669fac0d054876d7280ac6b2dc37af71b8c675ff"
+   "transformers_sha256": "9e80a4e1e59ebb52d739f7b911ecbee001766650d2d98c57cd2e9207c11d74c2"
   },
   "41331": {
    "CaseID": "41331",
@@ -216,7 +216,7 @@
      ]
     }
    ],
-   "transformers_sha256": "09fc50e532728d300eb47ad960c23a865eb5dfc366f12f3231e097efe1882b7f"
+   "transformers_sha256": "389037bb29ced25e6b1f54f4238c9efd3b9dd01500132cdd7d6f88f966440b3f"
   },
   "41332": {
    "CaseID": "41332",
@@ -230,7 +230,7 @@
      ]
     }
    ],
-   "transformers_sha256": "e0e16b246e1151b3a819c280d596655c8d537cab25b555ff7d524a6fd19d8dbc"
+   "transformers_sha256": "fde5c812f4aa375622734db375b1d41435199b0615b91da8f7ab9849ee1741f3"
   },
   "41333": {
    "CaseID": "41333",
@@ -244,7 +244,7 @@
      ]
     }
    ],
-   "transformers_sha256": "6e7fd68798ab2b1798bd5d8de21d20c480ccd3b2a3c60696a23e47181a5930f9"
+   "transformers_sha256": "ab0c958e73714741f4762400de3f0e97eea9cae945c2c1add7fb4f464551fd2a"
   },
   "41334": {
    "CaseID": "41334",
@@ -258,7 +258,7 @@
      ]
     }
    ],
-   "transformers_sha256": "0e5b8e65d9549a2008e941fc08d60e309a9c85971e903187f84b0bba313f71d2"
+   "transformers_sha256": "dc87d5bcec3edc631b264e26ad6d6a321131010052519130dabf485820ec862f"
   },
   "41335": {
    "CaseID": "41335",
@@ -272,7 +272,7 @@
      ]
     }
    ],
-   "transformers_sha256": "3900a889251353b61a67678fdd8253578da85797dd04076cdfeeeb4aa1a5ae2e"
+   "transformers_sha256": "255b10d7195a445c1460cbf9505285ebd4d43fc2b39fcce735b7eb5f787731a7"
   },
   "41336": {
    "CaseID": "41336",
@@ -286,7 +286,7 @@
      ]
     }
    ],
-   "transformers_sha256": "ae4fd5c1c278d9b37b417ddf1bfb1975fb59ebc3cda2551a4c43c9be8932a08b"
+   "transformers_sha256": "817b64cf068bb2588e182fb1d5615937e1753bc7aacc10959938638a0eec8b0f"
   },
   "41337": {
    "CaseID": "41337",
@@ -306,7 +306,7 @@
      ]
     }
    ],
-   "transformers_sha256": "21611e1d3cbc0f8505e97151ae98c3b8ae910498ff4e677610fe0e7ba64cfb5c"
+   "transformers_sha256": "4fb96c55a0dc04217aca0a0a293f7bace4c5d6467e1fa5da2887448e10ffd7f0"
   },
   "41338": {
    "CaseID": "41338",
@@ -320,7 +320,7 @@
      ]
     }
    ],
-   "transformers_sha256": "76c9ef009e91c425850b9463f182c77ed7261ad4c3e7837baf3e663e5b3838da"
+   "transformers_sha256": "cdfe0e9974d02eb448956f39fbf94f6efed880155f53aaeb7a19cfc1fcfa886e"
   },
   "41339": {
    "CaseID": "41339",
@@ -334,7 +334,7 @@
      ]
     }
    ],
-   "transformers_sha256": "84da2b850058cd3929d0209b1482296f05de4f3c0566adeb08d81afece32742b"
+   "transformers_sha256": "47a7215cf7213a7668e97f1b7cedefd2f831b544aa7bcc2d67f77870704ab6fc"
   },
   "41340": {
    "CaseID": "41340",
@@ -362,7 +362,7 @@
      ]
     }
    ],
-   "transformers_sha256": "9b8f36edadbfd60c27d682ebe90b40259e0902d98afae2194a66e1d7c664d31f"
+   "transformers_sha256": "a2ddd4c41d6d8f399aba46a340d1225a385dd75abfdefd442682c2577955c87b"
   },
   "41342": {
    "CaseID": "41342",
@@ -390,7 +390,7 @@
      ]
     }
    ],
-   "transformers_sha256": "e1e8d47284fa61384dc3b9d1c54de17da5d146205c26cddd71a890d4f62adf31"
+   "transformers_sha256": "cf02767ea8c9c25375c87007e5baf80b99484d7a5ccac176856459e0e7ab224f"
   },
   "41344": {
    "CaseID": "41344",
@@ -418,7 +418,7 @@
      ]
     }
    ],
-   "transformers_sha256": "4f82ac1b26a75c7ac868ac40cde2b1bef71207543ae67d8be70dadd1611e7626"
+   "transformers_sha256": "c9a96e2a13918e555e1bcd59fce173efa0ced17eaeba0d9ad49b9df457fcc04c"
   },
   "41346": {
    "CaseID": "41346",
@@ -433,6 +433,20 @@
     }
    ],
    "transformers_sha256": "ca055d8ccb39d7196876e9735b75dd6ca85a111a131d361c704993f928c4cda9"
+  },
+  "41347": {
+   "CaseID": "41347",
+   "EndDate": "2026-09-12T12:00:00+02:00",
+   "StartDate": "2026-09-12T06:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "373",
+     "feeders": [
+      "4"
+     ]
+    }
+   ],
+   "transformers_sha256": "f86923f17a561f85f64fd0bd1e4c51eadf692d43ef5ce1c21347f657289ec664"
   }
  },
  "planned_page": {
