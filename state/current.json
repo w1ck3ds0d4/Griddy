@@ -454,19 +454,6 @@
    ],
    "to": "10 September 2026 11:00"
   },
-  "53ffe4ca0677bf81": {
-   "city": "Ghajnsielem",
-   "from": "09 September 2026 08:30",
-   "streets": [
-    "TRIQ IL- PROVIGARJU",
-    "TRIQ L- IMGARR",
-    "DAHLA TA' CORDINA",
-    "TRIQ TA' LELLUXA",
-    "TRIQ IL- GNIEN",
-    "TRIQ LORD NELSON"
-   ],
-   "to": "09 September 2026 11:30"
-  },
   "7243da516b7428e6": {
    "city": "Paola",
    "from": "16 September 2026 07:00",
@@ -504,17 +491,6 @@
    ],
    "to": "10 September 2026 12:00"
   },
-  "89a9bc3d7965cd58": {
-   "city": "Il-Mosta",
-   "from": "09 September 2026 04:30",
-   "streets": [
-    "TRIQ SIR ARTHUR BORTON",
-    "TRIQ IL- KOSTITUZZJONI",
-    "TRIQ FILIPPO APAP BOLOGNA",
-    "TRIQ NIKOL MUSCAT"
-   ],
-   "to": "09 September 2026 06:00"
-  },
   "93eabce505a548c1": {
    "city": "San Pawl il-Bahar",
    "from": "10 September 2026 08:00",
@@ -534,19 +510,6 @@
     "TRIQ PATRI GWANN AZZOPARDI"
    ],
    "to": "10 September 2026 13:00"
-  },
-  "a1b9592197a62f1b": {
-   "city": "Hal Luqa",
-   "from": "09 September 2026 07:00",
-   "streets": [
-    "TRIQ GANNI VASSALLO",
-    "TRIQ HAL TARXIEN",
-    "TRIQ GUZEPP SALIBA",
-    "TRIQ IL- KUNSILL TA' L-EWROPA",
-    "TRIQ KAN. GWANN BORG",
-    "TRIQ IL- KUNSILL TAL-EWROPA"
-   ],
-   "to": "09 September 2026 11:00"
   },
   "a364b7bde07c70e4": {
    "city": "Haz-Zebbug",
@@ -568,21 +531,6 @@
    ],
    "to": "10 September 2026 06:00"
   },
-  "b283667e59cf8672": {
-   "city": "Is-Siggiewi",
-   "from": "09 September 2026 07:00",
-   "streets": [
-    "TRIQ TAL- IMWIEGEL",
-    "TRIQ TAL- KILBA",
-    "TRIQ ANNABELLE VASSALLO",
-    "TRIQ TAL- PROVIDENZA",
-    "TRIQ TA' BUR IL-KBIR",
-    "TRIQ PATRI GUZEPP DELIA",
-    "TRIQ LAPSI",
-    "TRIQ TA' MANDUCA"
-   ],
-   "to": "09 September 2026 11:00"
-  },
   "b58d78762d34f405": {
    "city": "Tas-Sliema",
    "from": "10 September 2026 07:00",
@@ -593,17 +541,6 @@
     "TRIQ IL- QASIRA"
    ],
    "to": "10 September 2026 11:00"
-  },
-  "d2dec5cb8812ffd7": {
-   "city": "L-Imgarr",
-   "from": "09 September 2026 12:00",
-   "streets": [
-    "TRIQ IL- GHANSAR",
-    "TRIQ SAN PAWL",
-    "TRIQ SAN FILIPPU",
-    "TRIQ DUN GUZEPP MICALLEF"
-   ],
-   "to": "09 September 2026 18:00"
   },
   "d3f7fa00ae432b08": {
    "city": "Il-Mosta",
