@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "973bc356e1468410": {
+   "CreatedDate": "2026-09-09T07:58:53.44+02:00",
+   "Id": 181843,
+   "Localities": "Mellieha, Mgarr, St. Paul's Bay",
+   "OutageId": 18444,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "abc5b16599ffa745a8fc01b3a2fb1f8b7e3fa46fd0de5528632497ee783069ce",
+   "lastupdated": "2026-09-09T06:33:02.507+02:00"
+  }
+ },
  "planned": {
   "41301": {
    "CaseID": "41301",
@@ -13,7 +24,7 @@
      ]
     }
    ],
-   "transformers_sha256": "cb13cbbec86dbfde006b0af4efb607512fcefba8d9c2b8764ecaa8ee5cab2b40"
+   "transformers_sha256": "6574716db443e90d93adb296209ce9090855a40f2daf4424d8c64df44b3a3052"
   },
   "41311": {
    "CaseID": "41311",
@@ -27,7 +38,7 @@
      ]
     }
    ],
-   "transformers_sha256": "b1f5da57bf42d5cd306013f44744774e378c42d3b4948ede8824f921c853d9e2"
+   "transformers_sha256": "7c97f6ad54677dc38b66a36ccd2bab8d24d9bd2d0c704d6cc5bafa60e0614123"
   },
   "41313": {
    "CaseID": "41313",
@@ -41,7 +52,7 @@
      ]
     }
    ],
-   "transformers_sha256": "0b0addfe4d2a3fe7458a4fc8b095dc5114fbfd22235d713ee6b9d5bacf650887"
+   "transformers_sha256": "c278033b07878c3263634fc7e482e14d9812e309ef3cec27f0003c92c1649221"
   },
   "41323": {
    "CaseID": "41323",
@@ -55,7 +66,7 @@
      ]
     }
    ],
-   "transformers_sha256": "ac8cb1f4f9dbe82380d34fb29adcd47c5c4a9e299525f609a8af81d36f7fb79a"
+   "transformers_sha256": "925ed13427aa58566ad5b750534a34df544f0ca4bdcb20f79354f4581e762929"
   },
   "41324": {
    "CaseID": "41324",
@@ -69,7 +80,7 @@
      ]
     }
    ],
-   "transformers_sha256": "471f846ba50e2cd31479ee94149c4825d9126abed991caaf14afe24c2befd227"
+   "transformers_sha256": "9cf5b6982132c1eff1b7691903d9f246ff088102cc110948146298a50ca25cc2"
   },
   "41325": {
    "CaseID": "41325",
@@ -83,7 +94,7 @@
      ]
     }
    ],
-   "transformers_sha256": "93b56f4eb191133620bdadd18523d4b1c726b4c1b4a8ecfbd51e60d9d968a2f8"
+   "transformers_sha256": "308c5832142e47fa141ca6f24cb1a14e3631a2efbed4cd8a13984adb40b535a8"
   },
   "41326": {
    "CaseID": "41326",
@@ -97,7 +108,7 @@
      ]
     }
    ],
-   "transformers_sha256": "29fc554a269427ec8df4350ad5ac33355225e81d7eac899c2b8b88c3786f0933"
+   "transformers_sha256": "f0add8107e061672cc51574396ba95d1bdc3139e9b453e037f6eb2c2ec04f645"
   },
   "41327": {
    "CaseID": "41327",
@@ -111,7 +122,7 @@
      ]
     }
    ],
-   "transformers_sha256": "5e27f0093dce25a7964b0274f4f52fbc2423bac10438302ab69d29482ef78088"
+   "transformers_sha256": "7939ef2b86c9e35f6e9a0774986523df770f48234293eb2deaf95751f7d6bfb9"
   },
   "41331": {
    "CaseID": "41331",
@@ -125,7 +136,7 @@
      ]
     }
    ],
-   "transformers_sha256": "38401f814e3f1cdc8828863a371a6bafd241390693f4a4b43fe643c4dee64e01"
+   "transformers_sha256": "14fa5574b78c9101c7caf406122e0b0b97fc4f512a26f3e27db48d108673e7b0"
   },
   "41332": {
    "CaseID": "41332",
@@ -139,7 +150,7 @@
      ]
     }
    ],
-   "transformers_sha256": "39b2e76cd68cd9d52d64a7a8671aeb6ac082c9749ee8a87e3ef44e9371645172"
+   "transformers_sha256": "b39ab0de8ed953289adc1d2534c60988dfc78788a9ac9fc81ddf6a23828840f2"
   },
   "41333": {
    "CaseID": "41333",
@@ -153,7 +164,7 @@
      ]
     }
    ],
-   "transformers_sha256": "2a0af371bf885d227abb157074bb8efd0c930c9e551cb252099f441017968295"
+   "transformers_sha256": "f98a4417608a8b0e893408b8d200892d8c4cb88bff86cac6400e092188af0dcd"
   },
   "41334": {
    "CaseID": "41334",
@@ -167,7 +178,7 @@
      ]
     }
    ],
-   "transformers_sha256": "c2183d278533522bba29453430df7ad57572993130c5dfa51ea08933a710d6dd"
+   "transformers_sha256": "742f695a8fe25ae24c05f14a36f8e3ef17a99f92a8a7e70de8cb6b2d8f5633c1"
   },
   "41335": {
    "CaseID": "41335",
@@ -181,7 +192,7 @@
      ]
     }
    ],
-   "transformers_sha256": "ab245a36e641888337345ccb5b81e82b22195b6ae7ddf2397a67d21e23be1a1f"
+   "transformers_sha256": "d9b75775ea9f556f66723f4f8956a56cc84c2a225b736190606f9ad8f0859788"
   },
   "41336": {
    "CaseID": "41336",
@@ -195,7 +206,7 @@
      ]
     }
    ],
-   "transformers_sha256": "219db27f298e70e147bf14b9c9b7887dec4e230dee88aedde5bd04aa0c916700"
+   "transformers_sha256": "1b736f85e7ec84cd240c5c5218fd931428b4be1c1d61dd5e003d5bd70fd85417"
   },
   "41337": {
    "CaseID": "41337",
@@ -215,7 +226,7 @@
      ]
     }
    ],
-   "transformers_sha256": "b40ae2ed50202a397bbbcde67575018a45ab6972feeddfc99fa917a6401464ae"
+   "transformers_sha256": "1c69de4c2adcf59d1e062ed4d8b0a4fc8bf2e18f052c61a28c61960d2feeea79"
   },
   "41338": {
    "CaseID": "41338",
@@ -229,7 +240,7 @@
      ]
     }
    ],
-   "transformers_sha256": "068c09f702c89b87f849ca513fe026537248d534cf17cb55ea395f9a2e123106"
+   "transformers_sha256": "9eb410167489a0ad2d13908b08983e7b9d07a3a3ef4cf607e73086bae6048634"
   },
   "41339": {
    "CaseID": "41339",
@@ -243,7 +254,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a38534c087d0051366b190db40c81caa2c33c39f89235e0205efde447997e10d"
+   "transformers_sha256": "34f42065352c7f7798515a21e5571751cce92b5b7a0df0a02ce5562009dc04c6"
   },
   "41340": {
    "CaseID": "41340",
@@ -257,7 +268,7 @@
      ]
     }
    ],
-   "transformers_sha256": "7880952f82ffea6eeb1dbf2507c139ff66fb9fb954e841c802ee7ab7a2cabfff"
+   "transformers_sha256": "6c3139102d7051d0954ffa16886edbf1563194d86154c430c9f44250e986ad99"
   },
   "41341": {
    "CaseID": "41341",
@@ -271,7 +282,7 @@
      ]
     }
    ],
-   "transformers_sha256": "ef47e6a9f7dda1808e3b136eb00672e1881f9a10658a5ef961aa1b52c3a6df9c"
+   "transformers_sha256": "0e4e8d401f0a5bbc69522e1e15564310ea97f125a4ddc5bb62ec8f323e867967"
   },
   "41342": {
    "CaseID": "41342",
@@ -299,7 +310,21 @@
      ]
     }
    ],
-   "transformers_sha256": "cdc671eb8866623312590daedc59b01fb9d085800199c4908c69e657dbb23cf5"
+   "transformers_sha256": "e1e8d47284fa61384dc3b9d1c54de17da5d146205c26cddd71a890d4f62adf31"
+  },
+  "41344": {
+   "CaseID": "41344",
+   "EndDate": "2026-09-10T11:00:00+02:00",
+   "StartDate": "2026-09-10T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "477",
+     "feeders": [
+      "7"
+     ]
+    }
+   ],
+   "transformers_sha256": "53547e464333bcd8f799a25b6678069e2fecb206ce6a4571cff18be24dafeefc"
   }
  },
  "planned_page": {
@@ -550,6 +575,15 @@
     "TRIQ L- IMDINA"
    ],
    "to": "14 September 2026 11:00"
+  },
+  "fa94cfa1a6ced564": {
+   "city": "In-Naxxar",
+   "from": "10 September 2026 08:00",
+   "streets": [
+    "TRIQ IL- MOSTA",
+    "VJAL IL- WIEHED U GHOXRIN TA' SETTEMBRU"
+   ],
+   "to": "10 September 2026 11:30"
   }
  }
 }
