@@ -548,16 +548,6 @@
    ],
    "to": "11 September 2026 11:00"
   },
-  "1f87513048aa5c45": {
-   "city": "Is-Siggiewi",
-   "from": "10 September 2026 07:00",
-   "streets": [
-    "TRIQ BLAT IL-QAMAR",
-    "TRIQ TA' BUR IL-KBIR",
-    "SQAQ TAL- BECCUN"
-   ],
-   "to": "10 September 2026 11:00"
-  },
   "2df85cdb41d0d977": {
    "city": "Paola",
    "from": "11 September 2026 07:00",
@@ -569,61 +559,6 @@
     "VJAL IT- 28 TA' APRIL"
    ],
    "to": "11 September 2026 11:00"
-  },
-  "335d2b55d6892539": {
-   "city": "In-Naxxar",
-   "from": "10 September 2026 03:30",
-   "streets": [
-    "DAHLET IL- GIBJUN",
-    "TRIQ JULES VERNE",
-    "TREJQET NICHOLAS MONSARRAT"
-   ],
-   "to": "10 September 2026 08:30"
-  },
-  "3651b9b4956f707b": {
-   "city": "Marsaskala",
-   "from": "10 September 2026 07:30",
-   "streets": [
-    "TRIQ IL- QALIET",
-    "TRIQ IS- SILLA",
-    "TRIQ IC- CERVJOLA",
-    "TRIQ L- ARZELL",
-    "TRIQ IT- TIBEN",
-    "TRIQ IL- BAHRIJA",
-    "TRIQ M.V. ANGEL GABRIEL"
-   ],
-   "to": "10 September 2026 13:00"
-  },
-  "49c03588695620c7": {
-   "city": "Hal Lija",
-   "from": "10 September 2026 08:00",
-   "streets": [
-    "TRIQ N. COTTONER",
-    "TRIQ SANT' ANDRIJA",
-    "TRIQ SANT' ANDRIJA",
-    "SQAQ NRU. 1",
-    "TRIQ IL- KUNCIZZJONI",
-    "SQAQ NRU. 1",
-    "TRIQ IL- FORN",
-    "TRIQ IL- FORN",
-    "SQAQ NRU. 3",
-    "TRIQ IL- FORN",
-    "SQAQ NRU. 5",
-    "TRIQ IL- FORN",
-    "SQAQ NRU. 6",
-    "TRIQ IL- KUNCIZZJONI",
-    "SQAQ NRU. 2"
-   ],
-   "to": "10 September 2026 13:00"
-  },
-  "4c48184b6df52154": {
-   "city": "San Giljan",
-   "from": "10 September 2026 07:00",
-   "streets": [
-    "TRIQ ROSS",
-    "TRIQ SAN GORG"
-   ],
-   "to": "10 September 2026 11:00"
   },
   "5d990638b9fa3be4": {
    "city": "Il-Munxar",
@@ -700,18 +635,6 @@
    ],
    "to": "16 September 2026 11:00"
   },
-  "8899f4c2a6f02b7f": {
-   "city": "Ix-Xghajra",
-   "from": "10 September 2026 07:00",
-   "streets": [
-    "TRIQ IL- KNISJA",
-    "TRIQ SANTA TEREZA",
-    "TRIQ LAPSI",
-    "WESGHET IL- HELSIEN",
-    "TRIQ LEONARD MAHONEY"
-   ],
-   "to": "10 September 2026 12:00"
-  },
   "8ab8881a41494531": {
    "city": "Birzebbuga",
    "from": "14 September 2026 06:30",
@@ -732,26 +655,6 @@
    ],
    "to": "15 September 2026 11:00"
   },
-  "93eabce505a548c1": {
-   "city": "San Pawl il-Bahar",
-   "from": "10 September 2026 08:00",
-   "streets": [
-    "TRIQ TAL- HMIERI"
-   ],
-   "to": "10 September 2026 13:00"
-  },
-  "954726a85d8d63ff": {
-   "city": "Santa Venera",
-   "from": "10 September 2026 07:00",
-   "streets": [
-    "TREJQA TAL- FERROVIJA",
-    "TRIQ IL- PARILJA",
-    "TRIQ BRAILLE",
-    "TRIQ GUZE' FLORES",
-    "TRIQ PATRI GWANN AZZOPARDI"
-   ],
-   "to": "10 September 2026 13:00"
-  },
   "a229429e3bc7b3fc": {
    "city": "Ix-Xewkija",
    "from": "17 September 2026 07:30",
@@ -759,26 +662,6 @@
     "TRIQ SAN PAWL"
    ],
    "to": "17 September 2026 16:00"
-  },
-  "a364b7bde07c70e4": {
-   "city": "Haz-Zebbug",
-   "from": "10 September 2026 07:00",
-   "streets": [
-    "TRIQ BARUNI AZZOPARDI",
-    "TRIQ DUN FILIPPO CALLEJA",
-    "TRIQ ICILIO CALLEJA",
-    "TRIQ LORENZO GAFA'",
-    "TRIQ L- IMDINA"
-   ],
-   "to": "10 September 2026 11:00"
-  },
-  "abdc396cf2ad62b7": {
-   "city": "Ir-Rabat",
-   "from": "10 September 2026 03:00",
-   "streets": [
-    "TRIQ IN- NIGRET"
-   ],
-   "to": "10 September 2026 06:00"
   },
   "af2bb279b7cd7afe": {
    "city": "San Pawl il-Bahar",
@@ -788,25 +671,6 @@
     "TRIQ IL- KORP TAL-PIJUNIERI"
    ],
    "to": "11 September 2026 18:00"
-  },
-  "b58d78762d34f405": {
-   "city": "Tas-Sliema",
-   "from": "10 September 2026 07:00",
-   "streets": [
-    "TRIQ NICOLO' ISOUARD",
-    "TRIQ DEPIRO",
-    "TRIQ BLANCHE HUBER",
-    "TRIQ IL- QASIRA"
-   ],
-   "to": "10 September 2026 11:00"
-  },
-  "d3f7fa00ae432b08": {
-   "city": "Il-Mosta",
-   "from": "10 September 2026 08:00",
-   "streets": [
-    "TRIQ BURMARRAD"
-   ],
-   "to": "10 September 2026 13:00"
   },
   "d615ddfc52d781ca": {
    "city": "L-Imgarr",
@@ -832,15 +696,6 @@
     "TRIQ L- IMDINA"
    ],
    "to": "14 September 2026 11:00"
-  },
-  "fa94cfa1a6ced564": {
-   "city": "In-Naxxar",
-   "from": "10 September 2026 08:00",
-   "streets": [
-    "TRIQ IL- MOSTA",
-    "VJAL IL- WIEHED U GHOXRIN TA' SETTEMBRU"
-   ],
-   "to": "10 September 2026 11:30"
   }
  }
 }
