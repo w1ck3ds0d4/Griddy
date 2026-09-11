@@ -565,6 +565,22 @@
    ],
    "to": "16 September 2026 11:00"
   },
+  "8828d667ef33ce0f": {
+   "city": "Ir-Rabat, Ghawdex",
+   "from": "12 September 2026 08:00",
+   "streets": [
+    "AREA WIED TA-GRAZZJA",
+    "TRIQ IL- GILJU",
+    "TRIQ MARY MEJLAK",
+    "TRIQ GANNI VASSALLO",
+    "TRIQ IL- MADONNA TAL-GILJU",
+    "TRIQ PATRI GACINTU CAMENZULI",
+    "TRIQ PATRI MANWEL MAGRI",
+    "TRIQ IL- KAPUCCINI",
+    "TRIQ MATTIA PRETI"
+   ],
+   "to": "12 September 2026 15:00"
+  },
   "8ab8881a41494531": {
    "city": "Birzebbuga",
    "from": "14 September 2026 06:30",
@@ -572,6 +588,33 @@
     "TRIQ DUN GORG ZAMMIT"
    ],
    "to": "14 September 2026 12:30"
+  },
+  "8e005aa71167325a": {
+   "city": "Il-Fontana",
+   "from": "17 September 2026 08:00",
+   "streets": [
+    "TREJQET CENTRU PAROKJALI",
+    "TRIQ TAL- GHAJN",
+    "TRIQ IL- KAPPILLAN GUZEPP HILI",
+    "TRIQ IS- SAJJIEDA",
+    "TRIQ L- ISPTAR SAN GILJAN",
+    "TRIQ SAN MARTIN",
+    "TRIQ WIED SIEKEL",
+    "TRIQ TA' MULEJJA",
+    "TREJQET BIEB IL-GHAJN",
+    "TRIQ TAL- GHAJN",
+    "SQAQ NRU. 1",
+    "TRIQ TAL- GHAJN",
+    "SQAQ NRU. 4",
+    "TRIQ TAL- GHAJN",
+    "SQAQ NRU. 6",
+    "SQAQ L- ANDAR",
+    "SQAQ TA' FUQ IL-LUNZJATA",
+    "TRIQ TAL- GHAJN",
+    "SQAQ NRU. 5",
+    "TREJQET IL- HARRUB"
+   ],
+   "to": "17 September 2026 12:30"
   },
   "92076937215f6b5f": {
    "city": "Iz-Zurrieq",
@@ -626,6 +669,14 @@
     "TRIQ L- IMDINA"
    ],
    "to": "14 September 2026 11:00"
+  },
+  "f813b0ea212c0a46": {
+   "city": "Ir-Rabat, Ghawdex",
+   "from": "17 September 2026 08:00",
+   "streets": [
+    "TRIQ SANTA DUMINKA"
+   ],
+   "to": "17 September 2026 12:30"
   }
  }
 }
