@@ -765,14 +765,6 @@
    ],
    "to": "14 September 2026 11:00"
   },
-  "0c221c01ea9202bc": {
-   "city": "Il-Mosta",
-   "from": "11 September 2026 07:30",
-   "streets": [
-    "TRIQ IL- HMISTAX TA' AWISSU"
-   ],
-   "to": "11 September 2026 11:30"
-  },
   "110f260507a138fe": {
    "city": "Il-Hamrun",
    "from": "16 September 2026 07:00",
@@ -809,15 +801,6 @@
    ],
    "to": "16 September 2026 13:30"
   },
-  "1f5cff2e66341172": {
-   "city": "Tas-Sliema",
-   "from": "11 September 2026 06:00",
-   "streets": [
-    "TRIQ IL- KBIRA",
-    "TRIQ IT- TORRI"
-   ],
-   "to": "11 September 2026 11:00"
-  },
   "206512d699b28128": {
    "city": "In-Naxxar",
    "from": "14 September 2026 08:00",
@@ -837,18 +820,6 @@
     "TRIQ GDIDA FI"
    ],
    "to": "14 September 2026 12:00"
-  },
-  "2df85cdb41d0d977": {
-   "city": "Paola",
-   "from": "11 September 2026 07:00",
-   "streets": [
-    "TRIQ SAN FRANGISK",
-    "TRIQ IL- KAMPANELLA",
-    "TRIQ WIED BLANDUN",
-    "TRIQ HAZ-ZABBAR",
-    "VJAL IT- 28 TA' APRIL"
-   ],
-   "to": "11 September 2026 11:00"
   },
   "3c9a5511564acf23": {
    "city": "Iz-Zejtun",
@@ -921,19 +892,6 @@
     "TRIQ IS- SALIB"
    ],
    "to": "17 September 2026 12:00"
-  },
-  "817edd3a67f7a9e2": {
-   "city": "Hal Qormi",
-   "from": "11 September 2026 07:00",
-   "streets": [
-    "TRIQ IC- CAWSLI",
-    "TRIQ IL- KUS",
-    "TRIQ IT- TIN",
-    "MISRAH IZ- ZEBBUG",
-    "TRIQ IZ- ZEBBUGA",
-    "TRIQ L- IMDINA"
-   ],
-   "to": "11 September 2026 11:00"
   },
   "857b83f96c72ddaf": {
    "city": "Haz-Zabbar",
@@ -1047,15 +1005,6 @@
     "TRIQ IL- QALA"
    ],
    "to": "14 September 2026 17:00"
-  },
-  "af2bb279b7cd7afe": {
-   "city": "San Pawl il-Bahar",
-   "from": "11 September 2026 14:00",
-   "streets": [
-    "TRIQ IL- QROLL",
-    "TRIQ IL- KORP TAL-PIJUNIERI"
-   ],
-   "to": "11 September 2026 18:00"
   },
   "bc78bffbd43fb815": {
    "city": "Ix-Xewkija",
