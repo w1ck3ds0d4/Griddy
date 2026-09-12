@@ -900,22 +900,6 @@
    ],
    "to": "16 September 2026 11:00"
   },
-  "8828d667ef33ce0f": {
-   "city": "Ir-Rabat, Ghawdex",
-   "from": "12 September 2026 08:00",
-   "streets": [
-    "AREA WIED TA-GRAZZJA",
-    "TRIQ IL- GILJU",
-    "TRIQ MARY MEJLAK",
-    "TRIQ GANNI VASSALLO",
-    "TRIQ IL- MADONNA TAL-GILJU",
-    "TRIQ PATRI GACINTU CAMENZULI",
-    "TRIQ PATRI MANWEL MAGRI",
-    "TRIQ IL- KAPUCCINI",
-    "TRIQ MATTIA PRETI"
-   ],
-   "to": "12 September 2026 15:00"
-  },
   "8ab8881a41494531": {
    "city": "Birzebbuga",
    "from": "14 September 2026 06:30",
@@ -1008,17 +992,6 @@
     "TRIQ TA' BORDIN"
    ],
    "to": "14 September 2026 14:00"
-  },
-  "d615ddfc52d781ca": {
-   "city": "L-Imgarr",
-   "from": "12 September 2026 06:00",
-   "streets": [
-    "TRIQ IL- GHANSAR",
-    "TRIQ GORG ZAMMIT",
-    "TRIQ IL- HAWLIJA",
-    "TRIQ ID- DAHAR"
-   ],
-   "to": "12 September 2026 12:00"
   },
   "dbf590c58ff7a805": {
    "city": "Hal Qormi",
