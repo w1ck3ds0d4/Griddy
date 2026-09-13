@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "1837e41137533eea": {
+   "CreatedDate": "2026-09-13T02:57:57.25+02:00",
+   "Id": 182814,
+   "Localities": "Qrendi, Zurrieq",
+   "OutageId": 18551,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "18ca3cb529f04101a5c62f33b46a8dc58f32638699669d4394782168ff234d8e",
+   "lastupdated": "2026-09-13T02:53:02.057+02:00"
+  }
+ },
  "planned": {
   "41334": {
    "CaseID": "41334",
