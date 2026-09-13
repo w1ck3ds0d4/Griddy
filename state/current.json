@@ -1,13 +1,13 @@
 {
  "live": {
-  "4787dc48cce263bf": {
-   "CreatedDate": "2026-09-13T18:23:58.34+02:00",
-   "Id": 182996,
+  "7a4d4e82667d20a1": {
+   "CreatedDate": "2026-09-13T18:33:57.607+02:00",
+   "Id": 183006,
    "Localities": "Siggiewi, Zebbug (Malta)",
    "OutageId": 18556,
    "OutageType": 2,
    "estimatedtime": "N/A",
-   "geometry_sha256": "4fe201d21eab3da39c4651405b3ec1ec2ac6b8fcaca3dfc9a0896be4e88abb6b",
+   "geometry_sha256": "d15cedc080a45cbd98273c4b357d5b6b8dbae18c287da3628a94e50b9240f420",
    "lastupdated": "2026-09-13T17:59:00.907+02:00"
   }
  },
