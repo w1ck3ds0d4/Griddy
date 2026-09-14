@@ -1108,18 +1108,6 @@
    ],
    "to": "15 September 2026 10:00"
   },
-  "0b3042ac0b9316ca": {
-   "city": "Il-Hamrun",
-   "from": "14 September 2026 07:00",
-   "streets": [
-    "TRIQ ATOCIA",
-    "TRIQ ANTON BUTTIGIEG",
-    "TRIQ SAN GEJTANU",
-    "TRIQ GIOVANNI BARBARA",
-    "TRIQ SAN FRANGISK"
-   ],
-   "to": "14 September 2026 11:00"
-  },
   "110f260507a138fe": {
    "city": "Il-Hamrun",
    "from": "16 September 2026 07:00",
@@ -1155,26 +1143,6 @@
     "TRIQ IL- WARDA"
    ],
    "to": "16 September 2026 13:30"
-  },
-  "206512d699b28128": {
-   "city": "In-Naxxar",
-   "from": "14 September 2026 08:00",
-   "streets": [
-    "TRIQ IT- TRUNCIERI",
-    "TRIQ SAN FRANGISK TA' ASSISI",
-    "TRIQ SANTA KLARA",
-    "TUL IL- KOSTA",
-    "TRIQ BAHAR IC-CAGHAQ",
-    "TRIQ SAN GWANN L-EVANGELISTA",
-    "TRIQ L- GHERIEN",
-    "TRIQ IS- SIES",
-    "TRIQ IL-\" VICTORIA LINES\"",
-    "TRIQ IL- PORZJUNKULA",
-    "TRIQ IL- WIRT NATURALI",
-    "TRIQ IL- WIRT NATURALI",
-    "TRIQ GDIDA FI"
-   ],
-   "to": "14 September 2026 12:00"
   },
   "3c9a5511564acf23": {
    "city": "Iz-Zejtun",
@@ -1243,31 +1211,6 @@
     "TRIQ CASTRO"
    ],
    "to": "17 September 2026 05:30"
-  },
-  "4400b6ea0450ddc8": {
-   "city": "Il-Belt Valletta",
-   "from": "14 September 2026 22:30",
-   "streets": [
-    "TRIQ IR- REPUBBLIKA",
-    "TRIQ IL- MEDITERRAN",
-    "MISRAH SANT' IERMU",
-    "TRIQ IT- TURGIEN",
-    "TRIQ IT- TRAMUNTANA",
-    "TRIQ IL- MERKANTI",
-    "TRIQ L- GHAJN",
-    "TRIQ SAN GUZEPP",
-    "TRIQ SAN BASTJAN"
-   ],
-   "to": "15 September 2026 03:30"
-  },
-  "510e4a6618f9908e": {
-   "city": "Ghajnsielem",
-   "from": "14 September 2026 08:00",
-   "streets": [
-    "TRIQ BORG GHARIB",
-    "TRIQ IL- QALA"
-   ],
-   "to": "14 September 2026 10:00"
   },
   "5509f1730536e9b1": {
    "city": "In-Naxxar",
@@ -1340,14 +1283,6 @@
    ],
    "to": "16 September 2026 11:00"
   },
-  "8ab8881a41494531": {
-   "city": "Birzebbuga",
-   "from": "14 September 2026 06:30",
-   "streets": [
-    "TRIQ DUN GORG ZAMMIT"
-   ],
-   "to": "14 September 2026 12:30"
-  },
   "8e005aa71167325a": {
    "city": "Il-Fontana",
    "from": "17 September 2026 08:00",
@@ -1398,26 +1333,6 @@
    ],
    "to": "18 September 2026 13:00"
   },
-  "9b351b1323ecc45c": {
-   "city": "In-Naxxar",
-   "from": "14 September 2026 18:00",
-   "streets": [
-    "TRIQ IT- TRUNCIERI",
-    "TRIQ SAN FRANGISK TA' ASSISI",
-    "TRIQ SANTA KLARA",
-    "TUL IL- KOSTA",
-    "TRIQ BAHAR IC-CAGHAQ",
-    "TRIQ SAN GWANN L-EVANGELISTA",
-    "TRIQ L- GHERIEN",
-    "TRIQ IS- SIES",
-    "TRIQ IL-\" VICTORIA LINES\"",
-    "TRIQ IL- PORZJUNKULA",
-    "TRIQ IL- WIRT NATURALI",
-    "TRIQ IL- WIRT NATURALI",
-    "TRIQ GDIDA FI"
-   ],
-   "to": "14 September 2026 20:00"
-  },
   "9ca5334a500d2f2b": {
    "city": "Il-Birgu",
    "from": "15 September 2026 13:00",
@@ -1441,15 +1356,6 @@
    ],
    "to": "17 September 2026 16:00"
   },
-  "a5c723a552446f89": {
-   "city": "Ghajnsielem",
-   "from": "14 September 2026 15:00",
-   "streets": [
-    "TRIQ BORG GHARIB",
-    "TRIQ IL- QALA"
-   ],
-   "to": "14 September 2026 17:00"
-  },
   "af3cb3b30c967380": {
    "city": "Tas-Sliema",
    "from": "15 September 2026 06:00",
@@ -1458,24 +1364,6 @@
     "TRIQ IT- TORRI"
    ],
    "to": "15 September 2026 12:00"
-  },
-  "bc78bffbd43fb815": {
-   "city": "Ix-Xewkija",
-   "from": "14 September 2026 12:00",
-   "streets": [
-    "TRIQ IL- MADONNA TAL-HNIENA",
-    "TRIQ TA' BORDIN"
-   ],
-   "to": "14 September 2026 14:00"
-  },
-  "bd54622405b77b12": {
-   "city": "In-Naxxar",
-   "from": "14 September 2026 07:30",
-   "streets": [
-    "TRIQ IL- MOSTA",
-    "VJAL IL- WIEHED U GHOXRIN TA' SETTEMBRU"
-   ],
-   "to": "14 September 2026 11:30"
   },
   "c2ce0ef0ef664bd6": {
    "city": "Tas-Sliema",
@@ -1527,20 +1415,6 @@
     "TRIQ IL- MISSJUNARJI MALTIN"
    ],
    "to": "16 September 2026 11:59"
-  },
-  "dbf590c58ff7a805": {
-   "city": "Hal Qormi",
-   "from": "14 September 2026 07:00",
-   "streets": [
-    "TRIQ TUMAS FENECH",
-    "TRIQ TAL- HLAS",
-    "TRIQ IL- HELSIEN",
-    "TRIQ IL- VITORJA",
-    "TRIQ TA' FARZINA",
-    "TRIQ IS- SERER",
-    "TRIQ L- IMDINA"
-   ],
-   "to": "14 September 2026 11:00"
   },
   "eb942bee1d2ae2ca": {
    "city": "Tal-Pietà",
