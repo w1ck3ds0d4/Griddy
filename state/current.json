@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "bb8c06766bc3d85c": {
+   "CreatedDate": "2026-09-15T03:57:58.973+02:00",
+   "Id": 183521,
+   "Localities": "Birzebbugia",
+   "OutageId": 18592,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "79a9f7fadd1195077f98f68a7c6aeb073e84561f9458c1450d8a8defc1cbfa71",
+   "lastupdated": "2026-09-14T17:15:02.02+02:00"
+  }
+ },
  "planned": {
   "41337": {
    "CaseID": "41337",
