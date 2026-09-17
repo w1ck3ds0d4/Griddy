@@ -1300,84 +1300,6 @@
    ],
    "to": "18 September 2026 08:00"
   },
-  "3c9a5511564acf23": {
-   "city": "Iz-Zejtun",
-   "from": "17 September 2026 07:00",
-   "streets": [
-    "TRIQ TAL- PALAZZI",
-    "TRIQ IL- QALB TA' GESU'",
-    "TRIQ GUZEPPINA CURMI",
-    "TRIQ ID- DULURI",
-    "TRIQ BUGHARBIEL",
-    "TRIQ FELICIA ABELA",
-    "TRIQ DUN SPIR GRIXTI"
-   ],
-   "to": "17 September 2026 13:00"
-  },
-  "3fee65829085cec8": {
-   "city": "Il-Mosta",
-   "from": "17 September 2026 12:00",
-   "streets": [
-    "TRIQ IL- KURAT SCHEMBRI",
-    "TRIQ IL- PAPA GIOVANNI XXIII",
-    "TRIQ IT- TABIB CHETCUTI"
-   ],
-   "to": "17 September 2026 17:00"
-  },
-  "40bd3ad06a9fda8b": {
-   "city": "In-Naxxar",
-   "from": "17 September 2026 01:00",
-   "streets": [
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 2",
-    "TRIQ IN- NISSIEG",
-    "TRIQ HAL DGHEJF",
-    "PJAZZA VITTORJA",
-    "SQAQ NRU. 2",
-    "PJAZZA VITTORJA",
-    "SQAQ NRU. 3",
-    "TRIQ IL- KBIRA",
-    "SQAQ NRU. 3",
-    "TRIQ IL- GDIDA",
-    "TRIQ IS- SALIB",
-    "SQAQ NRU. 1",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 12",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 11",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 10",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 9",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 8",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 6",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 5",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 4",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 3",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 1",
-    "TRIQ IL- HABS",
-    "TRIQ L- IFRAN",
-    "VJAL IL- LABOUR",
-    "VJAL IL- WIEHED U GHOXRIN TA' SETTEMBRU",
-    "TRIQ IZ- ZENQA",
-    "TRIQ ZENQA",
-    "SQAQ FI",
-    "TRIQ IL- MARKIZ GIUSEPPE SCICLUNA",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 7",
-    "PJAZZA DARNINO",
-    "TRIQ IL- KBIRA",
-    "SQAQ NRU. 4",
-    "TRIQ CASTRO"
-   ],
-   "to": "17 September 2026 05:30"
-  },
   "4c998b0394f0427a": {
    "city": "Tas-Sliema",
    "from": "22 September 2026 07:00",
@@ -1416,53 +1338,6 @@
     "TRIQ IT- TRUNCIERA"
    ],
    "to": "19 September 2026 15:00"
-  },
-  "75e29fb5c8c9a32a": {
-   "city": "Is-Siggiewi",
-   "from": "17 September 2026 06:30",
-   "streets": [
-    "TRIQ PATRI GUZEPP DELIA",
-    "TRIQ BLAT IL-QAMAR",
-    "TRIQ IS- SALIB"
-   ],
-   "to": "17 September 2026 12:00"
-  },
-  "8469d63821cc1cfb": {
-   "city": "San Gwann",
-   "from": "17 September 2026 06:00",
-   "streets": [
-    "TRIQ IL- FUXA",
-    "TRIQ IC- CIKLAMINI",
-    "TRIQ SANT' ANTNIN"
-   ],
-   "to": "17 September 2026 12:00"
-  },
-  "8e005aa71167325a": {
-   "city": "Il-Fontana",
-   "from": "17 September 2026 08:00",
-   "streets": [
-    "TREJQET CENTRU PAROKJALI",
-    "TRIQ TAL- GHAJN",
-    "TRIQ IL- KAPPILLAN GUZEPP HILI",
-    "TRIQ IS- SAJJIEDA",
-    "TRIQ L- ISPTAR SAN GILJAN",
-    "TRIQ SAN MARTIN",
-    "TRIQ WIED SIEKEL",
-    "TRIQ TA' MULEJJA",
-    "TREJQET BIEB IL-GHAJN",
-    "TRIQ TAL- GHAJN",
-    "SQAQ NRU. 1",
-    "TRIQ TAL- GHAJN",
-    "SQAQ NRU. 4",
-    "TRIQ TAL- GHAJN",
-    "SQAQ NRU. 6",
-    "SQAQ L- ANDAR",
-    "SQAQ TA' FUQ IL-LUNZJATA",
-    "TRIQ TAL- GHAJN",
-    "SQAQ NRU. 5",
-    "TREJQET IL- HARRUB"
-   ],
-   "to": "17 September 2026 12:30"
   },
   "9397d5f6526a100a": {
    "city": "Haz-Zabbar",
@@ -1511,23 +1386,6 @@
    ],
    "to": "22 September 2026 23:00"
   },
-  "a160e45b6397f591": {
-   "city": "L-Imsida",
-   "from": "17 September 2026 07:30",
-   "streets": [
-    "TREJQA TA' BOXBOX",
-    "TRIQ IT- TORRI"
-   ],
-   "to": "17 September 2026 11:30"
-  },
-  "a229429e3bc7b3fc": {
-   "city": "Ix-Xewkija",
-   "from": "17 September 2026 07:30",
-   "streets": [
-    "TRIQ SAN PAWL"
-   ],
-   "to": "17 September 2026 16:00"
-  },
   "ab1a553e90af771a": {
    "city": "Ghajnsielem",
    "from": "19 September 2026 08:30",
@@ -1554,18 +1412,6 @@
     "TRIQ MONS. PIETRU PAWL SAYDON"
    ],
    "to": "18 September 2026 13:00"
-  },
-  "d75fee0fd8ed038a": {
-   "city": "In-Naxxar",
-   "from": "17 September 2026 08:00",
-   "streets": [
-    "SQAQ GIUSEPPE STIVALA",
-    "TRIQ LELI FALZON",
-    "TRIQ IL- FORGA",
-    "TRIQ PAOLO PARISIO MUSCATI",
-    "TRIQ GIUSEPPE STIVALA"
-   ],
-   "to": "17 September 2026 11:00"
   },
   "d82d684a08572261": {
    "city": "In-Nadur",
@@ -1634,14 +1480,6 @@
     "TRIQ SANT' ORSLA"
    ],
    "to": "22 September 2026 08:30"
-  },
-  "f813b0ea212c0a46": {
-   "city": "Ir-Rabat, Ghawdex",
-   "from": "17 September 2026 08:00",
-   "streets": [
-    "TRIQ SANTA DUMINKA"
-   ],
-   "to": "17 September 2026 12:30"
   },
   "fcfc5f8b1aca7ec8": {
    "city": "Tas-Sliema",
