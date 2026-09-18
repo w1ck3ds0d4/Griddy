@@ -1,8 +1,8 @@
 {
  "live": {
-  "4f1349782effac8b": {
-   "CreatedDate": "2026-09-18T12:22:02.577+02:00",
-   "Id": 183948,
+  "4bc00e78a1178d15": {
+   "CreatedDate": "2026-09-18T12:32:02.663+02:00",
+   "Id": 183958,
    "Localities": "Mellieha",
    "OutageId": 18611,
    "OutageType": 2,
@@ -1080,6 +1080,15 @@
    ],
    "to": "19 September 2026 15:00"
   },
+  "6c59c29f226e7987": {
+   "city": "San Pawl il-Bahar",
+   "from": "19 September 2026 07:00",
+   "streets": [
+    "TRIQ TA' NAWCIERA",
+    "TRIQ IL- QAWRA"
+   ],
+   "to": "19 September 2026 14:00"
+  },
   "7a42ad20dc3a74a6": {
    "city": "Il-Mosta",
    "from": "22 September 2026 12:30",
@@ -1115,6 +1124,16 @@
     "TREJQET IL- GILJU"
    ],
    "to": "23 September 2026 13:30"
+  },
+  "92c35379d4d11b4c": {
+   "city": "H’Attard",
+   "from": "19 September 2026 08:00",
+   "streets": [
+    "TRIQ DUN GWANN THEUMA",
+    "TRIQ IC- CITRU",
+    "TRIQ DUN MIKIEL XERRI"
+   ],
+   "to": "19 September 2026 16:00"
   },
   "9397d5f6526a100a": {
    "city": "Haz-Zabbar",
@@ -1228,6 +1247,21 @@
     "SQAQ SAN MIKIEL"
    ],
    "to": "25 September 2026 12:00"
+  },
+  "e175b96fc8b8b6b0": {
+   "city": "H’Attard",
+   "from": "19 September 2026 08:00",
+   "streets": [
+    "TRIQ IN- NEBBIETA",
+    "TRIQ ID- DORGA",
+    "TRIQ IL- BALLUT",
+    "TRIQ DUN GWANN THEUMA",
+    "TRIQ IS- SIENJA",
+    "TRIQ DUN MIKIEL XERRI",
+    "TRIQ VICTOR VASSALLO",
+    "TRIQ IL- MINGEL"
+   ],
+   "to": "19 September 2026 15:00"
   },
   "e53ceb32eed922dc": {
    "city": "In-Nadur",
