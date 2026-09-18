@@ -1,16 +1,5 @@
 {
- "live": {
-  "4bc00e78a1178d15": {
-   "CreatedDate": "2026-09-18T12:32:02.663+02:00",
-   "Id": 183958,
-   "Localities": "Mellieha",
-   "OutageId": 18611,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "dbc4f46bdfd3aa46050203b72d350058d6d5eba48d3cd75606911cc5822b70f9",
-   "lastupdated": "2026-09-18T07:31:08.06+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41352": {
    "CaseID": "41352",
@@ -941,6 +930,428 @@
     }
    ],
    "transformers_sha256": "b344dd35248ccb068b68c885921a57f5a8a223a91ef89ed2cc2e3610f1090e35"
+  },
+  "41414": {
+   "CaseID": "41414",
+   "EndDate": "2026-09-28T11:00:00+02:00",
+   "StartDate": "2026-09-28T07:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "881",
+     "feeders": [
+      "9"
+     ]
+    }
+   ],
+   "transformers_sha256": "bfa7f36d8e79284f3e3be4fb7d55f7cfa6327b4a1733cb769d6bbf1a76f42664"
+  },
+  "41415": {
+   "CaseID": "41415",
+   "EndDate": "2026-09-19T15:00:00+02:00",
+   "StartDate": "2026-09-19T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "2237",
+     "feeders": [
+      "4"
+     ]
+    }
+   ],
+   "transformers_sha256": "917bc8b5cb3773ec3ce16274dc6385b419ae99c11beda6838315be11cdb24c12"
+  },
+  "41416": {
+   "CaseID": "41416",
+   "EndDate": "2026-09-19T16:00:00+02:00",
+   "StartDate": "2026-09-19T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "438",
+     "feeders": [
+      "5"
+     ]
+    }
+   ],
+   "transformers_sha256": "6ad56620a024e517153266f9facbfa798fb0c8138121fabce81564e7bca41519"
+  },
+  "41417": {
+   "CaseID": "41417",
+   "EndDate": "2026-09-19T14:00:00+02:00",
+   "StartDate": "2026-09-19T07:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "1367",
+     "feeders": [
+      "4"
+     ]
+    }
+   ],
+   "transformers_sha256": "1b6862c9c60317431bc2cd11c5bc2d9da9898dc8a55369709c1c98cc0f640822"
+  },
+  "41418": {
+   "CaseID": "41418",
+   "EndDate": "2026-09-22T11:00:00+02:00",
+   "StartDate": "2026-09-22T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "454",
+     "feeders": [
+      "4",
+      "9",
+      "3",
+      "7"
+     ]
+    },
+    {
+     "TransformerId": "454",
+     "feeders": [
+      "4",
+      "9",
+      "3",
+      "7"
+     ]
+    },
+    {
+     "TransformerId": "454",
+     "feeders": [
+      "4",
+      "9",
+      "3",
+      "7"
+     ]
+    },
+    {
+     "TransformerId": "454",
+     "feeders": [
+      "4",
+      "9",
+      "3",
+      "7"
+     ]
+    }
+   ],
+   "transformers_sha256": "f88e715577847e16ffdde5c3d1897d79b56a2aa52638d258b7a9a36c2d7644ce"
+  },
+  "41419": {
+   "CaseID": "41419",
+   "EndDate": "2026-09-24T11:00:00+02:00",
+   "StartDate": "2026-09-24T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    },
+    {
+     "TransformerId": "712",
+     "feeders": [
+      "10",
+      "11",
+      "6",
+      "15",
+      "1",
+      "5",
+      "2",
+      "7",
+      "16",
+      "13",
+      "4",
+      "12",
+      "9",
+      "8",
+      "3"
+     ]
+    }
+   ],
+   "transformers_sha256": "92881c36a7b40c69e55aa9bebe81e3c47eaf06516818bca627ee56d1753e05b1"
+  },
+  "41420": {
+   "CaseID": "41420",
+   "EndDate": "2026-09-25T11:00:00+02:00",
+   "StartDate": "2026-09-25T07:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "609",
+     "feeders": [
+      "7"
+     ]
+    }
+   ],
+   "transformers_sha256": "48a778683af354066ad0e469d973e2bf83206043df1743e360f4f3217b80f368"
   }
  },
  "planned_page": {
@@ -1089,6 +1500,61 @@
    ],
    "to": "19 September 2026 14:00"
   },
+  "6f5d712179b61bb1": {
+   "city": "Pembroke",
+   "from": "25 September 2026 07:30",
+   "streets": [
+    "TRIQ IL- MEDITERRAN"
+   ],
+   "to": "25 September 2026 11:30"
+  },
+  "73615e38b619b20c": {
+   "city": "In-Naxxar",
+   "from": "22 September 2026 08:00",
+   "streets": [
+    "TRIQ L- IMNARA",
+    "TRIQ GHARGHUR",
+    "TRIQ SAN PAWL",
+    "TRIQ MARGARET A. MURRAY",
+    "TREJQET IGNAZIO MICALLEF",
+    "SQAQ L- IMNIEQA",
+    "TRIQ IL- GNIEN"
+   ],
+   "to": "22 September 2026 11:30"
+  },
+  "79d001fbf61000f9": {
+   "city": "L-Iklin",
+   "from": "24 September 2026 08:00",
+   "streets": [
+    "TRIQ GUZE' GALEA",
+    "TRIQ GUZE' MUSCAT AZZOPARDI",
+    "TRIQ MAY BUTCHER",
+    "TRIQ RICHARD TAYLOR",
+    "TRIQ PAWLU GRECH",
+    "TRIQ ERIN SERRACINO INGLOTT",
+    "TRIQ PATRI ANASTASJU CUSCHIERI",
+    "TRIQ GUZE' PESCI",
+    "TRIQ ANTON MANUEL CARUANA",
+    "TREJQET IR- RUMANZIERI",
+    "TRIQ GIOVANNI CURMI",
+    "TRIQ GWANN MAMO",
+    "TRIQ CENSU BUSUTTIL",
+    "TRIQ ALFONS MARIA GALEA",
+    "TRIQ GUZEPPI CALLEJA",
+    "TRIQ DWARDU CACHIA",
+    "TRIQ MONS. PIETRU PAWL SAYDON",
+    "TREJQET IL- POETI",
+    "TRIQ ANTON BUTTIGIEG",
+    "TRIQ GUZE' BONNICI",
+    "TRIQ GUZE' ELLUL MERCER",
+    "TRIQ KARMENU VASSALLO",
+    "TRIQ PATRI MARJANU VELLA",
+    "TRIQ DUN KARM",
+    "PJAZZA NINU CREMONA",
+    "TRIQ GERONIMO ABOS"
+   ],
+   "to": "24 September 2026 11:30"
+  },
   "7a42ad20dc3a74a6": {
    "city": "Il-Mosta",
    "from": "22 September 2026 12:30",
@@ -1222,6 +1688,16 @@
     "TRIQ MONS. PIETRU PAWL SAYDON"
    ],
    "to": "18 September 2026 13:00"
+  },
+  "c0048d81f9d1a869": {
+   "city": "Birkirkara",
+   "from": "24 September 2026 08:00",
+   "streets": [
+    "TRIQ FRANGISK XERRI",
+    "TRIQ CENSU BUSUTTIL",
+    "TRIQ DUN KARM"
+   ],
+   "to": "24 September 2026 11:30"
   },
   "d82d684a08572261": {
    "city": "In-Nadur",
