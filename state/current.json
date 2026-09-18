@@ -832,6 +832,34 @@
     }
    ],
    "transformers_sha256": "dc40b35a20305d05912ebdab8fd739dbe8a6eb86df584fe0e94e573862cdafdd"
+  },
+  "41407": {
+   "CaseID": "41407",
+   "EndDate": "2026-09-24T13:00:00+02:00",
+   "StartDate": "2026-09-24T08:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "708",
+     "feeders": [
+      "8"
+     ]
+    }
+   ],
+   "transformers_sha256": "2bba09942672023272f766ac68eed47238830814fc33a209efcb6e3d377e3c68"
+  },
+  "41408": {
+   "CaseID": "41408",
+   "EndDate": "2026-09-25T12:00:00+02:00",
+   "StartDate": "2026-09-25T07:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "837",
+     "feeders": [
+      "6"
+     ]
+    }
+   ],
+   "transformers_sha256": "a146399bd7bab48d3306614299e2dbc0620110c5a7c9cea4391053a737c1b1f9"
   }
  },
  "planned_page": {
