@@ -1,5 +1,16 @@
 {
- "live": {},
+ "live": {
+  "8a3d95efd25f6319": {
+   "CreatedDate": "2026-09-18T11:43:02.67+02:00",
+   "Id": 183909,
+   "Localities": "Mellieha",
+   "OutageId": 18611,
+   "OutageType": 2,
+   "estimatedtime": "N/A",
+   "geometry_sha256": "dbc4f46bdfd3aa46050203b72d350058d6d5eba48d3cd75606911cc5822b70f9",
+   "lastupdated": "2026-09-18T07:31:08.06+02:00"
+  }
+ },
  "planned": {
   "41352": {
    "CaseID": "41352",
@@ -860,6 +871,76 @@
     }
    ],
    "transformers_sha256": "a146399bd7bab48d3306614299e2dbc0620110c5a7c9cea4391053a737c1b1f9"
+  },
+  "41409": {
+   "CaseID": "41409",
+   "EndDate": "2026-09-22T16:00:00+02:00",
+   "StartDate": "2026-09-22T12:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "1588",
+     "feeders": [
+      "1"
+     ]
+    }
+   ],
+   "transformers_sha256": "5956b26700ea5e4177d4707faf5d420191b8a0377bb4ff101d66b4399a8dfba8"
+  },
+  "41410": {
+   "CaseID": "41410",
+   "EndDate": "2026-09-23T11:00:00+02:00",
+   "StartDate": "2026-09-23T07:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "1199",
+     "feeders": [
+      "2"
+     ]
+    }
+   ],
+   "transformers_sha256": "f768d41ae77068a9de33256d169e314231a5c1dfb9eac5d7f8a6168eb23f7f3d"
+  },
+  "41411": {
+   "CaseID": "41411",
+   "EndDate": "2026-09-22T11:00:00+02:00",
+   "StartDate": "2026-09-22T07:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "284",
+     "feeders": [
+      "3"
+     ]
+    }
+   ],
+   "transformers_sha256": "93535c3e2b4f4a68595c719c4e38dff911f03fe69d45fc19bc6eab0ec3d2c028"
+  },
+  "41412": {
+   "CaseID": "41412",
+   "EndDate": "2026-09-23T13:00:00+02:00",
+   "StartDate": "2026-09-23T06:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "1568",
+     "feeders": [
+      "3"
+     ]
+    }
+   ],
+   "transformers_sha256": "8698b3912a49cb312c6c5cdd072061361f4742ab58ac2822fbf6990083a75c20"
+  },
+  "41413": {
+   "CaseID": "41413",
+   "EndDate": "2026-09-25T11:00:00+02:00",
+   "StartDate": "2026-09-25T07:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "530",
+     "feeders": [
+      "4"
+     ]
+    }
+   ],
+   "transformers_sha256": "b344dd35248ccb068b68c885921a57f5a8a223a91ef89ed2cc2e3610f1090e35"
   }
  },
  "planned_page": {
@@ -926,6 +1007,17 @@
    ],
    "to": "18 September 2026 08:00"
   },
+  "40ac630e65f2ff5c": {
+   "city": "Il-Gudja",
+   "from": "25 September 2026 07:00",
+   "streets": [
+    "TRIQ IL- PALAZZ",
+    "TRIQ DORELL",
+    "TRIQ L- GHELEJJEL",
+    "TRIQ TA' XLEJLI"
+   ],
+   "to": "25 September 2026 12:00"
+  },
   "4c998b0394f0427a": {
    "city": "Tas-Sliema",
    "from": "22 September 2026 07:00",
@@ -964,6 +1056,42 @@
     "TRIQ IT- TRUNCIERA"
    ],
    "to": "19 September 2026 15:00"
+  },
+  "7a42ad20dc3a74a6": {
+   "city": "Il-Mosta",
+   "from": "22 September 2026 12:30",
+   "streets": [
+    "TRIQ L- ISQOF TOMMASO GARGALLO",
+    "TRIQ SANT'ANTON ABBATI",
+    "TRIQ IL- HMISTAX TA' AWISSU"
+   ],
+   "to": "22 September 2026 16:00"
+  },
+  "7dd9bcd996342467": {
+   "city": "Il-Kalkara",
+   "from": "23 September 2026 07:00",
+   "streets": [
+    "TRIQ SANTA FILUMENA",
+    "TRIQ IL- LUQQATA",
+    "TRIQ MELCHIORRE DE ROBLES",
+    "TRIQ SIR AGOSTINO PORTELLI",
+    "TRIQ IL- MISSJONI TALJANA"
+   ],
+   "to": "23 September 2026 11:00"
+  },
+  "928aeae8d579e3a7": {
+   "city": "Iz-Zurrieq",
+   "from": "23 September 2026 06:30",
+   "streets": [
+    "TRIQ FRA GAMMARI ZAMMIT",
+    "VJAL L- INDIPENDENZA",
+    "TRIQ ZACCARIJA RONCALI",
+    "TRIQ GDIDA FI",
+    "TRIQ IT- TORRI",
+    "TRIQ IL- PASSJU",
+    "TREJQET IL- GILJU"
+   ],
+   "to": "23 September 2026 13:30"
   },
   "9397d5f6526a100a": {
    "city": "Haz-Zabbar",
@@ -1027,6 +1155,20 @@
    ],
    "to": "19 September 2026 13:00"
   },
+  "ada97acb16ee95eb": {
+   "city": "Is-Siggiewi",
+   "from": "22 September 2026 07:00",
+   "streets": [
+    "TRIQ IL- KBIRA",
+    "TRIQ IL- KBIRA",
+    "SQAQ NRU. 1",
+    "TRIQ TA' BRIJA",
+    "SQAQ TA' BRIJA NRU. 1",
+    "TRIQ IL- QIEGHA",
+    "TRIQ RAMIJA"
+   ],
+   "to": "22 September 2026 11:30"
+  },
   "b50a31f15bd8b9ab": {
    "city": "L-Iklin",
    "from": "18 September 2026 08:00",
@@ -1053,6 +1195,17 @@
    ],
    "to": "28 September 2026 15:00"
   },
+  "e1544e7bc15c33c2": {
+   "city": "Hal Ghaxaq",
+   "from": "25 September 2026 07:00",
+   "streets": [
+    "TRIQ IL- HABB IL-QAMH",
+    "TRIQ IL- FEJGEL",
+    "TRIQ IL- FIDLOQQOM",
+    "SQAQ SAN MIKIEL"
+   ],
+   "to": "25 September 2026 12:00"
+  },
   "e53ceb32eed922dc": {
    "city": "In-Nadur",
    "from": "24 September 2026 08:30",
@@ -1069,6 +1222,17 @@
     "TRIQ SAN BLAS"
    ],
    "to": "24 September 2026 12:30"
+  },
+  "e7744f5e2897b4c0": {
+   "city": "Birkirkara",
+   "from": "24 September 2026 08:00",
+   "streets": [
+    "TRIQ IL- KARMNU",
+    "TRIQ ANGLU MALLIA",
+    "TRIQ IGNAZIO SAVERIO MIFSUD",
+    "TRIQ FRANCESCO BUHAGIAR"
+   ],
+   "to": "24 September 2026 13:00"
   },
   "e90472e3445640c6": {
    "city": "Ir-Rabat, Ghawdex",
