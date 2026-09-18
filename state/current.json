@@ -1,8 +1,8 @@
 {
  "live": {
-  "55701989911b2807": {
-   "CreatedDate": "2026-09-18T12:12:02.693+02:00",
-   "Id": 183938,
+  "4f1349782effac8b": {
+   "CreatedDate": "2026-09-18T12:22:02.577+02:00",
+   "Id": 183948,
    "Localities": "Mellieha",
    "OutageId": 18611,
    "OutageType": 2,
@@ -998,6 +998,19 @@
    ],
    "to": "23 September 2026 11:00"
   },
+  "371e886b184171d0": {
+   "city": "Haz-Zabbar",
+   "from": "28 September 2026 07:00",
+   "streets": [
+    "TRIQ L- ISKOLA",
+    "TRIQ IL- QALB IMQADDSA",
+    "TRIQ IL- KAPPUCCINI",
+    "TRIQ LIA",
+    "TRIQ SANTA DUMINKA",
+    "TRIQ IX- XGHAJRA"
+   ],
+   "to": "28 September 2026 11:00"
+  },
   "398a4d7b7fbfad70": {
    "city": "L-Iklin",
    "from": "18 September 2026 03:00",
@@ -1038,6 +1051,16 @@
     "TRIQ DWARDU BUTTIGIEG"
    ],
    "to": "24 September 2026 13:00"
+  },
+  "5206ec04b05e714f": {
+   "city": "L-Imsida",
+   "from": "25 September 2026 07:30",
+   "streets": [
+    "TRIQ L- IMHALLEF PAOLO DEBONO",
+    "TRIQ L- ESPERANTO",
+    "TRIQ MONS. CARMELO ZAMMIT"
+   ],
+   "to": "25 September 2026 11:30"
   },
   "5d52982382f3ff68": {
    "city": "Is-Siggiewi",
