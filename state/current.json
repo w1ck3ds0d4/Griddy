@@ -1422,15 +1422,6 @@
    ],
    "to": "28 September 2026 11:00"
   },
-  "398a4d7b7fbfad70": {
-   "city": "L-Iklin",
-   "from": "18 September 2026 03:00",
-   "streets": [
-    "TRIQ IL- WIED",
-    "TRIQ L- AWREKARJA"
-   ],
-   "to": "18 September 2026 08:00"
-  },
   "40ac630e65f2ff5c": {
    "city": "Il-Gudja",
    "from": "25 September 2026 07:00",
@@ -1472,16 +1463,6 @@
     "TRIQ MONS. CARMELO ZAMMIT"
    ],
    "to": "25 September 2026 11:30"
-  },
-  "5d52982382f3ff68": {
-   "city": "Is-Siggiewi",
-   "from": "18 September 2026 07:00",
-   "streets": [
-    "TRIQ TAL- IMWIEGEL",
-    "TRIQ IS- SITTA TA' DICEMBRU",
-    "TRIQ PATRI GUZEPP DELIA"
-   ],
-   "to": "18 September 2026 14:00"
   },
   "60b0f34909c62336": {
    "city": "San Pawl il-Bahar",
@@ -1601,26 +1582,6 @@
    ],
    "to": "19 September 2026 16:00"
   },
-  "9397d5f6526a100a": {
-   "city": "Haz-Zabbar",
-   "from": "18 September 2026 07:00",
-   "streets": [
-    "TRIQ SPADARO",
-    "TRIQ SANT' ANTNIN"
-   ],
-   "to": "18 September 2026 12:00"
-  },
-  "9646ea45814d4568": {
-   "city": "L-Imsida",
-   "from": "18 September 2026 07:30",
-   "streets": [
-    "TRIQ GUZE' ELLUL MERCER",
-    "TRIQ MONS. ARTURO BONNICI",
-    "TRIQ INDRI GRIMA",
-    "TRIQ IL- BALLIJU GUTTENBERG"
-   ],
-   "to": "18 September 2026 13:00"
-  },
   "96a47bc385f430e4": {
    "city": "Ix-Xewkija",
    "from": "24 September 2026 08:30",
@@ -1676,18 +1637,6 @@
     "TRIQ RAMIJA"
    ],
    "to": "22 September 2026 11:30"
-  },
-  "b50a31f15bd8b9ab": {
-   "city": "L-Iklin",
-   "from": "18 September 2026 08:00",
-   "streets": [
-    "TRIQ GUZE' GALEA",
-    "TRIQ GUZE' MUSCAT AZZOPARDI",
-    "TRIQ GWANN MAMO",
-    "TRIQ CENSU BUSUTTIL",
-    "TRIQ MONS. PIETRU PAWL SAYDON"
-   ],
-   "to": "18 September 2026 13:00"
   },
   "c0048d81f9d1a869": {
    "city": "Birkirkara",
