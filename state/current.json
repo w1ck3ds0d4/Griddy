@@ -1057,28 +1057,6 @@
   }
  },
  "planned_page": {
-  "01c9e5984d44cca8": {
-   "city": "Hal Lija",
-   "from": "19 September 2026 08:00",
-   "streets": [
-    "TRIQ N. COTTONER",
-    "TRIQ SANT' ANDRIJA",
-    "TRIQ SANT' ANDRIJA",
-    "SQAQ NRU. 1",
-    "TRIQ IL- KUNCIZZJONI",
-    "SQAQ NRU. 1",
-    "TRIQ IL- FORN",
-    "TRIQ IL- FORN",
-    "SQAQ NRU. 3",
-    "TRIQ IL- FORN",
-    "SQAQ NRU. 5",
-    "TRIQ IL- FORN",
-    "SQAQ NRU. 6",
-    "TRIQ IL- KUNCIZZJONI",
-    "SQAQ NRU. 2"
-   ],
-   "to": "19 September 2026 14:00"
-  },
   "0c5499e5c27e165b": {
    "city": "Ghajnsielem",
    "from": "28 September 2026 08:30",
@@ -1165,23 +1143,6 @@
     "TRIQ MONS. CARMELO ZAMMIT"
    ],
    "to": "25 September 2026 11:30"
-  },
-  "60b0f34909c62336": {
-   "city": "San Pawl il-Bahar",
-   "from": "19 September 2026 07:00",
-   "streets": [
-    "TRIQ IT- TRUNCIERA"
-   ],
-   "to": "19 September 2026 15:00"
-  },
-  "6c59c29f226e7987": {
-   "city": "San Pawl il-Bahar",
-   "from": "19 September 2026 07:00",
-   "streets": [
-    "TRIQ TA' NAWCIERA",
-    "TRIQ IL- QAWRA"
-   ],
-   "to": "19 September 2026 14:00"
   },
   "6f5d712179b61bb1": {
    "city": "Pembroke",
@@ -1274,16 +1235,6 @@
    ],
    "to": "23 September 2026 13:30"
   },
-  "92c35379d4d11b4c": {
-   "city": "H’Attard",
-   "from": "19 September 2026 08:00",
-   "streets": [
-    "TRIQ DUN GWANN THEUMA",
-    "TRIQ IC- CITRU",
-    "TRIQ DUN MIKIEL XERRI"
-   ],
-   "to": "19 September 2026 16:00"
-  },
   "96a47bc385f430e4": {
    "city": "Ix-Xewkija",
    "from": "24 September 2026 08:30",
@@ -1291,14 +1242,6 @@
     "TRIQ SANNAT"
    ],
    "to": "24 September 2026 13:00"
-  },
-  "9845291f133824a9": {
-   "city": "Il-Belt Valletta",
-   "from": "19 September 2026 07:30",
-   "streets": [
-    "TRIQ L- IFRAN"
-   ],
-   "to": "19 September 2026 10:30"
   },
   "99627dcbef7abea8": {
    "city": "Tas-Sliema",
@@ -1310,21 +1253,6 @@
     "TRIQ MANWEL DIMECH"
    ],
    "to": "22 September 2026 23:00"
-  },
-  "ab1a553e90af771a": {
-   "city": "Ghajnsielem",
-   "from": "19 September 2026 08:30",
-   "streets": [
-    "TRIQ SANT' INDRIJA",
-    "TRIQ IL- PROVIGARJU",
-    "TRIQ L- IMGARR",
-    "TRIQ DUN SPEDITU TABONE",
-    "TRIQ L- IMGARR",
-    "SQAQ NRU. 3",
-    "TRIQ IL- GNIEN",
-    "TRIQ L- IMGARR SQAQ NRU.4"
-   ],
-   "to": "19 September 2026 13:00"
   },
   "ada97acb16ee95eb": {
    "city": "Is-Siggiewi",
@@ -1374,21 +1302,6 @@
     "SQAQ SAN MIKIEL"
    ],
    "to": "25 September 2026 12:00"
-  },
-  "e175b96fc8b8b6b0": {
-   "city": "H’Attard",
-   "from": "19 September 2026 08:00",
-   "streets": [
-    "TRIQ IN- NEBBIETA",
-    "TRIQ ID- DORGA",
-    "TRIQ IL- BALLUT",
-    "TRIQ DUN GWANN THEUMA",
-    "TRIQ IS- SIENJA",
-    "TRIQ DUN MIKIEL XERRI",
-    "TRIQ VICTOR VASSALLO",
-    "TRIQ IL- MINGEL"
-   ],
-   "to": "19 September 2026 15:00"
   },
   "e53ceb32eed922dc": {
    "city": "In-Nadur",
