@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Griddy: outage dashboard</title>
+<meta name="description" content="Downtime stats, trends and compensation-eligibility estimates from Griddy's tamper-evident archive of Malta's power outages.">
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-blue:    #2a78d6;
+    --series-blue-fill: rgba(42,120,214,0.16);
+    --status-good:    #0ca30c;
+    --status-critical:#d03b3b;
+    --tooltip-bg:     #0b0b0b;
+    --tooltip-text:   #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page:           #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-blue:    #3987e5;
+      --series-blue-fill: rgba(57,135,229,0.20);
+      --status-good:    #0ca30c;
+      --status-critical:#e66767;
+      --tooltip-bg:     #ffffff;
+      --tooltip-text:   #0b0b0b;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page:           #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-blue:    #3987e5;
+    --series-blue-fill: rgba(57,135,229,0.20);
+    --status-good:    #0ca30c;
+    --status-critical:#e66767;
+    --tooltip-bg:     #ffffff;
+    --tooltip-text:   #0b0b0b;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 24px 16px 64px;
+  }
+  header h1 { font-size: 22px; margin: 0 0 4px; }
+  header p { color: var(--text-secondary); margin: 0 0 4px; }
+  .generated { color: var(--text-muted); font-size: 13px; }
+
+  .disclaimer {
+    margin: 16px 0 28px;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface-1);
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .tile {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .tile .value {
+    font-size: 28px;
+    font-weight: 600;
+    font-variant-numeric: proportional-nums;
+  }
+  .tile .label {
+    color: var(--text-secondary);
+    font-size: 13px;
+    margin-top: 2px;
+  }
+
+  section {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 24px;
+  }
+  section h2 { font-size: 16px; margin: 0 0 2px; }
+  section .subtitle { color: var(--text-secondary); font-size: 13px; margin: 0 0 16px; }
+
+  .bar-row { display: flex; align-items: center; gap: 10px; height: 26px; }
+  .bar-row + .bar-row { margin-top: 2px; }
+  .bar-name {
+    width: 140px;
+    flex: 0 0 140px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bar-track { flex: 1; position: relative; height: 16px; }
+  .bar-fill {
+    position: absolute;
+    top: 0; left: 0; height: 16px;
+    background: var(--series-blue);
+    border-radius: 4px;
+    min-width: 4px;
+  }
+  .bar-value {
+    margin-left: 8px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  svg.linechart { width: 100%; height: 220px; overflow: visible; }
+  svg.linechart .grid { stroke: var(--gridline); stroke-width: 1; }
+  svg.linechart .axis { stroke: var(--baseline); stroke-width: 1; }
+  svg.linechart .axis-label { fill: var(--text-muted); font-size: 11px; }
+  svg.linechart .area { fill: var(--series-blue-fill); }
+  svg.linechart .line { fill: none; stroke: var(--series-blue); stroke-width: 2; stroke-linejoin: round; }
+  svg.linechart .dot { fill: var(--series-blue); }
+  svg.linechart .hover-dot { fill: var(--series-blue); stroke: var(--surface-1); stroke-width: 2; }
+
+  .tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: var(--tooltip-bg);
+    color: var(--tooltip-text);
+    font-size: 12px;
+    padding: 6px 9px;
+    border-radius: 6px;
+    white-space: nowrap;
+    transform: translate(-50%, -130%);
+    opacity: 0;
+    transition: opacity 0.1s;
+    z-index: 5;
+  }
+  .chart-wrap { position: relative; }
+
+  input[type="search"] {
+    width: 100%;
+    max-width: 280px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--page);
+    color: var(--text-primary);
+    font: inherit;
+    margin-bottom: 14px;
+  }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--gridline); }
+  th { color: var(--text-secondary); font-weight: 600; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .status {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .status.eligible { color: var(--status-good); }
+  .status.ongoing { color: var(--text-muted); }
+  .empty { color: var(--text-muted); padding: 12px 0; }
+
+  footer { color: var(--text-muted); font-size: 12px; margin-top: 8px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Griddy outage dashboard</h1>
+    <p>Downtime stats, trends and compensation-eligibility estimates from the archive's live (unplanned) outage records.</p>
+    <p class="generated" id="generated-at"></p>
+  </header>
+
+  <p class="disclaimer">
+    Malta's compensation scheme pays households an estimated <strong id="disclaimer-range"></strong>
+    for a single continuous outage longer than <strong id="disclaimer-hours"></strong> hours.
+  </p>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section>
+    <h2>Downtime by locality</h2>
+    <p class="subtitle">Total downtime hours across cleared outages, longest first.</p>
+    <div id="locality-bars"></div>
+  </section>
+
+  <section>
+    <h2>Outages per week</h2>
+    <p class="subtitle">Count of outages that appeared each week.</p>
+    <div class="chart-wrap">
+      <svg class="linechart" id="weekly-chart" viewBox="0 0 760 220" preserveAspectRatio="none"></svg>
+      <div class="tooltip" id="weekly-tooltip"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Compensation-eligible outages</h2>
+    <p class="subtitle">Outages of <span id="threshold-note"></span>+ hours, most recent first. Search by locality.</p>
+    <input type="search" id="locality-search" placeholder="Filter by locality, e.g. Mosta">
+    <div id="eligible-table"></div>
+  </section>
+
+  <footer>
+    Generated by <code>python -m griddy.dashboard</code> from <code>data/live.jsonl</code>.
+    See the <a href="https://github.com/w1ck3ds0d4/Griddy">Griddy</a> repository for the archive and how it is verified.
+  </footer>
+</main>
+
+<script id="griddy-data" type="application/json">__GRIDDY_REPORT__</script>
+<script>
+(function () {
+  "use strict";
+  var report = JSON.parse(document.getElementById("griddy-data").textContent);
+  var summary = report.summary;
+  var byLocality = report.by_locality;
+  var weekly = report.weekly;
+  var outages = report.outages;
+
+  function fmt(n, digits) {
+    return Number(n).toLocaleString(undefined, { maximumFractionDigits: digits == null ? 1 : digits });
+  }
+  var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function fmtDate(iso) {
+    var d = new Date(iso);
+    var hh = String(d.getUTCHours()).padStart(2, "0");
+    var mm = String(d.getUTCMinutes()).padStart(2, "0");
+    return d.getUTCDate() + " " + MONTHS[d.getUTCMonth()] + " " + d.getUTCFullYear() + ", " + hh + ":" + mm + " UTC";
+  }
+  function el(tag, props, children) {
+    var node = document.createElement(tag);
+    if (props) {
+      Object.keys(props).forEach(function (k) {
+        if (k === "class") node.className = props[k];
+        else if (k === "text") node.textContent = props[k];
+        else node.setAttribute(k, props[k]);
+      });
+    }
+    (children || []).forEach(function (c) { node.appendChild(c); });
+    return node;
+  }
+  var SVG_NS = "http://www.w3.org/2000/svg";
+  function svgEl(tag, attrs) {
+    var node = document.createElementNS(SVG_NS, tag);
+    Object.keys(attrs || {}).forEach(function (k) { node.setAttribute(k, attrs[k]); });
+    return node;
+  }
+
+  document.getElementById("generated-at").textContent = "Generated " + fmtDate(report.generated_at);
+  document.getElementById("disclaimer-range").textContent =
+    "EUR " + summary.household_compensation_eur[0] + "–" + summary.household_compensation_eur[1];
+  document.getElementById("disclaimer-hours").textContent = fmt(summary.compensation_threshold_hours, 0);
+  document.getElementById("threshold-note").textContent = fmt(summary.compensation_threshold_hours, 0);
+
+  // --- stat tiles ---
+  var tiles = [
+    { value: fmt(summary.total_outages, 0), label: "Total outages recorded" },
+    { value: fmt(summary.ongoing_outages, 0), label: "Ongoing right now" },
+    { value: fmt(summary.total_downtime_hours, 0) + " h", label: "Total downtime (cleared outages)" },
+    { value: fmt(summary.avg_duration_hours, 1) + " h", label: "Average outage duration" },
+    { value: fmt(summary.compensation_eligible_outages, 0), label: "Compensation-eligible outages" },
+  ];
+  var tilesRoot = document.getElementById("tiles");
+  tiles.forEach(function (t) {
+    tilesRoot.appendChild(el("div", { class: "tile" }, [
+      el("div", { class: "value", text: t.value }),
+      el("div", { class: "label", text: t.label }),
+    ]));
+  });
+
+  // --- locality bar chart (top 12 by downtime) ---
+  var barsRoot = document.getElementById("locality-bars");
+  var top = byLocality.slice(0, 12);
+  if (!top.length) {
+    barsRoot.appendChild(el("p", { class: "empty", text: "No cleared outages recorded yet." }));
+  } else {
+    var maxHours = Math.max.apply(null, top.map(function (r) { return r.downtime_hours; }));
+    top.forEach(function (r) {
+      var pct = maxHours > 0 ? Math.max((r.downtime_hours / maxHours) * 100, 1.5) : 0;
+      var fill = el("div", { class: "bar-fill" });
+      fill.style.width = pct + "%";
+      var track = el("div", { class: "bar-track" }, [fill]);
+      barsRoot.appendChild(el("div", { class: "bar-row" }, [
+        el("div", { class: "bar-name", text: r.locality, title: r.locality }),
+        track,
+        el("div", { class: "bar-value", text: fmt(r.downtime_hours, 0) + " h · " + r.outages + " outages" }),
+      ]));
+    });
+  }
+
+  // --- weekly line chart ---
+  (function renderWeeklyChart() {
+    var svg = document.getElementById("weekly-chart");
+    var tooltip = document.getElementById("weekly-tooltip");
+    var wrap = svg.parentElement;
+    if (!weekly.length) {
+      svg.appendChild(svgEl("text", { x: 8, y: 20, class: "axis-label" })).textContent = "No data yet.";
+      return;
+    }
+    var W = 760, H = 220, padL = 30, padR = 10, padT = 10, padB = 24;
+    var innerW = W - padL - padR, innerH = H - padT - padB;
+    var maxCount = Math.max.apply(null, weekly.map(function (w) { return w.outages; }));
+    maxCount = Math.max(maxCount, 1);
+    var stepX = weekly.length > 1 ? innerW / (weekly.length - 1) : 0;
+
+    function xAt(i) { return padL + i * stepX; }
+    function yAt(v) { return padT + innerH - (v / maxCount) * innerH; }
+
+    // gridlines (4 bands)
+    for (var g = 0; g <= 4; g++) {
+      var gy = padT + (innerH / 4) * g;
+      svg.appendChild(svgEl("line", { x1: padL, x2: W - padR, y1: gy, y2: gy, class: "grid" }));
+    }
+    svg.appendChild(svgEl("text", { x: 0, y: padT + 4, class: "axis-label" })).textContent = fmt(maxCount, 0);
+    svg.appendChild(svgEl("text", { x: 0, y: H - padB + 4, class: "axis-label" })).textContent = "0";
+
+    var points = weekly.map(function (w, i) { return xAt(i) + "," + yAt(w.outages); });
+    var areaPath = "M" + padL + "," + yAt(0) + " L" + points.join(" L") + " L" + xAt(weekly.length - 1) + "," + yAt(0) + " Z";
+    svg.appendChild(svgEl("path", { d: areaPath, class: "area" }));
+    svg.appendChild(svgEl("path", { d: "M" + points.join(" L"), class: "line" }));
+
+    // x-axis labels: first, middle, last week only (avoid crowding)
+    [0, Math.floor((weekly.length - 1) / 2), weekly.length - 1].forEach(function (i) {
+      if (i < 0 || i >= weekly.length) return;
+      var t = svgEl("text", { x: xAt(i), y: H - 6, class: "axis-label", "text-anchor": "middle" });
+      t.textContent = weekly[i].week;
+      svg.appendChild(t);
+    });
+
+    var hoverDot = svgEl("circle", { r: 4, class: "hover-dot", style: "display:none" });
+    svg.appendChild(hoverDot);
+    var hitArea = svgEl("rect", { x: padL, y: padT, width: innerW, height: innerH, fill: "transparent", "pointer-events": "all" });
+    svg.appendChild(hitArea);
+
+    function showAt(i) {
+      var w = weekly[i];
+      var px = xAt(i), py = yAt(w.outages);
+      hoverDot.setAttribute("cx", px);
+      hoverDot.setAttribute("cy", py);
+      hoverDot.style.display = "block";
+      var rect = svg.getBoundingClientRect();
+      var wrapRect = wrap.getBoundingClientRect();
+      tooltip.style.left = (rect.left - wrapRect.left + (px / W) * rect.width) + "px";
+      tooltip.style.top = (rect.top - wrapRect.top + (py / H) * rect.height) + "px";
+      tooltip.textContent = w.week + ": " + w.outages + " outage" + (w.outages === 1 ? "" : "s");
+      tooltip.style.opacity = 1;
+    }
+    hitArea.addEventListener("mousemove", function (evt) {
+      var rect = svg.getBoundingClientRect();
+      var relX = ((evt.clientX - rect.left) / rect.width) * W;
+      var i = stepX > 0 ? Math.round((relX - padL) / stepX) : 0;
+      i = Math.max(0, Math.min(weekly.length - 1, i));
+      showAt(i);
+    });
+    hitArea.addEventListener("mouseleave", function () {
+      hoverDot.style.display = "none";
+      tooltip.style.opacity = 0;
+    });
+  })();
+
+  // --- compensation-eligible table ---
+  var tableRoot = document.getElementById("eligible-table");
+  var searchInput = document.getElementById("locality-search");
+  var eligible = outages.filter(function (o) { return o.compensation_eligible; });
+
+  function renderTable(filterText) {
+    tableRoot.innerHTML = "";
+    var q = (filterText || "").trim().toLowerCase();
+    var rows = eligible.filter(function (o) {
+      return !q || o.localities.some(function (l) { return l.toLowerCase().indexOf(q) !== -1; });
+    });
+    if (!rows.length) {
+      tableRoot.appendChild(el("p", { class: "empty", text: q ? "No matching outages." : "No compensation-eligible outages recorded yet." }));
+      return;
+    }
+    var table = el("table", {}, [
+      el("thead", {}, [el("tr", {}, [
+        el("th", { text: "Localities" }),
+        el("th", { text: "Appeared" }),
+        el("th", { text: "Cleared" }),
+        el("th", { class: "num", text: "Duration" }),
+        el("th", { text: "Est. household compensation" }),
+      ])]),
+    ]);
+    var tbody = el("tbody");
+    rows.slice(0, 200).forEach(function (o) {
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: o.localities.join(", ") || "Unknown" }),
+        el("td", { text: fmtDate(o.appeared) }),
+        el("td", { text: fmtDate(o.cleared) }),
+        el("td", { class: "num", text: fmt(o.duration_hours, 1) + " h" }),
+        el("td", {}, [el("span", { class: "status eligible", text: "EUR " + summary.household_compensation_eur[0] + "–" + summary.household_compensation_eur[1] })]),
+      ]));
+    });
+    table.appendChild(tbody);
+    tableRoot.appendChild(table);
+    if (rows.length > 200) {
+      tableRoot.appendChild(el("p", { class: "empty", text: "Showing first 200 of " + rows.length + " matching outages." }));
+    }
+  }
+  renderTable("");
+  searchInput.addEventListener("input", function () { renderTable(searchInput.value); });
+})();
+</script>
+</body>
+</html>

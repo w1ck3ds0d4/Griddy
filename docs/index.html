@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Griddy: outage dashboard</title>
+<meta name="description" content="Downtime stats, trends and compensation-eligibility estimates from Griddy's tamper-evident archive of Malta's power outages.">
+<style>
+  :root {
+    color-scheme: light;
+    --surface-1:      #fcfcfb;
+    --page:           #f9f9f7;
+    --text-primary:   #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted:     #898781;
+    --gridline:       #e1e0d9;
+    --baseline:       #c3c2b7;
+    --border:         rgba(11,11,11,0.10);
+    --series-blue:    #2a78d6;
+    --series-blue-fill: rgba(42,120,214,0.16);
+    --status-good:    #0ca30c;
+    --status-critical:#d03b3b;
+    --tooltip-bg:     #0b0b0b;
+    --tooltip-text:   #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:where(:not([data-theme="light"])) {
+      color-scheme: dark;
+      --surface-1:      #1a1a19;
+      --page:           #0d0d0d;
+      --text-primary:   #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted:     #898781;
+      --gridline:       #2c2c2a;
+      --baseline:       #383835;
+      --border:         rgba(255,255,255,0.10);
+      --series-blue:    #3987e5;
+      --series-blue-fill: rgba(57,135,229,0.20);
+      --status-good:    #0ca30c;
+      --status-critical:#e66767;
+      --tooltip-bg:     #ffffff;
+      --tooltip-text:   #0b0b0b;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --surface-1:      #1a1a19;
+    --page:           #0d0d0d;
+    --text-primary:   #ffffff;
+    --text-secondary: #c3c2b7;
+    --text-muted:     #898781;
+    --gridline:       #2c2c2a;
+    --baseline:       #383835;
+    --border:         rgba(255,255,255,0.10);
+    --series-blue:    #3987e5;
+    --series-blue-fill: rgba(57,135,229,0.20);
+    --status-good:    #0ca30c;
+    --status-critical:#e66767;
+    --tooltip-bg:     #ffffff;
+    --tooltip-text:   #0b0b0b;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--text-primary);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 24px 16px 64px;
+  }
+  header h1 { font-size: 22px; margin: 0 0 4px; }
+  header p { color: var(--text-secondary); margin: 0 0 4px; }
+  .generated { color: var(--text-muted); font-size: 13px; }
+
+  .disclaimer {
+    margin: 16px 0 28px;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface-1);
+    color: var(--text-secondary);
+    font-size: 13px;
+  }
+
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .tile {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .tile .value {
+    font-size: 28px;
+    font-weight: 600;
+    font-variant-numeric: proportional-nums;
+  }
+  .tile .label {
+    color: var(--text-secondary);
+    font-size: 13px;
+    margin-top: 2px;
+  }
+
+  section {
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    margin-bottom: 24px;
+  }
+  section h2 { font-size: 16px; margin: 0 0 2px; }
+  section .subtitle { color: var(--text-secondary); font-size: 13px; margin: 0 0 16px; }
+
+  .bar-row { display: flex; align-items: center; gap: 10px; height: 26px; }
+  .bar-row + .bar-row { margin-top: 2px; }
+  .bar-name {
+    width: 140px;
+    flex: 0 0 140px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .bar-track { flex: 1; position: relative; height: 16px; }
+  .bar-fill {
+    position: absolute;
+    top: 0; left: 0; height: 16px;
+    background: var(--series-blue);
+    border-radius: 4px;
+    min-width: 4px;
+  }
+  .bar-value {
+    margin-left: 8px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  svg.linechart { width: 100%; height: 220px; overflow: visible; }
+  svg.linechart .grid { stroke: var(--gridline); stroke-width: 1; }
+  svg.linechart .axis { stroke: var(--baseline); stroke-width: 1; }
+  svg.linechart .axis-label { fill: var(--text-muted); font-size: 11px; }
+  svg.linechart .area { fill: var(--series-blue-fill); }
+  svg.linechart .line { fill: none; stroke: var(--series-blue); stroke-width: 2; stroke-linejoin: round; }
+  svg.linechart .dot { fill: var(--series-blue); }
+  svg.linechart .hover-dot { fill: var(--series-blue); stroke: var(--surface-1); stroke-width: 2; }
+
+  .tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: var(--tooltip-bg);
+    color: var(--tooltip-text);
+    font-size: 12px;
+    padding: 6px 9px;
+    border-radius: 6px;
+    white-space: nowrap;
+    transform: translate(-50%, -130%);
+    opacity: 0;
+    transition: opacity 0.1s;
+    z-index: 5;
+  }
+  .chart-wrap { position: relative; }
+
+  input[type="search"] {
+    width: 100%;
+    max-width: 280px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: var(--page);
+    color: var(--text-primary);
+    font: inherit;
+    margin-bottom: 14px;
+  }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--gridline); }
+  th { color: var(--text-secondary); font-weight: 600; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .status {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .status.eligible { color: var(--status-good); }
+  .status.ongoing { color: var(--text-muted); }
+  .empty { color: var(--text-muted); padding: 12px 0; }
+
+  footer { color: var(--text-muted); font-size: 12px; margin-top: 8px; }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Griddy outage dashboard</h1>
+    <p>Downtime stats, trends and compensation-eligibility estimates from the archive's live (unplanned) outage records.</p>
+    <p class="generated" id="generated-at"></p>
+  </header>
+
+  <p class="disclaimer">
+    Malta's compensation scheme pays households an estimated <strong id="disclaimer-range"></strong>
+    for a single continuous outage longer than <strong id="disclaimer-hours"></strong> hours.
+  </p>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section>
+    <h2>Downtime by locality</h2>
+    <p class="subtitle">Total downtime hours across cleared outages, longest first.</p>
+    <div id="locality-bars"></div>
+  </section>
+
+  <section>
+    <h2>Outages per week</h2>
+    <p class="subtitle">Count of outages that appeared each week.</p>
+    <div class="chart-wrap">
+      <svg class="linechart" id="weekly-chart" viewBox="0 0 760 220" preserveAspectRatio="none"></svg>
+      <div class="tooltip" id="weekly-tooltip"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Compensation-eligible outages</h2>
+    <p class="subtitle">Outages of <span id="threshold-note"></span>+ hours, most recent first. Search by locality.</p>
+    <input type="search" id="locality-search" placeholder="Filter by locality, e.g. Mosta">
+    <div id="eligible-table"></div>
+  </section>
+
+  <footer>
+    Generated by <code>python -m griddy.dashboard</code> from <code>data/live.jsonl</code>.
+    See the <a href="https://github.com/w1ck3ds0d4/Griddy">Griddy</a> repository for the archive and how it is verified.
+  </footer>
+</main>
+
+<script id="griddy-data" type="application/json">{"generated_at":"2026-09-20T23:20:36+00:00","summary":{"total_outages":56,"ongoing_outages":0,"cleared_outages":56,"total_downtime_hours":162.41,"avg_duration_hours":2.9,"compensation_eligible_outages":7,"compensation_threshold_hours":6.0,"household_compensation_eur":[60,110]},"by_locality":[{"locality":"Fontana","outages":5,"downtime_hours":45.23,"avg_hours":9.05,"longest_hours":27.09,"eligible":2},{"locality":"Rabat (Victoria)","outages":5,"downtime_hours":45.23,"avg_hours":9.05,"longest_hours":27.09,"eligible":2},{"locality":"Munxar","outages":3,"downtime_hours":40.27,"avg_hours":13.42,"longest_hours":27.09,"eligible":2},{"locality":"Sannat","outages":3,"downtime_hours":40.27,"avg_hours":13.42,"longest_hours":27.09,"eligible":2},{"locality":"Xewkija","outages":3,"downtime_hours":40.27,"avg_hours":13.42,"longest_hours":27.09,"eligible":2},{"locality":"St. Paul's Bay","outages":8,"downtime_hours":32.99,"avg_hours":4.12,"longest_hours":11.11,"eligible":2},{"locality":"Kercem","outages":3,"downtime_hours":29.16,"avg_hours":9.72,"longest_hours":27.09,"eligible":1},{"locality":"Xaghra","outages":3,"downtime_hours":29.16,"avg_hours":9.72,"longest_hours":27.09,"eligible":1},{"locality":"Zebbug (Gozo)","outages":3,"downtime_hours":29.16,"avg_hours":9.72,"longest_hours":27.09,"eligible":1},{"locality":"Ghajnsielem","outages":2,"downtime_hours":27.25,"avg_hours":13.62,"longest_hours":27.09,"eligible":1},{"locality":"Gharb","outages":2,"downtime_hours":27.25,"avg_hours":13.62,"longest_hours":27.09,"eligible":1},{"locality":"Ghasri","outages":2,"downtime_hours":27.25,"avg_hours":13.62,"longest_hours":27.09,"eligible":1},{"locality":"Nadur","outages":2,"downtime_hours":27.25,"avg_hours":13.62,"longest_hours":27.09,"eligible":1},{"locality":"Qala","outages":2,"downtime_hours":27.25,"avg_hours":13.62,"longest_hours":27.09,"eligible":1},{"locality":"San Lawrenz","outages":2,"downtime_hours":27.25,"avg_hours":13.62,"longest_hours":27.09,"eligible":1},{"locality":"Mellieha","outages":4,"downtime_hours":19.11,"avg_hours":4.78,"longest_hours":6.23,"eligible":1},{"locality":"Birzebbugia","outages":6,"downtime_hours":17.75,"avg_hours":2.96,"longest_hours":6.95,"eligible":1},{"locality":"Mgarr","outages":3,"downtime_hours":15.88,"avg_hours":5.29,"longest_hours":7.78,"eligible":1},{"locality":"Zebbug (Malta)","outages":5,"downtime_hours":15.15,"avg_hours":3.03,"longest_hours":6.18,"eligible":1},{"locality":"Hamrun","outages":5,"downtime_hours":13.62,"avg_hours":2.72,"longest_hours":3.17,"eligible":0},{"locality":"Siggiewi","outages":4,"downtime_hours":12.02,"avg_hours":3.0,"longest_hours":6.18,"eligible":1},{"locality":"Qormi","outages":3,"downtime_hours":11.46,"avg_hours":3.82,"longest_hours":4.21,"eligible":0},{"locality":"Marsa","outages":4,"downtime_hours":11.18,"avg_hours":2.79,"longest_hours":3.9,"eligible":0},{"locality":"Zurrieq","outages":4,"downtime_hours":10.54,"avg_hours":2.63,"longest_hours":5.13,"eligible":0},{"locality":"Qrendi","outages":3,"downtime_hours":10.2,"avg_hours":3.4,"longest_hours":5.13,"eligible":0},{"locality":"Paola","outages":5,"downtime_hours":9.76,"avg_hours":1.95,"longest_hours":3.95,"eligible":0},{"locality":"Mosta","outages":6,"downtime_hours":9.56,"avg_hours":1.59,"longest_hours":7.78,"eligible":1},{"locality":"Rabat (Malta)","outages":5,"downtime_hours":8.91,"avg_hours":1.78,"longest_hours":7.78,"eligible":1},{"locality":"Birkirkara","outages":5,"downtime_hours":8.64,"avg_hours":1.73,"longest_hours":4.21,"eligible":0},{"locality":"Mtarfa","outages":2,"downtime_hours":7.94,"avg_hours":3.97,"longest_hours":7.78,"eligible":1},{"locality":"Santa Venera","outages":2,"downtime_hours":6.47,"avg_hours":3.23,"longest_hours":3.3,"eligible":0},{"locality":"Msida","outages":2,"downtime_hours":6.34,"avg_hours":3.17,"longest_hours":3.17,"eligible":0},{"locality":"Pieta'","outages":2,"downtime_hours":6.34,"avg_hours":3.17,"longest_hours":3.17,"eligible":0},{"locality":"Ta` Xbiex","outages":2,"downtime_hours":6.34,"avg_hours":3.17,"longest_hours":3.17,"eligible":0},{"locality":"Ghaxaq","outages":3,"downtime_hours":6.21,"avg_hours":2.07,"longest_hours":3.95,"eligible":0},{"locality":"Attard","outages":7,"downtime_hours":6.15,"avg_hours":0.88,"longest_hours":4.21,"eligible":0},{"locality":"Tarxien","outages":3,"downtime_hours":5.65,"avg_hours":1.88,"longest_hours":3.95,"eligible":0},{"locality":"Mqabba","outages":3,"downtime_hours":5.41,"avg_hours":1.8,"longest_hours":3.34,"eligible":0},{"locality":"Safi","outages":3,"downtime_hours":5.41,"avg_hours":1.8,"longest_hours":3.34,"eligible":0},{"locality":"Marsaxlokk","outages":2,"downtime_hours":5.39,"avg_hours":2.7,"longest_hours":3.95,"eligible":0},{"locality":"Balzan","outages":4,"downtime_hours":5.18,"avg_hours":1.3,"longest_hours":4.21,"eligible":0},{"locality":"Fgura","outages":3,"downtime_hours":5.05,"avg_hours":1.68,"longest_hours":3.95,"eligible":0},{"locality":"Gudja","outages":3,"downtime_hours":4.93,"avg_hours":1.64,"longest_hours":3.95,"eligible":0},{"locality":"Luqa","outages":3,"downtime_hours":4.93,"avg_hours":1.64,"longest_hours":3.95,"eligible":0},{"locality":"Santa Lucija","outages":2,"downtime_hours":4.77,"avg_hours":2.39,"longest_hours":3.95,"eligible":0},{"locality":"Zejtun","outages":2,"downtime_hours":4.72,"avg_hours":2.36,"longest_hours":3.95,"eligible":0},{"locality":"Floriana","outages":2,"downtime_hours":4.44,"avg_hours":2.22,"longest_hours":3.17,"eligible":0},{"locality":"Kirkop","outages":2,"downtime_hours":3.68,"avg_hours":1.84,"longest_hours":3.34,"eligible":0},{"locality":"Valletta","outages":2,"downtime_hours":3.48,"avg_hours":1.74,"longest_hours":2.21,"eligible":0},{"locality":"Gzira","outages":1,"downtime_hours":3.17,"avg_hours":3.17,"longest_hours":3.17,"eligible":0},{"locality":"Lija","outages":6,"downtime_hours":2.43,"avg_hours":0.41,"longest_hours":0.65,"eligible":0},{"locality":"Gharghur","outages":3,"downtime_hours":2.36,"avg_hours":0.79,"longest_hours":1.15,"eligible":0},{"locality":"Naxxar","outages":5,"downtime_hours":2.11,"avg_hours":0.42,"longest_hours":0.65,"eligible":0},{"locality":"Bormla","outages":2,"downtime_hours":1.12,"avg_hours":0.56,"longest_hours":0.79,"eligible":0},{"locality":"Swieqi","outages":1,"downtime_hours":1.05,"avg_hours":1.05,"longest_hours":1.05,"eligible":0},{"locality":"Mdina","outages":3,"downtime_hours":0.97,"avg_hours":0.32,"longest_hours":0.65,"eligible":0},{"locality":"Dingli","outages":2,"downtime_hours":0.81,"avg_hours":0.41,"longest_hours":0.65,"eligible":0},{"locality":"Isla","outages":1,"downtime_hours":0.79,"avg_hours":0.79,"longest_hours":0.79,"eligible":0},{"locality":"Iklin","outages":2,"downtime_hours":0.65,"avg_hours":0.33,"longest_hours":0.49,"eligible":0},{"locality":"Comino","outages":1,"downtime_hours":0.48,"avg_hours":0.48,"longest_hours":0.48,"eligible":0},{"locality":"Birgu","outages":1,"downtime_hours":0.33,"avg_hours":0.33,"longest_hours":0.33,"eligible":0},{"locality":"Kalkara","outages":1,"downtime_hours":0.33,"avg_hours":0.33,"longest_hours":0.33,"eligible":0},{"locality":"Zabbar","outages":1,"downtime_hours":0.33,"avg_hours":0.33,"longest_hours":0.33,"eligible":0},{"locality":"San Gwann","outages":1,"downtime_hours":0.16,"avg_hours":0.16,"longest_hours":0.16,"eligible":0}],"weekly":[{"week":"2026-07-27","outages":4},{"week":"2026-08-03","outages":3},{"week":"2026-08-10","outages":9},{"week":"2026-08-17","outages":2},{"week":"2026-08-24","outages":17},{"week":"2026-09-07","outages":19},{"week":"2026-09-14","outages":2}],"outages":[{"group_id":"18611","localities":["Mellieha"],"appeared":"2026-09-18T09:39:59+00:00","cleared":"2026-09-18T14:26:43+00:00","ongoing":false,"duration_hours":4.78,"compensation_eligible":false},{"group_id":"18592","localities":["Birzebbugia"],"appeared":"2026-09-14T19:17:49+00:00","cleared":"2026-09-15T02:14:56+00:00","ongoing":false,"duration_hours":6.95,"compensation_eligible":true},{"group_id":"18556","localities":["Siggiewi","Zebbug (Malta)"],"appeared":"2026-09-13T16:11:32+00:00","cleared":"2026-09-13T22:22:13+00:00","ongoing":false,"duration_hours":6.18,"compensation_eligible":true},{"group_id":"18551","localities":["Qrendi","Zurrieq"],"appeared":"2026-09-13T00:55:28+00:00","cleared":"2026-09-13T06:03:19+00:00","ongoing":false,"duration_hours":5.13,"compensation_eligible":false},{"group_id":"18512","localities":["Attard","Dingli","Mdina","Rabat (Malta)","Siggiewi","Zebbug (Malta)"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T16:43:33+00:00","ongoing":false,"duration_hours":0.16,"compensation_eligible":false},{"group_id":"18502","localities":["Balzan","Birkirkara","Gharghur","Iklin","Lija","Naxxar","San Gwann"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T16:43:33+00:00","ongoing":false,"duration_hours":0.16,"compensation_eligible":false},{"group_id":"18520","localities":["Gzira","Hamrun","Marsa","Msida","Pieta'","Ta` Xbiex"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T19:43:59+00:00","ongoing":false,"duration_hours":3.17,"compensation_eligible":false},{"group_id":"18516","localities":["Mosta","Rabat (Malta)","St. Paul's Bay"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T16:43:33+00:00","ongoing":false,"duration_hours":0.16,"compensation_eligible":false},{"group_id":"18509","localities":["Hamrun","Msida","Santa Venera"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T19:43:59+00:00","ongoing":false,"duration_hours":3.17,"compensation_eligible":false},{"group_id":"18503","localities":["Attard","Dingli","Mdina","Rabat (Malta)"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T17:12:53+00:00","ongoing":false,"duration_hours":0.65,"compensation_eligible":false},{"group_id":"18507","localities":["Attard","Lija"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T16:43:33+00:00","ongoing":false,"duration_hours":0.16,"compensation_eligible":false},{"group_id":"18505","localities":["Lija","Mosta","Naxxar"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T17:12:53+00:00","ongoing":false,"duration_hours":0.65,"compensation_eligible":false},{"group_id":"18508","localities":["Hamrun","Marsa"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T19:43:59+00:00","ongoing":false,"duration_hours":3.17,"compensation_eligible":false},{"group_id":"18514","localities":["Lija","Mosta","Naxxar"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T17:12:53+00:00","ongoing":false,"duration_hours":0.65,"compensation_eligible":false},{"group_id":"18510","localities":["Attard","Balzan","Lija"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T16:43:33+00:00","ongoing":false,"duration_hours":0.16,"compensation_eligible":false},{"group_id":"18517","localities":["Balzan","Birkirkara"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T17:12:53+00:00","ongoing":false,"duration_hours":0.65,"compensation_eligible":false},{"group_id":"18519","localities":["Floriana","Hamrun","Pieta'","Ta` Xbiex"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T19:43:59+00:00","ongoing":false,"duration_hours":3.17,"compensation_eligible":false},{"group_id":"18506","localities":["Attard","Lija","Zebbug (Malta)"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T17:12:53+00:00","ongoing":false,"duration_hours":0.65,"compensation_eligible":false},{"group_id":"18513","localities":["Attard","Mdina","Mosta","Mtarfa","Rabat (Malta)"],"appeared":"2026-09-09T16:33:54+00:00","cleared":"2026-09-09T16:43:33+00:00","ongoing":false,"duration_hours":0.16,"compensation_eligible":false},{"group_id":"18444","localities":["Mellieha","Mgarr","St. Paul's Bay"],"appeared":"2026-09-09T05:56:21+00:00","cleared":"2026-09-09T11:14:51+00:00","ongoing":false,"duration_hours":5.31,"compensation_eligible":false},{"group_id":"18436","localities":["Qormi","Siggiewi","Zebbug (Malta)"],"appeared":"2026-09-07T16:35:03+00:00","cleared":"2026-09-07T20:32:09+00:00","ongoing":false,"duration_hours":3.95,"compensation_eligible":false},{"group_id":"18394","localities":["Mgarr","Mosta","Mtarfa","Rabat (Malta)","St. Paul's Bay"],"appeared":"2026-08-30T21:38:32+00:00","cleared":"2026-08-31T05:25:27+00:00","ongoing":false,"duration_hours":7.78,"compensation_eligible":true},{"group_id":"18393","localities":["Mellieha","Mgarr","St. Paul's Bay"],"appeared":"2026-08-30T18:12:42+00:00","cleared":"2026-08-30T21:00:00+00:00","ongoing":false,"duration_hours":2.79,"compensation_eligible":false},{"group_id":"18370","localities":["Mellieha"],"appeared":"2026-08-30T06:35:11+00:00","cleared":"2026-08-30T12:49:15+00:00","ongoing":false,"duration_hours":6.23,"compensation_eligible":true},{"group_id":"18358","localities":["Fontana","Kercem","Rabat (Victoria)","Xaghra","Zebbug (Gozo)"],"appeared":"2026-08-29T22:20:10+00:00","cleared":"2026-08-30T00:14:44+00:00","ongoing":false,"duration_hours":1.91,"compensation_eligible":false},{"group_id":"18354","localities":["Fontana","Rabat (Victoria)"],"appeared":"2026-08-29T15:21:06+00:00","cleared":"2026-08-29T18:24:04+00:00","ongoing":false,"duration_hours":3.05,"compensation_eligible":false},{"group_id":"18319","localities":["Fontana","Ghajnsielem","Gharb","Ghasri","Kercem","Munxar","Nadur","Qala","Rabat (Victoria)","San Lawrenz","Sannat","Xaghra","Xewkija","Zebbug (Gozo)"],"appeared":"2026-08-28T18:45:58+00:00","cleared":"2026-08-28T18:55:40+00:00","ongoing":false,"duration_hours":0.16,"compensation_eligible":false},{"group_id":"18318","localities":["Fontana","Ghajnsielem","Gharb","Ghasri","Kercem","Munxar","Nadur","Qala","Rabat (Victoria)","San Lawrenz","Sannat","Xaghra","Xewkija","Zebbug (Gozo)"],"appeared":"2026-08-28T18:36:13+00:00","cleared":"2026-08-29T21:41:31+00:00","ongoing":false,"duration_hours":27.09,"compensation_eligible":true},{"group_id":"18261","localities":["Birzebbugia","Kirkop","Mqabba","Qrendi","Safi","Zurrieq"],"appeared":"2026-08-26T20:05:50+00:00","cleared":"2026-08-26T23:26:12+00:00","ongoing":false,"duration_hours":3.34,"compensation_eligible":false},{"group_id":"18259","localities":["Birkirkara"],"appeared":"2026-08-26T16:32:38+00:00","cleared":"2026-08-26T16:52:06+00:00","ongoing":false,"duration_hours":0.32,"compensation_eligible":false},{"group_id":"18242","localities":["Valletta"],"appeared":"2026-08-26T07:04:51+00:00","cleared":"2026-08-26T09:17:38+00:00","ongoing":false,"duration_hours":2.21,"compensation_eligible":false},{"group_id":"18229","localities":["Birzebbugia","Fgura","Ghaxaq","Gudja","Luqa","Marsaxlokk","Paola","Santa Lucija","Tarxien","Zejtun"],"appeared":"2026-08-25T18:20:47+00:00","cleared":"2026-08-25T22:17:40+00:00","ongoing":false,"duration_hours":3.95,"compensation_eligible":false},{"group_id":"18226","localities":["Tarxien"],"appeared":"2026-08-25T15:47:52+00:00","cleared":"2026-08-25T16:43:51+00:00","ongoing":false,"duration_hours":0.93,"compensation_eligible":false},{"group_id":"18224","localities":["Fgura","Paola","Tarxien","Zejtun"],"appeared":"2026-08-25T15:08:49+00:00","cleared":"2026-08-25T15:55:13+00:00","ongoing":false,"duration_hours":0.77,"compensation_eligible":false},{"group_id":"18221","localities":["Marsa","Paola"],"appeared":"2026-08-25T11:05:06+00:00","cleared":"2026-08-25T14:59:12+00:00","ongoing":false,"duration_hours":3.9,"compensation_eligible":false},{"group_id":"18217","localities":["Paola"],"appeared":"2026-08-25T07:04:46+00:00","cleared":"2026-08-25T07:24:11+00:00","ongoing":false,"duration_hours":0.32,"compensation_eligible":false},{"group_id":"18216","localities":["Gharghur","Swieqi"],"appeared":"2026-08-25T04:59:41+00:00","cleared":"2026-08-25T06:02:36+00:00","ongoing":false,"duration_hours":1.05,"compensation_eligible":false},{"group_id":"18208","localities":["Hamrun","Marsa"],"appeared":"2026-08-24T14:55:23+00:00","cleared":"2026-08-24T15:51:49+00:00","ongoing":false,"duration_hours":0.94,"compensation_eligible":false},{"group_id":"18194","localities":["St. Paul's Bay"],"appeared":"2026-08-22T17:41:49+00:00","cleared":"2026-08-23T04:48:39+00:00","ongoing":false,"duration_hours":11.11,"compensation_eligible":true},{"group_id":"18177","localities":["Gharghur"],"appeared":"2026-08-20T08:31:47+00:00","cleared":"2026-08-20T09:40:38+00:00","ongoing":false,"duration_hours":1.15,"compensation_eligible":false},{"group_id":"18140","localities":["Bormla","Isla"],"appeared":"2026-08-16T21:03:29+00:00","cleared":"2026-08-16T21:50:56+00:00","ongoing":false,"duration_hours":0.79,"compensation_eligible":false},{"group_id":"18130","localities":["Floriana","Valletta"],"appeared":"2026-08-14T22:55:19+00:00","cleared":"2026-08-15T00:11:42+00:00","ongoing":false,"duration_hours":1.27,"compensation_eligible":false},{"group_id":"18122","localities":["St. Paul's Bay"],"appeared":"2026-08-13T22:57:49+00:00","cleared":"2026-08-14T02:40:32+00:00","ongoing":false,"duration_hours":3.71,"compensation_eligible":false},{"group_id":"18121","localities":["Mosta","Naxxar","St. Paul's Bay"],"appeared":"2026-08-13T19:55:44+00:00","cleared":"2026-08-13T20:05:31+00:00","ongoing":false,"duration_hours":0.16,"compensation_eligible":false},{"group_id":"18102","localities":["Ghaxaq","Gudja","Luqa","Paola","Santa Lucija"],"appeared":"2026-08-12T20:58:39+00:00","cleared":"2026-08-12T21:47:46+00:00","ongoing":false,"duration_hours":0.82,"compensation_eligible":false},{"group_id":"18104","localities":["St. Paul's Bay"],"appeared":"2026-08-12T20:58:39+00:00","cleared":"2026-08-12T22:56:35+00:00","ongoing":false,"duration_hours":1.97,"compensation_eligible":false},{"group_id":"18094","localities":["Fontana","Munxar","Rabat (Victoria)","Sannat","Xewkija"],"appeared":"2026-08-12T16:00:02+00:00","cleared":"2026-08-13T05:01:04+00:00","ongoing":false,"duration_hours":13.02,"compensation_eligible":true},{"group_id":"18081","localities":["Birzebbugia","Kirkop","Mqabba","Safi","Zurrieq"],"appeared":"2026-08-11T22:29:18+00:00","cleared":"2026-08-11T22:49:24+00:00","ongoing":false,"duration_hours":0.34,"compensation_eligible":false},{"group_id":"18078","localities":["Attard","Balzan","Birkirkara","Qormi","Zebbug (Malta)"],"appeared":"2026-08-11T15:52:26+00:00","cleared":"2026-08-11T20:05:18+00:00","ongoing":false,"duration_hours":4.21,"compensation_eligible":false},{"group_id":"18048","localities":["Birzebbugia","Ghaxaq","Marsaxlokk"],"appeared":"2026-08-08T07:39:08+00:00","cleared":"2026-08-08T09:05:31+00:00","ongoing":false,"duration_hours":1.44,"compensation_eligible":false},{"group_id":"18031","localities":["Iklin","Naxxar"],"appeared":"2026-08-06T09:47:34+00:00","cleared":"2026-08-06T10:16:50+00:00","ongoing":false,"duration_hours":0.49,"compensation_eligible":false},{"group_id":"18007","localities":["Birkirkara","Qormi","Santa Venera"],"appeared":"2026-08-04T12:14:36+00:00","cleared":"2026-08-04T15:32:52+00:00","ongoing":false,"duration_hours":3.3,"compensation_eligible":false},{"group_id":"17955","localities":["Birzebbugia","Mqabba","Qrendi","Safi","Siggiewi","Zurrieq"],"appeared":"2026-07-30T20:52:14+00:00","cleared":"2026-07-30T22:36:00+00:00","ongoing":false,"duration_hours":1.73,"compensation_eligible":false},{"group_id":"17947","localities":["Comino"],"appeared":"2026-07-30T09:37:45+00:00","cleared":"2026-07-30T10:06:41+00:00","ongoing":false,"duration_hours":0.48,"compensation_eligible":false},{"group_id":"17903","localities":["Birgu","Bormla","Fgura","Kalkara","Zabbar"],"appeared":"2026-07-28T12:08:23+00:00","cleared":"2026-07-28T12:27:57+00:00","ongoing":false,"duration_hours":0.33,"compensation_eligible":false},{"group_id":"17671","localities":["Gudja","Luqa"],"appeared":"2026-07-27T23:26:48+00:00","cleared":"2026-07-27T23:36:34+00:00","ongoing":false,"duration_hours":0.16,"compensation_eligible":false}]}</script>
+<script>
+(function () {
+  "use strict";
+  var report = JSON.parse(document.getElementById("griddy-data").textContent);
+  var summary = report.summary;
+  var byLocality = report.by_locality;
+  var weekly = report.weekly;
+  var outages = report.outages;
+
+  function fmt(n, digits) {
+    return Number(n).toLocaleString(undefined, { maximumFractionDigits: digits == null ? 1 : digits });
+  }
+  var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function fmtDate(iso) {
+    var d = new Date(iso);
+    var hh = String(d.getUTCHours()).padStart(2, "0");
+    var mm = String(d.getUTCMinutes()).padStart(2, "0");
+    return d.getUTCDate() + " " + MONTHS[d.getUTCMonth()] + " " + d.getUTCFullYear() + ", " + hh + ":" + mm + " UTC";
+  }
+  function el(tag, props, children) {
+    var node = document.createElement(tag);
+    if (props) {
+      Object.keys(props).forEach(function (k) {
+        if (k === "class") node.className = props[k];
+        else if (k === "text") node.textContent = props[k];
+        else node.setAttribute(k, props[k]);
+      });
+    }
+    (children || []).forEach(function (c) { node.appendChild(c); });
+    return node;
+  }
+  var SVG_NS = "http://www.w3.org/2000/svg";
+  function svgEl(tag, attrs) {
+    var node = document.createElementNS(SVG_NS, tag);
+    Object.keys(attrs || {}).forEach(function (k) { node.setAttribute(k, attrs[k]); });
+    return node;
+  }
+
+  document.getElementById("generated-at").textContent = "Generated " + fmtDate(report.generated_at);
+  document.getElementById("disclaimer-range").textContent =
+    "EUR " + summary.household_compensation_eur[0] + "–" + summary.household_compensation_eur[1];
+  document.getElementById("disclaimer-hours").textContent = fmt(summary.compensation_threshold_hours, 0);
+  document.getElementById("threshold-note").textContent = fmt(summary.compensation_threshold_hours, 0);
+
+  // --- stat tiles ---
+  var tiles = [
+    { value: fmt(summary.total_outages, 0), label: "Total outages recorded" },
+    { value: fmt(summary.ongoing_outages, 0), label: "Ongoing right now" },
+    { value: fmt(summary.total_downtime_hours, 0) + " h", label: "Total downtime (cleared outages)" },
+    { value: fmt(summary.avg_duration_hours, 1) + " h", label: "Average outage duration" },
+    { value: fmt(summary.compensation_eligible_outages, 0), label: "Compensation-eligible outages" },
+  ];
+  var tilesRoot = document.getElementById("tiles");
+  tiles.forEach(function (t) {
+    tilesRoot.appendChild(el("div", { class: "tile" }, [
+      el("div", { class: "value", text: t.value }),
+      el("div", { class: "label", text: t.label }),
+    ]));
+  });
+
+  // --- locality bar chart (top 12 by downtime) ---
+  var barsRoot = document.getElementById("locality-bars");
+  var top = byLocality.slice(0, 12);
+  if (!top.length) {
+    barsRoot.appendChild(el("p", { class: "empty", text: "No cleared outages recorded yet." }));
+  } else {
+    var maxHours = Math.max.apply(null, top.map(function (r) { return r.downtime_hours; }));
+    top.forEach(function (r) {
+      var pct = maxHours > 0 ? Math.max((r.downtime_hours / maxHours) * 100, 1.5) : 0;
+      var fill = el("div", { class: "bar-fill" });
+      fill.style.width = pct + "%";
+      var track = el("div", { class: "bar-track" }, [fill]);
+      barsRoot.appendChild(el("div", { class: "bar-row" }, [
+        el("div", { class: "bar-name", text: r.locality, title: r.locality }),
+        track,
+        el("div", { class: "bar-value", text: fmt(r.downtime_hours, 0) + " h · " + r.outages + " outages" }),
+      ]));
+    });
+  }
+
+  // --- weekly line chart ---
+  (function renderWeeklyChart() {
+    var svg = document.getElementById("weekly-chart");
+    var tooltip = document.getElementById("weekly-tooltip");
+    var wrap = svg.parentElement;
+    if (!weekly.length) {
+      svg.appendChild(svgEl("text", { x: 8, y: 20, class: "axis-label" })).textContent = "No data yet.";
+      return;
+    }
+    var W = 760, H = 220, padL = 30, padR = 10, padT = 10, padB = 24;
+    var innerW = W - padL - padR, innerH = H - padT - padB;
+    var maxCount = Math.max.apply(null, weekly.map(function (w) { return w.outages; }));
+    maxCount = Math.max(maxCount, 1);
+    var stepX = weekly.length > 1 ? innerW / (weekly.length - 1) : 0;
+
+    function xAt(i) { return padL + i * stepX; }
+    function yAt(v) { return padT + innerH - (v / maxCount) * innerH; }
+
+    // gridlines (4 bands)
+    for (var g = 0; g <= 4; g++) {
+      var gy = padT + (innerH / 4) * g;
+      svg.appendChild(svgEl("line", { x1: padL, x2: W - padR, y1: gy, y2: gy, class: "grid" }));
+    }
+    svg.appendChild(svgEl("text", { x: 0, y: padT + 4, class: "axis-label" })).textContent = fmt(maxCount, 0);
+    svg.appendChild(svgEl("text", { x: 0, y: H - padB + 4, class: "axis-label" })).textContent = "0";
+
+    var points = weekly.map(function (w, i) { return xAt(i) + "," + yAt(w.outages); });
+    var areaPath = "M" + padL + "," + yAt(0) + " L" + points.join(" L") + " L" + xAt(weekly.length - 1) + "," + yAt(0) + " Z";
+    svg.appendChild(svgEl("path", { d: areaPath, class: "area" }));
+    svg.appendChild(svgEl("path", { d: "M" + points.join(" L"), class: "line" }));
+
+    // x-axis labels: first, middle, last week only (avoid crowding)
+    [0, Math.floor((weekly.length - 1) / 2), weekly.length - 1].forEach(function (i) {
+      if (i < 0 || i >= weekly.length) return;
+      var t = svgEl("text", { x: xAt(i), y: H - 6, class: "axis-label", "text-anchor": "middle" });
+      t.textContent = weekly[i].week;
+      svg.appendChild(t);
+    });
+
+    var hoverDot = svgEl("circle", { r: 4, class: "hover-dot", style: "display:none" });
+    svg.appendChild(hoverDot);
+    var hitArea = svgEl("rect", { x: padL, y: padT, width: innerW, height: innerH, fill: "transparent", "pointer-events": "all" });
+    svg.appendChild(hitArea);
+
+    function showAt(i) {
+      var w = weekly[i];
+      var px = xAt(i), py = yAt(w.outages);
+      hoverDot.setAttribute("cx", px);
+      hoverDot.setAttribute("cy", py);
+      hoverDot.style.display = "block";
+      var rect = svg.getBoundingClientRect();
+      var wrapRect = wrap.getBoundingClientRect();
+      tooltip.style.left = (rect.left - wrapRect.left + (px / W) * rect.width) + "px";
+      tooltip.style.top = (rect.top - wrapRect.top + (py / H) * rect.height) + "px";
+      tooltip.textContent = w.week + ": " + w.outages + " outage" + (w.outages === 1 ? "" : "s");
+      tooltip.style.opacity = 1;
+    }
+    hitArea.addEventListener("mousemove", function (evt) {
+      var rect = svg.getBoundingClientRect();
+      var relX = ((evt.clientX - rect.left) / rect.width) * W;
+      var i = stepX > 0 ? Math.round((relX - padL) / stepX) : 0;
+      i = Math.max(0, Math.min(weekly.length - 1, i));
+      showAt(i);
+    });
+    hitArea.addEventListener("mouseleave", function () {
+      hoverDot.style.display = "none";
+      tooltip.style.opacity = 0;
+    });
+  })();
+
+  // --- compensation-eligible table ---
+  var tableRoot = document.getElementById("eligible-table");
+  var searchInput = document.getElementById("locality-search");
+  var eligible = outages.filter(function (o) { return o.compensation_eligible; });
+
+  function renderTable(filterText) {
+    tableRoot.innerHTML = "";
+    var q = (filterText || "").trim().toLowerCase();
+    var rows = eligible.filter(function (o) {
+      return !q || o.localities.some(function (l) { return l.toLowerCase().indexOf(q) !== -1; });
+    });
+    if (!rows.length) {
+      tableRoot.appendChild(el("p", { class: "empty", text: q ? "No matching outages." : "No compensation-eligible outages recorded yet." }));
+      return;
+    }
+    var table = el("table", {}, [
+      el("thead", {}, [el("tr", {}, [
+        el("th", { text: "Localities" }),
+        el("th", { text: "Appeared" }),
+        el("th", { text: "Cleared" }),
+        el("th", { class: "num", text: "Duration" }),
+        el("th", { text: "Est. household compensation" }),
+      ])]),
+    ]);
+    var tbody = el("tbody");
+    rows.slice(0, 200).forEach(function (o) {
+      tbody.appendChild(el("tr", {}, [
+        el("td", { text: o.localities.join(", ") || "Unknown" }),
+        el("td", { text: fmtDate(o.appeared) }),
+        el("td", { text: fmtDate(o.cleared) }),
+        el("td", { class: "num", text: fmt(o.duration_hours, 1) + " h" }),
+        el("td", {}, [el("span", { class: "status eligible", text: "EUR " + summary.household_compensation_eur[0] + "–" + summary.household_compensation_eur[1] })]),
+      ]));
+    });
+    table.appendChild(tbody);
+    tableRoot.appendChild(table);
+    if (rows.length > 200) {
+      tableRoot.appendChild(el("p", { class: "empty", text: "Showing first 200 of " + rows.length + " matching outages." }));
+    }
+  }
+  renderTable("");
+  searchInput.addEventListener("input", function () { renderTable(searchInput.value); });
+})();
+</script>
+</body>
+</html>

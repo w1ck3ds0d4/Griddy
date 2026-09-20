@@ -1,0 +1,4 @@
+# The archive is evidence: bytes must survive checkout on any OS untouched.
+data/** -text
+# Source and docs are LF everywhere.
+* text=auto eol=lf

@@ -1,0 +1,65 @@
+name: scrape
+
+on:
+  schedule:
+    # Hourly, not every 10 minutes. GitHub throttles high-frequency schedules
+    # hard on shared runners (a */10 schedule here did not fire at all), so
+    # the job instead loops internally: one trigger per hour produces six
+    # scrape cycles roughly ten minutes apart. That keeps ten-minute
+    # granularity while depending on the scheduler only once an hour.
+    - cron: "7 * * * *"
+  workflow_dispatch:
+    inputs:
+      cycles:
+        description: "How many scrape cycles this run should perform"
+        required: false
+        default: "6"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet requests
+
+      - name: Scrape and verify on a loop, commit once per run
+        env:
+          CYCLES: ${{ github.event.inputs.cycles || '6' }}
+        run: |
+          git config user.name "griddy-bot"
+          git config user.email "griddy-bot@users.noreply.github.com"
+          for i in $(seq 1 "$CYCLES"); do
+            echo "::group::cycle $i of $CYCLES"
+            python -m griddy.run
+            python -m griddy.verify
+            echo "::endgroup::"
+            # No sleep after the final cycle, so the runner is released promptly.
+            if [ "$i" -lt "$CYCLES" ]; then sleep 570; fi
+          done
+          # One commit per run (not per cycle): keeps the same 10-minute scrape
+          # granularity inside data/*.jsonl's own event timestamps, just without
+          # a git commit for each of the up-to-six cycles that make up an hour.
+          python -m griddy.dashboard
+          git add data state docs
+          if git diff --cached --quiet; then
+            echo "no changes this run"
+          else
+            git commit -m "(data) scrape $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push || (git pull --rebase && git push)
+          fi
