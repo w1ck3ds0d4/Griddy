@@ -48,7 +48,8 @@ jobs:
             echo "::group::cycle $i of $CYCLES"
             python -m griddy.run
             python -m griddy.verify
-            git add data state
+            python -m griddy.dashboard
+            git add data state docs
             if git diff --cached --quiet; then
               echo "no changes this cycle"
             else
