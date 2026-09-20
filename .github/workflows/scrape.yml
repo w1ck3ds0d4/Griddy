@@ -38,7 +38,7 @@ jobs:
       - name: Install dependencies
         run: pip install --quiet requests
 
-      - name: Scrape, verify and commit on a loop
+      - name: Scrape and verify on a loop, commit once per run
         env:
           CYCLES: ${{ github.event.inputs.cycles || '6' }}
         run: |
@@ -48,15 +48,18 @@ jobs:
             echo "::group::cycle $i of $CYCLES"
             python -m griddy.run
             python -m griddy.verify
-            python -m griddy.dashboard
-            git add data state docs
-            if git diff --cached --quiet; then
-              echo "no changes this cycle"
-            else
-              git commit -m "(data) scrape $(date -u +%Y-%m-%dT%H:%MZ)"
-              git push || (git pull --rebase && git push)
-            fi
             echo "::endgroup::"
             # No sleep after the final cycle, so the runner is released promptly.
             if [ "$i" -lt "$CYCLES" ]; then sleep 570; fi
           done
+          # One commit per run (not per cycle): keeps the same 10-minute scrape
+          # granularity inside data/*.jsonl's own event timestamps, just without
+          # a git commit for each of the up-to-six cycles that make up an hour.
+          python -m griddy.dashboard
+          git add data state docs
+          if git diff --cached --quiet; then
+            echo "no changes this run"
+          else
+            git commit -m "(data) scrape $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push || (git pull --rebase && git push)
+          fi

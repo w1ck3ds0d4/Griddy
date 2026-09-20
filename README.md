@@ -14,7 +14,7 @@ Every cycle (GitHub Actions cron, roughly every 10 minutes):
 2. Normalize each case: strip personal data, replace megabytes of feeder geometry with a sha256 digest.
 3. Diff against the last-known state and append `appeared` / `updated` / `cleared` events to `data/*.jsonl`.
 4. Write a `heartbeat` record with the content hash of every raw payload, even when nothing changed. This is evidence of absence: proof of what the public feeds did and did not report at that moment.
-5. Commit. The git history is a second, independent witness for when every record appeared.
+5. Commit once per hourly run (after all six cycles). The git history is a second, independent witness for when every record appeared; the per-cycle timestamps that matter for that are inside `data/*.jsonl` itself, not the commit boundaries.
 
 Every JSONL line carries `seq`, `prev` (hash of the previous line) and `hash` (hash of the line itself), so the whole archive re-verifies from genesis:
 
