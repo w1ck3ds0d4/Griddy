@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Griddy — outage dashboard</title>
+<title>Griddy: outage dashboard</title>
 <meta name="description" content="Downtime stats, trends and compensation-eligibility estimates from Griddy's tamper-evident archive of Malta's power outages.">
 <style>
   :root {
@@ -213,10 +213,7 @@
 
   <p class="disclaimer">
     Malta's compensation scheme pays households an estimated <strong id="disclaimer-range"></strong>
-    for a single continuous outage longer than <strong id="disclaimer-hours"></strong> hours; businesses
-    receive more but no fixed figure is published. This page flags eligibility on duration alone, from
-    what the README documents &mdash; it is not the official amount and is not legal or financial advice.
-    Confirm with Enemalta's own Claim for Damages process before relying on it.
+    for a single continuous outage longer than <strong id="disclaimer-hours"></strong> hours.
   </p>
 
   <div class="tiles" id="tiles"></div>
@@ -262,6 +259,13 @@
   function fmt(n, digits) {
     return Number(n).toLocaleString(undefined, { maximumFractionDigits: digits == null ? 1 : digits });
   }
+  var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function fmtDate(iso) {
+    var d = new Date(iso);
+    var hh = String(d.getUTCHours()).padStart(2, "0");
+    var mm = String(d.getUTCMinutes()).padStart(2, "0");
+    return d.getUTCDate() + " " + MONTHS[d.getUTCMonth()] + " " + d.getUTCFullYear() + ", " + hh + ":" + mm + " UTC";
+  }
   function el(tag, props, children) {
     var node = document.createElement(tag);
     if (props) {
@@ -281,7 +285,7 @@
     return node;
   }
 
-  document.getElementById("generated-at").textContent = "Generated " + report.generated_at;
+  document.getElementById("generated-at").textContent = "Generated " + fmtDate(report.generated_at);
   document.getElementById("disclaimer-range").textContent =
     "EUR " + summary.household_compensation_eur[0] + "–" + summary.household_compensation_eur[1];
   document.getElementById("disclaimer-hours").textContent = fmt(summary.compensation_threshold_hours, 0);
@@ -421,8 +425,8 @@
     rows.slice(0, 200).forEach(function (o) {
       tbody.appendChild(el("tr", {}, [
         el("td", { text: o.localities.join(", ") || "Unknown" }),
-        el("td", { text: o.appeared }),
-        el("td", { text: o.cleared }),
+        el("td", { text: fmtDate(o.appeared) }),
+        el("td", { text: fmtDate(o.cleared) }),
         el("td", { class: "num", text: fmt(o.duration_hours, 1) + " h" }),
         el("td", {}, [el("span", { class: "status eligible", text: "EUR " + summary.household_compensation_eur[0] + "–" + summary.household_compensation_eur[1] })]),
       ]));
