@@ -53,10 +53,27 @@ pip install pytest
 pytest
 ```
 
+## Dashboard
+
+```bash
+python -m griddy.dashboard
+```
+
+Writes a self-contained `docs/index.html` (no server, no build step, no new
+dependency) from the current `data/live.jsonl`: downtime by locality, outages
+per week, and a table of outages that ran longer than Malta's compensation
+threshold (6 hours), with the documented household range (EUR 60-110). The
+scrape workflow regenerates it every cycle, so `docs/` always reflects the
+latest archive; enable GitHub Pages on the `docs/` folder to publish it.
+
+The compensation figures are what the README above documents, not Enemalta's
+full official schedule -- treat the eligibility flag as a starting point for
+a claim, not the final amount.
+
 ## Roadmap
 
 - Signing: sign each batch so the archive is attributable as well as tamper-evident (ProofLog integration).
-- Tracker UI: live and historical view of the archive.
+- Tracker UI: live and historical view of the archive. Downtime stats and compensation-eligibility are done (see Dashboard); a chained-archive verify view is still open.
 - Certificates: locality + date in, a verifiable outage certificate out, formatted for Enemalta's Claim for Damages application.
 - Verify page: paste a record hash, confirm it is in the chain.
 
