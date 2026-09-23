@@ -27,7 +27,7 @@
      ]
     }
    ],
-   "transformers_sha256": "571fe1e912bd807f28a8428b82c14775f49ad71e40b11c45b99f4f536cb952b9"
+   "transformers_sha256": "7137796abb5b7db3dd1512bed1ed8e3d68ad435e5162eb7a47f05c9bba42f7a3"
   },
   "41387": {
    "CaseID": "41387",
@@ -139,7 +139,7 @@
      ]
     }
    ],
-   "transformers_sha256": "09b2b948e12e67a0959dde27364af5355be3fb183e68330de9a670b49c407b9f"
+   "transformers_sha256": "f41fd23e9310067212dea51e04c024a3a698e714d5ab2824300c5748bb86bdc7"
   },
   "41390": {
    "CaseID": "41390",
@@ -153,7 +153,7 @@
      ]
     }
    ],
-   "transformers_sha256": "d7aead014cac540261db0d4294fdc27b1c6bcbabb74c0c7dd6615a1735503225"
+   "transformers_sha256": "a176f02999fe79f2aab57236517a29abcdd99117e7784fbb1a42099d10257531"
   },
   "41396": {
    "CaseID": "41396",
@@ -167,7 +167,7 @@
      ]
     }
    ],
-   "transformers_sha256": "1bdb07800e4b65cf774bdfeeda15ed4dad471906c7485e74ba7fb37f7c92d94e"
+   "transformers_sha256": "1a375aec24d61308eac9908bf1d3bfe1994ae943b91887560a8f223ab61de14f"
   },
   "41397": {
    "CaseID": "41397",
@@ -199,7 +199,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a8ee83b1d3a954adfe9062149bdaa423093d5671dc54312e49a2bad216af23d1"
+   "transformers_sha256": "62f14100e539c17c65010d90b09e84d7369ce1496ab2b9f4e73c1bb21cc0971a"
   },
   "41398": {
    "CaseID": "41398",
@@ -231,7 +231,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a6bb570c7ca9c751e451cca90de4a2cd66f576236abd840d345a347a13ee0df7"
+   "transformers_sha256": "2af502672eb1047889ab2526616b03b15e1daaebeb17e9c8bf4be4b78c529792"
   },
   "41399": {
    "CaseID": "41399",
@@ -245,7 +245,7 @@
      ]
     }
    ],
-   "transformers_sha256": "b722def7d0797660183e203fe9b258d95d9fd06795dd4a667b87da8c054297d2"
+   "transformers_sha256": "8ed556b2a5b641694d0d5d3c8c1f5f35af7874bdf086537ef3a230985146daa2"
   },
   "41402": {
    "CaseID": "41402",
@@ -267,7 +267,7 @@
      ]
     }
    ],
-   "transformers_sha256": "eadfb74d9015d564d37a7304e101283689d55117f680569930032886f3b73606"
+   "transformers_sha256": "a08d1980032432badcaee50f501a471eac69ddfca1d17a06411ce225b20a611c"
   },
   "41403": {
    "CaseID": "41403",
@@ -281,7 +281,7 @@
      ]
     }
    ],
-   "transformers_sha256": "7593ea8fbf7c16bd6ce074a490c31e470cf50236d71d26ff5d7a5066efcb5f74"
+   "transformers_sha256": "d3cc86a4966fea7cc10021e18faf90a93ef14c699f811443fafd5c7288aa507a"
   },
   "41406": {
    "CaseID": "41406",
@@ -295,7 +295,7 @@
      ]
     }
    ],
-   "transformers_sha256": "e4d10f66c9635cd500b2ca1fbfca3a90658a7ae32625fcd240f2ce0c0ab1d1be"
+   "transformers_sha256": "5d5c2453675481d93a11dc2f81e3517aac173b6a18ac0f13f120061fdeb33ef4"
   },
   "41407": {
    "CaseID": "41407",
@@ -309,7 +309,7 @@
      ]
     }
    ],
-   "transformers_sha256": "6306df8ce6d8bdf8b8c8ed78166793d66e3562cc0b0a7b59092657fc54d8af74"
+   "transformers_sha256": "444be9c17ac4dda33b1bdf1b31942e5c0a55a6cbf552a965f5044069ac2e1363"
   },
   "41408": {
    "CaseID": "41408",
@@ -323,7 +323,7 @@
      ]
     }
    ],
-   "transformers_sha256": "bb87f7e65a7735a965140d277568088f7f9e61680547811c3bad7896262c4bdb"
+   "transformers_sha256": "1b371d9134d0925ed9437bbbb9922ab6522d3d83c7583ee2156c26be682a76bc"
   },
   "41409": {
    "CaseID": "41409",
@@ -337,7 +337,7 @@
      ]
     }
    ],
-   "transformers_sha256": "339faf5135ec40d0e6a18d8628565299142520b5ae318c85a6d7a4f0dcdb73bd"
+   "transformers_sha256": "c4a3a70192b3376ef7e66f5177dba2f39cb27238c9e8a41ec1fe48dea7b61317"
   },
   "41410": {
    "CaseID": "41410",
@@ -351,7 +351,7 @@
      ]
     }
    ],
-   "transformers_sha256": "58a282d01e4127bfed2905556eb7ef99f1101819890f32d1d8338096da485a93"
+   "transformers_sha256": "3f5a2b95fded94db1efdcd866e8322be5257561ce0453ec9107fe1d5547fdba2"
   },
   "41411": {
    "CaseID": "41411",
@@ -365,7 +365,7 @@
      ]
     }
    ],
-   "transformers_sha256": "a30898aafd473bbbed12380f3e5882350c66be46df2caed70dc872dd1ea6ab46"
+   "transformers_sha256": "160f97e679b21c8cd18353b292c9b70be4e59807224204b12f3579d1e17b0bc2"
   },
   "41412": {
    "CaseID": "41412",
@@ -379,7 +379,7 @@
      ]
     }
    ],
-   "transformers_sha256": "17cf7ff7385ea3fc4170b3ac9cb3a3b86e67800efcd30d9c4c924a08fc6e9bfc"
+   "transformers_sha256": "aefe6659f5369372fedb609e6a088c712533a5c6e36ad1157c95f18faaaa92cf"
   },
   "41413": {
    "CaseID": "41413",
@@ -393,7 +393,7 @@
      ]
     }
    ],
-   "transformers_sha256": "016c1f2ce67d181b38479e8b29c01de3441170f430e5e9499b8b6e5c25c066a1"
+   "transformers_sha256": "c63ffe53c48027c99c1915bd9461b5b3bfb81350a48496dc7076567bd5eeac2e"
   },
   "41414": {
    "CaseID": "41414",
@@ -407,7 +407,7 @@
      ]
     }
    ],
-   "transformers_sha256": "8807b3a6c72c645e02b9e3d4c8ea366f2a715f3d4610ebee344b556cb3574ac9"
+   "transformers_sha256": "3aa479dc90552cf5689921483e42fa1724c72270023043b0e235fd39eb17cf22"
   },
   "41418": {
    "CaseID": "41418",
@@ -451,7 +451,7 @@
      ]
     }
    ],
-   "transformers_sha256": "ff4faf0dc87e2acf254e3397b237aef6c545577dd7a569bf970952fb22af4765"
+   "transformers_sha256": "f91b3a569df19cc48b27f92c225c2a503599f5997e6fb4f0d6008804d281c30b"
   },
   "41419": {
    "CaseID": "41419",
@@ -759,7 +759,7 @@
      ]
     }
    ],
-   "transformers_sha256": "11bdad054e2535f5a4c5f68a43b9f91d088e96361785916c0d8e9d5fd7feff71"
+   "transformers_sha256": "175190a3e73e224dae31074a3028c491b6cd846310906f232bd86a0a6c71f961"
   },
   "41420": {
    "CaseID": "41420",
@@ -773,7 +773,7 @@
      ]
     }
    ],
-   "transformers_sha256": "48a778683af354066ad0e469d973e2bf83206043df1743e360f4f3217b80f368"
+   "transformers_sha256": "2530053d8172b805d1ce829b64bb06c6c3e63583ed07fa4878b38ba11c77f15f"
   },
   "41421": {
    "CaseID": "41421",
@@ -787,7 +787,7 @@
      ]
     }
    ],
-   "transformers_sha256": "06de249bd6d1df032d399ff3e5633697f70bc310931bf08cbe6c37334c6a5b45"
+   "transformers_sha256": "646e8aa54637ead41c5e14575168a4fd221c9eefc12051f60a9b6dab88f7a203"
   },
   "41422": {
    "CaseID": "41422",
@@ -801,7 +801,7 @@
      ]
     }
    ],
-   "transformers_sha256": "9e3d15558300ea1c4b970d7451cdab6434adbec0adf2f80aa002c4348617a79c"
+   "transformers_sha256": "9a3d9291259fe0bd813d50bcf6845bf7c53b23190d62aa557a35f855a5128ffa"
   },
   "41423": {
    "CaseID": "41423",
@@ -815,7 +815,7 @@
      ]
     }
    ],
-   "transformers_sha256": "61cff1c153256037136cb4c05c2a6238cbde2dc3fa940f26116a0429c8c7295f"
+   "transformers_sha256": "de8fc8d4b47c0c61302c23485485f79c68faa4d5d8d94727a294f3a2afff4850"
   },
   "41424": {
    "CaseID": "41424",
@@ -829,7 +829,7 @@
      ]
     }
    ],
-   "transformers_sha256": "d1d1f6f180dc93bdac79c00b6a1e4f6ba69e3d765f60079c275743b989b3dbe7"
+   "transformers_sha256": "3435cdc5edcd94c7e3a95be4016a280864957624aca4b7f370a628346ab53119"
   },
   "41425": {
    "CaseID": "41425",
@@ -843,7 +843,7 @@
      ]
     }
    ],
-   "transformers_sha256": "133320abbe98d0dc4b6360aa812345a28444f03503167b37d39a70770e4b2f3f"
+   "transformers_sha256": "86ba79ffded5bb636d20ae52b51bb17d4df57502bf94df0ea3f9900947f74530"
   },
   "41426": {
    "CaseID": "41426",
@@ -857,7 +857,7 @@
      ]
     }
    ],
-   "transformers_sha256": "9b5f4f9643e55ddca7f95270f7d133a5bce4684df0bc1b09281bfee425d7458d"
+   "transformers_sha256": "f7380c538bb6e5a3ce57717ebddb5f021fb1949c7de14b00db5822fad7b146ea"
   },
   "41427": {
    "CaseID": "41427",
@@ -885,7 +885,7 @@
      ]
     }
    ],
-   "transformers_sha256": "f13d25399ffe6391d6ffd7b54c9c4ca95fb0093f0002ca8b5f5c00ed52c8d18e"
+   "transformers_sha256": "420788850b579e890521ecbd44872ee7ca6f0fa44329ed3c787d75ddef7165e9"
   },
   "41430": {
    "CaseID": "41430",
@@ -899,7 +899,7 @@
      ]
     }
    ],
-   "transformers_sha256": "2de0fb8d7986ad977775239aa3108d5082a957871690444d438ee0e1c96a892f"
+   "transformers_sha256": "48e68dc200fefb53ae0dd71af8f896ce0b33602c32934802cd9a2e261d0927fe"
   },
   "41431": {
    "CaseID": "41431",
@@ -913,7 +913,7 @@
      ]
     }
    ],
-   "transformers_sha256": "7826de8f50b7d6eb7f7afe73091f6ccb1327495f010132162422fca10a723557"
+   "transformers_sha256": "8b22040fa324cf325ae081f1e17e709b8677f3429015caadcbbd064bdf024fc1"
   },
   "41432": {
    "CaseID": "41432",
@@ -927,7 +927,7 @@
      ]
     }
    ],
-   "transformers_sha256": "bf57fd8915bd736560fb9d7be5104b9abf5f49ae9f747a8455deee395e5e341b"
+   "transformers_sha256": "dcbee7e5299d8bf300e609b945939492018fd2431e008b1c0ddf94fd41f8defe"
   },
   "41433": {
    "CaseID": "41433",
@@ -941,7 +941,7 @@
      ]
     }
    ],
-   "transformers_sha256": "cb1527d2205de8bff2a781773c773fdc62af16f5cf2fcf495f3b3796e9114a78"
+   "transformers_sha256": "0340b1f7316d916d2316aadc04d673090635aca762f4b3d8f978ca762263edc5"
   },
   "41434": {
    "CaseID": "41434",
@@ -969,7 +969,7 @@
      ]
     }
    ],
-   "transformers_sha256": "22618a0202e9e8e5a739e8cc60e76156c2ab4852d2bc14d821642f8f60c23cc5"
+   "transformers_sha256": "385047efe2b3becf85c029c14d9ef329e6aa84812b2ad75808365797c80f9e26"
   },
   "41436": {
    "CaseID": "41436",
@@ -983,7 +983,7 @@
      ]
     }
    ],
-   "transformers_sha256": "f768d41ae77068a9de33256d169e314231a5c1dfb9eac5d7f8a6168eb23f7f3d"
+   "transformers_sha256": "3dd5ba5f48e941a5585208a534fde09df5b4cb9f937dc9cef9b90b434e439e5d"
   },
   "41437": {
    "CaseID": "41437",
@@ -997,7 +997,7 @@
      ]
     }
    ],
-   "transformers_sha256": "441d8b887148e0ae68b68bf04d57fa81152f4574cd4714c2ef2e0cd03eb4e651"
+   "transformers_sha256": "1d11c354c1c986e655207b3e94852b95b39a078e6532a34e3a6b969ba29c77a6"
   },
   "41438": {
    "CaseID": "41438",
@@ -1271,7 +1271,35 @@
      ]
     }
    ],
-   "transformers_sha256": "1aff69a82e7e9024563e2119abded80bb0b2f6c5b42c2d830dfa4872f8f36acc"
+   "transformers_sha256": "e79c05bbe28801cce2858e7fee67746689b71c9213b6416e6746a30fa88a5741"
+  },
+  "41439": {
+   "CaseID": "41439",
+   "EndDate": "2026-09-30T11:00:00+02:00",
+   "StartDate": "2026-09-30T03:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "48",
+     "feeders": [
+      "10"
+     ]
+    }
+   ],
+   "transformers_sha256": "53aaa62ba37de748ecd26e50d19e07636215d0ce48da971d0b64a21559b13683"
+  },
+  "41440": {
+   "CaseID": "41440",
+   "EndDate": "2026-09-25T11:00:00+02:00",
+   "StartDate": "2026-09-25T07:00:00+02:00",
+   "transformers": [
+    {
+     "TransformerId": "878",
+     "feeders": [
+      "10"
+     ]
+    }
+   ],
+   "transformers_sha256": "547dd6de80355d9f1761d163c6f49e5788008ad78e8c91e8c54d0026bd82fde0"
   }
  },
  "planned_page": {
