@@ -1374,16 +1374,6 @@
    ],
    "to": "25 September 2026 11:00"
   },
-  "079ae2e93b38df95": {
-   "city": "In-Naxxar",
-   "from": "24 September 2026 11:00",
-   "streets": [
-    "TRIQ LELI FALZON",
-    "TRIQ IL- FORGA",
-    "TRIQ GIUSEPPE STIVALA"
-   ],
-   "to": "24 September 2026 15:00"
-  },
   "0b295116ffb772f4": {
    "city": "Il-Mosta",
    "from": "30 September 2026 03:30",
@@ -1424,22 +1414,6 @@
    ],
    "to": "01 October 2026 16:00"
   },
-  "22098841dd794f58": {
-   "city": "San Pawl il-Bahar",
-   "from": "24 September 2026 04:30",
-   "streets": [
-    "TRIQ IT- TURISTI",
-    "TRIQ IL- KAVETTA",
-    "TRIQ ANANIJA",
-    "TRIQ BARNABA",
-    "TRIQ J. QUINTINUS",
-    "TRIQ IL- MAZZOLA",
-    "TRIQ IL- HALEL",
-    "TRIQ IL- PAGELL",
-    "TRIQ IC- CERN"
-   ],
-   "to": "24 September 2026 08:00"
-  },
   "26b47460da828ae8": {
    "city": "Marsaskala",
    "from": "30 September 2026 23:00",
@@ -1468,43 +1442,6 @@
    ],
    "to": "25 September 2026 17:00"
   },
-  "3412b04d6b3d1f3d": {
-   "city": "Il-Mellieha",
-   "from": "24 September 2026 23:00",
-   "streets": [
-    "TRIQ L- ASSEDJU L-KBIR 1565",
-    "TRIQ IL- MODD",
-    "TRIQ IL- QIGHAN",
-    "TRIQ IL- MIDRA",
-    "TRIQ GORG BORG OLIVIER",
-    "TRIQ IL- MADONNA TA' FATIMA",
-    "TRIQ L- ISQOF PACE",
-    "TRIQ IL- QALB IMQADDSA",
-    "TRIQ SAN PUBLJU",
-    "TRIQ SAN PAWL",
-    "TRIQ IT- TRAMUNTANA",
-    "MISRAH IL- PARROCCA",
-    "MISRAH IZ- ZJARA TAL-PAPA",
-    "TRIQ IL- MARFA",
-    "TRIQ IL- WIED",
-    "TRIQ MONS. INDRI FENECH",
-    "TRIQ IL- PARROCCA",
-    "TRIQ IN- NINFA CALYPSO",
-    "TRIQ IC- CIKKEN",
-    "TRIQ VINCENZO CIAPPARA",
-    "TRIQ QASAM BARRANI",
-    "TRIQ NAPULJUN CARUANA DINGLI",
-    "TRIQ IL- MADONNA TAL-GHAR",
-    "TRIQ IL- KAPPILLAN MAGRI",
-    "TRIQ IL- LUH",
-    "TRIQ L- ERWIEH",
-    "TRIQ SALVINU VELLA",
-    "TRIQ L- INKURUNAZZJONI",
-    "DAWRET IL- MELLIEHA",
-    "TRIQ IL- MITHNA L-GDIDA"
-   ],
-   "to": "25 September 2026 05:00"
-  },
   "371e886b184171d0": {
    "city": "Haz-Zabbar",
    "from": "28 September 2026 07:00",
@@ -1517,16 +1454,6 @@
     "TRIQ IX- XGHAJRA"
    ],
    "to": "28 September 2026 11:00"
-  },
-  "392ba05a5b068138": {
-   "city": "San Giljan",
-   "from": "24 September 2026 06:00",
-   "streets": [
-    "TRIQ TA' MARMORA",
-    "TRIQ CLAIRE E. ENGEL",
-    "TRIQ JOHN BUONTEMPO"
-   ],
-   "to": "24 September 2026 11:00"
   },
   "3a3fd72b6b09a45f": {
    "city": "Il-Mosta",
@@ -1592,17 +1519,6 @@
    ],
    "to": "27 September 2026 11:00"
   },
-  "5107663003f3bea4": {
-   "city": "Hal Ghaxaq",
-   "from": "24 September 2026 07:30",
-   "streets": [
-    "TRIQ TAL- QATTUS",
-    "TRIQ INDRI MAGRIN",
-    "TRIQ IT- TUMBARELLU",
-    "TRIQ DWARDU BUTTIGIEG"
-   ],
-   "to": "24 September 2026 13:00"
-  },
   "5206ec04b05e714f": {
    "city": "L-Imsida",
    "from": "25 September 2026 07:30",
@@ -1652,39 +1568,6 @@
    ],
    "to": "25 September 2026 11:30"
   },
-  "79d001fbf61000f9": {
-   "city": "L-Iklin",
-   "from": "24 September 2026 08:00",
-   "streets": [
-    "TRIQ GUZE' GALEA",
-    "TRIQ GUZE' MUSCAT AZZOPARDI",
-    "TRIQ MAY BUTCHER",
-    "TRIQ RICHARD TAYLOR",
-    "TRIQ PAWLU GRECH",
-    "TRIQ ERIN SERRACINO INGLOTT",
-    "TRIQ PATRI ANASTASJU CUSCHIERI",
-    "TRIQ GUZE' PESCI",
-    "TRIQ ANTON MANUEL CARUANA",
-    "TREJQET IR- RUMANZIERI",
-    "TRIQ GIOVANNI CURMI",
-    "TRIQ GWANN MAMO",
-    "TRIQ CENSU BUSUTTIL",
-    "TRIQ ALFONS MARIA GALEA",
-    "TRIQ GUZEPPI CALLEJA",
-    "TRIQ DWARDU CACHIA",
-    "TRIQ MONS. PIETRU PAWL SAYDON",
-    "TREJQET IL- POETI",
-    "TRIQ ANTON BUTTIGIEG",
-    "TRIQ GUZE' BONNICI",
-    "TRIQ GUZE' ELLUL MERCER",
-    "TRIQ KARMENU VASSALLO",
-    "TRIQ PATRI MARJANU VELLA",
-    "TRIQ DUN KARM",
-    "PJAZZA NINU CREMONA",
-    "TRIQ GERONIMO ABOS"
-   ],
-   "to": "24 September 2026 11:30"
-  },
   "80ba7191e6b0ebc5": {
    "city": "L-Iklin",
    "from": "28 September 2026 08:00",
@@ -1706,14 +1589,6 @@
     "TRIQ IL- KAPPILLAN MAGRI"
    ],
    "to": "26 September 2026 13:00"
-  },
-  "96a47bc385f430e4": {
-   "city": "Ix-Xewkija",
-   "from": "24 September 2026 08:30",
-   "streets": [
-    "TRIQ SANNAT"
-   ],
-   "to": "24 September 2026 13:00"
   },
   "96f449a6afc204f4": {
    "city": "Iz-Zejtun",
@@ -1749,48 +1624,6 @@
     "TRIQ GDIDA FI"
    ],
    "to": "28 September 2026 11:00"
-  },
-  "b7e80bbefd6a2fe2": {
-   "city": "Birzebbuga",
-   "from": "24 September 2026 06:30",
-   "streets": [
-    "TRIQ IZ- ZURRIEQ",
-    "TRIQ IL- MUSBIEH",
-    "MISRAH IR- REPUBBLIKA",
-    "TRIQ IL- KOSTITUZZJONI",
-    "TRIQ SAN TUMAS"
-   ],
-   "to": "24 September 2026 13:00"
-  },
-  "c0048d81f9d1a869": {
-   "city": "Birkirkara",
-   "from": "24 September 2026 08:00",
-   "streets": [
-    "TRIQ FRANGISK XERRI",
-    "TRIQ CENSU BUSUTTIL",
-    "TRIQ DUN KARM"
-   ],
-   "to": "24 September 2026 11:30"
-  },
-  "c8aac50c74fb8e01": {
-   "city": "In-Naxxar",
-   "from": "24 September 2026 07:30",
-   "streets": [
-    "TRIQ IN- NUTAR MANUEL DEBONO",
-    "TRIQ IL- BUZJETT",
-    "TRIQ IL- PARROCCA"
-   ],
-   "to": "24 September 2026 11:30"
-  },
-  "d4253668858f777d": {
-   "city": "Il-Marsa",
-   "from": "24 September 2026 07:00",
-   "streets": [
-    "TRIQ ASCOT",
-    "TRIQ L- IRHAM",
-    "TRIQ IS- SALIB TAL-MARSA"
-   ],
-   "to": "24 September 2026 13:00"
   },
   "d82d684a08572261": {
    "city": "In-Nadur",
@@ -1832,37 +1665,6 @@
    ],
    "to": "25 September 2026 12:00"
   },
-  "e31adf374e739b30": {
-   "city": "Paola",
-   "from": "24 September 2026 07:00",
-   "streets": [
-    "TRIQ BRITTANJA",
-    "TRIQ NINU CREMONA",
-    "TRIQ L- IBJAR",
-    "TRIQ F. TORTELL",
-    "VJAL SIR PAUL BOFFA",
-    "TRIQ ID- DGHAJJES",
-    "TRIQ IL- BACIR IL-GDID"
-   ],
-   "to": "24 September 2026 12:00"
-  },
-  "e53ceb32eed922dc": {
-   "city": "In-Nadur",
-   "from": "24 September 2026 08:30",
-   "streets": [
-    "TRIQ RACECOURSE",
-    "TRIQ IL- KNISJA",
-    "TRIQ LAZZRU PISANI",
-    "TRIQ PIJU CELLINI",
-    "TRIQ FRANGISK SAVER SCIORTINO",
-    "TRIQ IT- TRAMUNTANA",
-    "TRIQ IT- TIGRIJA",
-    "TRIQ TA' SAID",
-    "TRIQ XANDRIKU",
-    "TRIQ SAN BLAS"
-   ],
-   "to": "24 September 2026 12:30"
-  },
   "e769609381bcf90d": {
    "city": "Birkirkara",
    "from": "26 September 2026 06:45",
@@ -1876,41 +1678,6 @@
     "TRIQ FLEUR-DE-LYS"
    ],
    "to": "26 September 2026 12:00"
-  },
-  "e7744f5e2897b4c0": {
-   "city": "Birkirkara",
-   "from": "24 September 2026 08:00",
-   "streets": [
-    "TRIQ IL- KARMNU",
-    "TRIQ ANGLU MALLIA",
-    "TRIQ IGNAZIO SAVERIO MIFSUD",
-    "TRIQ FRANCESCO BUHAGIAR"
-   ],
-   "to": "24 September 2026 13:00"
-  },
-  "e90472e3445640c6": {
-   "city": "Ir-Rabat, Ghawdex",
-   "from": "24 September 2026 08:30",
-   "streets": [
-    "AREA BLOCK A-B-C-D-Ea-Eb-Fa-Fb-Ib-l",
-    "AREA BLOCK G-Ha-Hb-Lb-Ka-Kb",
-    "AREA TA' CAWLA SUPERMARKET",
-    "TRIQ IC- CANGAR",
-    "TRIQ GUZE' MICALLEF",
-    "TRIQ IS- SETTE GIUGNO",
-    "TRIQ PATRI ANTON DEBONO",
-    "S. J.",
-    "TRIQ TAC- CAWLA",
-    "TRIQ IT- TABIB ANTON TABONE",
-    "TRIQ ANICI",
-    "TRIQ GUZE' ELLUL MERCER",
-    "TRIQ SIR PAWLU BOFFA",
-    "TRIQ IL- WIEHED U TLETIN TA' MARZU",
-    "1979",
-    "TRIQ IN- NEOLITICI",
-    "TRIQ IL- MITHNA"
-   ],
-   "to": "24 September 2026 13:00"
   }
  }
 }
