@@ -1,0 +1,25 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: chore
+    groups:
+      pip-patch:
+        update-types: [patch]
+      pip-updates:
+        update-types: [minor, major]
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: chore
+    groups:
+      github-actions-patch:
+        update-types: [patch]
+      github-actions-updates:
+        update-types: [minor, major]
