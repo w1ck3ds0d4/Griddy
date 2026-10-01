@@ -1611,18 +1611,6 @@
   }
  },
  "planned_page": {
-  "0b295116ffb772f4": {
-   "city": "Il-Mosta",
-   "from": "30 September 2026 03:30",
-   "streets": [
-    "TRIQ MONS. MIKELANG MIFSUD",
-    "TRIQ IX- XAGHRI TAL-HARRUB",
-    "TRIQ IL- PONT",
-    "TRIQ GDIDA FI",
-    "TRIQ WALTER L. SALAMONE"
-   ],
-   "to": "30 September 2026 11:00"
-  },
   "0c9f1c6224dc5e3d": {
    "city": "Iz-Zurrieq",
    "from": "01 October 2026 07:00",
@@ -1705,61 +1693,6 @@
    ],
    "to": "01 October 2026 10:00"
   },
-  "266b2663c3e84f6a": {
-   "city": "Iz-Zurrieq",
-   "from": "30 September 2026 07:00",
-   "streets": [
-    "TRIQ KALANG BUGEJA",
-    "VJAL L- INDIPENDENZA",
-    "TRIQ IL- QIEGHA"
-   ],
-   "to": "30 September 2026 11:45"
-  },
-  "26b47460da828ae8": {
-   "city": "Marsaskala",
-   "from": "30 September 2026 23:00",
-   "streets": [
-    "TRIQ FRANS GRECH",
-    "SQAQ SAN GWAKKIN",
-    "PJAZZA DUN TARCIS AGIUS",
-    "TRIQ IX- XATT",
-    "TRIQ SANT' ANNA",
-    "TRIQ IX- XATT",
-    "IT-TIELET TREJQA FI",
-    "TRIQ IX- XATT",
-    "IR-RABA' TREJQA FI",
-    "TRIQ IX- XATT",
-    "IL-HAMES TREJQA FI"
-   ],
-   "to": "01 October 2026 06:00"
-  },
-  "29decca40efab8bb": {
-   "city": "In-Naxxar",
-   "from": "30 September 2026 07:00",
-   "streets": [
-    "TREJQET L- IRZIEZET",
-    "TRIQ IS- SALINA",
-    "SQAQ HABEL ZWEJRA",
-    "TRIQ IL- PRINJOL",
-    "TRIQ TAL- QADI",
-    "TRIQ IT- TORRI TAL-GHALLIS"
-   ],
-   "to": "30 September 2026 12:00"
-  },
-  "2ad0c761dbe0c6c7": {
-   "city": "In-Naxxar",
-   "from": "30 September 2026 07:30",
-   "streets": [
-    "TREJQET IL- HUGGIEGA",
-    "TRIQ VICTOR SCERRI",
-    "TRIQ SANTA MARIJA",
-    "TRIQ SAN GWANN",
-    "PJAZZA DARNINO",
-    "PJAZZA DARNINO",
-    "SQAQ NRU. 1"
-   ],
-   "to": "30 September 2026 11:30"
-  },
   "2cf4a0e0248bb213": {
    "city": "Marsaskala",
    "from": "09 October 2026 07:30",
@@ -1769,17 +1702,6 @@
     "TRIQ IL- BIDNI"
    ],
    "to": "09 October 2026 14:00"
-  },
-  "2e283a8c270fd04d": {
-   "city": "L-Imgarr",
-   "from": "30 September 2026 07:00",
-   "streets": [
-    "TRIQ IL- KBIRA",
-    "TRIQ L- GHELEJJEL",
-    "TRIQ IC- CAGHAQ",
-    "TRIQ IL- PAPA PIJU XII"
-   ],
-   "to": "30 September 2026 12:00"
   },
   "3b7f5f27b15bad89": {
    "city": "Haz-Zabbar",
@@ -1800,58 +1722,6 @@
     "TRIQ IL- PAPA PIJU XII"
    ],
    "to": "02 October 2026 05:00"
-  },
-  "49bc9ef9e30eef9d": {
-   "city": "Haz-Zabbar",
-   "from": "30 September 2026 07:00",
-   "streets": [
-    "TRIQ IN- NISSIEG",
-    "TRIQ SAN GUZEPP"
-   ],
-   "to": "30 September 2026 11:00"
-  },
-  "54eb2bc20be4b94d": {
-   "city": "San Pawl il-Bahar",
-   "from": "30 September 2026 08:00",
-   "streets": [
-    "TRIQ SAN GORG",
-    "TRIQ PARADES",
-    "TRIQ SAN PAWL"
-   ],
-   "to": "30 September 2026 12:00"
-  },
-  "5899f592e9629cc7": {
-   "city": "Ta’ Sannat",
-   "from": "30 September 2026 08:30",
-   "streets": [
-    "TRIQ IL- PALAZZ PALINA",
-    "TRIQ TA' CENC",
-    "TRIQ IL- KALATI",
-    "TRIQ TA' DUN LUQA"
-   ],
-   "to": "30 September 2026 12:30"
-  },
-  "58d71308c15a1bec": {
-   "city": "Iz-Zejtun",
-   "from": "30 September 2026 07:00",
-   "streets": [
-    "TRIQ HAZ-ZABBAR",
-    "TRIQ HAZ-ZABBAR",
-    "SQAQ NRU. 3"
-   ],
-   "to": "30 September 2026 11:00"
-  },
-  "59810f8c77f83be9": {
-   "city": "Iz-Zurrieq",
-   "from": "30 September 2026 07:00",
-   "streets": [
-    "TRIQ BUBAQRA",
-    "TRIQ GUZEPPI MATTEW CALLUS",
-    "VJAL L- INDIPENDENZA",
-    "TRIQ TA' CIANTAR",
-    "TRIQ GREGORIO DURANTE"
-   ],
-   "to": "30 September 2026 09:00"
   },
   "6767d01c73b0d829": {
    "city": "Hal Qormi",
@@ -1957,29 +1827,6 @@
    ],
    "to": "02 October 2026 05:00"
   },
-  "a8d844b030aef572": {
-   "city": "Iz-Zurrieq",
-   "from": "30 September 2026 07:00",
-   "streets": [
-    "TRIQ BUBAQRA",
-    "TRIQ IT- TIN",
-    "VJAL L- INDIPENDENZA",
-    "TRIQ SAN MIKIEL",
-    "TRIQ ESPEDITU DEGUARA"
-   ],
-   "to": "30 September 2026 11:45"
-  },
-  "a9c854ea12dfb6e7": {
-   "city": "Is-Siggiewi",
-   "from": "30 September 2026 06:30",
-   "streets": [
-    "TRIQ PATRI GUZEPP DELIA",
-    "TRIQ BLAT IL-QAMAR",
-    "TRIQ GUZEPPI AGIUS",
-    "TRIQ SALVATORE MALLIA"
-   ],
-   "to": "30 September 2026 11:30"
-  },
   "ae0e966ec8ede12a": {
    "city": "Is-Siggiewi",
    "from": "11 October 2026 19:00",
@@ -2001,26 +1848,6 @@
     "TRIQ JOHN DEBATTISTA"
    ],
    "to": "11 October 2026 21:00"
-  },
-  "aec372e92de60371": {
-   "city": "Haz-Zebbug",
-   "from": "30 September 2026 07:00",
-   "streets": [
-    "TRIQ LAZZRU PISANI",
-    "TRIQ SAN ROKKU"
-   ],
-   "to": "30 September 2026 12:00"
-  },
-  "b5f0e0123b41eac7": {
-   "city": "Iz-Zurrieq",
-   "from": "30 September 2026 07:00",
-   "streets": [
-    "TRIQ HOMPESCH",
-    "TRIQ DUN GEJT MUSCAT",
-    "TRIQ MATTEOLO SALIBA",
-    "VJAL L- INDIPENDENZA"
-   ],
-   "to": "30 September 2026 11:30"
   },
   "b752d8d9a4f49034": {
    "city": "Hal Lija",
@@ -2090,60 +1917,6 @@
    ],
    "to": "02 October 2026 04:30"
   },
-  "d3df1ca5c12ff2c2": {
-   "city": "In-Naxxar",
-   "from": "30 September 2026 06:30",
-   "streets": [
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 2",
-    "TRIQ IN- NISSIEG",
-    "TRIQ HAL DGHEJF",
-    "PJAZZA VITTORJA",
-    "SQAQ NRU. 2",
-    "PJAZZA VITTORJA",
-    "SQAQ NRU. 3",
-    "TRIQ IL- KBIRA",
-    "SQAQ NRU. 3",
-    "TRIQ IL- GDIDA",
-    "TRIQ IS- SALIB",
-    "SQAQ NRU. 1",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 12",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 11",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 10",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 9",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 8",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 6",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 5",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 4",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 3",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 1",
-    "TRIQ IL- HABS",
-    "TRIQ L- IFRAN",
-    "VJAL IL- LABOUR",
-    "VJAL IL- WIEHED U GHOXRIN TA' SETTEMBRU",
-    "TRIQ IZ- ZENQA",
-    "TRIQ ZENQA",
-    "SQAQ FI",
-    "TRIQ IL- MARKIZ GIUSEPPE SCICLUNA",
-    "TRIQ SANTA LUCIJA",
-    "SQAQ NRU. 7",
-    "PJAZZA DARNINO",
-    "TRIQ IL- KBIRA",
-    "SQAQ NRU. 4",
-    "TRIQ CASTRO"
-   ],
-   "to": "30 September 2026 12:00"
-  },
   "d538d0d7931f1b91": {
    "city": "San Gwann",
    "from": "01 October 2026 06:00",
@@ -2184,30 +1957,6 @@
     "TRIQ IL- QAMMIEH"
    ],
    "to": "01 October 2026 15:00"
-  },
-  "fb09fc4c57007ea9": {
-   "city": "L-Iklin",
-   "from": "30 September 2026 07:30",
-   "streets": [
-    "TRIQ GUZE' GALEA",
-    "TRIQ MAY BUTCHER",
-    "TRIQ RICHARD TAYLOR",
-    "TRIQ PAWLU GRECH",
-    "TRIQ ERIN SERRACINO INGLOTT",
-    "TRIQ PATRI ANASTASJU CUSCHIERI",
-    "TREJQET IR- RUMANZIERI",
-    "TRIQ GWANN MAMO",
-    "TRIQ CENSU BUSUTTIL",
-    "TRIQ GUZEPPI CALLEJA",
-    "TRIQ DWARDU CACHIA",
-    "TRIQ MONS. PIETRU PAWL SAYDON",
-    "TRIQ ANTON BUTTIGIEG",
-    "TRIQ GUZE' BONNICI",
-    "TRIQ KARMENU VASSALLO",
-    "PJAZZA NINU CREMONA",
-    "TRIQ DUN KARM"
-   ],
-   "to": "30 September 2026 11:30"
   }
  }
 }
