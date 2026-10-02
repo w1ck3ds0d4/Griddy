@@ -1703,20 +1703,6 @@
   }
  },
  "planned_page": {
-  "11ae53decab02804": {
-   "city": "Birzebbuga",
-   "from": "02 October 2026 07:00",
-   "streets": [
-    "TRIQ IS- SAJJIED",
-    "TRIQ ZARENU DALLI",
-    "TRIQ IL- BROLLI",
-    "TRIQ SAN MIKIEL",
-    "MISRAH IL- KNISJA",
-    "TREJQET L- ISKOLA",
-    "TRIQ BIRZEBBUGA"
-   ],
-   "to": "02 October 2026 10:00"
-  },
   "12164ca3455095a2": {
    "city": "Marsaxlokk",
    "from": "06 October 2026 07:00",
@@ -1724,18 +1710,6 @@
     "TRIQ IT- TORRI"
    ],
    "to": "06 October 2026 13:00"
-  },
-  "1603940b4c3c5b1a": {
-   "city": "Paola",
-   "from": "02 October 2026 07:00",
-   "streets": [
-    "TRIQ BRITTANJA",
-    "TRIQ IS- SULTANA",
-    "TRIQ F. TORTELL",
-    "TRIQ CAMERON",
-    "TRIQ ID- DGHAJJES"
-   ],
-   "to": "02 October 2026 12:00"
   },
   "17c75bcb96f89baf": {
    "city": "Hal Lija",
@@ -1766,16 +1740,6 @@
     "TRIQ PAWLU CASSAR"
    ],
    "to": "08 October 2026 13:00"
-  },
-  "1e9fdcf8e6f08547": {
-   "city": "Ir-Rabat",
-   "from": "02 October 2026 07:30",
-   "streets": [
-    "TRIQ IL- KULLEGG",
-    "TRIQ FERRIS",
-    "TRIQ KOLA XARA"
-   ],
-   "to": "02 October 2026 12:00"
   },
   "1fb0e8c66560daf8": {
    "city": "Hal Balzan",
@@ -1924,16 +1888,6 @@
     "TRIQ AGOSTINO PORTELLI"
    ],
    "to": "11 October 2026 21:00"
-  },
-  "44a670628c8d9038": {
-   "city": "Birkirkara",
-   "from": "02 October 2026 03:00",
-   "streets": [
-    "TRIQ IL- PAPA URBANU VIII",
-    "TRIQ IL- PAPA GWANNI PAWLU I",
-    "TRIQ IL- PAPA PIJU XII"
-   ],
-   "to": "02 October 2026 05:00"
   },
   "47391a7f76bae575": {
    "city": "Birzebbuga",
@@ -2174,17 +2128,6 @@
    ],
    "to": "05 October 2026 12:00"
   },
-  "83d758e0dd9068f8": {
-   "city": "Birzebbuga",
-   "from": "02 October 2026 07:00",
-   "streets": [
-    "TRIQ IL- BROLLI",
-    "TRIQ SANTA RITA",
-    "TRIQ SANT' ANGLU",
-    "TRIQ SAN TUMAS"
-   ],
-   "to": "02 October 2026 10:00"
-  },
   "8724db30dddbc136": {
    "city": "San Giljan",
    "from": "06 October 2026 22:00",
@@ -2260,20 +2203,6 @@
     "TRIQ SAN FRANGISK"
    ],
    "to": "05 October 2026 07:00"
-  },
-  "990c8281c1cdb2c1": {
-   "city": "Hal Balzan",
-   "from": "02 October 2026 03:00",
-   "streets": [
-    "TRIQ IL- FERROVIJA L-QADIMA",
-    "TRIQ BIRBAL",
-    "TRIQ IL- KANNIZZATA",
-    "TRIQ GUZEPPI FRENDO",
-    "TRIQ IL- KBIRA",
-    "WIED HAL BALZAN",
-    "TRIQ IT- TABIB J. ZAMMIT"
-   ],
-   "to": "02 October 2026 05:00"
   },
   "a2f5f96d184c5a46": {
    "city": "Bormla",
@@ -2358,21 +2287,6 @@
     "TRIQ IL- BURDNARA"
    ],
    "to": "04 October 2026 13:00"
-  },
-  "b752d8d9a4f49034": {
-   "city": "Hal Lija",
-   "from": "02 October 2026 09:00",
-   "streets": [
-    "TRIQ IL- MOSTA",
-    "TRIQ NAZJU CORTIS",
-    "TRIQ ANTONIO AZZOPARDI",
-    "TRIQ GANNIKOL BUHAGIAR",
-    "SQAQ TA' SEJDUNA",
-    "TA' SEGUNA",
-    "LIMITI TA'",
-    "TRIQ AGOSTINO PORTELLI"
-   ],
-   "to": "02 October 2026 16:00"
   },
   "be4e27378c22deeb": {
    "city": "Is-Siggiewi",
@@ -2495,18 +2409,6 @@
    ],
    "to": "05 October 2026 11:30"
   },
-  "dbd1e3abc71118c6": {
-   "city": "L-Imqabba",
-   "from": "02 October 2026 07:00",
-   "streets": [
-    "TRIQ IL- MURSELLI",
-    "TRIQ HAL KIRKOP",
-    "TRIQ IN- NAZZARENU",
-    "TRIQ TAL- MENTNA",
-    "PJAZZA TAL- GUBLEW TAD-DJAMANTI"
-   ],
-   "to": "02 October 2026 13:00"
-  },
   "dd8df0b1b96ec9ae": {
    "city": "San Giljan",
    "from": "05 October 2026 07:30",
@@ -2515,27 +2417,6 @@
     "TRIQ SAN MARK"
    ],
    "to": "05 October 2026 13:00"
-  },
-  "df6a7d5c234f1336": {
-   "city": "Birkirkara",
-   "from": "02 October 2026 08:00",
-   "streets": [
-    "TRIQ BORG",
-    "TRIQ A. CUSCHIERI"
-   ],
-   "to": "02 October 2026 12:00"
-  },
-  "e0de70cba7cdcee0": {
-   "city": "San Gwann",
-   "from": "02 October 2026 06:00",
-   "streets": [
-    "TRIQ IT- TRUNCIERA T-TWILA",
-    "TRIQ IL- KWARTIER TA' XINDI",
-    "TRIQ BIRKIRKARA",
-    "TRIQ SAN GWANN TAL-GHORGHAR",
-    "TRIQ SAN GILJAN"
-   ],
-   "to": "02 October 2026 13:00"
   },
   "efb1f6ee8d69f37b": {
    "city": "Il-Gudja",
