@@ -22,6 +22,21 @@ Every JSONL line carries `seq`, `prev` (hash of the previous line) and `hash` (h
 python -m griddy.verify
 ```
 
+## Run it locally
+
+```bash
+pip install requests
+python -m griddy.run
+python -m griddy.verify
+```
+
+Tests:
+
+```bash
+pip install pytest
+pytest
+```
+
 ## Data model
 
 | File | Contents |
@@ -37,21 +52,6 @@ An outage's `cleared` event marks the moment it left the public feed, which comb
 ## Privacy
 
 The upstream feeds can include employee names (`InCharge`) and customer account references (`AffectedAccountNos`). Neither has archival value for outage evidence, so both are stripped before anything touches the archive. Street and locality names are kept: they are the outage's public location, published by the utility itself.
-
-## Run it locally
-
-```bash
-pip install requests
-python -m griddy.run
-python -m griddy.verify
-```
-
-Tests:
-
-```bash
-pip install pytest
-pytest
-```
 
 ## Dashboard
 
