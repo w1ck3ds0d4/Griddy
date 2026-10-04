@@ -1710,17 +1710,6 @@
    ],
    "to": "09 October 2026 14:00"
   },
-  "2f11ca477f804d1f": {
-   "city": "Il-Birgu",
-   "from": "03 October 2026 07:00",
-   "streets": [
-    "TRIQ IL- KWARTIER",
-    "TRIQ IL- FOSS",
-    "PJAZZETTA SAN FILIPPU",
-    "TRIQ ID- DEJQA"
-   ],
-   "to": "03 October 2026 13:00"
-  },
   "301c0e92fb4bd506": {
    "city": "Haz-Zebbug",
    "from": "06 October 2026 07:00",
@@ -1742,16 +1731,6 @@
     "TRIQ DUN KARM"
    ],
    "to": "07 October 2026 13:30"
-  },
-  "3b7f5f27b15bad89": {
-   "city": "Haz-Zabbar",
-   "from": "03 October 2026 13:00",
-   "streets": [
-    "TRIQ SANTA TEREZA",
-    "TRIQ L- ISKOLA",
-    "TRIQ LIA"
-   ],
-   "to": "03 October 2026 15:00"
   },
   "3d118b75daab3650": {
    "city": "L-Imgarr",
@@ -1863,16 +1842,6 @@
    ],
    "to": "07 October 2026 12:00"
   },
-  "6767d01c73b0d829": {
-   "city": "Hal Qormi",
-   "from": "03 October 2026 07:00",
-   "streets": [
-    "TRIQ IS- SNAJJA'",
-    "TRIQ IL- KUMMERC",
-    "TRIQ IL- HADDIEDA"
-   ],
-   "to": "03 October 2026 12:00"
-  },
   "678706c00357bc4f": {
    "city": "Haz-Zabbar",
    "from": "06 October 2026 07:00",
@@ -1939,17 +1908,6 @@
     "TRIQ PATRI MATTEW SULTANA"
    ],
    "to": "06 October 2026 13:00"
-  },
-  "72a989819aecb403": {
-   "city": "L-Imgarr",
-   "from": "03 October 2026 07:00",
-   "streets": [
-    "TRIQ IC- CENTINARJU TAL-PARROCCA",
-    "TRIQ SAN PAWL",
-    "TRIQ VITALE",
-    "TRIQ IX- XAGHRA TAL-KNISJA"
-   ],
-   "to": "03 October 2026 13:00"
   },
   "7739bd175626794d": {
    "city": "Haz-Zabbar",
@@ -2243,22 +2201,6 @@
    ],
    "to": "08 October 2026 13:30"
   },
-  "d1f7374881529a9d": {
-   "city": "Il-Birgu",
-   "from": "03 October 2026 07:00",
-   "streets": [
-    "TRIQ IL- PAPA ALESSANDRU VII",
-    "TRIQ IL- PALAZZ TAL-ISQOF",
-    "TRIQ PACIFIKU SCICLUNA",
-    "TRIQ GILORMU CASSAR",
-    "TRIQ IL- KWARTIER",
-    "TRIQ GANN FRANGISK ABELA",
-    "IL- FOSS TAS-SUR",
-    "TRIQ L- ARCISQOF MIKIEL GONZI",
-    "TRIQ IL- LUNZJATA"
-   ],
-   "to": "03 October 2026 13:00"
-  },
   "d507e4f270b5d605": {
    "city": "Il-Qrendi",
    "from": "06 October 2026 07:00",
@@ -2328,14 +2270,6 @@
     "XATT L- IMSIDA"
    ],
    "to": "09 October 2026 13:30"
-  },
-  "f91aff0516a32ebd": {
-   "city": "Il-Birgu",
-   "from": "03 October 2026 07:00",
-   "streets": [
-    "TRIQ IT- TORRI SAN GWANN"
-   ],
-   "to": "03 October 2026 13:00"
   },
   "f9ecc3b9e4ee9307": {
    "city": "Iz-Zurrieq",
