@@ -1640,20 +1640,6 @@
    ],
    "to": "11 October 2026 21:00"
   },
-  "47391a7f76bae575": {
-   "city": "Birzebbuga",
-   "from": "04 October 2026 08:00",
-   "streets": [
-    "TRIQ IL- BROLLI",
-    "TRIQ SANTA RITA",
-    "TRIQ G. GALIZIA",
-    "TRIQ IN- NOQRA",
-    "TRIQ SAN MIKIEL",
-    "TRIQ IL- PORT HIELES",
-    "TRIQ BIRZEBBUGA"
-   ],
-   "to": "04 October 2026 12:00"
-  },
   "475da2d7ca5d17a4": {
    "city": "Iz-Zurrieq",
    "from": "05 October 2026 07:00",
@@ -2010,31 +1996,6 @@
     "TRIQ JOHN DEBATTISTA"
    ],
    "to": "11 October 2026 21:00"
-  },
-  "b219b806ef1f268f": {
-   "city": "Hal Qormi",
-   "from": "04 October 2026 08:00",
-   "streets": [
-    "TRIQ IL- KBIRA",
-    "TRIQ L- GHOXRIN TA' JANNAR",
-    "TRIQ AMLETO SPITERI"
-   ],
-   "to": "04 October 2026 13:00"
-  },
-  "b716ead8c30a1bed": {
-   "city": "Hal Qormi",
-   "from": "04 October 2026 08:00",
-   "streets": [
-    "AREA IL- BURDNARA",
-    "TRIQ IL- KBIRA",
-    "TRIQ HAL-QORMI",
-    "TRIQ L- ERBA' QADDISIN",
-    "TRIQ IL- BELT VALLETTA",
-    "TRIQ IL- KACCATUR",
-    "TRIQ L- ISKULTUR",
-    "TRIQ IL- BURDNARA"
-   ],
-   "to": "04 October 2026 13:00"
   },
   "be4e27378c22deeb": {
    "city": "Is-Siggiewi",
