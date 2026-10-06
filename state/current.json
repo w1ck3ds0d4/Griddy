@@ -1797,33 +1797,6 @@
   }
  },
  "planned_page": {
-  "071402b98b8b1808": {
-   "city": "Hal Gharghur",
-   "from": "06 October 2026 03:30",
-   "streets": [
-    "TRIQ SAN NIKOLA",
-    "SQAQ NRU. 3",
-    "TRIQ IL- WIESGHA",
-    "TRIQ ID- DEJQA",
-    "TRIQ EMMANUEL PERREN",
-    "VJAL IR- REPUBBLIKA",
-    "TRIQ EXCELSIOR",
-    "TRIQ L- ORATORJU",
-    "TRIQ KARMNU ZARB",
-    "SQAQ IR- RUZARJU",
-    "TRIQ IL- KBIRA",
-    "SQAQ IL- WARDA"
-   ],
-   "to": "06 October 2026 08:30"
-  },
-  "12164ca3455095a2": {
-   "city": "Marsaxlokk",
-   "from": "06 October 2026 07:00",
-   "streets": [
-    "TRIQ IT- TORRI"
-   ],
-   "to": "06 October 2026 13:00"
-  },
   "13446dd5b4ed6a3c": {
    "city": "Had-Dingli",
    "from": "07 October 2026 07:30",
@@ -1942,18 +1915,6 @@
    ],
    "to": "09 October 2026 14:00"
   },
-  "301c0e92fb4bd506": {
-   "city": "Haz-Zebbug",
-   "from": "06 October 2026 07:00",
-   "streets": [
-    "TRIQ FRANS SAMMUT",
-    "TRIQ DUN FILIPPO CALLEJA",
-    "TRIQ IL- BARUNI V. AZZOPARDI",
-    "TRIQ ADEODATO GATT",
-    "TRIQ AMBROG BUTTIGIEG"
-   ],
-   "to": "06 October 2026 12:00"
-  },
   "37aec12da10abe1d": {
    "city": "Birkirkara",
    "from": "07 October 2026 07:30",
@@ -1963,14 +1924,6 @@
     "TRIQ DUN KARM"
    ],
    "to": "07 October 2026 13:30"
-  },
-  "3d118b75daab3650": {
-   "city": "L-Imgarr",
-   "from": "06 October 2026 08:00",
-   "streets": [
-    "AREA OF SAN MARTIN"
-   ],
-   "to": "06 October 2026 14:00"
   },
   "426130512eec4291": {
    "city": "Hal Lija",
@@ -2012,18 +1965,6 @@
    ],
    "to": "08 October 2026 13:00"
   },
-  "4f6d9a4119bb1267": {
-   "city": "San Pawl il-Bahar",
-   "from": "06 October 2026 08:00",
-   "streets": [
-    "TRIQ TAL- MIZIEB",
-    "TRIQ GHAJN TUFFIEHA",
-    "TRIQ SAN MARTIN",
-    "LIMBORDIN",
-    "LIMITI TAL-"
-   ],
-   "to": "06 October 2026 14:00"
-  },
   "4ffdaf12010d50d4": {
    "city": "Hal Balzan",
    "from": "09 October 2026 09:00",
@@ -2033,25 +1974,6 @@
     "VJAL IL- BON PASTUR"
    ],
    "to": "09 October 2026 13:00"
-  },
-  "56784a697345d535": {
-   "city": "Birzebbuga",
-   "from": "06 October 2026 07:00",
-   "streets": [
-    "TRIQ TAX- XERRIEK",
-    "TRIQ IT- TORRI"
-   ],
-   "to": "06 October 2026 13:00"
-  },
-  "5709ee122ee03b74": {
-   "city": "L-Imqabba",
-   "from": "06 October 2026 07:00",
-   "streets": [
-    "TRIQ IL- QRENDI",
-    "SQAQ IL- MITHNA",
-    "SQAQ IL- MUDURBU"
-   ],
-   "to": "06 October 2026 13:00"
   },
   "59560c8e5d6e0f45": {
    "city": "San Pawl il-Bahar",
@@ -2071,17 +1993,6 @@
    ],
    "to": "10 October 2026 14:00"
   },
-  "5b1c211cae80889d": {
-   "city": "San Pawl il-Bahar",
-   "from": "06 October 2026 04:00",
-   "streets": [
-    "TRIQ ISOUARD",
-    "TRIQ SANT' ARISTARKU",
-    "TRIQ IL- KNISJA",
-    "TRIQ SAN PAWL"
-   ],
-   "to": "06 October 2026 08:00"
-  },
   "633a24a17a2c8c5f": {
    "city": "In-Naxxar",
    "from": "08 October 2026 03:30",
@@ -2099,28 +2010,6 @@
     "TRIQ KOTTONERA"
    ],
    "to": "07 October 2026 12:00"
-  },
-  "678706c00357bc4f": {
-   "city": "Haz-Zabbar",
-   "from": "06 October 2026 07:00",
-   "streets": [
-    "TRIQ IL- KBIRA",
-    "TRIQ IL- GNIEN",
-    "TRIQ BAJADA",
-    "TRIQ BAJADA",
-    "SQAQ NRU. 1",
-    "TRIQ BAJADA",
-    "SQAQ NRU. 2",
-    "TRIQ BAJADA",
-    "SQAQ NRU. 5",
-    "MISRAH IS- SLIEM",
-    "TRIQ IL- MARLOCC",
-    "TRIQ IC- CULQANA",
-    "TRIQ G. AGIUS MUSCAT",
-    "TRIQ BAJADA",
-    "SQAQ NRU. 4"
-   ],
-   "to": "06 October 2026 13:00"
   },
   "6909d91bc297476b": {
    "city": "Haz-Zebbug",
@@ -2154,19 +2043,6 @@
    ],
    "to": "09 October 2026 12:00"
   },
-  "6bcf6a200b776fdb": {
-   "city": "Il-Kalkara",
-   "from": "06 October 2026 07:00",
-   "streets": [
-    "TRIQ SANTA FILUMENA",
-    "TRIQ STRAUBENZEE",
-    "TRIQ IT- TURRETTA",
-    "TRIQ GIOVANNI RICASOLI",
-    "TRIQ IS- SIENJA",
-    "TRIQ PATRI MATTEW SULTANA"
-   ],
-   "to": "06 October 2026 13:00"
-  },
   "7739bd175626794d": {
    "city": "Haz-Zabbar",
    "from": "09 October 2026 07:00",
@@ -2191,21 +2067,6 @@
    ],
    "to": "07 October 2026 07:00"
   },
-  "8308fe5f3c822958": {
-   "city": "Marsaxlokk",
-   "from": "06 October 2026 07:00",
-   "streets": [
-    "TRIQ ABDOSIR",
-    "TRIQ IL- WILGA",
-    "TRIQ BIR RIKKA",
-    "TRIQ IT- 8 TA' MEJJU",
-    "TRIQ IL- POWER STATION",
-    "TRIQ L- AVUKAT CARMELO CARUANA",
-    "TRIQ TAS- SILG",
-    "TRIQ IL- PATRIJIET TEREZJANI"
-   ],
-   "to": "06 October 2026 13:00"
-  },
   "85c2bb0b5f4ff1d5": {
    "city": "San Lawrenz",
    "from": "08 October 2026 07:30",
@@ -2221,14 +2082,6 @@
     "SQAQ NRU.2 SQAQ TAL-FRANCIZ"
    ],
    "to": "08 October 2026 15:30"
-  },
-  "8724db30dddbc136": {
-   "city": "San Giljan",
-   "from": "06 October 2026 22:00",
-   "streets": [
-    "TRIQ IL- KBIRA"
-   ],
-   "to": "07 October 2026 03:00"
   },
   "8a6fc7b57dc1862d": {
    "city": "Marsaskala",
@@ -2279,20 +2132,6 @@
    ],
    "to": "07 October 2026 13:00"
   },
-  "8cd323ac82031fa8": {
-   "city": "Tas-Sliema",
-   "from": "06 October 2026 22:00",
-   "streets": [
-    "TRIQ IL- KULLEGG L-ANTIK",
-    "TRIQ NICOLO' ISOUARD",
-    "TRIQ DUN KARM PSAILA",
-    "TRIQ SANTA MARGERITA",
-    "TRIQ SAN FRANGISK",
-    "TRIQ IN- NAZZARENU",
-    "TRIQ IT- TORRI"
-   ],
-   "to": "07 October 2026 03:00"
-  },
   "8f3104a6d44acd58": {
    "city": "Il-Hamrun",
    "from": "08 October 2026 07:00",
@@ -2309,19 +2148,6 @@
     "TRIQ IL- WIED TAL-IMSIDA"
    ],
    "to": "09 October 2026 03:00"
-  },
-  "a21a225d12c15bc3": {
-   "city": "Birkirkara",
-   "from": "06 October 2026 04:00",
-   "streets": [
-    "TRIQ GORG BORG",
-    "PJAZZA L- EROJ",
-    "TRIQ ANTHONY VALLETTA",
-    "TRIQ GIANNI VELLA",
-    "TRIQ MRO. GIUSEPPE BUSUTTIL",
-    "TRIQ P. BORG OLIVIER"
-   ],
-   "to": "06 October 2026 07:00"
   },
   "a23e1fa729aad920": {
    "city": "Is-Siggiewi",
@@ -2542,20 +2368,6 @@
    ],
    "to": "08 October 2026 13:30"
   },
-  "d507e4f270b5d605": {
-   "city": "Il-Qrendi",
-   "from": "06 October 2026 07:00",
-   "streets": [
-    "TRIQ IT- TEMPESTA",
-    "TRIQ IL- WARDA",
-    "TRIQ DWARDU BORG",
-    "TRIQ L- IMQABBA",
-    "TRIQ SANTA KATERINA",
-    "TRIQ IS- SIGGIEWI",
-    "TRIQ DUN NERIK MAHONEY"
-   ],
-   "to": "06 October 2026 13:00"
-  },
   "d601d23825e9fe2d": {
    "city": "Hal Qormi",
    "from": "08 October 2026 09:30",
@@ -2565,17 +2377,6 @@
     "TRIQ GUZE' GALEA"
    ],
    "to": "08 October 2026 12:00"
-  },
-  "d6e9bff9900817d2": {
-   "city": "Ta’ Xbiex",
-   "from": "06 October 2026 07:00",
-   "streets": [
-    "TRIQ IL- MASKLI",
-    "TRIQ ID- DEFFA",
-    "TRIQ IL- QAWS",
-    "TRIQ IL- PRINCIPESSA MARGERITA"
-   ],
-   "to": "06 October 2026 14:00"
   },
   "da8900c2c34483a2": {
    "city": "Ir-Rabat",
@@ -2623,15 +2424,6 @@
    ],
    "to": "08 October 2026 14:00"
   },
-  "eff64a41d4ed4f3c": {
-   "city": "Il-Mosta",
-   "from": "06 October 2026 07:00",
-   "streets": [
-    "TRIQ CARMELO SCHEMBRI",
-    "TRIQ ANTON SCHEMBRI ADAMI"
-   ],
-   "to": "06 October 2026 14:00"
-  },
   "f426a0cbf166e26e": {
    "city": "L-Imsida",
    "from": "09 October 2026 07:30",
@@ -2642,18 +2434,6 @@
     "XATT L- IMSIDA"
    ],
    "to": "09 October 2026 13:30"
-  },
-  "f9ecc3b9e4ee9307": {
-   "city": "Iz-Zurrieq",
-   "from": "06 October 2026 17:00",
-   "streets": [
-    "TRIQ HAL FAR",
-    "TRIQ TA' BENGHISA",
-    "SQAQ TAL- MEJDIET",
-    "TRIQ SANTA KATERINA TAL-BAQQARI",
-    "SQAQ IL- KUNI"
-   ],
-   "to": "06 October 2026 21:00"
   },
   "ff095e70e26de3bc": {
    "city": "H’Attard",
