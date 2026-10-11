@@ -2718,38 +2718,6 @@
    ],
    "to": "12 October 2026 13:00"
   },
-  "360ece2e9084447a": {
-   "city": "Haz-Zebbug",
-   "from": "10 October 2026 06:00",
-   "streets": [
-    "TRIQ IL- PRINCEP BAZILIKU",
-    "TRIQ JOHN ZAMMIT",
-    "TRIQ HAL DWIN",
-    "TRIQ PATRI PELAGJU MIFSUD",
-    "TRIQ PIETRU BUTTIGIEG",
-    "TRIQ HAL SAJD",
-    "TRIQ INDRI BORG",
-    "TRIQ LUIGI FONTANA",
-    "TRIQ ANDREA BOGDAN",
-    "TRIQ IL- KANDLORA",
-    "SQAQ NRU. 1",
-    "TRIQ IL- KANDLORA",
-    "SQAQ NRU. 2",
-    "TRIQ PAWLU DEBONO",
-    "TRIQ HALI",
-    "TRIQ HALI",
-    "SQAQ NRU. 1",
-    "TRIQ ANTHONY AQUILINA",
-    "TRIQ XMUN ATTARD",
-    "TRIQ SERAFIN TANTI",
-    "TRIQ HALI",
-    "SQAQ NRU. 2",
-    "TRIQ PATRI ANDREA AZZOPARDI OFM",
-    "TRIQ MONS. ANTON CILIA",
-    "TRIQ IL- GRAZZJA"
-   ],
-   "to": "10 October 2026 10:00"
-  },
   "38e84c0f553e9465": {
    "city": "Hal Ghaxaq",
    "from": "13 October 2026 07:00",
@@ -2807,17 +2775,6 @@
    ],
    "to": "12 October 2026 13:00"
   },
-  "51a7f5e282d7a413": {
-   "city": "Iz-Zurrieq",
-   "from": "10 October 2026 08:00",
-   "streets": [
-    "TRIQ SAN MARTIN",
-    "SQAQ SAN MARTIN",
-    "TRIQ FRANCIS FALZON",
-    "TRIQ IS- SIEJNA"
-   ],
-   "to": "10 October 2026 12:00"
-  },
   "5369332351147bd3": {
    "city": "San Gwann",
    "from": "13 October 2026 09:30",
@@ -2835,24 +2792,6 @@
     "TRIQ IL- VIRDUN"
    ],
    "to": "13 October 2026 11:00"
-  },
-  "59560c8e5d6e0f45": {
-   "city": "San Pawl il-Bahar",
-   "from": "10 October 2026 07:00",
-   "streets": [
-    "TRIQ KATERINA VITALE",
-    "TRIQ PISCOPO MACEDONIA",
-    "TRIQ RADDET IR-ROTI",
-    "TRIQ IS- SIMAR",
-    "TRIQ IL- MAQDES MEGALITIKU",
-    "TREJQET GHAR BERBAH",
-    "TRIQ L- IMGIEBAH",
-    "TRIQ IL- PREISTORJA",
-    "TREJQET IL- FUHHAR",
-    "TRIQ KATERINA VITALE",
-    "TRIQ GDIDA FI"
-   ],
-   "to": "10 October 2026 14:00"
   },
   "645268d7283aa1d8": {
    "city": "Is-Siggiewi",
@@ -3187,18 +3126,6 @@
    ],
    "to": "13 October 2026 13:00"
   },
-  "da8900c2c34483a2": {
-   "city": "Ir-Rabat",
-   "from": "10 October 2026 07:00",
-   "streets": [
-    "TRIQ HAD-DINGLI",
-    "TRIQ SAN TROFIMU",
-    "TRIQ SAN GWANN L-GHAMMIED",
-    "TRIQ IZ- ZAHAR",
-    "TRIQ HAL- BAJJADA"
-   ],
-   "to": "10 October 2026 12:00"
-  },
   "e71c85538afd1d56": {
    "city": "L-Imgarr",
    "from": "20 October 2026 08:00",
@@ -3235,38 +3162,6 @@
     "LIMITI TAS-"
    ],
    "to": "13 October 2026 13:00"
-  },
-  "ecd78de0bd05e520": {
-   "city": "Haz-Zebbug",
-   "from": "10 October 2026 17:00",
-   "streets": [
-    "TRIQ IL- PRINCEP BAZILIKU",
-    "TRIQ JOHN ZAMMIT",
-    "TRIQ HAL DWIN",
-    "TRIQ PATRI PELAGJU MIFSUD",
-    "TRIQ PIETRU BUTTIGIEG",
-    "TRIQ HAL SAJD",
-    "TRIQ INDRI BORG",
-    "TRIQ LUIGI FONTANA",
-    "TRIQ ANDREA BOGDAN",
-    "TRIQ IL- KANDLORA",
-    "SQAQ NRU. 1",
-    "TRIQ IL- KANDLORA",
-    "SQAQ NRU. 2",
-    "TRIQ PAWLU DEBONO",
-    "TRIQ HALI",
-    "TRIQ HALI",
-    "SQAQ NRU. 1",
-    "TRIQ ANTHONY AQUILINA",
-    "TRIQ XMUN ATTARD",
-    "TRIQ SERAFIN TANTI",
-    "TRIQ HALI",
-    "SQAQ NRU. 2",
-    "TRIQ PATRI ANDREA AZZOPARDI OFM",
-    "TRIQ MONS. ANTON CILIA",
-    "TRIQ IL- GRAZZJA"
-   ],
-   "to": "10 October 2026 20:00"
   },
   "ee86bb88e773a7f9": {
    "city": "L-Imsida",
@@ -3310,21 +3205,6 @@
     "TRIQ BURMA"
    ],
    "to": "12 October 2026 19:00"
-  },
-  "f7e069037edaa62f": {
-   "city": "Hal Lija",
-   "from": "10 October 2026 06:00",
-   "streets": [
-    "TRIQ IL- MOSTA",
-    "TRIQ NAZJU CORTIS",
-    "TRIQ ANTONIO AZZOPARDI",
-    "TRIQ GANNIKOL BUHAGIAR",
-    "SQAQ TA' SEJDUNA",
-    "TA' SEGUNA",
-    "LIMITI TA'",
-    "TRIQ AGOSTINO PORTELLI"
-   ],
-   "to": "10 October 2026 15:00"
   }
  }
 }
