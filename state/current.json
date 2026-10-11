@@ -2366,24 +2366,6 @@
    ],
    "to": "13 October 2026 11:00"
   },
-  "17c75bcb96f89baf": {
-   "city": "Hal Lija",
-   "from": "11 October 2026 08:00",
-   "streets": [
-    "TRIQ IL- MOSTA",
-    "TRIQ NAZJU CORTIS",
-    "TRIQ ANTONIO AZZOPARDI",
-    "TRIQ GANNIKOL BUHAGIAR",
-    "TRIQ ID- DEJQA",
-    "TRIQ MERINO",
-    "TRIQ PREZIOSI",
-    "SQAQ TA' SEJDUNA",
-    "TA' SEGUNA",
-    "LIMITI TA'",
-    "TRIQ AGOSTINO PORTELLI"
-   ],
-   "to": "11 October 2026 11:00"
-  },
   "1ade92cdb4201bdd": {
    "city": "In-Nadur",
    "from": "15 October 2026 08:30",
@@ -2500,24 +2482,6 @@
     "TRIQ BRAILLE"
    ],
    "to": "13 October 2026 18:00"
-  },
-  "426130512eec4291": {
-   "city": "Hal Lija",
-   "from": "11 October 2026 18:00",
-   "streets": [
-    "TRIQ IL- MOSTA",
-    "TRIQ NAZJU CORTIS",
-    "TRIQ ANTONIO AZZOPARDI",
-    "TRIQ GANNIKOL BUHAGIAR",
-    "TRIQ ID- DEJQA",
-    "TRIQ MERINO",
-    "TRIQ PREZIOSI",
-    "SQAQ TA' SEJDUNA",
-    "TA' SEGUNA",
-    "LIMITI TA'",
-    "TRIQ AGOSTINO PORTELLI"
-   ],
-   "to": "11 October 2026 21:00"
   },
   "48bd073c49b4c884": {
    "city": "Hal Ghaxaq",
@@ -2689,28 +2653,6 @@
    ],
    "to": "15 October 2026 21:00"
   },
-  "ae0e966ec8ede12a": {
-   "city": "Is-Siggiewi",
-   "from": "11 October 2026 19:00",
-   "streets": [
-    "TRIQ L- IMQABBA",
-    "TRIQ NIKOLA SAURA",
-    "TRIQ TA' BRANDIN",
-    "TRIQ KIRCHER",
-    "WESGHAT IL- PALAZZ",
-    "TRIQ MONS. MIKIEL AZZOPARDI",
-    "TRIQ IL- QRENDI",
-    "TRIQ DUN GUZEPP AQUILINA",
-    "TRIQ LAZZRU PISANI",
-    "TRIQ TA' SANT'ANDRIJA",
-    "SQAQ IZ- ZEBBIEH",
-    "TRIQ NIKOLINA CARUANA",
-    "TRIQ BARI",
-    "SQAQ IL- QAJJIED",
-    "TRIQ JOHN DEBATTISTA"
-   ],
-   "to": "11 October 2026 21:00"
-  },
   "b1f66c11cde94c77": {
    "city": "Ix-Xewkija",
    "from": "14 October 2026 08:30",
@@ -2781,28 +2723,6 @@
     "TRIQ CLARENCE"
    ],
    "to": "15 October 2026 14:00"
-  },
-  "be4e27378c22deeb": {
-   "city": "Is-Siggiewi",
-   "from": "11 October 2026 07:00",
-   "streets": [
-    "TRIQ L- IMQABBA",
-    "TRIQ NIKOLA SAURA",
-    "TRIQ TA' BRANDIN",
-    "TRIQ KIRCHER",
-    "WESGHAT IL- PALAZZ",
-    "TRIQ MONS. MIKIEL AZZOPARDI",
-    "TRIQ IL- QRENDI",
-    "TRIQ DUN GUZEPP AQUILINA",
-    "TRIQ LAZZRU PISANI",
-    "TRIQ TA' SANT'ANDRIJA",
-    "SQAQ IZ- ZEBBIEH",
-    "TRIQ NIKOLINA CARUANA",
-    "TRIQ BARI",
-    "SQAQ IL- QAJJIED",
-    "TRIQ JOHN DEBATTISTA"
-   ],
-   "to": "11 October 2026 12:00"
   },
   "c1503a147375dd8d": {
    "city": "San Pawl il-Bahar",
@@ -2934,17 +2854,6 @@
     "TRIQ IL- PALMA"
    ],
    "to": "20 October 2026 15:00"
-  },
-  "e75cc6724ff88b4a": {
-   "city": "Il-Mellieha",
-   "from": "11 October 2026 08:00",
-   "streets": [
-    "TRIQ GUZE' FLORES",
-    "TRIQ ANTONIO FALZON",
-    "TRIQ PIETRU PAWL CARUANA",
-    "TRIQ IL- PITIRROSS"
-   ],
-   "to": "11 October 2026 13:00"
   },
   "ec136cd034b6e7ff": {
    "city": "Is-Siggiewi",
