@@ -1,16 +1,5 @@
 {
- "live": {
-  "24322fb558e634a1": {
-   "CreatedDate": "2026-10-16T20:13:47.803+02:00",
-   "Id": 187471,
-   "Localities": "Hamrun, Msida, Santa Venera",
-   "OutageId": 19114,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "317dd93de307031a20690710bd54edeb196c0be2de47efe7a337dd7b5101d9cb",
-   "lastupdated": "2026-10-16T19:35:08.26+02:00"
-  }
- },
+ "live": {},
  "planned": {
   "41574": {
    "CaseID": "41574",
