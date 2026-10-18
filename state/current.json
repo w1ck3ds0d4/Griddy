@@ -2393,15 +2393,6 @@
    ],
    "to": "20 October 2026 10:00"
   },
-  "484a2da4dbe6ab65": {
-   "city": "Is-Siggiewi",
-   "from": "17 October 2026 07:00",
-   "streets": [
-    "TRIQ MONS. MIKIEL AZZOPARDI",
-    "WESGHAT IL- PALAZZ"
-   ],
-   "to": "17 October 2026 12:00"
-  },
   "52850f2d0ac94649": {
    "city": "Is-Swieqi",
    "from": "27 October 2026 19:00",
@@ -2440,14 +2431,6 @@
     "TRIQ CARLO MANCHE'"
    ],
    "to": "19 October 2026 10:30"
-  },
-  "5453218ed5666c77": {
-   "city": "L-Iklin",
-   "from": "17 October 2026 07:00",
-   "streets": [
-    "TRIQ DUN KARM"
-   ],
-   "to": "17 October 2026 11:00"
   },
   "59eb28c2d4b34a48": {
    "city": "Il-Mosta",
@@ -2562,15 +2545,6 @@
    ],
    "to": "21 October 2026 14:00"
   },
-  "706ed7ae7396fcd6": {
-   "city": "Birkirkara",
-   "from": "17 October 2026 07:00",
-   "streets": [
-    "TRIQ CENSU BUSUTTIL",
-    "TRIQ DUN KARM"
-   ],
-   "to": "17 October 2026 11:00"
-  },
   "7e2107747f52c5d8": {
    "city": "Birzebbuga",
    "from": "19 October 2026 07:00",
@@ -2582,21 +2556,6 @@
     "TRIQ SAN TUMAS"
    ],
    "to": "19 October 2026 10:30"
-  },
-  "8794e6c1ef993e65": {
-   "city": "Ix-Xewkija",
-   "from": "17 October 2026 08:30",
-   "streets": [
-    "TRIQ IL BENNEJJA",
-    "TRIQ DUN GREZZ FARRUGIA",
-    "TRIQ IN- NAGGARA",
-    "TRIQ IL- MANWALA",
-    "TRIQ IL- BALLATA",
-    "PJAZZA TAL- BARMIL",
-    "TRIQ L- IMGARR",
-    "PJAZZA TAL-BARMIL"
-   ],
-   "to": "17 October 2026 13:00"
   },
   "8858a61f6962362b": {
    "city": "In-Naxxar",
@@ -2785,19 +2744,6 @@
     "TREJQET IL- FUHHAR"
    ],
    "to": "19 October 2026 13:00"
-  },
-  "ddb9ae47abde9a91": {
-   "city": "Hal Balzan",
-   "from": "17 October 2026 07:00",
-   "streets": [
-    "TRIQ IL- FERROVIJA L-QADIMA",
-    "TRIQ IL- PAGUNI",
-    "TRIQ IL- KARENZA",
-    "TRIQ IL- QARCILLA",
-    "TRIQ BIRBAL",
-    "TRIQ SAN FRANGISK"
-   ],
-   "to": "17 October 2026 14:00"
   },
   "e52216e7029f4ab1": {
    "city": "Is-Swieqi",
