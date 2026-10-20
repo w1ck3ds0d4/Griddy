@@ -31,20 +31,21 @@ def _get(url: str) -> bytes:
     return resp.content
 
 
-def fetch_live() -> tuple[bytes, list | None]:
-    raw = _get(LIVE_URL)
+def _get_json(url: str) -> tuple[bytes, list | None]:
+    """Fetch url and parse the body as JSON; returns (raw, parsed), or (raw, None) on invalid JSON."""
+    raw = _get(url)
     try:
         return raw, json.loads(raw)
     except ValueError:
         return raw, None
+
+
+def fetch_live() -> tuple[bytes, list | None]:
+    return _get_json(LIVE_URL)
 
 
 def fetch_planned() -> tuple[bytes, list | None]:
-    raw = _get(PLANNED_URL)
-    try:
-        return raw, json.loads(raw)
-    except ValueError:
-        return raw, None
+    return _get_json(PLANNED_URL)
 
 
 def fetch_planned_page() -> tuple[bytes, str | None]:
