@@ -18,8 +18,8 @@ touches.
   checkout is touched.
 - **Permissions**: `scrape.yml` and `ci.yml` request only what they need
   (`contents: read`, plus `contents: write` in the scrape workflow to commit
-  new archive rows). No secrets, no external services beyond the two
-  Enemalta feeds.
+  new archive rows). No secrets, no external services beyond the three
+  Enemalta sources.
 
 ### Data-integrity model
 
