@@ -11,7 +11,7 @@ that turn it into usable compensation-claim evidence.
 
 > How this file is used: Claude Project threads build the first unticked item
 > under **Now**, one item per branch and pull request, and tick it in that
-> same PR as `- [x] ... (#PR)`. Daniel owns the order and the lists; threads
+> same PR as `- [x] ... (#PR)`. The maintainer owns the order and the lists; threads
 > never add to Now, Next or Later themselves, they propose under **Ideas**.
 
 ## Now
