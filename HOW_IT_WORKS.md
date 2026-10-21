@@ -4,11 +4,12 @@ Griddy watches Enemalta's public outage feeds so the record of an outage
 survives after it scrolls off the live map. Every few minutes it asks the
 same three public sources anyone can ask, writes down what they said, and
 chains that record to everything written before it so nobody, including
-Daniel, can quietly edit history afterwards.
+its author, can quietly edit history afterwards.
 
 ## What it does
 
-- Scrapes three public sources on a GitHub Actions cron: the live outage
+- Scrapes three public sources on a GitHub Actions cron (an hourly run of six cycles, about 10 minutes
+  apart): the live outage
   API, the planned outage API, and the planned outage HTML page (the only
   one with locality names).
 - Strips personal data (employee names, customer account references) before
@@ -23,7 +24,7 @@ Daniel, can quietly edit history afterwards.
 - Regenerates a static dashboard (`docs/index.html`) each cycle: downtime by
   locality, outages per week, and which outages cross Malta's 6-hour
   compensation threshold (EUR 60-110 for households, more for businesses).
-- Does not phone home beyond the two Enemalta feeds it exists to record.
+- Does not phone home beyond the three Enemalta sources it exists to record.
 
 ## How to use it
 

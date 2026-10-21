@@ -8,7 +8,7 @@ HTML file.
 ## Tech stack
 
 - Python 3.12
-- `requests` for HTTP calls to the two Enemalta feeds
+- `requests` for HTTP calls to the three Enemalta sources
 - Standard library `hashlib`/`json` for hashing and the JSONL archive
 - No database, no web framework, no build step
 - GitHub Actions: `scrape.yml` (the cron), `ci.yml` (pytest), `security.yml`
@@ -37,7 +37,8 @@ HTML file.
 
 ## Data flow
 
-1. `scrape.yml` runs `python -m griddy.run` on a cron schedule.
+1. `scrape.yml` runs `python -m griddy.run` on an hourly cron (`7 * * * *`), looping six
+   cycles about 10 minutes apart.
 2. `run.py` calls `fetch.py` for all three sources, then `normalize.py` on
    each case.
 3. `archive.py` diffs against `state/current.json`, appends any new events

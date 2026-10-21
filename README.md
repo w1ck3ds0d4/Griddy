@@ -8,7 +8,7 @@ This matters because Malta's compensation scheme pays households EUR 60-110 (and
 
 ## How it works
 
-Every cycle (GitHub Actions cron, roughly every 10 minutes):
+Every cycle (a GitHub Actions cron runs hourly and loops six cycles, roughly 10 minutes apart):
 
 1. Fetch three public sources: the live outage API, the planned outage API, and the planned outage HTML page (the only source carrying locality names).
 2. Normalize each case: strip personal data, replace megabytes of feeder geometry with a sha256 digest.

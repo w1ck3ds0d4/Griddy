@@ -15,9 +15,9 @@ that turn it into usable compensation-claim evidence.
 > never add to Now, Next or Later themselves, they propose under **Ideas**.
 
 ## Now
-- [ ] **Add SECURITY.md**: the hash-chain integrity model and how to report a
+- [x] **Add SECURITY.md**: the hash-chain integrity model and how to report a
   data-quality issue. Done when: SECURITY.md exists at root.
-- [ ] **Add ARCHITECTURE.md and HOW_IT_WORKS.md**: the scrape, diff, hash-chain
+- [x] **Add ARCHITECTURE.md and HOW_IT_WORKS.md**: the scrape, diff, hash-chain
   pipeline and a plain-words walkthrough. Done when: both files exist at root.
 - [ ] **ProofLog signing integration**: sign each archive batch so it is
   attributable as well as tamper-evident, per the README's existing roadmap
