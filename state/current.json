@@ -1478,17 +1478,6 @@
    ],
    "to": "27 October 2026 11:00"
   },
-  "235652d92f4a0d19": {
-   "city": "Santa Venera",
-   "from": "24 October 2026 07:30",
-   "streets": [
-    "MISRAH SANTA VENERA",
-    "TRIQ IL- HARRUB",
-    "TRIQ MISRAH IL-BARRIERI",
-    "TRIQ BRAILLE"
-   ],
-   "to": "24 October 2026 11:30"
-  },
   "25b638386bb9b9d2": {
    "city": "In-Naxxar",
    "from": "26 October 2026 08:00",
@@ -1648,22 +1637,6 @@
    ],
    "to": "28 October 2026 18:00"
   },
-  "69e3c3bb7d7d66f2": {
-   "city": "Birkirkara",
-   "from": "24 October 2026 08:00",
-   "streets": [
-    "TRIQ B. BONTADINI",
-    "TRIQ F. ZAHRA",
-    "TRIQ IL- HAMSA TA' DICEMBRU 1630",
-    "TRIQ K. GALEA",
-    "MISRAH FRAR 28",
-    "TRIQ F. BUSUTTIL",
-    "TRIQ EMANUEL BENJAMIN VELLA",
-    "TRIQ GUZE' ORLANDO",
-    "TRIQ IL- KNISJA L-QADIMA"
-   ],
-   "to": "24 October 2026 14:00"
-  },
   "6dc971f854823acc": {
    "city": "In-Naxxar",
    "from": "27 October 2026 07:00",
@@ -1726,27 +1699,6 @@
     "TRIQ IL- POETA NAZZJONALI"
    ],
    "to": "26 October 2026 13:30"
-  },
-  "89069ce76fa16b45": {
-   "city": "San Pawl il-Bahar",
-   "from": "24 October 2026 07:00",
-   "streets": [
-    "TRIQ KATERINA VITALE",
-    "TRIQ PISCOPO MACEDONIA",
-    "TREJQET IL- FUHHAR"
-   ],
-   "to": "24 October 2026 16:00"
-  },
-  "8d793d8f52e65973": {
-   "city": "Is-Siggiewi",
-   "from": "24 October 2026 07:00",
-   "streets": [
-    "TRIQ BLAT IL-QAMAR",
-    "TRIQ BLAT IL-QAMAR",
-    "TRIQ GDIDA FI",
-    "TRIQ PAWLU AQUILINA"
-   ],
-   "to": "24 October 2026 12:30"
   },
   "945c62824ed218e2": {
    "city": "Il-Mellieha",
@@ -1836,27 +1788,6 @@
     "VJAL IL- LABOUR"
    ],
    "to": "27 October 2026 14:00"
-  },
-  "dc6a7a4de8725bf1": {
-   "city": "San Pawl il-Bahar",
-   "from": "24 October 2026 07:00",
-   "streets": [
-    "TRIQ RADDET IR-ROTI",
-    "TRIQ IS- SIMAR",
-    "TREJQET GHAR BERBAH",
-    "TREJQET IL- FUHHAR"
-   ],
-   "to": "24 October 2026 16:00"
-  },
-  "e26deb237effb80b": {
-   "city": "In-Naxxar",
-   "from": "24 October 2026 07:00",
-   "streets": [
-    "TRIQ IL- KAPPELLA TA' SANTA MARIJA",
-    "TREJQET IL- PALMA",
-    "SQAQ HABEL ZWEJRA"
-   ],
-   "to": "24 October 2026 16:00"
   },
   "ebc60ca9cdf7f991": {
    "city": "Il-Qrendi",
