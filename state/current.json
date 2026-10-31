@@ -1,16 +1,5 @@
 {
- "live": {
-  "24d09dd5f83c449f": {
-   "CreatedDate": "2026-10-31T19:32:01.89+01:00",
-   "Id": 187989,
-   "Localities": "Attard, Balzan, Lija",
-   "OutageId": 19229,
-   "OutageType": 2,
-   "estimatedtime": "N/A",
-   "geometry_sha256": "68e2d16cb0ef45b5c59ae028f1ce38d19d43dc8057f6bb7b2ef1ccf47ff5a3c1",
-   "lastupdated": "2026-10-31T18:59:04.64+01:00"
-  }
- },
+ "live": {},
  "planned": {
   "41806": {
    "CaseID": "41806",
