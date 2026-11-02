@@ -243,20 +243,6 @@
    ],
    "transformers_sha256": "d349f0c5019dbe381a41e992032b4401577d95e60db93d6ec6ff56ed7f97e11a"
   },
-  "41841": {
-   "CaseID": "41841",
-   "EndDate": "2026-11-03T16:00:00+01:00",
-   "StartDate": "2026-11-03T07:00:00+01:00",
-   "transformers": [
-    {
-     "TransformerId": "671",
-     "feeders": [
-      "15"
-     ]
-    }
-   ],
-   "transformers_sha256": "81a93245cc8362427d8d0230c113b9cd6282e06ecfffacd4b6be1856fb0e39e8"
-  },
   "41843": {
    "CaseID": "41843",
    "EndDate": "2026-11-04T16:00:00+01:00",
@@ -943,20 +929,6 @@
    ],
    "transformers_sha256": "c1db375ecd3c6eff4b36f0a047177e9fce006af5139133f11c460ad208a7c74c"
   },
-  "41884": {
-   "CaseID": "41884",
-   "EndDate": "2026-11-04T13:00:00+01:00",
-   "StartDate": "2026-11-04T07:00:00+01:00",
-   "transformers": [
-    {
-     "TransformerId": "825",
-     "feeders": [
-      "3"
-     ]
-    }
-   ],
-   "transformers_sha256": "91a15d28faacdfb8e3774c1ef519b05757dff195cb961b625cb26ff751d51273"
-  },
   "41885": {
    "CaseID": "41885",
    "EndDate": "2026-11-03T11:00:00+01:00",
@@ -970,6 +942,392 @@
     }
    ],
    "transformers_sha256": "f9302fd726679ce6cc23fbd14f004999015da1988b999bf029007a5d0051f63b"
+  },
+  "41886": {
+   "CaseID": "41886",
+   "EndDate": "2026-11-04T13:00:00+01:00",
+   "StartDate": "2026-11-04T07:00:00+01:00",
+   "transformers": [
+    {
+     "TransformerId": "148",
+     "feeders": [
+      "7"
+     ]
+    }
+   ],
+   "transformers_sha256": "c170f9b98e9a5f41a9361c8b5074c606bbcb4361ad8e3dbe71ff0e7730d3e56c"
+  },
+  "41887": {
+   "CaseID": "41887",
+   "EndDate": "2026-11-05T11:00:00+01:00",
+   "StartDate": "2026-11-05T07:00:00+01:00",
+   "transformers": [
+    {
+     "TransformerId": "144",
+     "feeders": [
+      "7"
+     ]
+    }
+   ],
+   "transformers_sha256": "5c5b1acb83381ac174f30923af15d4e15c317b653c7b9c9a91ea3633b199ee72"
+  },
+  "41888": {
+   "CaseID": "41888",
+   "EndDate": "2026-11-05T14:00:00+01:00",
+   "StartDate": "2026-11-05T08:00:00+01:00",
+   "transformers": [
+    {
+     "TransformerId": "1408",
+     "feeders": [
+      "3"
+     ]
+    }
+   ],
+   "transformers_sha256": "6ffe7bab218e4194e2d7575c46c84b7245722f909467cc8c7e266dd6b4ebde05"
+  },
+  "41889": {
+   "CaseID": "41889",
+   "EndDate": "2026-11-05T13:00:00+01:00",
+   "StartDate": "2026-11-05T07:00:00+01:00",
+   "transformers": [
+    {
+     "TransformerId": "825",
+     "feeders": [
+      "3"
+     ]
+    }
+   ],
+   "transformers_sha256": "91a15d28faacdfb8e3774c1ef519b05757dff195cb961b625cb26ff751d51273"
+  },
+  "41890": {
+   "CaseID": "41890",
+   "EndDate": "2026-11-02T10:00:00+01:00",
+   "StartDate": "2026-11-02T09:00:00+01:00",
+   "transformers": [
+    {
+     "TransformerId": "825",
+     "feeders": [
+      "3"
+     ]
+    }
+   ],
+   "transformers_sha256": "91a15d28faacdfb8e3774c1ef519b05757dff195cb961b625cb26ff751d51273"
+  },
+  "41891": {
+   "CaseID": "41891",
+   "EndDate": "2026-11-02T13:00:00+01:00",
+   "StartDate": "2026-11-02T12:00:00+01:00",
+   "transformers": [
+    {
+     "TransformerId": "671",
+     "feeders": [
+      "15"
+     ]
+    }
+   ],
+   "transformers_sha256": "81a93245cc8362427d8d0230c113b9cd6282e06ecfffacd4b6be1856fb0e39e8"
+  },
+  "41893": {
+   "CaseID": "41893",
+   "EndDate": "2026-11-03T08:00:00+01:00",
+   "StartDate": "2026-11-03T04:00:00+01:00",
+   "transformers": [
+    {
+     "TransformerId": "1137",
+     "feeders": [
+      "4",
+      "3",
+      "6"
+     ]
+    },
+    {
+     "TransformerId": "1137",
+     "feeders": [
+      "4",
+      "3",
+      "6"
+     ]
+    },
+    {
+     "TransformerId": "1137",
+     "feeders": [
+      "4",
+      "3",
+      "6"
+     ]
+    }
+   ],
+   "transformers_sha256": "a12375160ab11ada9afeb4368307ac2c43d82ed8db2048822d68aa78208665d8"
+  },
+  "41894": {
+   "CaseID": "41894",
+   "EndDate": "2026-11-05T16:00:00+01:00",
+   "StartDate": "2026-11-05T07:00:00+01:00",
+   "transformers": [
+    {
+     "TransformerId": "2170",
+     "feeders": [
+      "4"
+     ]
+    }
+   ],
+   "transformers_sha256": "5530ebd1cf1b8537e972c71d78cd91f542aa5823d57dad0f698aceed7ec6b63c"
+  },
+  "41895": {
+   "CaseID": "41895",
+   "EndDate": "2026-11-09T16:00:00+01:00",
+   "StartDate": "2026-11-09T07:00:00+01:00",
+   "transformers": [
+    {
+     "TransformerId": "132",
+     "feeders": [
+      "7"
+     ]
+    }
+   ],
+   "transformers_sha256": "f9b238293fe5699c9c39c07e08d2eb5b0769bec3715f2488e483426f3515a7c4"
+  },
+  "41896": {
+   "CaseID": "41896",
+   "EndDate": "2026-11-04T07:00:00+01:00",
+   "StartDate": "2026-11-04T03:00:00+01:00",
+   "transformers": [
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    },
+    {
+     "TransformerId": "549",
+     "feeders": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "11",
+      "8",
+      "9",
+      "Unknown",
+      "10",
+      "SL"
+     ]
+    }
+   ],
+   "transformers_sha256": "3995f5bdf05896258bfe9180cd9e26c22724124ba582c21addb626b4e8c00a9b"
   }
  },
  "planned_page": {
@@ -980,6 +1338,19 @@
     "SQAQ IL- QNIEZAH"
    ],
    "to": "02 November 2026 07:00"
+  },
+  "09578edd96c71c19": {
+   "city": "Il-Belt Valletta",
+   "from": "03 November 2026 04:30",
+   "streets": [
+    "TRIQ SAN MARK",
+    "TRIQ SAN GWANN",
+    "TRIQ MARSAMXETT",
+    "TRIQ SAN PATRIZJU",
+    "TRIQ IL- PUNENT",
+    "MISRAH MATTIA PRETI"
+   ],
+   "to": "03 November 2026 08:30"
   },
   "099be9820d37fbdf": {
    "city": "Bormla",
@@ -1178,6 +1549,22 @@
    ],
    "to": "05 November 2026 11:00"
   },
+  "541da7889f76e059": {
+   "city": "Il-Qrendi",
+   "from": "09 November 2026 07:00",
+   "streets": [
+    "TRIQ IL- FENICI",
+    "TRIQ IL- PUNICI",
+    "TRIQ MIKIEL CIANTAR",
+    "TRIQ ANTONIO CHIRCOP",
+    "TRIQ NICOLO' COMMUNET",
+    "TRIQ GUZE' CASSAR",
+    "TRIQ PATRI NIKOL MAGRI",
+    "TRIQ LUIGI GALEA",
+    "TRIQ NAZZARENO MIFSUD"
+   ],
+   "to": "09 November 2026 16:00"
+  },
   "54d44bdf82916c57": {
    "city": "Hal Qormi",
    "from": "05 November 2026 07:00",
@@ -1188,16 +1575,6 @@
     "TRIQ GUZE' DUCA"
    ],
    "to": "05 November 2026 12:00"
-  },
-  "56c04a23317fae28": {
-   "city": "Hal Balzan",
-   "from": "03 November 2026 07:00",
-   "streets": [
-    "TRIQ IT- TLIET KNEJJES",
-    "TRIQ IT- TABIB J. ZAMMIT",
-    "TRIQ SAN FRANGISK"
-   ],
-   "to": "03 November 2026 16:00"
   },
   "742d21a8e572c963": {
    "city": "Hal Balzan",
@@ -1240,6 +1617,22 @@
    ],
    "to": "02 November 2026 14:30"
   },
+  "89b5f925f6d658db": {
+   "city": "Ix-Xewkija",
+   "from": "05 November 2026 08:30",
+   "streets": [
+    "TRIQ IL KBIRA",
+    "TRIQ L- ISQOF MIKIEL G. MOLINA",
+    "TRIQ SAN PUPULJU",
+    "TREJQET EIN KAREM",
+    "TRIQ IL- HELSIEN",
+    "PJAZZA SAN GWANN BATTISTA",
+    "TRIQ SANTA KATERINA",
+    "TRIQ IL- KBIRA",
+    "TRIQ SAN ZAKKARIJA"
+   ],
+   "to": "05 November 2026 14:30"
+  },
   "911f9e10fec67ad0": {
    "city": "Hal Balzan",
    "from": "04 November 2026 07:00",
@@ -1261,6 +1654,19 @@
     "TRIQ SANTA VENERA"
    ],
    "to": "05 November 2026 11:30"
+  },
+  "a1e0d7be8550771f": {
+   "city": "Bormla",
+   "from": "05 November 2026 07:00",
+   "streets": [
+    "SUQ BONNICI",
+    "TRIQ SANTA MARGERITA",
+    "TRIQ ID- DEJQA",
+    "TRIQ IL- MITHNA",
+    "TRIQ ERIN SERRACINO-INGLOTT",
+    "TRIQ MATTY GRIMA"
+   ],
+   "to": "05 November 2026 13:00"
   },
   "ac9450c24a58cfcb": {
    "city": "San Gwann",
@@ -1293,13 +1699,29 @@
    ],
    "to": "05 November 2026 11:00"
   },
-  "bc58f0759eed50e3": {
-   "city": "Il-Birgu",
-   "from": "04 November 2026 07:00",
+  "b84a644dfa9df5b9": {
+   "city": "Birkirkara",
+   "from": "05 November 2026 07:00",
    "streets": [
-    "TRIQ KOTTONERA"
+    "TRIQ MOSE' GATT",
+    "TRIQ CENSU COSTA",
+    "TRIQ MONS. GUZEPPI DEPIRO",
+    "TRIQ AGNESE SCHEMBRI",
+    "TRIQ CIKKU BONACI",
+    "TRIQ L- AHWA CANNATACI",
+    "TRIQ FONSU MARIJA GALEA"
    ],
-   "to": "04 November 2026 13:00"
+   "to": "05 November 2026 16:00"
+  },
+  "bcb0d26f5eef72f8": {
+   "city": "Hal Safi",
+   "from": "05 November 2026 07:30",
+   "streets": [
+    "TRIQ L- ISKOLA",
+    "TRIQ IL- HAJT RUMAN",
+    "TRIQ DUN GUZEPP CARUANA"
+   ],
+   "to": "05 November 2026 11:00"
   },
   "c2d127593b4ab879": {
    "city": "Hal Balzan",
@@ -1320,19 +1742,6 @@
     "TRIQ IL- FOSS"
    ],
    "to": "03 November 2026 14:00"
-  },
-  "d3591178d061cd6e": {
-   "city": "Bormla",
-   "from": "04 November 2026 07:00",
-   "streets": [
-    "SUQ BONNICI",
-    "TRIQ SANTA MARGERITA",
-    "TRIQ ID- DEJQA",
-    "TRIQ IL- MITHNA",
-    "TRIQ ERIN SERRACINO-INGLOTT",
-    "TRIQ MATTY GRIMA"
-   ],
-   "to": "04 November 2026 13:00"
   },
   "db6a62b4e482ffd6": {
    "city": "Is-Siggiewi",
@@ -1361,6 +1770,14 @@
     "TRIQ IL- KUNGRESS EWKARISTIKU"
    ],
    "to": "02 November 2026 13:00"
+  },
+  "e288675ea9add7c3": {
+   "city": "Il-Birgu",
+   "from": "05 November 2026 07:00",
+   "streets": [
+    "TRIQ KOTTONERA"
+   ],
+   "to": "05 November 2026 13:00"
   },
   "eab3652e576698d1": {
    "city": "Tas-Sliema",
